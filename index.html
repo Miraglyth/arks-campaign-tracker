@@ -1,10 +1,13 @@
 <html>
     <script type="text/javascript">
-        document.getElementById("timeDisplay").innerHTML = "The time in UTC is: " + new Date(Date.now()).toUTCString();
+        function Init()
+        {
+            document.getElementById("timeDisplay").innerHTML = "The time in UTC is: " + new Date(Date.now()).toUTCString();
+        }
     </script>
     <head>
     </head>
-    <body>
+    <body onload="Init()">
         <span id="timeDisplay">If this line shows the script didn't run!</span>
     </body>
 </html>
