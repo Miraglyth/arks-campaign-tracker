@@ -1,7 +1,4 @@
-window.onload = function()
-{
-    Init();
-};
+window.onload = function() {Init()};
 
 function Init()
 {
