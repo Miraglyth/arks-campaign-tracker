@@ -2,23 +2,87 @@
     "campaigns": [
         {
             "id": 0,
-            "name_group": "Welcome to NGS!",
+            "name_group": "Dummy",
             "url": "https://miraglyth.github.io/github-pages-test/",
-            "name_task": "Explore Halpha!",
-            "time_start": 0,
-            "time_end": 0,
-            "time_reward": 0,
-            "distribution": "Visiphone"
+            "name_task": "Dummy Ended Campaign",
+            "time_start": "2020-05-15T01:00:00Z",
+            "time_end": "2020-05-17T02:00:00Z",
+            "time_reward": "Unknown",
+            "distribution": "Visiphone",
+            "task": "Complete Party Maneuvers I and II",
+            "reward": "Tokyo Bonus Key: Gold"
         },
         {
-            "id": 0,
-            "name_group": "Welcome to NGS!",
+            "id": 1,
+            "name_group": "Global CBT",
             "url": "https://miraglyth.github.io/github-pages-test/",
-            "name_task": "Reach level 10!",
-            "time_start": 0,
-            "time_end": 0,
-            "time_reward": 0,
-            "distribution": "Visiphone"
+            "name_task": "NGS: Boss Suppression Campaign",
+            "time_start": "2021-05-15T01:00:00Z",
+            "time_end": "2021-05-17T02:00:00Z",
+            "time_reward": "Unknown",
+            "distribution": "Visiphone",
+            "task": "Defeat Boss: Nagrus",
+            "reward": "Biting Rappy Earring (Accessory)<br>Baton Handoff (Stamp)"
+        },
+        {
+            "id": 2,
+            "name_group": "Global CBT",
+            "url": "https://miraglyth.github.io/github-pages-test/",
+            "name_task": "Battle Power of 1050+ Campaign",
+            "time_start": "2021-05-15T01:00:00Z",
+            "time_end": "2021-05-17T02:00:00Z",
+            "time_reward": "Unknown",
+            "distribution": "Visiphone",
+            "task": "Achieve a Battle Power of 1050",
+            "reward": "SG 100 Ticket"
+        },
+        {
+            "id": 3,
+            "name_group": "Global CBT",
+            "url": "https://miraglyth.github.io/github-pages-test/",
+            "name_task": "NGS Player Shop Utilization Campaign",
+            "time_start": "2021-05-15T01:00:00Z",
+            "time_end": "2021-05-17T02:00:00Z",
+            "time_reward": "Unknown",
+            "distribution": "Visiphone",
+            "task": "Sell and Purchase at least once on Player Shop",
+            "reward": "SG 50 Ticket"
+        },
+        {
+            "id": 4,
+            "name_group": "Global CBT",
+            "url": "https://miraglyth.github.io/github-pages-test/",
+            "name_task": "NGS Material Storage Campaign",
+            "time_start": "2021-05-15T01:00:00Z",
+            "time_end": "2021-05-17T02:00:00Z",
+            "time_reward": "Unknown",
+            "distribution": "Visiphone",
+            "task": "Deposit and Withdraw an item from Material Storage OR<br>Use Material Storage from Item Lab, Quick Food or Region Mag",
+            "reward": "SG 50 Ticket"
+        },
+        {
+            "id": 5,
+            "name_group": "Global CBT",
+            "url": "https://miraglyth.github.io/github-pages-test/",
+            "name_task": "Player Survey Campaign",
+            "time_start": "2021-05-15T01:00:00Z",
+            "time_end": "2021-05-17T02:00:00Z",
+            "time_reward": "Unknown",
+            "distribution": "Visiphone",
+            "task": "Complete the Closed Beta survey",
+            "reward": "SG 100 Ticket"
+        },
+        {
+            "id": 6,
+            "name_group": "Dummy",
+            "url": "https://miraglyth.github.io/github-pages-test/",
+            "name_task": "Dummy Upcoming Campaign",
+            "time_start": "2022-05-15T01:00:00Z",
+            "time_end": "2022-05-17T02:00:00Z",
+            "time_reward": "Unknown",
+            "distribution": "Visiphone",
+            "task": "Complete Party Maneuvers I and II",
+            "reward": "Tokyo Bonus Key: Gold"
         }
     ]
 }
