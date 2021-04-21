@@ -16,7 +16,7 @@ function RefreshTable() {
     $.getJSON("campaigns.json", function (data) {
         $.each(data, function (thing) {
             // tableText += thing;
-            console.log(thing);
+            console.log(thing[0].name);
         })
     });
 }
