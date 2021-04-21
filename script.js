@@ -43,10 +43,10 @@ function RefreshTable() {
         tableText += '<th>Campaign Name</th>';
         tableText += '<th>Start Time</th>';
         tableText += '<th>End Time</th>';
-        tableText += '<th>Reward Time</th>';
-        tableText += '<th>Distribution</th>';
         tableText += '<th>Activity</th>';
         tableText += '<th>Reward</th>';
+        tableText += '<th>Distribution</th>';
+        tableText += '<th>Reward Time</th>';
         tableText += '</tr>';
 
         // Table contents
@@ -56,10 +56,10 @@ function RefreshTable() {
             tableText += '<td>' + value.name_task + '</td>';
             tableText += '<td>' + DateParse(value.time_start) + '</td>';
             tableText += '<td>' + DateParse(value.time_end) + '</td>';
-            tableText += '<td>' + DateParse(value.time_reward) + '</td>';
-            tableText += '<td>' + value.distribution + '</td>';
             tableText += '<td>' + value.task + '</td>';
             tableText += '<td>' + value.reward + '</td>';
+            tableText += '<td>' + value.distribution + '</td>';
+            tableText += '<td>' + DateParse(value.time_reward) + '</td>';
             tableText += '</tr>';
         });
 
