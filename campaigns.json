@@ -2,13 +2,23 @@
     "campaigns": [
         {
             "id": 0,
-            "name": "Campaign 0",
-            "timestamp": 0
+            "name_group": "Welcome to NGS!",
+            "url": "https://miraglyth.github.io/github-pages-test/",
+            "name_task": "Explore Halpha!",
+            "time_start": 0,
+            "time_end": 0,
+            "time_reward": 0,
+            "distribution": "Visiphone"
         },
         {
-            "id": 1,
-            "name": "Campaign 1",
-            "timestamp": 0
+            "id": 0,
+            "name_group": "Welcome to NGS!",
+            "url": "https://miraglyth.github.io/github-pages-test/",
+            "name_task": "Reach level 10!",
+            "time_start": 0,
+            "time_end": 0,
+            "time_reward": 0,
+            "distribution": "Visiphone"
         }
     ]
 }
