@@ -40,7 +40,7 @@ function RefreshTable() {
         var tableText = '';
         tableText = '<table border="1"><tr>';
         tableText += '<th>Campaign Group</th>';
-        tableText += '<th>Campaign Name</th>';
+        tableText += '<th style="width: 300px;">Campaign Name</th>';
         tableText += '<th>Start Time</th>';
         tableText += '<th>End Time</th>';
         tableText += '<th>Activity</th>';
@@ -72,15 +72,13 @@ function RefreshTable() {
 }
 
 function DateParse(string) {
-    var returnVar = "";
-    if (string != "Unknown") {
-        // returnVar = new Date(string).getDate().toString() + " " + new Date(string).getMonth().toString();
-        returnVar = new Date(string).toLocaleString();
+    parsedDate = new Date(string).toLocaleString();
+    if (parsedDate == "Invalid Date") {
+        return string;
     }
     else {
-        returnVar = "Unknown";
+        return parsedDate;
     }
-    return returnVar;
 }
 
 function DummyCallback(data) {
