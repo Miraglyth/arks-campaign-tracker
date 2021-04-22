@@ -4,11 +4,9 @@ $(document).ready(function () {
 
 document.getElementById("refreshbutton").addEventListener("click", function () {
     RefreshAll();
-    RefreshTable();
 });
 
 function Initialise() {
-
     // Force getJSON requests to application/json type
     $.ajaxSetup({
         beforeSend: function (xhr) {
@@ -24,33 +22,39 @@ function Initialise() {
 
 function RefreshAll() {
     RefreshTime();
-    RefreshTable();
-    // RefreshTableStatic();
+    RefreshTables();
 };
 
 function RefreshTime() {
     document.getElementById("timeDisplay").innerHTML = "The time in UTC is: " + new Date(Date.now()).toUTCString();
 }
 
-function RefreshTable() {
+function RefreshTables() {
     $.getJSON("campaigns.json", {}, function (data) {
         // DummyCallback(data);
 
-        // Table header
-        var tableText = '';
-        tableText = '<table border="1"><tr>';
-        tableText += '<th>Campaign Group</th>';
-        tableText += '<th style="width: 300px;">Campaign Name</th>';
-        tableText += '<th>Start Time</th>';
-        tableText += '<th>End Time</th>';
-        tableText += '<th>Activity</th>';
-        tableText += '<th>Reward</th>';
-        tableText += '<th>Distribution</th>';
-        tableText += '<th>Reward Time</th>';
-        tableText += '</tr>';
+        // Variables
+        var tableStartText = '';
+        var tableEndedText = '';
+        var tableActiveText = '';
+        var tableUpcomingText = '';
+        var tableEndText = '';
 
-        // Table contents
+        // Consistent table start
+        tableStartText += '<table border="1"><tr>';
+        tableStartText += '<th>Campaign Group</th>';
+        tableStartText += '<th style="width: 300px;">Campaign Name</th>';
+        tableStartText += '<th>Start Time</th>';
+        tableStartText += '<th>End Time</th>';
+        tableStartText += '<th>Activity</th>';
+        tableStartText += '<th>Reward</th>';
+        tableStartText += '<th>Distribution</th>';
+        tableStartText += '<th>Reward Time</th>';
+        tableStartText += '</tr>';
+
         $.each(data.campaigns, function (key, value) {
+            // Determine table row content
+            var tableText = '';
             tableText += '<tr>'
             tableText += '<td><a href="' + value.url + '">' + value.name_group + '</a></td>';
             tableText += '<td>' + value.name_task + '</td>';
@@ -61,35 +65,41 @@ function RefreshTable() {
             tableText += '<td>' + value.distribution + '</td>';
             tableText += '<td>' + DateParse(value.time_reward) + '</td>';
             tableText += '</tr>';
+
+            // Determine table to place row into
+            var dateNow = new Date(Date.now());
+            if (new Date(value.time_end) < dateNow) {
+                tableEndedText += tableText;
+            }
+            else if (new Date(value.time_start) < dateNow) {
+                tableActiveText += tableText;
+            }
+            else {
+                tableUpcomingText += tableText;
+            }
         });
 
-        // Table end
-        tableText += '</table>';
+        // Consistent table end
+        tableEndText += '</table>';
 
-        // Update span
-        document.getElementById("jsonTable").innerHTML = tableText;
+        // Apply to all tables
+        document.getElementById("tableEnded").innerHTML = tableStartText + tableEndedText + tableEndText;
+        document.getElementById("tableActive").innerHTML = tableStartText + tableActiveText + tableEndText;
+        document.getElementById("tableUpcoming").innerHTML = tableStartText + tableUpcomingText + tableEndText;
     });
 }
 
 function DateParse(string) {
-    parsedDate = new Date(string).toLocaleString();
+    parsedDate = new Date(string);
     if (parsedDate == "Invalid Date") {
         return string;
     }
     else {
-        return parsedDate;
+        return parsedDate.toLocaleString();
     }
 }
 
 function DummyCallback(data) {
     var myData = data;
     console.log("Campaign 0 name: " + myData.campaigns[0].name);
-}
-
-function RefreshTableStatic() {
-    var tableText = "";
-    tableText += '<table border="1"><tr><th>Name</th><th>Time</th></tr>';
-    tableText += '<tr><td>Hello</td><td>World</td></tr>';
-    tableText += '</table>';
-    document.getElementById("jsonTable").innerHTML = tableText;
 }
