@@ -108,6 +108,8 @@ function DummyCallback(data) {
 }
 
 function OpenTable(evt, tableName) {
+    RefreshTables();
+
     // Declare all variables
     var i, tabcontent, tablinks;
 
