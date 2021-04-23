@@ -45,7 +45,7 @@ function RefreshTables() {
 
         // Consistent table start
         tableStartText += '<table border="1"><tr>';
-        tableStartText += '<th>Campaign Group</th>';
+        tableStartText += '<th>Announcement</th>';
         tableStartText += '<th style="width: 300px;">Campaign Name</th>';
         tableStartText += '<th>Start Time</th>';
         tableStartText += '<th>End Time</th>';
@@ -59,22 +59,22 @@ function RefreshTables() {
             // Determine table row content
             var tableText = '';
             tableText += '<tr>'
-            tableText += '<td><a href="' + value.url + '">' + value.name_group + '</a></td>';
-            tableText += '<td>' + value.name_task + '</td>';
-            tableText += '<td>' + DateParse(value.time_start) + '</td>';
-            tableText += '<td>' + DateParse(value.time_end) + '</td>';
+            tableText += '<td><a href="' + value.announcementURL + '">' + value.announcementName + '</a></td>';
+            tableText += '<td>' + value.campaignName + '</td>';
+            tableText += '<td>' + DateParse(value.timeStart) + '</td>';
+            tableText += '<td>' + DateParse(value.timeEnd) + '</td>';
             tableText += '<td>' + value.task + '</td>';
             tableText += '<td>' + value.reward + '</td>';
             tableText += '<td>' + value.distribution + '</td>';
-            tableText += '<td>' + DateParse(value.time_reward) + '</td>';
+            tableText += '<td>' + DateParse(value.timeReward) + '</td>';
             tableText += '</tr>';
 
             // Determine table to place row into
             var dateNow = new Date(Date.now());
-            if (new Date(value.time_end) < dateNow) {
+            if (new Date(value.timeEnd) < dateNow) {
                 tableEndedText += tableText;
             }
-            else if (new Date(value.time_start) < dateNow) {
+            else if (new Date(value.timeStart) < dateNow) {
                 tableActiveText += tableText;
             }
             else {
