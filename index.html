@@ -9,9 +9,9 @@
     <p><span id="timeDisplay">If this line shows the script didn't run!</span></p>
     <p><button type="button" class="button" id="refreshbutton">Refresh</button></p>
     <div class="tab">
-        <button class="tablinks" onclick="OpenTable(event, 'tableEnded')">Ended</button>
-        <button class="tablinks" onclick="OpenTable(event, 'tableActive')" id="defaultOpen">Active</button>
-        <button class="tablinks" onclick="OpenTable(event, 'tableUpcoming')">Upcoming</button>
+        <button class="tablinks" onclick="openTable(event, 'tableEnded')">Ended</button>
+        <button class="tablinks" onclick="openTable(event, 'tableActive')" id="defaultOpen">Active</button>
+        <button class="tablinks" onclick="openTable(event, 'tableUpcoming')">Upcoming</button>
     </div>
     <div id="tableEnded" class="tabcontent"></div>
     <div id="tableActive" class="tabcontent"></div>

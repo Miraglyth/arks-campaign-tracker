@@ -1,12 +1,12 @@
 $(document).ready(function () {
-    Initialise();
+    initialise();
 });
 
 document.getElementById("refreshbutton").addEventListener("click", function () {
-    RefreshAll();
+    refreshTime();
 });
 
-function Initialise() {
+function initialise() {
     // Force getJSON requests to application/json type
     $.ajaxSetup({
         beforeSend: function (xhr) {
@@ -17,24 +17,24 @@ function Initialise() {
     });
 
     // Refresh on page load
-    RefreshAll();
+    refreshAll();
 
     // Show Active campaigns by default
     document.getElementById("defaultOpen").click();
 }
 
-function RefreshAll() {
-    RefreshTime();
-    RefreshTables();
+function refreshAll() {
+    refreshTime();
+    refreshTables();
 };
 
-function RefreshTime() {
+function refreshTime() {
     document.getElementById("timeDisplay").innerHTML = "The time in UTC is: " + new Date(Date.now()).toUTCString();
 }
 
-function RefreshTables() {
+function refreshTables() {
     $.getJSON("campaigns.json", {}, function (data) {
-        // DummyCallback(data);
+        // dummyCallback(data);
 
         // Variables
         var tableStartText = '';
@@ -42,6 +42,11 @@ function RefreshTables() {
         var tableActiveText = '';
         var tableUpcomingText = '';
         var tableEndText = '';
+
+        // WIP variables
+        var campaignsEnded = [];
+        var campaignsActive = [];
+        var campaignsUpcoming = [];
 
         // Consistent table start
         tableStartText += '<table border="1"><tr>';
@@ -55,32 +60,29 @@ function RefreshTables() {
         tableStartText += '<th>Reward Time</th>';
         tableStartText += '</tr>';
 
+        // Place into respective campaign arrays
         $.each(data.campaigns, function ({ }, value) {
-            // Determine table row content
-            var tableText = '';
-            tableText += '<tr>'
-            tableText += '<td><a href="' + value.announcementURL + '">' + value.announcementName + '</a></td>';
-            tableText += '<td>' + value.campaignName + '</td>';
-            tableText += '<td>' + DateParse(value.timeStart) + '</td>';
-            tableText += '<td>' + DateParse(value.timeEnd) + '</td>';
-            tableText += '<td>' + value.task + '</td>';
-            tableText += '<td>' + value.reward + '</td>';
-            tableText += '<td>' + value.distribution + '</td>';
-            tableText += '<td>' + DateParse(value.timeReward) + '</td>';
-            tableText += '</tr>';
-
-            // Determine table to place row into
             var dateNow = new Date(Date.now());
             if (new Date(value.timeEnd) < dateNow) {
-                tableEndedText += tableText;
+                campaignsEnded.push(value);
             }
             else if (new Date(value.timeStart) < dateNow) {
-                tableActiveText += tableText;
+                campaignsActive.push(value);
             }
             else {
-                tableUpcomingText += tableText;
+                campaignsUpcoming.push(value);
             }
         });
+
+        // Sort campaign arrays depending on type
+        campaignsEnded.sort((a, b) => a.timeEnd < b.timeEnd);
+        campaignsActive.sort((a, b) => a.timeEnd > b.timeEnd);
+        campaignsUpcoming.sort((a, b) => a.timeStart > b.timeStart);
+
+        // Convert sorted campaign arrays into table rows
+        tableEndedText = campaignParse(campaignsEnded);
+        tableActiveText = campaignParse(campaignsActive);
+        tableUpcomingText = campaignParse(campaignsUpcoming);
 
         // Consistent table end
         tableEndText += '</table>';
@@ -92,7 +94,24 @@ function RefreshTables() {
     });
 }
 
-function DateParse(string) {
+function campaignParse(array) {
+    var tableText = '';
+    for (i = 0; i < array.length; i++) {
+        tableText += '<tr>'
+        tableText += '<td><a href="' + array[i].announcementURL + '">' + array[i].announcementName + '</a></td>';
+        tableText += '<td>' + array[i].campaignName + '</td>';
+        tableText += '<td>' + dateParse(array[i].timeStart) + '</td>';
+        tableText += '<td>' + dateParse(array[i].timeEnd) + '</td>';
+        tableText += '<td>' + array[i].task + '</td>';
+        tableText += '<td>' + array[i].reward + '</td>';
+        tableText += '<td>' + array[i].distribution + '</td>';
+        tableText += '<td>' + dateParse(array[i].timeReward) + '</td>';
+        tableText += '</tr>';
+    }
+    return tableText;
+}
+
+function dateParse(string) {
     parsedDate = new Date(string);
     if (parsedDate == "Invalid Date") {
         return string;
@@ -102,12 +121,12 @@ function DateParse(string) {
     }
 }
 
-function DummyCallback(data) {
+function dummyCallback(data) {
     var myData = data;
     console.log("Campaign 0 name: " + myData.campaigns[0].name);
 }
 
-function OpenTable(evt, tableName) {
+function openTable(evt, tableName) {
     // Declare all variables
     var i, tabcontent, tablinks;
 

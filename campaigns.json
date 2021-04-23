@@ -107,6 +107,30 @@
             "distribution": "Visiphone",
             "task": "Complete Party Maneuvers I and II",
             "reward": "Tokyo Bonus Key: Gold"
+        },
+        {
+            "announcementDate": 20210421,
+            "announcementName": "Dummy",
+            "announcementURL": "https://miraglyth.github.io/github-pages-test/",
+            "campaignName": "Dummy Active (essentially permanent) Campaign Ending Sooner",
+            "timeStart": "2020-03-17T18:00:00Z",
+            "timeEnd": "2021-06-29T22:59:59Z",
+            "timeReward": "Immediate",
+            "distribution": "Visiphone",
+            "task": "Complete Party Maneuvers I and II",
+            "reward": "Tokyo Bonus Key: Gold"
+        },
+        {
+            "announcementDate": 20210421,
+            "announcementName": "Dummy",
+            "announcementURL": "https://miraglyth.github.io/github-pages-test/",
+            "campaignName": "Dummy Ended Campaign Newer",
+            "timeStart": "2021-01-15T01:00:00Z",
+            "timeEnd": "2021-01-17T02:00:00Z",
+            "timeReward": "Unknown",
+            "distribution": "Visiphone",
+            "task": "Complete Party Maneuvers I and II",
+            "reward": "Tokyo Bonus Key: Gold"
         }
     ]
 }
