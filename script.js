@@ -55,7 +55,7 @@ function RefreshTables() {
         tableStartText += '<th>Reward Time</th>';
         tableStartText += '</tr>';
 
-        $.each(data.campaigns, function (key, value) {
+        $.each(data.campaigns, function ({ }, value) {
             // Determine table row content
             var tableText = '';
             tableText += '<tr>'
@@ -108,8 +108,6 @@ function DummyCallback(data) {
 }
 
 function OpenTable(evt, tableName) {
-    RefreshTables();
-
     // Declare all variables
     var i, tabcontent, tablinks;
 
