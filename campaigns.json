@@ -14,6 +14,18 @@
         },
         {
             "announcementDate": 20210421,
+            "announcementName": "Dummy",
+            "announcementURL": "https://miraglyth.github.io/github-pages-test/",
+            "campaignName": "Dummy Active (essentially permanent) Campaign",
+            "timeStart": "2020-03-17T18:00:00Z",
+            "timeEnd": "2021-06-30T23:59:59Z",
+            "timeReward": "Immediate",
+            "distribution": "Visiphone",
+            "task": "Complete Party Maneuvers I and II",
+            "reward": "Tokyo Bonus Key: Gold"
+        },
+        {
+            "announcementDate": 20210421,
             "announcementName": "Global CBT",
             "announcementURL": "https://ngs.pso2.com/cbt/entry/about",
             "campaignName": "Rewards for Suppressing a Boss Enemy in PSO2:NGS",
