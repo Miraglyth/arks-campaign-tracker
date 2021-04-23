@@ -75,9 +75,12 @@ function refreshTables() {
         });
 
         // Sort campaign arrays depending on type
-        campaignsEnded.sort((a, b) => a.timeEnd < b.timeEnd);
-        campaignsActive.sort((a, b) => a.timeEnd > b.timeEnd);
-        campaignsUpcoming.sort((a, b) => a.timeStart > b.timeStart);
+        // campaignsEnded.sort((a, b) => a.timeEnd < b.timeEnd);
+        campaignsEnded.sort(function (a, b) { return a.timeEnd > b.timeEnd ? -1 : 1; });
+        // campaignsActive.sort((a, b) => a.timeEnd > b.timeEnd);
+        campaignsActive.sort(function (a, b) { return a.timeEnd < b.timeEnd ? -1 : 1; });
+        // campaignsUpcoming.sort((a, b) => a.timeStart > b.timeStart);
+        campaignsUpcoming.sort(function (a, b) { return a.timeStart < b.timeStart ? -1 : 1; });
 
         // Convert sorted campaign arrays into table rows
         tableEndedText = campaignParse(campaignsEnded);
@@ -85,7 +88,7 @@ function refreshTables() {
         tableUpcomingText = campaignParse(campaignsUpcoming);
 
         // Debug on Chrome
-        console.log(tableActiveText);
+        // console.log(tableActiveText);
 
         // Consistent table end
         tableEndText += '</table>';
