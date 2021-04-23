@@ -84,6 +84,9 @@ function refreshTables() {
         tableActiveText = campaignParse(campaignsActive);
         tableUpcomingText = campaignParse(campaignsUpcoming);
 
+        // Debug on Chrome
+        console.log(tableActiveText);
+
         // Consistent table end
         tableEndText += '</table>';
 
