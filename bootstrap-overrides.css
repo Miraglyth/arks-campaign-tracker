@@ -1,3 +1,10 @@
+table th,
 table td {
     vertical-align: middle !important;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1536px;    /* From 1140px */
+    }
 }

@@ -72,14 +72,17 @@ function campaignParse(array) {
     var tableText = '';
     for (i = 0; i < array.length; i++) {
         tableText += '<tr>'
-        tableText += '<td><a href="' + array[i].announcementURL + '">' + array[i].announcementName + '</a></td>';
-        tableText += '<td>' + array[i].campaignName + '</td>';
-        tableText += '<td class="text-center">' + dateParse(array[i].timeStart) + '</td>';
-        tableText += '<td class="text-center">' + dateParse(array[i].timeEnd) + '</td>';
+        tableText += '<td class="d-none d-lg-table-cell"><a href="' + array[i].announcementURL + '">' + array[i].announcementName + '</a></td>';
+        // Small display
+        tableText += '<td class="d-table-cell d-lg-none"><a href="' + array[i].announcementURL + '">' + array[i].campaignName + '</a></td>';
+        // Medium and above display
+        tableText += '<td class="d-none d-lg-table-cell">' + array[i].campaignName + '</td>';
+        tableText += '<td class="text-center text-nowrap d-none d-lg-table-cell">' + dateParse(array[i].timeStart) + '</td>';
+        tableText += '<td class="text-center text-nowrap">' + dateParse(array[i].timeEnd) + '</td>';
         tableText += '<td>' + array[i].task + '</td>';
         tableText += '<td>' + array[i].reward + '</td>';
-        tableText += '<td>' + array[i].distribution + '</td>';
-        tableText += '<td>' + dateParse(array[i].timeReward) + '</td>';
+        tableText += '<td class="d-none d-xl-table-cell">' + array[i].distribution + '</td>';
+        tableText += '<td class="d-none d-xl-table-cell">' + dateParse(array[i].timeReward) + '</td>';
         tableText += '</tr>';
     }
     return tableText;
