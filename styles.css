@@ -25,6 +25,11 @@ button:hover {
 }
 */
 
+table {
+    border: 1px solid #FEDCBA;
+    border-collapse: collapse;
+}
+
  /* Style the tab */
 .tab {
     overflow: hidden;
@@ -56,7 +61,9 @@ button:hover {
 /* Style the tab content */
 .tabcontent {
     display: none;
+    /*
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+    */
 }

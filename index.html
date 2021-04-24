@@ -9,13 +9,29 @@
     <p><span id="timeDisplay">If this line shows the script didn't run!</span></p>
     <p><button type="button" class="button" id="refreshbutton">Refresh</button></p>
     <div class="tab">
-        <button class="tablinks" onclick="openTable(event, 'tableEnded')">Ended</button>
-        <button class="tablinks" onclick="openTable(event, 'tableActive')" id="defaultOpen">Active</button>
-        <button class="tablinks" onclick="openTable(event, 'tableUpcoming')">Upcoming</button>
+        <button class="tablinks" onclick="openTable(event, 'tbodyEnded')">Ended</button>
+        <button class="tablinks" onclick="openTable(event, 'tbodyActive')" id="defaultOpen">Active</button>
+        <button class="tablinks" onclick="openTable(event, 'tbodyUpcoming')">Upcoming</button>
     </div>
-    <div id="tableEnded" class="tabcontent"></div>
-    <div id="tableActive" class="tabcontent"></div>
-    <div id="tableUpcoming" class="tabcontent"></div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Announcement</th>
+                    <th style="width: 300px;">Campaign Name</th>
+                    <th>Start Time</th>
+                    <th>End Time</th>
+                    <th>Activity</th>
+                    <th>Reward</th>
+                    <th>Distribution</th>
+                    <th>Reward Time</th>
+                </tr>
+            </thead>
+            <tbody id="tbodyEnded" class="tabcontent"></tbody>
+            <tbody id="tbodyActive" class="tabcontent"></tbody>
+            <tbody id="tbodyUpcoming" class="tabcontent"></tbody>
+        </table>
+    </div>
     <script type="text/javascript" src="script.js"></script>
 </body>
 

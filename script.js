@@ -25,40 +25,22 @@ function initialise() {
 
 function refreshAll() {
     refreshTime();
-    refreshTables();
+    refreshCampaigns();
 };
 
 function refreshTime() {
     document.getElementById("timeDisplay").innerHTML = "The time in UTC is: " + new Date(Date.now()).toUTCString();
 }
 
-function refreshTables() {
+function refreshCampaigns() {
+
+    // dummyCallback(data);
+
     $.getJSON("campaigns.json", {}, function (data) {
-        // dummyCallback(data);
-
-        // Variables
-        var tableStartText = '';
-        var tableEndedText = '';
-        var tableActiveText = '';
-        var tableUpcomingText = '';
-        var tableEndText = '';
-
-        // WIP variables
+        // Campaign arrays
         var campaignsEnded = [];
         var campaignsActive = [];
         var campaignsUpcoming = [];
-
-        // Consistent table start
-        tableStartText += '<table border="1"><tr>';
-        tableStartText += '<th>Announcement</th>';
-        tableStartText += '<th style="width: 300px;">Campaign Name</th>';
-        tableStartText += '<th>Start Time</th>';
-        tableStartText += '<th>End Time</th>';
-        tableStartText += '<th>Activity</th>';
-        tableStartText += '<th>Reward</th>';
-        tableStartText += '<th>Distribution</th>';
-        tableStartText += '<th>Reward Time</th>';
-        tableStartText += '</tr>';
 
         // Place into respective campaign arrays
         $.each(data.campaigns, function ({ }, value) {
@@ -80,17 +62,9 @@ function refreshTables() {
         campaignsUpcoming.sort(function (a, b) { return a.timeStart < b.timeStart ? -1 : 1; });
 
         // Convert sorted campaign arrays into table rows
-        tableEndedText = campaignParse(campaignsEnded);
-        tableActiveText = campaignParse(campaignsActive);
-        tableUpcomingText = campaignParse(campaignsUpcoming);
-
-        // Consistent table end
-        tableEndText += '</table>';
-
-        // Apply to all tables
-        document.getElementById("tableEnded").innerHTML = tableStartText + tableEndedText + tableEndText;
-        document.getElementById("tableActive").innerHTML = tableStartText + tableActiveText + tableEndText;
-        document.getElementById("tableUpcoming").innerHTML = tableStartText + tableUpcomingText + tableEndText;
+        document.getElementById("tbodyEnded").innerHTML = campaignParse(campaignsEnded);
+        document.getElementById("tbodyActive").innerHTML = campaignParse(campaignsActive);
+        document.getElementById("tbodyUpcoming").innerHTML = campaignParse(campaignsUpcoming);
     });
 }
 
@@ -145,6 +119,6 @@ function openTable(evt, tableName) {
     }
 
     // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(tableName).style.display = "block";
+    document.getElementById(tableName).style.display = "table-row-group";
     evt.currentTarget.className += " active";
 }
