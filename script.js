@@ -117,7 +117,9 @@ function dateParse(string) {
         return string;
     }
     else {
-        return parsedDate.toLocaleString();
+        var localDate = parsedDate.toLocaleString({}, { year: 'numeric', month: 'short', day: 'numeric' });
+        var localTime = parsedDate.toLocaleString({}, { hour: 'numeric', minute: 'numeric', timeZoneName: 'short' });
+        return localDate + '<br>' + localTime;
     }
 }
 
