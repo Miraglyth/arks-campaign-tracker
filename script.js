@@ -74,8 +74,8 @@ function campaignParse(array) {
         tableText += '<tr>'
         tableText += '<td><a href="' + array[i].announcementURL + '">' + array[i].announcementName + '</a></td>';
         tableText += '<td>' + array[i].campaignName + '</td>';
-        tableText += '<td>' + dateParse(array[i].timeStart) + '</td>';
-        tableText += '<td>' + dateParse(array[i].timeEnd) + '</td>';
+        tableText += '<td class="text-center">' + dateParse(array[i].timeStart) + '</td>';
+        tableText += '<td class="text-center">' + dateParse(array[i].timeEnd) + '</td>';
         tableText += '<td>' + array[i].task + '</td>';
         tableText += '<td>' + array[i].reward + '</td>';
         tableText += '<td>' + array[i].distribution + '</td>';
