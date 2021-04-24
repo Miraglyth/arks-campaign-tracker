@@ -3,7 +3,7 @@ table td {
     vertical-align: middle !important;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
     .container {
         max-width: 1536px;    /* From 1140px */
     }
