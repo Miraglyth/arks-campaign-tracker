@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,9 +14,20 @@
     <link rel="stylesheet" href="bootstrap-overrides.css">
 
     <title>PSO2 NGS Campaign Tracker WIP</title>
+
 </head>
 
 <body class="bg-light">
+
+    <header>
+        <nav class="navbar bg-primary bg-gradient text-light">
+            <div class="container-xxl">
+                <a class="navbar-brand text-light disabled" href="#">PSO2 NGS Campaign Tracker WIP</a>
+                <a class="nav-link text-light" href="about.html">About</a>
+            </div>
+        </nav>
+    </header>
+
     <div class="container-xxl">
         <p><span id="timeDisplay">Loading...</span></p>
         <p><button type="button" class="button" id="refreshbutton">Refresh</button></p>
@@ -26,7 +38,7 @@
         </div>
         <div>
             <table class="table table-bordered table-hover table-sm bg-white align-middle">
-                <thead class="bg-primary text-white">
+                <thead class="bg-primary bg-gradient text-white">
                     <tr class="text-center">
                         <th class="d-none d-lg-table-cell">Announcement</th>
                         <th>Campaign</th>
@@ -45,12 +57,13 @@
         </div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <script type="text/javascript" src="script.js"></script>
+
 </body>
 
 </html>
