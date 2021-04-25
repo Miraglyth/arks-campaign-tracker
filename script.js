@@ -82,7 +82,7 @@ function campaignParse(array) {
         tableText += '<td>' + array[i].task + '</td>';
         tableText += '<td class="d-none d-sm-table-cell">' + array[i].reward + '</td>';
         tableText += '<td class="d-none d-xl-table-cell">' + dateParse(array[i].timeReward) + '</td>';
-        tableText += '<td class="d-none d-xl-table-cell">' + array[i].distribution + '</td>';
+        tableText += '<td class="d-none d-xxl-table-cell">' + array[i].distribution + '</td>';
         tableText += '</tr>';
     }
     return tableText;
