@@ -12,3 +12,8 @@
 *.bg-secondary {
     background-color: rgb(10, 16, 38) !important;
 }
+
+a {
+    color:rgb(17, 75, 211) !important;
+    text-decoration: none !important;
+}
