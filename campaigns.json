@@ -10,7 +10,7 @@
             "timeReward": "Unknown",
             "distribution": "Visiphone",
             "task": "Complete Party Maneuvers I and II",
-            "reward": "Tokyo Bonus Key: Gold"
+            "reward": ["Tokyo Bonus Key: Gold"]
         },
         {
             "announcementDate": 20210421,
@@ -22,7 +22,7 @@
             "timeReward": "Immediate",
             "distribution": "Visiphone",
             "task": "Complete Party Maneuvers I and II",
-            "reward": "Tokyo Bonus Key: Gold"
+            "reward": ["Tokyo Bonus Key: Gold"]
         },
         {
             "announcementDate": 20210421,
@@ -34,7 +34,7 @@
             "timeReward": "After NGS launch",
             "distribution": "TBC",
             "task": "Suppress Nogleths",
-            "reward": "Clinging Rappy Earring<br>STP: Ash - Handoff"
+            "reward": ["Clinging Rappy Earring", "STP: Ash - Handoff"]
         },
         {
             "announcementDate": 20210421,
@@ -46,7 +46,7 @@
             "timeReward": "After NGS launch",
             "distribution": "TBC",
             "task": "Reach level 10 with any class",
-            "reward": "Clinging Rappy Earring<br>SG 50 Ticket"
+            "reward": ["Clinging Rappy Earring", "SG 50 Ticket"]
         },
         {
             "announcementDate": 20210421,
@@ -58,7 +58,7 @@
             "timeReward": "After NGS launch",
             "distribution": "TBC",
             "task": "Sell and Purchase at least once on Personal Shop",
-            "reward": "SG 50 Ticket"
+            "reward": ["SG 50 Ticket"]
         },
         {
             "announcementDate": 20210421,
@@ -70,7 +70,7 @@
             "timeReward": "After NGS launch",
             "distribution": "TBC",
             "task": "Reach 1,050 Battle Power",
-            "reward": "SG 100 Ticket"
+            "reward": ["SG 100 Ticket"]
         },
         {
             "announcementDate": 20210421,
@@ -82,7 +82,7 @@
             "timeReward": "After NGS launch",
             "distribution": "TBC",
             "task": "Deposit and Withdraw an item from Material Storage OR use Material Storage from Item Lab, Quick Food or Region Mag",
-            "reward": "SG 50 Ticket<br>STP: Ash - Handoff"
+            "reward": ["SG 50 Ticket", "STP: Ash - Handoff"]
         },
         {
             "announcementDate": 20210421,
@@ -94,7 +94,7 @@
             "timeReward": "After NGS launch",
             "distribution": "TBC",
             "task": "Complete the survey for closed beta tests",
-            "reward": "SG 100 Ticket"
+            "reward": ["SG 100 Ticket"]
         },
         {
             "announcementDate": 20210421,
@@ -106,7 +106,7 @@
             "timeReward": "Unknown",
             "distribution": "Visiphone",
             "task": "Complete Party Maneuvers I and II",
-            "reward": "Tokyo Bonus Key: Gold"
+            "reward": ["Tokyo Bonus Key: Gold"]
         },
         {
             "announcementDate": 20210421,
@@ -118,7 +118,7 @@
             "timeReward": "Immediate",
             "distribution": "Visiphone",
             "task": "Complete Party Maneuvers I and II",
-            "reward": "Tokyo Bonus Key: Gold"
+            "reward": ["Tokyo Bonus Key: Gold"]
         },
         {
             "announcementDate": 20210421,
@@ -130,7 +130,7 @@
             "timeReward": "Unknown",
             "distribution": "Visiphone",
             "task": "Complete Party Maneuvers I and II",
-            "reward": "Tokyo Bonus Key: Gold"
+            "reward": ["Tokyo Bonus Key: Gold"]
         }
     ]
 }

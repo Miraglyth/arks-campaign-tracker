@@ -80,8 +80,8 @@ function campaignParse(array) {
         tableText += '<td class="text-center text-nowrap d-none d-md-table-cell">' + dateParse(array[i].timeStart) + '</td>';
         tableText += '<td class="text-center text-nowrap">' + dateParse(array[i].timeEnd) + '</td>';
         tableText += '<td>' + array[i].task + '</td>';
-        tableText += '<td class="d-none d-sm-table-cell">' + array[i].reward + '</td>';
-        tableText += '<td class="d-none d-xl-table-cell">' + dateParse(array[i].timeReward) + '</td>';
+        tableText += '<td class="d-none text-nowrap d-sm-table-cell">' + rewardParse(array[i].reward) + '</td>';
+        tableText += '<td class="d-none text-nowrap d-xl-table-cell">' + dateParse(array[i].timeReward) + '</td>';
         tableText += '<td class="d-none d-xxl-table-cell">' + array[i].distribution + '</td>';
         tableText += '</tr>';
     }
@@ -97,6 +97,21 @@ function dateParse(string) {
         var localDate = parsedDate.toLocaleString({}, { year: 'numeric', month: 'short', day: 'numeric' });
         var localTime = parsedDate.toLocaleString({}, { hour: 'numeric', minute: 'numeric', timeZoneName: 'short' });
         return localDate + '<br>' + localTime;
+    }
+}
+
+function rewardParse(rewardArray) {
+    if (rewardArray.length == 1) {
+        return rewardArray[0];
+    }
+    else {
+        var returnText = '';
+        returnText += '<small>';
+        for (rewardArrayItem = 0; rewardArrayItem < rewardArray.length; rewardArrayItem++) {
+            returnText += '• ' + rewardArray[rewardArrayItem] + '<br>';
+        }
+        returnText += '</small>';
+        return returnText;
     }
 }
 
