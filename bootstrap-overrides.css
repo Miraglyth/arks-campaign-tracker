@@ -14,9 +14,15 @@
 }
 
 a {
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline !important;
+    text-decoration: underline;
+}
+
+ul {
+    margin-bottom: 0px;
+    padding-left: 0px;
+    list-style-position: inside;
 }

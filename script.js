@@ -73,13 +73,14 @@ function campaignParse(array) {
     for (i = 0; i < array.length; i++) {
         tableText += '<tr>'
         tableText += '<td class="d-none d-lg-table-cell"><a href="' + array[i].announcementURL + '">' + array[i].announcementName + '</a></td>';
-        // Small display
+
+        // Campaign - Include URL from Announcement below Large
         tableText += '<td class="d-table-cell d-lg-none"><a href="' + array[i].announcementURL + '">' + array[i].campaignName + '</a></td>';
-        // Medium and above display
         tableText += '<td class="d-none d-lg-table-cell">' + array[i].campaignName + '</td>';
+
         tableText += '<td class="text-center text-nowrap d-none d-md-table-cell">' + dateParse(array[i].timeStart) + '</td>';
         tableText += '<td class="text-center text-nowrap">' + dateParse(array[i].timeEnd) + '</td>';
-        tableText += '<td>' + array[i].task + '</td>';
+        tableText += '<td>' + array[i].activityShort + '</td>';
         tableText += '<td class="d-none text-nowrap d-sm-table-cell">' + rewardParse(array[i].reward) + '</td>';
         tableText += '<td class="d-none text-nowrap d-xl-table-cell">' + dateParse(array[i].timeReward) + '</td>';
         tableText += '<td class="d-none d-xxl-table-cell">' + array[i].distribution + '</td>';
@@ -101,18 +102,19 @@ function dateParse(string) {
 }
 
 function rewardParse(rewardArray) {
-    if (rewardArray.length == 1) {
-        return rewardArray[0];
+    var returnText = '';
+    var flatArray = rewardArray.flat();
+
+    if (flatArray.length == 1) {
+        returnText = flatArray[0];
     }
     else {
-        var returnText = '';
-        returnText += '<small>';
-        for (rewardArrayItem = 0; rewardArrayItem < rewardArray.length; rewardArrayItem++) {
-            returnText += '• ' + rewardArray[rewardArrayItem] + '<br>';
-        }
-        returnText += '</small>';
-        return returnText;
+        returnText += '<ul>';
+        flatArray.forEach(rewardItem => returnText += '<li>' + rewardItem + '</li>');
+        returnText += '</ul>';
     }
+
+    return returnText;
 }
 
 function dummyCallback(data) {
