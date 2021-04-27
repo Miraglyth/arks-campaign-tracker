@@ -75,13 +75,13 @@ function campaignParse(array) {
         tableText += '<td class="d-none d-lg-table-cell"><a href="' + array[i].announcementURL + '">' + array[i].announcementName + '</a></td>';
 
         // Campaign - Include URL from Announcement below Large
-        tableText += '<td class="d-table-cell d-lg-none"><a href="' + array[i].announcementURL + '">' + array[i].campaignName + '</a></td>';
-        tableText += '<td class="d-none d-lg-table-cell">' + array[i].campaignName + '</td>';
+        tableText += '<td class="d-table-cell d-lg-none"><a href="' + array[i].announcementURL + '">' + (array[i].campaignNameShort ?? array[i].campaignName) + '</a></td>';
+        tableText += '<td class="d-none d-lg-table-cell">' + (array[i].campaignNameShort ?? array[i].campaignName) + '</td>';
 
         tableText += '<td class="text-center text-nowrap d-none d-md-table-cell">' + dateParse(array[i].timeStart) + '</td>';
         tableText += '<td class="text-center text-nowrap">' + dateParse(array[i].timeEnd) + '</td>';
         tableText += '<td>' + array[i].activityShort + '</td>';
-        tableText += '<td class="text-nowrap d-none d-sm-table-cell">' + rewardParse(array[i].reward) + '</td>';
+        tableText += '<td class="text-nowrap d-none d-sm-table-cell">' + rewardParse(array[i].rewards) + '</td>';
         tableText += '<td class="text-center text-nowrap d-none d-xl-table-cell">' + dateParse(array[i].timeReward) + '</td>';
         tableText += '<td class="d-none d-xxl-table-cell">' + array[i].distribution + '</td>';
         tableText += '</tr>';
