@@ -71,7 +71,7 @@ function refreshCampaigns() {
 function campaignParse(array) {
     var tableText = '';
     for (i = 0; i < array.length; i++) {
-        tableText += '<tr>'
+        tableText += '<tr data-bs-toggle="collapse" data-bs-target="#hiddenRow' + i + '">'
         tableText += '<td class="d-none d-lg-table-cell"><a href="' + array[i].announcementURL + '">' + array[i].announcementName + '</a></td>';
 
         // Campaign - Include URL from Announcement below Large
@@ -84,6 +84,19 @@ function campaignParse(array) {
         tableText += '<td class="text-nowrap d-none d-sm-table-cell">' + rewardParse(array[i].rewards) + '</td>';
         tableText += '<td class="text-center text-nowrap d-none d-xl-table-cell">' + dateParse(array[i].timeReward) + '</td>';
         tableText += '<td class="d-none d-xxl-table-cell">' + array[i].distribution + '</td>';
+        tableText += '</tr>';
+
+        // Detail row
+        tableText += '<tr class="collapse" id="hiddenRow' + i + '">';
+        tableText += '<td class="text-center" colspan="8">'
+        tableText += '<u>' + array[i].campaignName + '</u>';
+        tableText += '<table class="table table-bordered table-hover table-sm align-middle m-auto w-auto">';
+        tableText += '<thead class="bg-dark bg-gradient text-white"><tr><th>Requirement</th><th>Rewards</th></tr></thead><tbody>';
+        for (activity = 0; activity < array[i].activityFull.length; activity++) {
+            tableText += '<tr><td>' + array[i].activityFull[activity] + '</td><td>' + array[i].rewards[activity] + '</td></tr>';
+        }
+        tableText += '</tbody></table>';
+        tableText += '</td>';
         tableText += '</tr>';
     }
     return tableText;

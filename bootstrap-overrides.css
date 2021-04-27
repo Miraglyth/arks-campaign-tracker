@@ -1,10 +1,13 @@
-*.bg-primary {
-    /* background-color: rgb(31, 90, 226) !important; */
+.bg-primary {
     background-color: rgb(17, 75, 211) !important;
 }
 
-*.bg-secondary {
+.bg-secondary {
     background-color: rgb(10, 16, 38) !important;
+}
+
+.bg-dark {
+    background-color: rgb(128, 128, 128) !important;
 }
 
 a {
@@ -19,4 +22,8 @@ ul {
     margin-bottom: 0px;
     padding-left: 0px;
     list-style-position: inside;
+}
+
+.collapsing {
+   transition: unset !important;
 }

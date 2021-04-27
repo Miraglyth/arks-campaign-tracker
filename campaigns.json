@@ -41,7 +41,7 @@
             "timeEnd": "2020-05-17T02:00:00Z",
             "timeReward": "Unknown",
             "distribution": "Visiphone",
-            "activityShort": "Multiple",
+            "activityShort": "Io Client Orders",
             "activityFull": [
                 "Complete Party Maneuvers I",
                 "Complete Party Maneuvers II"
@@ -70,8 +70,12 @@
             "timeReward": "Immediate",
             "distribution": "Visiphone",
             "activityShort": "Io Client Orders",
-            "activityFull": "Complete Party Maneuvers I and II",
+            "activityFull": [
+                "Complete Party Maneuvers I",
+                "Complete Party Maneuvers II"
+            ],
             "rewards": [
+                "Tokyo Bonus Key: Gold",
                 "Tokyo Bonus Key: Gold"
             ]
         },
@@ -86,7 +90,9 @@
             "timeReward": "After NGS launch",
             "distribution": "TBC",
             "activityShort": "Suppress Nogleths",
-            "activityFull": "Suppresion of the Boss Enemy Nogleth during the closed beta test operating period",
+            "activityFull": [
+                "Suppresion of the Boss Enemy Nogleth during the closed beta test operating period"
+            ],
             "rewards": [
                 "Clinging Rappy Earring",
                 "STP: Ash - Handoff"
@@ -103,7 +109,9 @@
             "timeReward": "After NGS launch",
             "distribution": "TBC",
             "activityShort": "Reach level 10",
-            "activityFull": "Reach level 10 with any class",
+            "activityFull": [
+                "Reach level 10 with any class"
+            ],
             "rewards": [
                 "Clinging Rappy Earring",
                 "SG 50 Ticket"
@@ -120,7 +128,9 @@
             "timeReward": "After NGS launch",
             "distribution": "TBC",
             "activityShort": "Use Personal Shop",
-            "activityFull": "Sell and Purchase at least once on Personal Shop",
+            "activityFull": [
+                "Sell and Purchase at least once on Personal Shop"
+            ],
             "rewards": [
                 "SG 50 Ticket"
             ]
@@ -136,7 +146,9 @@
             "timeReward": "After NGS launch",
             "distribution": "TBC",
             "activityShort": "Reach 1,050 Battle Power",
-            "activityFull": "Reach 1,050 Battle Power",
+            "activityFull": [
+                "Reach 1,050 Battle Power"
+            ],
             "rewards": [
                 "SG 100 Ticket"
             ]
@@ -152,7 +164,9 @@
             "timeReward": "After NGS launch",
             "distribution": "TBC",
             "activityShort": "Use Material Storage",
-            "activityFull": "Deposit and Withdraw an item from Material Storage OR use Material Storage from Item Lab, Quick Food or Region Mag",
+            "activityFull": [
+                "Deposit and Withdraw an item from Material Storage OR use Material Storage from Item Lab, Quick Food or Region Mag"
+            ],
             "rewards": [
                 "SG 50 Ticket",
                 "STP: Ash - Handoff"
@@ -169,7 +183,9 @@
             "timeReward": "After NGS launch",
             "distribution": "TBC",
             "activityShort": "Complete CBT Survey",
-            "activityFull": "Complete the survey for closed beta tests",
+            "activityFull": [
+                "Complete the survey for closed beta tests"
+            ],
             "rewards": [
                 "SG 100 Ticket"
             ]
@@ -185,8 +201,12 @@
             "timeReward": "Unknown",
             "distribution": "Visiphone",
             "activityShort": "Io Client Orders",
-            "activityFull": "Complete Party Maneuvers I and II",
+            "activityFull": [
+                "Complete Party Maneuvers I",
+                "Complete Party Maneuvers II"
+            ],
             "rewards": [
+                "Tokyo Bonus Key: Gold",
                 "Tokyo Bonus Key: Gold"
             ]
         },
@@ -201,8 +221,12 @@
             "timeReward": "Immediate",
             "distribution": "Visiphone",
             "activityShort": "Io Client Orders",
-            "activityFull": "Complete Party Maneuvers I and II",
+            "activityFull": [
+                "Complete Party Maneuvers I",
+                "Complete Party Maneuvers II"
+            ],
             "rewards": [
+                "Tokyo Bonus Key: Gold",
                 "Tokyo Bonus Key: Gold"
             ]
         },
@@ -217,8 +241,12 @@
             "timeReward": "Unknown",
             "distribution": "Visiphone",
             "activityShort": "Io Client Orders",
-            "activityFull": "Complete Party Maneuvers I and II",
+            "activityFull": [
+                "Complete Party Maneuvers I",
+                "Complete Party Maneuvers II"
+            ],
             "rewards": [
+                "Tokyo Bonus Key: Gold",
                 "Tokyo Bonus Key: Gold"
             ]
         }
