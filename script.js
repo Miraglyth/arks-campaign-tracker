@@ -57,9 +57,9 @@ function refreshCampaigns() {
         });
 
         // Sort campaign arrays depending on type
-        campaignsEnded.sort(function (a, b) { return a.timeEnd > b.timeEnd ? -1 : a.timeEnd < b.timeEnd ? 1 : a.timeStart > b.timeStart ? -1 : a.timeStart < b.timeStart ? 1 : 0; });    // Ends desc, Starts desc
-        campaignsActive.sort(function (a, b) { return a.timeEnd < b.timeEnd ? -1 : a.timeEnd > b.timeEnd ? 1 : a.timeStart < b.timeStart ? -1 : a.timeStart > b.timeStart ? 1 : 0; });    // Ends asc, Stards asc
-        campaignsUpcoming.sort(function (a, b) { return a.timeStart < b.timeStart ? -1 : 0; });
+        campaignsEnded.sort(function (a, b) { return Date.parse(b.timeEnd) - Date.parse(a.timeEnd) || Date.parse(b.timeStart) - Date.parse(a.timeStart); });
+        campaignsActive.sort(function (a, b) { return Date.parse(a.timeEnd) - Date.parse(b.timeEnd) || Date.parse(a.timeStart) - Date.parse(b.timeStart); });
+        campaignsUpcoming.sort(function (a, b) { return Date.parse(a.timeStart) - Date.parse(b.timeStart); });
 
         // Convert sorted campaign arrays into table rows
         document.getElementById("tbodyEnded").innerHTML = campaignParse(campaignsEnded);
