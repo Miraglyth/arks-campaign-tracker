@@ -1,9 +1,3 @@
-@media (min-width: 1400px) {
-    .container-xxl {
-        max-width: 1400px;    /* From 1320px */
-    }
-}
-
 *.bg-primary {
     /* background-color: rgb(31, 90, 226) !important; */
     background-color: rgb(17, 75, 211) !important;
