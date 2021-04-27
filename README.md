@@ -6,7 +6,9 @@ Dummy repo to test out and sandbox github pages
 
 ### To-do
 - Add transition to collapse rows of detail view
-- Add line breaks to multiple rewards in detail view
+- Prevent hover for expanded rows of detail view
+- Limit detail view to one expanded row at a time
+- Unique names for rows of detail view so changing between Ended / Active / Upcoming doesn't retain expansion
 - Add Bootstrap tabs for Ended, Active and Upcoming
 - Prevent navbar and tabs from leaving top of screen when scrolling
 - Include boosts in various views

@@ -93,7 +93,7 @@ function campaignParse(array) {
         tableText += '<table class="table table-bordered table-hover table-sm align-middle m-auto w-auto">';
         tableText += '<thead class="bg-dark bg-gradient text-white"><tr><th>Requirement</th><th>Rewards</th></tr></thead><tbody>';
         for (activity = 0; activity < array[i].activityFull.length; activity++) {
-            tableText += '<tr><td>' + array[i].activityFull[activity] + '</td><td>' + array[i].rewards[activity] + '</td></tr>';
+            tableText += '<tr><td>' + array[i].activityFull[activity] + '</td><td>' + rewardParse(array[i].rewards[activity]) + '</td></tr>';
         }
         tableText += '</tbody></table>';
         tableText += '</td>';

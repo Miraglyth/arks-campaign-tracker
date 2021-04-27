@@ -75,8 +75,12 @@
                 "Complete Party Maneuvers II"
             ],
             "rewards": [
-                "Tokyo Bonus Key: Gold",
-                "Tokyo Bonus Key: Gold"
+                [
+                    "Tokyo Bonus Key: Gold"
+                ],
+                [
+                    "Tokyo Bonus Key: Gold"
+                ]
             ]
         },
         {
@@ -94,8 +98,10 @@
                 "Suppresion of the Boss Enemy Nogleth during the closed beta test operating period"
             ],
             "rewards": [
-                "Clinging Rappy Earring",
-                "STP: Ash - Handoff"
+                [
+                    "Clinging Rappy Earring",
+                    "STP: Ash - Handoff"
+                ]
             ]
         },
         {
@@ -113,8 +119,10 @@
                 "Reach level 10 with any class"
             ],
             "rewards": [
-                "Clinging Rappy Earring",
-                "SG 50 Ticket"
+                [
+                    "Clinging Rappy Earring",
+                    "SG 50 Ticket"
+                ]
             ]
         },
         {
@@ -132,7 +140,9 @@
                 "Sell and Purchase at least once on Personal Shop"
             ],
             "rewards": [
-                "SG 50 Ticket"
+                [
+                    "SG 50 Ticket"
+                ]
             ]
         },
         {
@@ -150,7 +160,9 @@
                 "Reach 1,050 Battle Power"
             ],
             "rewards": [
-                "SG 100 Ticket"
+                [
+                    "SG 100 Ticket"
+                ]
             ]
         },
         {
@@ -168,8 +180,10 @@
                 "Deposit and Withdraw an item from Material Storage OR use Material Storage from Item Lab, Quick Food or Region Mag"
             ],
             "rewards": [
-                "SG 50 Ticket",
-                "STP: Ash - Handoff"
+                [
+                    "SG 50 Ticket",
+                    "STP: Ash - Handoff"
+                ]
             ]
         },
         {
@@ -187,7 +201,9 @@
                 "Complete the survey for closed beta tests"
             ],
             "rewards": [
-                "SG 100 Ticket"
+                [
+                    "SG 100 Ticket"
+                ]
             ]
         },
         {
@@ -206,8 +222,12 @@
                 "Complete Party Maneuvers II"
             ],
             "rewards": [
-                "Tokyo Bonus Key: Gold",
-                "Tokyo Bonus Key: Gold"
+                [
+                    "Tokyo Bonus Key: Gold"
+                ],
+                [
+                    "Tokyo Bonus Key: Gold"
+                ]
             ]
         },
         {
@@ -226,8 +246,12 @@
                 "Complete Party Maneuvers II"
             ],
             "rewards": [
-                "Tokyo Bonus Key: Gold",
-                "Tokyo Bonus Key: Gold"
+                [
+                    "Tokyo Bonus Key: Gold"
+                ],
+                [
+                    "Tokyo Bonus Key: Gold"
+                ]
             ]
         },
         {
@@ -246,8 +270,12 @@
                 "Complete Party Maneuvers II"
             ],
             "rewards": [
-                "Tokyo Bonus Key: Gold",
-                "Tokyo Bonus Key: Gold"
+                [
+                    "Tokyo Bonus Key: Gold"
+                ],
+                [
+                    "Tokyo Bonus Key: Gold"
+                ]
             ]
         }
     ]
