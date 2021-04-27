@@ -108,9 +108,16 @@ function rewardParse(rewardArray) {
     if (flatArray.length == 1) {
         returnText = flatArray[0];
     }
-    else {
+    else if (flatArray.length <= 3) {
         returnText += '<ul>';
         flatArray.forEach(rewardItem => returnText += '<li>' + rewardItem + '</li>');
+        returnText += '</ul>';
+    }
+    else {
+        returnText += '<ul>';
+        returnText += '<li>' + flatArray[0] + '</li>';
+        returnText += '<li>' + flatArray[1] + '</li>';
+        returnText += '<li>Other x' + (flatArray.length - 2) + '</li>';
         returnText += '</ul>';
     }
 
