@@ -57,9 +57,9 @@ function refreshCampaigns() {
         });
 
         // Sort campaign arrays depending on type
-        campaignsEnded.sort(function (a, b) { return a.timeEnd > b.timeEnd ? -1 : 1; });
-        campaignsActive.sort(function (a, b) { return a.timeEnd < b.timeEnd ? -1 : 1; });
-        campaignsUpcoming.sort(function (a, b) { return a.timeStart < b.timeStart ? -1 : 1; });
+        campaignsEnded.sort(function (a, b) { return a.timeEnd > b.timeEnd ? -1 : a.timeEnd < b.timeEnd ? 1 : a.timeStart > b.timeStart ? -1 : a.timeStart < b.timeStart ? 1 : 0; });    // Ends desc, Starts desc
+        campaignsActive.sort(function (a, b) { return a.timeEnd < b.timeEnd ? -1 : a.timeEnd > b.timeEnd ? 1 : a.timeStart < b.timeStart ? -1 : a.timeStart > b.timeStart ? 1 : 0; });    // Ends asc, Stards asc
+        campaignsUpcoming.sort(function (a, b) { return a.timeStart < b.timeStart ? -1 : 0; });
 
         // Convert sorted campaign arrays into table rows
         document.getElementById("tbodyEnded").innerHTML = campaignParse(campaignsEnded);
