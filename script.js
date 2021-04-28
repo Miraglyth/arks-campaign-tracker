@@ -62,16 +62,16 @@ function refreshCampaigns() {
         campaignsUpcoming.sort(function (a, b) { return Date.parse(a.timeStart) - Date.parse(b.timeStart); });
 
         // Convert sorted campaign arrays into table rows
-        document.getElementById("tbodyEnded").innerHTML = campaignParse(campaignsEnded);
-        document.getElementById("tbodyActive").innerHTML = campaignParse(campaignsActive);
-        document.getElementById("tbodyUpcoming").innerHTML = campaignParse(campaignsUpcoming);
+        document.getElementById("tbodyEnded").innerHTML = campaignParse(campaignsEnded, "ended");
+        document.getElementById("tbodyActive").innerHTML = campaignParse(campaignsActive, "active");
+        document.getElementById("tbodyUpcoming").innerHTML = campaignParse(campaignsUpcoming, "upcoming");
     });
 }
 
-function campaignParse(array) {
+function campaignParse(array, type) {
     var tableText = '';
     for (i = 0; i < array.length; i++) {
-        tableText += '<tr data-bs-toggle="collapse" data-bs-target="#hiddenRow' + i + '">'
+        tableText += '<tr class="mg-simple-row" data-bs-toggle="collapse" data-bs-target="#' + type + 'Detail' + i + '" aria-expanded="false" aria-controls="' + type + 'Detail' + i + '">';
         tableText += '<td class="d-none d-lg-table-cell"><a href="' + array[i].announcementURL + '">' + array[i].announcementName + '</a></td>';
 
         // Campaign - Include URL from Announcement below Large
@@ -87,8 +87,9 @@ function campaignParse(array) {
         tableText += '</tr>';
 
         // Detail row
-        tableText += '<tr class="collapse" id="hiddenRow' + i + '">';
-        tableText += '<td class="text-center" colspan="8">'
+        tableText += '<tr class="collapse" id="' + type + 'Detail' + i + '">';
+        tableText += '<td class="text-center" colspan="8">';
+        tableText += '<div class="collapse" id="' + type + 'Detail' + i + '">';
         tableText += '<u>' + array[i].campaignName + '</u>';
         tableText += '<table class="table table-bordered table-hover table-sm align-middle m-auto w-auto">';
         tableText += '<thead class="bg-dark bg-gradient text-white"><tr><th>Requirement</th><th>Rewards</th></tr></thead><tbody>';
@@ -96,6 +97,7 @@ function campaignParse(array) {
             tableText += '<tr><td>' + array[i].activityFull[activity] + '</td><td>' + rewardParse(array[i].rewards[activity]) + '</td></tr>';
         }
         tableText += '</tbody></table>';
+        tableText += '</div>';
         tableText += '</td>';
         tableText += '</tr>';
     }
