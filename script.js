@@ -79,7 +79,7 @@ function campaignParse(array, type) {
         tableText += '<td class="text-center text-nowrap d-none d-md-table-cell">' + dateParse(array[i].timeStart) + '</td>';
         tableText += '<td class="text-center text-nowrap">' + dateParse(array[i].timeEnd) + '</td>';
         tableText += '<td>' + array[i].activityShort + '</td>';
-        tableText += '<td class="text-nowrap d-none d-sm-table-cell">' + rewardParse(array[i].rewards) + '</td>';
+        tableText += '<td class="text-nowrap d-none d-sm-table-cell">' + rewardParse(array[i].rewards, 3) + '</td>';
         tableText += '<td class="text-center text-nowrap d-none d-xl-table-cell">' + dateParse(array[i].timeReward) + '</td>';
         tableText += '<td class="d-none d-xxl-table-cell">' + array[i].distribution + '</td>';
         tableText += '</tr>';
@@ -92,7 +92,7 @@ function campaignParse(array, type) {
         tableText += '<table class="table table-bordered table-hover table-sm align-middle m-auto w-auto">';
         tableText += '<thead class="bg-dark bg-gradient text-white"><tr><th>Requirement</th><th>Rewards</th></tr></thead><tbody>';
         for (activity = 0; activity < array[i].activityFull.length; activity++) {
-            tableText += '<tr><td>' + array[i].activityFull[activity] + '</td><td>' + rewardParse(array[i].rewards[activity]) + '</td></tr>';
+            tableText += '<tr><td>' + array[i].activityFull[activity] + '</td><td class="text-nowrap">' + rewardParse(array[i].rewards[activity], 10) + '</td></tr>';
         }
         tableText += '</tbody></table>';
         tableText += '</div>';
@@ -114,23 +114,24 @@ function dateParse(string) {
     }
 }
 
-function rewardParse(rewardArray) {
+function rewardParse(rewardArray, listMax) {
     var returnText = '';
     var flatArray = rewardArray.flat();
 
     if (flatArray.length == 1) {
         returnText = flatArray[0];
     }
-    else if (flatArray.length <= 3) {
+    else if (flatArray.length <= listMax) {
         returnText += '<ul>';
         flatArray.forEach(rewardItem => returnText += '<li>' + rewardItem + '</li>');
         returnText += '</ul>';
     }
     else {
         returnText += '<ul>';
-        returnText += '<li>' + flatArray[0] + '</li>';
-        returnText += '<li>' + flatArray[1] + '</li>';
-        returnText += '<li>Other x' + (flatArray.length - 2) + '</li>';
+        for (rewardNr = 0; rewardNr < listMax - 1; rewardNr++) {
+            returnText += '<li>' + flatArray[rewardNr] + '</li>';
+        }
+        returnText += '<li>Other x' + (flatArray.length - listMax + 1) + '</li>';
         returnText += '</ul>';
     }
 
