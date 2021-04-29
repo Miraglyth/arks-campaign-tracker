@@ -121,17 +121,17 @@ function rewardParse(rewardArray, listMax) {
     if (flatArray.length == 1) {
         returnText = flatArray[0];
     }
-    else if (flatArray.length <= listMax) {
-        returnText += '<ul>';
-        flatArray.forEach(rewardItem => returnText += '<li>' + rewardItem + '</li>');
-        returnText += '</ul>';
-    }
     else {
         returnText += '<ul>';
-        for (rewardNr = 0; rewardNr < listMax - 1; rewardNr++) {
-            returnText += '<li>' + flatArray[rewardNr] + '</li>';
+        if (flatArray.length <= listMax) {
+            flatArray.forEach(rewardItem => returnText += '<li>' + rewardItem + '</li>');
         }
-        returnText += '<li>Other x' + (flatArray.length - listMax + 1) + '</li>';
+        else {
+            for (rewardNr = 0; rewardNr < listMax - 1; rewardNr++) {
+                returnText += '<li>' + flatArray[rewardNr] + '</li>';
+            }
+            returnText += '<li>Other x' + (flatArray.length - listMax + 1) + '</li>';
+        }
         returnText += '</ul>';
     }
 
