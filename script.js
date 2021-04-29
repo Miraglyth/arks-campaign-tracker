@@ -76,17 +76,17 @@ function campaignParse(array, type) {
         tableText += '<td class="d-table-cell d-lg-none"><a href="' + array[i].announcementURL + '">' + (array[i].campaignNameShort ?? array[i].campaignName) + '</a></td>';
         tableText += '<td class="d-none d-lg-table-cell">' + (array[i].campaignNameShort ?? array[i].campaignName) + '</td>';
 
-        tableText += '<td class="text-center text-nowrap d-none d-md-table-cell">' + dateParse(array[i].timeStart, true) + '</td>';
-        tableText += '<td class="text-center text-nowrap">' + dateParse(array[i].timeEnd, true) + '</td>';
+        tableText += '<td class="text-nowrap d-none d-md-table-cell">' + dateParse(array[i].timeStart, true) + '</td>';
+        tableText += '<td class="text-nowrap">' + dateParse(array[i].timeEnd, true) + '</td>';
         tableText += '<td>' + array[i].activityShort + '</td>';
         tableText += '<td class="text-nowrap d-none d-sm-table-cell">' + rewardParse(array[i].rewards, 3) + '</td>';
-        tableText += '<td class="text-center text-nowrap d-none d-xl-table-cell">' + dateParse(array[i].timeReward, true) + '</td>';
+        tableText += '<td class="text-nowrap d-none d-xl-table-cell">' + dateParse(array[i].timeReward, true) + '</td>';
         tableText += '<td class="d-none d-xxl-table-cell">' + array[i].distribution + '</td>';
         tableText += '</tr>';
 
         // Detail view
         tableText += '<tr class="collapse" id="' + type + 'Detail' + i + '">';
-        tableText += '<td class="text-center" colspan="8">';
+        tableText += '<td colspan="8">';
         tableText += '<div class="collapse" id="' + type + 'Detail' + i + '">';
         tableText += '<p><u>' + array[i].campaignName + '</u></p>';
         tableText += '<div class="d-inline d-md-none"><p><b>Starts:</b> ' + dateParse(array[i].timeStart, false) + '<br><b>Ends:</b> ' + dateParse(array[i].timeEnd, false) + '</p></div>';

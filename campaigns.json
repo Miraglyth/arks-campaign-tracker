@@ -111,76 +111,6 @@
             ]
         },
         {
-            "announcementDate": 20210427,
-            "announcementName": " AC & FUN Scratch Tickets: Lethal Designs II",
-            "announcementURL": "https://pso2.com/news/scratch-tickets/lethaldesigns2",
-            "campaignName": "FUN Scratch Ticket: April 2021 Part 4",
-            "timeStart": "2021-04-28T07:00:00Z",
-            "timeEnd": "2021-05-05T06:00:00Z",
-            "timeReward": "Immediate",
-            "distribution": "Inventory",
-            "activityShort": "FUN Scratch Ticket",
-            "activityFull": [
-                "FUN Scratch Ticket"
-            ],
-            "rewards": [
-                [
-                    "Scratch Ticket Prizes"
-                ]
-            ]
-        },
-        {
-            "announcementDate": 20210421,
-            "announcementName": "Dummy",
-            "announcementURL": "https://miraglyth.github.io/github-pages-test/",
-            "campaignName": "Dummy Ended Campaign",
-            "timeStart": "2020-05-15T01:00:00Z",
-            "timeEnd": "2020-05-17T02:00:00Z",
-            "timeReward": "Unknown",
-            "distribution": "Visiphone",
-            "activityShort": "Io Client Orders",
-            "activityFull": [
-                "Complete Party Maneuvers I",
-                "Complete Party Maneuvers II"
-            ],
-            "rewards": [
-                [
-                    "SG 50 Ticket",
-                    "SG 100 Ticket"
-                ],
-                [
-                    "451: Elaborate Dance",
-                    "376: Groovy",
-                    "Rappy Slippers",
-                    "Beanbag Lillipan"
-                ]
-            ]
-        },
-        {
-            "announcementDate": 20210421,
-            "announcementName": "Dummy",
-            "announcementURL": "https://miraglyth.github.io/github-pages-test/",
-            "campaignName": "Dummy Active (essentially permanent) Campaign",
-            "campaignNameShort": "Dummy Permanent",
-            "timeStart": "2020-03-17T18:00:00Z",
-            "timeEnd": "2021-06-29T22:59:59Z",
-            "timeReward": "Immediate",
-            "distribution": "Visiphone",
-            "activityShort": "Io Client Orders",
-            "activityFull": [
-                "Complete Party Maneuvers I",
-                "Complete Party Maneuvers II"
-            ],
-            "rewards": [
-                [
-                    "Tokyo Bonus Key: Gold"
-                ],
-                [
-                    "Tokyo Bonus Key: Gold"
-                ]
-            ]
-        },
-        {
             "announcementDate": 20210421,
             "announcementName": "Global CBT",
             "announcementURL": "https://ngs.pso2.com/cbt/entry/about",
@@ -304,13 +234,31 @@
             ]
         },
         {
+            "announcementDate": 20210427,
+            "announcementName": " AC & FUN Scratch Tickets: Lethal Designs II",
+            "announcementURL": "https://pso2.com/news/scratch-tickets/lethaldesigns2",
+            "campaignName": "FUN Scratch Ticket: April 2021 Part 4",
+            "timeStart": "2021-04-28T07:00:00Z",
+            "timeEnd": "2021-05-05T06:00:00Z",
+            "timeReward": "Immediate",
+            "distribution": "Inventory",
+            "activityShort": "FUN Scratch Ticket",
+            "activityFull": [
+                "FUN Scratch Ticket"
+            ],
+            "rewards": [
+                [
+                    "Scratch Ticket Prizes"
+                ]
+            ]
+        },
+        {
             "announcementDate": 20210421,
             "announcementName": "Dummy",
             "announcementURL": "https://miraglyth.github.io/github-pages-test/",
-            "campaignName": "Dummy Upcoming Campaign",
-            "campaignNameShort": "Dummy Future",
-            "timeStart": "2022-05-15T01:00:00Z",
-            "timeEnd": "2022-05-17T02:00:00Z",
+            "campaignName": "Dummy Ended Campaign",
+            "timeStart": "2020-05-15T01:00:00Z",
+            "timeEnd": "2020-05-17T02:00:00Z",
             "timeReward": "Unknown",
             "distribution": "Visiphone",
             "activityShort": "Io Client Orders",
@@ -320,34 +268,14 @@
             ],
             "rewards": [
                 [
-                    "Tokyo Bonus Key: Gold"
+                    "SG 50 Ticket",
+                    "SG 100 Ticket"
                 ],
                 [
-                    "Tokyo Bonus Key: Gold"
-                ]
-            ]
-        },
-        {
-            "announcementDate": 20210421,
-            "announcementName": "Dummy",
-            "announcementURL": "https://miraglyth.github.io/github-pages-test/",
-            "campaignName": "Dummy Active (essentially permanent) Campaign Ending Sooner",
-            "campaignNameShort": "Dummy Permanent Sooner",
-            "timeStart": "2020-03-17T18:00:00Z",
-            "timeEnd": "2021-06-28T22:59:59Z",
-            "timeReward": "Immediate",
-            "distribution": "Visiphone",
-            "activityShort": "Io Client Orders",
-            "activityFull": [
-                "Complete Party Maneuvers I",
-                "Complete Party Maneuvers II"
-            ],
-            "rewards": [
-                [
-                    "Tokyo Bonus Key: Gold"
-                ],
-                [
-                    "Tokyo Bonus Key: Gold"
+                    "451: Elaborate Dance",
+                    "376: Groovy",
+                    "Rappy Slippers",
+                    "Beanbag Lillipan"
                 ]
             ]
         },
