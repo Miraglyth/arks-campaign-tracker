@@ -34,8 +34,6 @@ function refreshTime() {
 
 function refreshCampaigns() {
 
-    // dummyCallback(data);
-
     $.getJSON("campaigns.json", {}, function (data) {
         // Campaign arrays
         var campaignsEnded = [];
@@ -137,11 +135,6 @@ function rewardParse(rewardArray) {
     }
 
     return returnText;
-}
-
-function dummyCallback(data) {
-    var myData = data;
-    console.log("Campaign 0 name: " + myData.campaigns[0].name);
 }
 
 function openTable(evt, tableName) {
