@@ -111,7 +111,7 @@ function dateParse(string, lineBreak) {
         return string;
     }
     else {
-        var localDate = parsedDate.toLocaleString({}, { year: 'numeric', month: 'short', day: 'numeric' });
+        var localDate = parsedDate.toLocaleString({}, { year: 'numeric', month: 'short', day: '2-digit' });
         var localTime = parsedDate.toLocaleString({}, { hour: 'numeric', minute: 'numeric', timeZoneName: 'short' });
         return localDate + conditionalLineBreak + localTime;
     }

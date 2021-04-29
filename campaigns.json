@@ -1,6 +1,45 @@
 {
     "campaigns": [
         {
+            "announcementDate": 20210316,
+            "announcementName": "New Campaigns: March 2021 - Part 2",
+            "announcementURL": "https://pso2.com/news/announcements/campaignsmar2020p2",
+            "campaignName": "Triggered!",
+            "timeStart": "2021-03-31T12:00:00Z",
+            "timeEnd": "2021-04-30T00:00:00Z",
+            "timeReward": "Immediate",
+            "distribution": "Visiphone",
+            "activityShort": "Login",
+            "activityFull": [
+                "Log in to PSO2 Global"
+            ],
+            "rewards": [
+                [
+                    "Endless Nightmare Trigger (x1)",
+                    "Wild Easter Trigger (x1)"
+                ]
+            ]
+        },
+        {
+            "announcementDate": 20210406,
+            "announcementName": "AC & FUN Scratch Tickets: Lethal Designs",
+            "announcementURL": "https://pso2.com/news/scratch-tickets/lethaldesigns",
+            "campaignName": "AC Scratch Ticket: Lethal Designs",
+            "timeStart": "2021-04-07T07:00:00Z",
+            "timeEnd": "2021-05-05T06:00:00Z",
+            "timeReward": "Immediate",
+            "distribution": "Inventory",
+            "activityShort": "AC Scratch Ticket",
+            "activityFull": [
+                "AC Scratch Ticket"
+            ],
+            "rewards": [
+                [
+                    "Scratch Ticket Prizes"
+                ]
+            ]
+        },
+        {
             "announcementDate": 20210419,
             "announcementName": "Arks Appreciation Event!",
             "announcementURL": "https://pso2.com/news/announcements/arksappreciationevent0421",
@@ -29,6 +68,64 @@
                 ],
                 [
                     "Lillipan Slippers (x1)"
+                ]
+            ]
+        },
+        {
+            "announcementDate": 20210419,
+            "announcementName": "Arks Appreciation Event!",
+            "announcementURL": "https://pso2.com/news/announcements/arksappreciationevent0421",
+            "campaignName": "Another One?",
+            "timeStart": "2021-04-28T10:30:00Z",
+            "timeEnd": "2021-05-05T19:59:00Z",
+            "timeReward": "Immediate",
+            "distribution": "Visiphone",
+            "activityShort": "Complete Specified Quests",
+            "activityFull": [
+                "Complete any Urgent Quest 2 times",
+                "Complete any Urgent Quest 4 times",
+                "Complete any 3 Recommended Quests",
+                "Complete The Face of the Abyss or T: The Face of the Abyss",
+                "Complete Swirling Inferno on the ARKS Ship",
+                "Complete Special Mission: Tokyo [Gold] twice"
+            ],
+            "rewards": [
+                [
+                    "SG 50 Ticket (x1)"
+                ],
+                [
+                    "SG 100 Ticket (x1)"
+                ],
+                [
+                    "Risa Chain (x1)"
+                ],
+                [
+                    "478: Cross Legs (x1)"
+                ],
+                [
+                    "* Fortilebe (x1)"
+                ],
+                [
+                    "* Skia Strain (x1)"
+                ]
+            ]
+        },
+        {
+            "announcementDate": 20210427,
+            "announcementName": " AC & FUN Scratch Tickets: Lethal Designs II",
+            "announcementURL": "https://pso2.com/news/scratch-tickets/lethaldesigns2",
+            "campaignName": "FUN Scratch Ticket: April 2021 Part 4",
+            "timeStart": "2021-04-28T07:00:00Z",
+            "timeEnd": "2021-05-05T06:00:00Z",
+            "timeReward": "Immediate",
+            "distribution": "Inventory",
+            "activityShort": "FUN Scratch Ticket",
+            "activityFull": [
+                "FUN Scratch Ticket"
+            ],
+            "rewards": [
+                [
+                    "Scratch Ticket Prizes"
                 ]
             ]
         },
