@@ -89,14 +89,14 @@ function campaignParse(array, type) {
         tableText += '<tr class="collapse" id="' + type + 'Detail' + i + '">';
         tableText += '<td colspan="8">';
         tableText += '<div class="collapse" id="' + type + 'Detail' + i + '">';
-        tableText += '<div><u>' + array[i].campaignName + '</u></div>';
-        tableText += '<div class="d-inline d-md-none"><b>Starts:</b> ' + dateParse(array[i].timeStart, false) + '<br><b>Ends:</b> ' + dateParse(array[i].timeEnd, false) + '</div>';
-        tableText += '<table class="table table-bordered table-hover table-sm align-middle m-auto w-auto">';
+        tableText += '<div class="p-1"><u>' + array[i].campaignName + '</u></div>';
+        tableText += '<div class="p-1 d-inline d-md-none"><b>Starts:</b> ' + dateParse(array[i].timeStart, false) + '<br><b>Ends:</b> ' + dateParse(array[i].timeEnd, false) + '</div>';
+        tableText += '<div class="p-1"><table class="table table-bordered table-hover table-sm align-middle m-auto w-auto">';
         tableText += '<thead class="bg-dark bg-gradient text-white"><tr><th>Requirement</th><th>Rewards</th></tr></thead><tbody>';
         for (activity = 0; activity < array[i].activityFull.length; activity++) {
             tableText += '<tr><td>' + array[i].activityFull[activity] + '</td><td class="text-nowrap">' + rewardParse(array[i].rewards[activity], 10) + '</td></tr>';
         }
-        tableText += '</tbody></table>';
+        tableText += '</tbody></table></div>';
         tableText += '</div>';
         tableText += '</td>';
         tableText += '</tr>';
