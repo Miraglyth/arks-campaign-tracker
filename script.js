@@ -35,6 +35,7 @@ function refreshTime() {
 function refreshCampaigns() {
 
     $.getJSON("campaigns.json", {}, function (data) {
+
         // Campaign arrays
         var campaignsEnded = [];
         var campaignsActive = [];
@@ -67,7 +68,7 @@ function refreshCampaigns() {
 }
 
 function campaignParse(array, type) {
-    var tableText = '';
+    let tableText = '';
     for (i = 0; i < array.length; i++) {
         tableText += '<tr class="mg-simple-row" data-bs-toggle="collapse" data-bs-target="#' + type + 'Detail' + i + '" aria-expanded="false" aria-controls="' + type + 'Detail' + i + '">';
         tableText += '<td class="d-none d-lg-table-cell"><a href="' + array[i].announcementURL + '">' + array[i].announcementName + '</a></td>';
@@ -88,8 +89,8 @@ function campaignParse(array, type) {
         tableText += '<tr class="collapse" id="' + type + 'Detail' + i + '">';
         tableText += '<td colspan="8">';
         tableText += '<div class="collapse" id="' + type + 'Detail' + i + '">';
-        tableText += '<p><u>' + array[i].campaignName + '</u></p>';
-        tableText += '<div class="d-inline d-md-none"><p><b>Starts:</b> ' + dateParse(array[i].timeStart, false) + '<br><b>Ends:</b> ' + dateParse(array[i].timeEnd, false) + '</p></div>';
+        tableText += '<div><u>' + array[i].campaignName + '</u></div>';
+        tableText += '<div class="d-inline d-md-none"><b>Starts:</b> ' + dateParse(array[i].timeStart, false) + '<br><b>Ends:</b> ' + dateParse(array[i].timeEnd, false) + '</div>';
         tableText += '<table class="table table-bordered table-hover table-sm align-middle m-auto w-auto">';
         tableText += '<thead class="bg-dark bg-gradient text-white"><tr><th>Requirement</th><th>Rewards</th></tr></thead><tbody>';
         for (activity = 0; activity < array[i].activityFull.length; activity++) {
@@ -105,21 +106,21 @@ function campaignParse(array, type) {
 
 function dateParse(string, lineBreak) {
     parsedDate = new Date(string);
-    var conditionalLineBreak = (lineBreak == true ? '<br>' : ' ');
+    let conditionalLineBreak = (lineBreak == true ? '<br>' : ' ');
 
     if (parsedDate == "Invalid Date") {
         return string;
     }
     else {
-        var localDate = parsedDate.toLocaleString({}, { year: 'numeric', month: 'short', day: '2-digit' });
-        var localTime = parsedDate.toLocaleString({}, { hour: 'numeric', minute: 'numeric', timeZoneName: 'short' });
+        let localDate = parsedDate.toLocaleString({}, { year: 'numeric', month: 'short', day: '2-digit' });
+        let localTime = parsedDate.toLocaleString({}, { hour: 'numeric', minute: 'numeric', timeZoneName: 'short' });
         return localDate + conditionalLineBreak + localTime;
     }
 }
 
 function rewardParse(rewardArray, listMax) {
-    var returnText = '';
-    var flatArray = rewardArray.flat();
+    let returnText = '';
+    let flatArray = rewardArray.flat();
 
     if (flatArray.length == 1) {
         returnText = flatArray[0];
@@ -143,7 +144,7 @@ function rewardParse(rewardArray, listMax) {
 
 function openTable(evt, tableName) {
     // Declare all variables
-    var i, tabcontent, tablinks;
+    let i, tabcontent, tablinks;
 
     // Get all elements with class="tabcontent" and hide them
     tabcontent = document.getElementsByClassName("tabcontent");
