@@ -52,13 +52,14 @@ function checkLatestCampaigns() {
 function getLatestCampaigns(latestUpdate) {
     console.log("Loading updated campaign data.");
     $.getJSON("data/campaigns.json", {}, function (data) {
-        // Combine data with load of localStorage campaigns if it exists to create a single object with everything
+        // Combine data with load of localStorage campaigns if it exists to create a single object with everything - Presumes all campaigns exist in new data!
         let savedData = JSON.parse(localStorage.getItem("campaigns"));
         if (savedData != null) {
             for (let annKey in savedData.announcements) {
                 for (let camKey in savedData.announcements[annKey].campaigns) {
                     data.announcements[annKey].campaigns[camKey].done = savedData.announcements[annKey].campaigns[camKey].done;
-                    data.announcements[annKey].campaigns[camKey].name = 'LOLOL';
+                    // data.announcements[annKey].campaigns[camKey].name = 'LOLOL';
+                    // data.announcements[annKey].campaigns[camKey].nameShort = 'LOL';
                 }
             }
         }
@@ -94,21 +95,21 @@ function renewDisplay() {
     for (let annKey in announcements) {
         for (let camKey in announcements[annKey].campaigns) {
             if (new Date(announcements[annKey].campaigns[camKey].ends) < dateNow) {
-                campaignsEnded.push({ "annKey": annKey, "camKey": camKey, "starts": announcements[annKey].campaigns[camKey].starts, "ends": announcements[annKey].campaigns[camKey].ends });
+                campaignsEnded.push({ "annKey": annKey, "camKey": camKey, "starts": announcements[annKey].campaigns[camKey].starts, "ends": announcements[annKey].campaigns[camKey].ends, "done": announcements[annKey].campaigns[camKey].done });
             }
             else if (new Date(announcements[annKey].campaigns[camKey].starts) < dateNow) {
-                campaignsActive.push({ "annKey": annKey, "camKey": camKey, "starts": announcements[annKey].campaigns[camKey].starts, "ends": announcements[annKey].campaigns[camKey].ends });
+                campaignsActive.push({ "annKey": annKey, "camKey": camKey, "starts": announcements[annKey].campaigns[camKey].starts, "ends": announcements[annKey].campaigns[camKey].ends, "done": announcements[annKey].campaigns[camKey].done });
             }
             else {
-                campaignsUpcoming.push({ "annKey": annKey, "camKey": camKey, "starts": announcements[annKey].campaigns[camKey].starts, "ends": announcements[annKey].campaigns[camKey].ends });
+                campaignsUpcoming.push({ "annKey": annKey, "camKey": camKey, "starts": announcements[annKey].campaigns[camKey].starts, "ends": announcements[annKey].campaigns[camKey].ends, "done": announcements[annKey].campaigns[camKey].done });
             }
         }
     }
 
     // Sort the sorting arrays
-    campaignsEnded.sort(function (a, b) { return Date.parse(b.ends) - Date.parse(a.ends) || Date.parse(b.starts) - Date.parse(a.starts); });
-    campaignsActive.sort(function (a, b) { return Date.parse(a.ends) - Date.parse(b.ends) || Date.parse(a.starts) - Date.parse(b.starts); });
-    campaignsUpcoming.sort(function (a, b) { return Date.parse(a.starts) - Date.parse(b.starts); });
+    campaignsEnded.sort(function (a, b) { return (a.done ? 1 : 0) - (b.done ? 1 : 0) || Date.parse(b.ends) - Date.parse(a.ends) || Date.parse(b.starts) - Date.parse(a.starts); });
+    campaignsActive.sort(function (a, b) { return (a.done ? 1 : 0) - (b.done ? 1 : 0) || Date.parse(a.ends) - Date.parse(b.ends) || Date.parse(a.starts) - Date.parse(b.starts); });
+    campaignsUpcoming.sort(function (a, b) { return (a.done ? 1 : 0) - (b.done ? 1 : 0) || Date.parse(a.starts) - Date.parse(b.starts); });
 
     // Convert sorted campaign arrays into table rows
     document.getElementById("tbodyEnded").innerHTML = campaignParse(announcements, campaignsEnded);
@@ -124,7 +125,7 @@ function campaignParse(announcements, campaignList) {
     for (var listNr = 0; listNr < campaignList.length; listNr++) {
         let annSel = announcements[campaignList[listNr].annKey];
         let camSel = announcements[campaignList[listNr].annKey].campaigns[campaignList[listNr].camKey];
-        tableText += '<tr class="mg-simple-row" data-bs-toggle="collapse" data-bs-target="#' + detailName + listNr + '" aria-expanded="false" aria-controls="' + detailName + listNr + '">';
+        tableText += '<tr class="mg-simple-row ' + (camSel.done == true ? "text-muted" : "") + '" data-bs-toggle="collapse" data-bs-target="#' + detailName + listNr + '" aria-expanded="false" aria-controls="' + detailName + listNr + '">';
         tableText += '<td class="d-none d-lg-table-cell"><a href="' + annSel.url + '">' + annSel.name + '</a></td>';
 
         // Campaign - Include URL from Announcement below Large
@@ -137,11 +138,12 @@ function campaignParse(announcements, campaignList) {
         tableText += '<td class="text-nowrap d-none d-sm-table-cell">' + rewardParse(camSel.rewards, 3) + '</td>';
         tableText += '<td class="text-nowrap d-none d-xl-table-cell">' + dateParse(camSel.distribution, true) + '</td>';
         tableText += '<td class="d-none d-xxl-table-cell">' + camSel.delivery + '</td>';
+        tableText += '<td>' + '<input class="form-check-input" type="checkbox" onchange="clickDone(' + campaignList[listNr].annKey + ',' + campaignList[listNr].camKey + ',this.checked);" ' + (camSel.done == true ? 'checked' : '') + '></input>' + '</td>';
         tableText += '</tr>';
 
         // Detail view
         tableText += '<tr class="collapse" id="' + detailName + listNr + '">';
-        tableText += '<td colspan="8">';
+        tableText += '<td colspan="9">';
         tableText += '<div class="collapse" id="' + detailName + listNr + '">';
         tableText += '<div class="p-1"><u>' + camSel.name + '</u></div>';
         tableText += '<div class="p-1 d-inline d-md-none"><b>Starts:</b> ' + dateParse(camSel.starts, false) + '<br><b>Ends:</b> ' + dateParse(camSel.ends, false) + '</div>';
@@ -156,6 +158,22 @@ function campaignParse(announcements, campaignList) {
         tableText += '</tr>';
     }
     return tableText;
+}
+
+function clickDone(annKey, camKey, checked) {
+    console.log("Checkbox clicked!");
+    console.log("this.checked resolves to: " + checked);
+
+    // Load localStorage
+    let campaigns = JSON.parse(localStorage.getItem("campaigns"));
+
+    // Change data
+    campaigns.announcements[annKey].campaigns[camKey].done = checked;
+
+    // Save localStorage data
+    localStorage.setItem("campaigns", JSON.stringify(campaigns));
+
+    renewDisplay();
 }
 
 function dateParse(string, lineBreak) {

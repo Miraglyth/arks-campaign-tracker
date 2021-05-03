@@ -32,3 +32,12 @@ ul {
     background-color: rgb(230, 230, 231);
     transition: 0.1s ease-in-out;
 }
+
+input[type='checkbox'] {
+    width: 2em;
+    height: 2em;
+}
+
+input[type='checkbox']:checked {
+    background-color: rgb(17, 75, 211);
+}
