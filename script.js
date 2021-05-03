@@ -24,77 +24,131 @@ function initialise() {
 }
 
 function refreshAll() {
+    checkLatestCampaigns();
     refreshTime();
-    refreshCampaigns();
 };
 
 function refreshTime() {
     document.getElementById("timeDisplay").innerHTML = "The time in UTC is: " + new Date(Date.now()).toUTCString();
 }
 
-function refreshCampaigns() {
+function checkLatestCampaigns() {
 
-    $.getJSON("campaigns.json", {}, function (data) {
+    // Temp to expedite checking
+    localStorage.clear();
 
-        // Campaign arrays
-        var campaignsEnded = [];
-        var campaignsActive = [];
-        var campaignsUpcoming = [];
-
-        // Place into respective campaign arrays
-        $.each(data.campaigns, function ({ }, value) {
-            var dateNow = new Date(Date.now());
-            if (new Date(value.timeEnd) < dateNow) {
-                campaignsEnded.push(value);
-            }
-            else if (new Date(value.timeStart) < dateNow) {
-                campaignsActive.push(value);
-            }
-            else {
-                campaignsUpcoming.push(value);
-            }
-        });
-
-        // Sort campaign arrays depending on type
-        campaignsEnded.sort(function (a, b) { return Date.parse(b.timeEnd) - Date.parse(a.timeEnd) || Date.parse(b.timeStart) - Date.parse(a.timeStart); });
-        campaignsActive.sort(function (a, b) { return Date.parse(a.timeEnd) - Date.parse(b.timeEnd) || Date.parse(a.timeStart) - Date.parse(b.timeStart); });
-        campaignsUpcoming.sort(function (a, b) { return Date.parse(a.timeStart) - Date.parse(b.timeStart); });
-
-        // Convert sorted campaign arrays into table rows
-        document.getElementById("tbodyEnded").innerHTML = campaignParse(campaignsEnded, "ended");
-        document.getElementById("tbodyActive").innerHTML = campaignParse(campaignsActive, "active");
-        document.getElementById("tbodyUpcoming").innerHTML = campaignParse(campaignsUpcoming, "upcoming");
+    $.getJSON("data/latest-update.json", {}, function (data) {
+        if (localStorage.getItem("latestUpdate") == data.latestUpdate) {
+            console.log("Local campaign data already up to date.");
+            renewDisplay();
+        }
+        else {
+            console.log("Local campaign data nonexistent or missing.");
+            getLatestCampaigns(data.latestUpdate);
+        }
     });
 }
 
-function campaignParse(array, type) {
+function getLatestCampaigns(latestUpdate) {
+    console.log("Loading updated campaign data.");
+    $.getJSON("data/campaigns.json", {}, function (data) {
+        // Combine data with load of localStorage campaigns if it exists to create a single object with everything
+        let savedData = JSON.parse(localStorage.getItem("campaigns"));
+        if (savedData != null) {
+            for (let annKey in savedData.announcements) {
+                for (let camKey in savedData.announcements[annKey].campaigns) {
+                    data.announcements[annKey].campaigns[camKey].done = savedData.announcements[annKey].campaigns[camKey].done;
+                    data.announcements[annKey].campaigns[camKey].name = 'LOLOL';
+                }
+            }
+        }
+
+        // Save new state of campaign data
+        localStorage.setItem("campaigns", JSON.stringify(data));
+
+        // Save last update
+        localStorage.setItem("latestUpdate", latestUpdate);
+
+        // Recalculate page
+        renewDisplay();
+
+        console.log("Loaded updated campaign data.");
+    });
+}
+
+function renewDisplay() {
+    console.log("Renewing display.");
+
+    // Load localStorage
+    let announcements = JSON.parse(localStorage.getItem("campaigns")).announcements;
+
+    // Current time
+    let dateNow = new Date(Date.now());
+
+    // Sorting arrays
+    let campaignsEnded = [];
+    let campaignsActive = [];
+    let campaignsUpcoming = [];
+
+    // Assign campaigns to sorting arrays
+    for (let annKey in announcements) {
+        for (let camKey in announcements[annKey].campaigns) {
+            if (new Date(announcements[annKey].campaigns[camKey].ends) < dateNow) {
+                campaignsEnded.push({ "annKey": annKey, "camKey": camKey, "starts": announcements[annKey].campaigns[camKey].starts, "ends": announcements[annKey].campaigns[camKey].ends });
+            }
+            else if (new Date(announcements[annKey].campaigns[camKey].starts) < dateNow) {
+                campaignsActive.push({ "annKey": annKey, "camKey": camKey, "starts": announcements[annKey].campaigns[camKey].starts, "ends": announcements[annKey].campaigns[camKey].ends });
+            }
+            else {
+                campaignsUpcoming.push({ "annKey": annKey, "camKey": camKey, "starts": announcements[annKey].campaigns[camKey].starts, "ends": announcements[annKey].campaigns[camKey].ends });
+            }
+        }
+    }
+
+    // Sort the sorting arrays
+    campaignsEnded.sort(function (a, b) { return Date.parse(b.ends) - Date.parse(a.ends) || Date.parse(b.starts) - Date.parse(a.starts); });
+    campaignsActive.sort(function (a, b) { return Date.parse(a.ends) - Date.parse(b.ends) || Date.parse(a.starts) - Date.parse(b.starts); });
+    campaignsUpcoming.sort(function (a, b) { return Date.parse(a.starts) - Date.parse(b.starts); });
+
+    // Convert sorted campaign arrays into table rows
+    document.getElementById("tbodyEnded").innerHTML = campaignParse(announcements, campaignsEnded);
+    document.getElementById("tbodyActive").innerHTML = campaignParse(announcements, campaignsActive);
+    document.getElementById("tbodyUpcoming").innerHTML = campaignParse(announcements, campaignsUpcoming);
+
+    console.log("Renewed display.");
+}
+
+function campaignParse(announcements, campaignList) {
+    let detailName = Object.keys({ campaignList })[0];
     let tableText = '';
-    for (i = 0; i < array.length; i++) {
-        tableText += '<tr class="mg-simple-row" data-bs-toggle="collapse" data-bs-target="#' + type + 'Detail' + i + '" aria-expanded="false" aria-controls="' + type + 'Detail' + i + '">';
-        tableText += '<td class="d-none d-lg-table-cell"><a href="' + array[i].announcementURL + '">' + array[i].announcementName + '</a></td>';
+    for (var listNr = 0; listNr < campaignList.length; listNr++) {
+        let annSel = announcements[campaignList[listNr].annKey];
+        let camSel = announcements[campaignList[listNr].annKey].campaigns[campaignList[listNr].camKey];
+        tableText += '<tr class="mg-simple-row" data-bs-toggle="collapse" data-bs-target="#' + detailName + listNr + '" aria-expanded="false" aria-controls="' + detailName + listNr + '">';
+        tableText += '<td class="d-none d-lg-table-cell"><a href="' + annSel.url + '">' + annSel.name + '</a></td>';
 
         // Campaign - Include URL from Announcement below Large
-        tableText += '<td class="d-table-cell d-lg-none"><a href="' + array[i].announcementURL + '">' + (array[i].campaignNameShort ?? array[i].campaignName) + '</a></td>';
-        tableText += '<td class="d-none d-lg-table-cell">' + (array[i].campaignNameShort ?? array[i].campaignName) + '</td>';
+        tableText += '<td class="d-table-cell d-lg-none"><a href="' + annSel.url + '">' + (camSel.nameShort ?? camSel.name) + '</a></td>';
+        tableText += '<td class="d-none d-lg-table-cell">' + (camSel.nameShort ?? camSel.name) + '</td>';
 
-        tableText += '<td class="text-nowrap d-none d-md-table-cell">' + dateParse(array[i].timeStart, true) + '</td>';
-        tableText += '<td class="text-nowrap">' + dateParse(array[i].timeEnd, true) + '</td>';
-        tableText += '<td>' + array[i].activityShort + '</td>';
-        tableText += '<td class="text-nowrap d-none d-sm-table-cell">' + rewardParse(array[i].rewards, 3) + '</td>';
-        tableText += '<td class="text-nowrap d-none d-xl-table-cell">' + dateParse(array[i].timeReward, true) + '</td>';
-        tableText += '<td class="d-none d-xxl-table-cell">' + array[i].distribution + '</td>';
+        tableText += '<td class="text-nowrap d-none d-md-table-cell">' + dateParse(camSel.starts, true) + '</td>';
+        tableText += '<td class="text-nowrap">' + dateParse(camSel.ends, true) + '</td>';
+        tableText += '<td>' + camSel.activityShort + '</td>';
+        tableText += '<td class="text-nowrap d-none d-sm-table-cell">' + rewardParse(camSel.rewards, 3) + '</td>';
+        tableText += '<td class="text-nowrap d-none d-xl-table-cell">' + dateParse(camSel.distribution, true) + '</td>';
+        tableText += '<td class="d-none d-xxl-table-cell">' + camSel.delivery + '</td>';
         tableText += '</tr>';
 
         // Detail view
-        tableText += '<tr class="collapse" id="' + type + 'Detail' + i + '">';
+        tableText += '<tr class="collapse" id="' + detailName + listNr + '">';
         tableText += '<td colspan="8">';
-        tableText += '<div class="collapse" id="' + type + 'Detail' + i + '">';
-        tableText += '<div class="p-1"><u>' + array[i].campaignName + '</u></div>';
-        tableText += '<div class="p-1 d-inline d-md-none"><b>Starts:</b> ' + dateParse(array[i].timeStart, false) + '<br><b>Ends:</b> ' + dateParse(array[i].timeEnd, false) + '</div>';
+        tableText += '<div class="collapse" id="' + detailName + listNr + '">';
+        tableText += '<div class="p-1"><u>' + camSel.name + '</u></div>';
+        tableText += '<div class="p-1 d-inline d-md-none"><b>Starts:</b> ' + dateParse(camSel.starts, false) + '<br><b>Ends:</b> ' + dateParse(camSel.ends, false) + '</div>';
         tableText += '<div class="p-1"><table class="table table-bordered table-hover table-sm align-middle m-auto w-auto">';
         tableText += '<thead class="bg-dark bg-gradient text-white"><tr><th>Requirement</th><th>Rewards</th></tr></thead><tbody>';
-        for (activity = 0; activity < array[i].activityFull.length; activity++) {
-            tableText += '<tr><td>' + array[i].activityFull[activity] + '</td><td class="text-nowrap">' + rewardParse(array[i].rewards[activity], 10) + '</td></tr>';
+        for (activity = 0; activity < camSel.activityFull.length; activity++) {
+            tableText += '<tr><td>' + camSel.activityFull[activity] + '</td><td class="text-nowrap">' + rewardParse(camSel.rewards[activity], 10) + '</td></tr>';
         }
         tableText += '</tbody></table></div>';
         tableText += '</div>';
