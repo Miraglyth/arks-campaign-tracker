@@ -160,22 +160,6 @@ function campaignParse(announcements, campaignList) {
     return tableText;
 }
 
-function clickDone(annKey, camKey, checked) {
-    console.log("Checkbox clicked!");
-    console.log("this.checked resolves to: " + checked);
-
-    // Load localStorage
-    let campaigns = JSON.parse(localStorage.getItem("campaigns"));
-
-    // Change data
-    campaigns.announcements[annKey].campaigns[camKey].done = checked;
-
-    // Save localStorage data
-    localStorage.setItem("campaigns", JSON.stringify(campaigns));
-
-    renewDisplay();
-}
-
 function dateParse(string, lineBreak) {
     parsedDate = new Date(string);
     let conditionalLineBreak = (lineBreak == true ? '<br>' : ' ');
@@ -212,6 +196,22 @@ function rewardParse(rewardArray, listMax) {
     }
 
     return returnText;
+}
+
+function clickDone(annKey, camKey, checked) {
+    console.log("Checkbox clicked!");
+    console.log("this.checked resolves to: " + checked);
+
+    // Load localStorage
+    let campaigns = JSON.parse(localStorage.getItem("campaigns"));
+
+    // Change data
+    campaigns.announcements[annKey].campaigns[camKey].done = checked;
+
+    // Save localStorage data
+    localStorage.setItem("campaigns", JSON.stringify(campaigns));
+
+    renewDisplay();
 }
 
 function openTable(evt, tableName) {
