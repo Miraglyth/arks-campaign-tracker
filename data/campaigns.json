@@ -3,6 +3,7 @@
         {
             "date": 20210316,
             "name": "New Campaigns: March 2021 - Part 2",
+            "nameShort": "March 2021 Part 2",
             "url": "https://pso2.com/news/announcements/campaignsmar2020p2",
             "campaigns": [
                 {
@@ -27,6 +28,7 @@
         {
             "date": 20210330,
             "name": "Oracle Fleet Egg-stravaganza!",
+            "nameShort": "Egg-stravaganza",
             "url": "https://pso2.com/news/announcements/easter2021",
             "campaigns": [
                 {
@@ -71,10 +73,12 @@
         {
             "date": 20210406,
             "name": "AC & FUN Scratch Tickets: Lethal Designs",
+            "nameShort": "Scratch: Lethal Designs",
             "url": "https://pso2.com/news/scratch-tickets/lethaldesigns",
             "campaigns": [
                 {
                     "name": "AC Scratch Ticket: Lethal Designs",
+                    "nameShort": "AC Scratch: Lethal Designs",
                     "starts": "2021-04-07T07:00:00Z",
                     "ends": "2021-05-05T06:00:00Z",
                     "distribution": "Immediate",
@@ -94,10 +98,12 @@
         {
             "date": 20210413,
             "name": "AC & FUN Scratch Tickets: Irregular April",
+            "nameShort": "Scratch: Irregular April",
             "url": "https://pso2.com/news/scratch-tickets/irregularapril",
             "campaigns": [
                 {
                     "name": "AC Scratch Ticket: Irregular April",
+                    "nameShort": "AC Scratch: Irregular April",
                     "starts": "2021-04-14T07:00:00Z",
                     "ends": "2021-05-12T06:00:00Z",
                     "distribution": "Immediate",
@@ -338,6 +344,7 @@
         {
             "date": 20210421,
             "name": "Survey: Select Outfits and Parts will be remade in PSO2:NGS!",
+            "nameShort": "NGS Outfit Survey",
             "url": "https://pso2.com/news/announcements/outfitsurvey",
             "campaigns": [
                 {
@@ -474,10 +481,12 @@
         {
             "date": 20210427,
             "name": "AC & FUN Scratch Tickets: Lethal Designs II",
+            "nameShort": "Scratch: Lethal Designs II",
             "url": "https://pso2.com/news/scratch-tickets/lethaldesigns2",
             "campaigns": [
                 {
                     "name": "FUN Scratch Ticket: April 2021 Part 4",
+                    "nameShort": "FUN Scratch: April 2021 Part 4",
                     "starts": "2021-04-28T07:00:00Z",
                     "ends": "2021-05-05T06:00:00Z",
                     "distribution": "Immediate",
@@ -549,6 +558,7 @@
         {
             "date": 20210412,
             "name": "Fresh Finds Shop: Recommended Items (4/13)",
+            "nameShort": "Fresh Finds: 13 Apr",
             "url": "https://pso2.com/news/announcements/freshfindsshop0413",
             "campaigns": [
                 {
@@ -572,10 +582,12 @@
         {
             "date": 20210504,
             "name": "AC & FUN Scratch Tickets: Sega Legacy II",
+            "nameShort": "Scratch: Sega Legacy II",
             "url": "https://pso2.com/news/scratch-tickets/segalegacyII",
             "campaigns": [
                 {
                     "name": "FUN Scratch Ticket: May 2021 Part 1",
+                    "nameShort": "FUN Scratch: May 2021 Part 1",
                     "starts": "2021-05-05T07:00:00Z",
                     "ends": "2021-05-12T06:00:00Z",
                     "distribution": "Immediate",

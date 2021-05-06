@@ -2,10 +2,9 @@
 Dummy repo to test out and sandbox github pages
 
 ## Style notes
-- For campaigns: nameShort is optional and not needed at all if name is already short
+- For announcements and campaigns: nameShort is optional and not needed at all if name is already short
 
 ### To-do
-- Add nameShort to announcements too
 - Limit detail view to one expanded row at a time
 - Top menu options: Instant update (enabled by default), hide done campaigns (disabled by default)
 - Improve look of tabs and prevent from leaving top of screen when scrolling, maybe improve navbar in the process

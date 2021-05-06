@@ -126,7 +126,7 @@ function campaignParse(announcements, campaignList) {
         let annSel = announcements[campaignList[listNr].annKey];
         let camSel = announcements[campaignList[listNr].annKey].campaigns[campaignList[listNr].camKey];
         tableText += '<tr class="mg-simple-row ' + (camSel.done == true ? "text-muted" : "") + '" data-bs-toggle="collapse" data-bs-target="#' + detailName + listNr + '" aria-expanded="false" aria-controls="' + detailName + listNr + '">';
-        tableText += '<td class="d-none d-lg-table-cell"><a href="' + annSel.url + '">' + annSel.name + '</a></td>';
+        tableText += '<td class="d-none d-lg-table-cell"><a href="' + annSel.url + '">' + (annSel.nameShort ?? annSel.name) + '</a></td>';
 
         // Campaign - Include URL from Announcement below Large
         tableText += '<td class="d-table-cell d-lg-none"><a href="' + annSel.url + '">' + (camSel.nameShort ?? camSel.name) + '</a></td>';
@@ -145,7 +145,8 @@ function campaignParse(announcements, campaignList) {
         tableText += '<tr class="collapse" id="' + detailName + listNr + '">';
         tableText += '<td colspan="9">';
         tableText += '<div class="collapse" id="' + detailName + listNr + '">';
-        tableText += '<div class="py-1"><u>' + camSel.name + '</u></div>';
+        tableText += '<div class="pt-1"><u>' + annSel.name + '</u></div>';
+        tableText += '<div class="pb-1">' + camSel.name + '</div>';
         tableText += '<div class="py-1 d-inline d-md-none"><b>Starts:</b> ' + dateParse(camSel.starts, false) + '<br><b>Ends:</b> ' + dateParse(camSel.ends, false) + '</div>';
         tableText += '<div class="py-1"><table class="table table-bordered table-hover table-sm align-middle m-auto w-auto">';
         tableText += '<thead class="bg-dark bg-gradient text-white"><tr><th>Requirement</th><th>Rewards</th></tr></thead><tbody>';
