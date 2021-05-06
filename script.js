@@ -2,10 +2,6 @@ $(document).ready(function () {
     initialise();
 });
 
-document.getElementById("refreshbutton").addEventListener("click", function () {
-    refreshTime();
-});
-
 function initialise() {
     // Force getJSON requests to application/json type
     $.ajaxSetup({
@@ -18,24 +14,16 @@ function initialise() {
 
     // Refresh on page load
     refreshAll();
-
-    // Show Active campaigns by default
-    document.getElementById("defaultOpen").click();
 }
 
 function refreshAll() {
     checkLatestCampaigns();
-    refreshTime();
 };
-
-function refreshTime() {
-    document.getElementById("timeDisplay").innerHTML = "The time in UTC is: " + new Date(Date.now()).toUTCString();
-}
 
 function checkLatestCampaigns() {
 
     // Temp to expedite checking
-    localStorage.clear();
+    // localStorage.clear();
 
     $.getJSON("data/latest-update.json", {}, function (data) {
         if (localStorage.getItem("latestUpdate") == data.latestUpdate) {
@@ -58,8 +46,6 @@ function getLatestCampaigns(latestUpdate) {
             for (let annKey in savedData.announcements) {
                 for (let camKey in savedData.announcements[annKey].campaigns) {
                     data.announcements[annKey].campaigns[camKey].done = savedData.announcements[annKey].campaigns[camKey].done;
-                    // data.announcements[annKey].campaigns[camKey].name = 'LOLOL';
-                    // data.announcements[annKey].campaigns[camKey].nameShort = 'LOL';
                 }
             }
         }
@@ -214,9 +200,9 @@ function clickDone(annKey, camKey, checked) {
     renewDisplay();
 }
 
-function openTable(evt, tableName) {
+function openTable(tableName) {
     // Declare all variables
-    let i, tabcontent, tablinks;
+    let i, tabcontent;
 
     // Get all elements with class="tabcontent" and hide them
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -224,13 +210,6 @@ function openTable(evt, tableName) {
         tabcontent[i].style.display = "none";
     }
 
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(tableName).style.display = "table-row-group";
-    evt.currentTarget.className += " active";
 }

@@ -14,6 +14,14 @@
     background-color: rgb(96, 96, 96) !important;
 }
 
+.nav-link {
+    background-color: rgba(17, 75, 211, 0.5) !important;
+}
+
+.active {
+    background-color: rgb(17, 75, 211) !important;
+}
+
 a {
     text-decoration: none;
 }

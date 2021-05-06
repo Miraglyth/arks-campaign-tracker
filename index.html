@@ -29,13 +29,15 @@
     </header>
 
     <div class="container-xxl">
-        <p class="text-light"><span id="timeDisplay">Loading...</span></p>
-        <p><button type="button" class="button" id="refreshbutton">Refresh</button></p>
-        <div class="tab">
-            <button class="tablinks" onclick="openTable(event, 'tbodyEnded')">Ended</button>
-            <button class="tablinks" onclick="openTable(event, 'tbodyActive')" id="defaultOpen">Active</button>
-            <button class="tablinks" onclick="openTable(event, 'tbodyUpcoming')">Upcoming</button>
+
+        <div class="bg-light p-2 mb-2">
+            <div class="nav nav-pills nav-fill col-sm-10 col-md-8 col-lg-6 m-auto gap-2" id="nav-pills-tab" role="tablist">
+                <button class="nav-link bg-gradient" id="nav-pills-ended-tab" data-bs-toggle="pill" data-bs-target="#nav-pills-ended" type="button" role="tab" aria-controls="nav-pills-ended" aria-selected="true" onclick="openTable('tbodyEnded')">Ended</button>
+                <button class="nav-link bg-gradient active" id="nav-pills-active-tab" data-bs-toggle="pill" data-bs-target="#nav-pills-active" type="button" role="tab" aria-controls="nav-pills-active" aria-selected="false" onclick="openTable('tbodyActive')">Active</button>
+                <button class="nav-link bg-gradient" id="nav-pills-upcoming-tab" data-bs-toggle="pill" data-bs-target="#nav-pills-upcoming" type="button" role="tab" aria-controls="nav-pills-upcoming" aria-selected="false" onclick="openTable('tbodyUpcoming')">Upcoming</button>
+            </div>
         </div>
+
         <div>
             <table class="table table-bordered table-sm bg-light text-center align-middle" style="user-select: none;">
                 <thead class="bg-primary bg-gradient text-white">
@@ -51,9 +53,9 @@
                         <th>Done</th>
                     </tr>
                 </thead>
-                <tbody id="tbodyEnded" class="tabcontent"></tbody>
-                <tbody id="tbodyActive" class="tabcontent"></tbody>
-                <tbody id="tbodyUpcoming" class="tabcontent"></tbody>
+                <tbody id="tbodyEnded" class="tabcontent" style="display: none;"></tbody>
+                <tbody id="tbodyActive" class="tabcontent" style="display: table-row-group;"></tbody>
+                <tbody id="tbodyUpcoming" class="tabcontent" style="display: none;"></tbody>
             </table>
         </div>
     </div>
@@ -64,6 +66,7 @@
     <!-- Bootstrap JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 
+    <!-- Custom Script -->
     <script type="text/javascript" src="script.js"></script>
 
 </body>
