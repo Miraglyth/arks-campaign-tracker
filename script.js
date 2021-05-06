@@ -31,7 +31,7 @@ function checkLatestCampaigns() {
             renewDisplay();
         }
         else {
-            console.log("Local campaign data nonexistent or missing.");
+            console.log("Local campaign data nonexistent or outdated.");
             getLatestCampaigns(data.latestUpdate);
         }
     });
@@ -39,19 +39,33 @@ function checkLatestCampaigns() {
 
 function getLatestCampaigns(latestUpdate) {
     console.log("Loading updated campaign data.");
-    $.getJSON("data/campaigns.json", {}, function (data) {
-        // Combine data with load of localStorage campaigns if it exists to create a single object with everything - Presumes all campaigns exist in new data!
+    $.getJSON("data/campaigns.json", {}, function (newData) {
+        // Load saved data
         let savedData = JSON.parse(localStorage.getItem("campaigns"));
+
+        // Update new data with done flags of saved data
         if (savedData != null) {
-            for (let annKey in savedData.announcements) {
-                for (let camKey in savedData.announcements[annKey].campaigns) {
-                    data.announcements[annKey].campaigns[camKey].done = savedData.announcements[annKey].campaigns[camKey].done;
+            for (let annKeyN in newData.announcements) {
+                let annKeyS = savedData.announcements.findIndex(x =>
+                    x.date === newData.announcements[annKeyN].date && x.name === newData.announcements[annKeyN].name
+                );
+                if (annKeyS != -1) {
+                    for (let camKeyN in newData.announcements[annKeyN].campaigns) {
+                        let camKeyS = savedData.announcements[annKeyS].campaigns.findIndex(x =>
+                            x.name === newData.announcements[annKeyN].campaigns[camKeyN].name &&
+                            x.starts === newData.announcements[annKeyN].campaigns[camKeyN].starts &&
+                            x.ends === newData.announcements[annKeyN].campaigns[camKeyN].ends
+                        );
+                        if (camKeyS != -1) {
+                            newData.announcements[annKeyN].campaigns[camKeyN].done = savedData.announcements[annKeyS].campaigns[camKeyS].done;
+                        }
+                    }
                 }
             }
         }
 
         // Save new state of campaign data
-        localStorage.setItem("campaigns", JSON.stringify(data));
+        localStorage.setItem("campaigns", JSON.stringify(newData));
 
         // Save last update
         localStorage.setItem("latestUpdate", latestUpdate);
@@ -131,9 +145,9 @@ function campaignParse(announcements, campaignList) {
         tableText += '<tr class="collapse" id="' + detailName + listNr + '">';
         tableText += '<td colspan="9">';
         tableText += '<div class="collapse" id="' + detailName + listNr + '">';
-        tableText += '<div class="p-1"><u>' + camSel.name + '</u></div>';
-        tableText += '<div class="p-1 d-inline d-md-none"><b>Starts:</b> ' + dateParse(camSel.starts, false) + '<br><b>Ends:</b> ' + dateParse(camSel.ends, false) + '</div>';
-        tableText += '<div class="p-1"><table class="table table-bordered table-hover table-sm align-middle m-auto w-auto">';
+        tableText += '<div class="py-1"><u>' + camSel.name + '</u></div>';
+        tableText += '<div class="py-1 d-inline d-md-none"><b>Starts:</b> ' + dateParse(camSel.starts, false) + '<br><b>Ends:</b> ' + dateParse(camSel.ends, false) + '</div>';
+        tableText += '<div class="py-1"><table class="table table-bordered table-hover table-sm align-middle m-auto w-auto">';
         tableText += '<thead class="bg-dark bg-gradient text-white"><tr><th>Requirement</th><th>Rewards</th></tr></thead><tbody>';
         for (activity = 0; activity < camSel.activityFull.length; activity++) {
             tableText += '<tr><td>' + camSel.activityFull[activity] + '</td><td class="text-nowrap">' + rewardParse(camSel.rewards[activity], 10) + '</td></tr>';
@@ -185,9 +199,6 @@ function rewardParse(rewardArray, listMax) {
 }
 
 function clickDone(annKey, camKey, checked) {
-    console.log("Checkbox clicked!");
-    console.log("this.checked resolves to: " + checked);
-
     // Load localStorage
     let campaigns = JSON.parse(localStorage.getItem("campaigns"));
 
@@ -197,6 +208,7 @@ function clickDone(annKey, camKey, checked) {
     // Save localStorage data
     localStorage.setItem("campaigns", JSON.stringify(campaigns));
 
+    // Renew display
     renewDisplay();
 }
 

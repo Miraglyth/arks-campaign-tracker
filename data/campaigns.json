@@ -25,6 +25,50 @@
             ]
         },
         {
+            "date": 20210330,
+            "name": "Oracle Fleet Egg-stravaganza!",
+            "url": "https://pso2.com/news/announcements/easter2021",
+            "campaigns": [
+                {
+                    "name": "Phantasy Star Online 20th Anniversary Celebration!",
+                    "nameShort": "PSO 20th Anniversary",
+                    "starts": "2021-03-31T11:30:00Z",
+                    "ends": "2021-05-12T06:00:00Z",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Event NPCs",
+                    "activityFull": [
+                        "Client Orders from Ash, Kireek and Rico"
+                    ],
+                    "rewards": [
+                        [
+                            "Ash's Partner Card",
+                            "Kireek's Partner Card",
+                            "Rico's Partner Card",
+                            "* Soul Banish"
+                        ]
+                    ]
+                },
+                {
+                    "name": "New Limited Time Permanent Quest – Mop-Up Op: Endless Nightmare",
+                    "nameShort": "LQ: Endless Nightmare",
+                    "starts": "2021-03-31T11:30:00Z",
+                    "ends": "2021-05-12T06:00:00Z",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Event LQ",
+                    "activityFull": [
+                        "Limited Quest"
+                    ],
+                    "rewards": [
+                        [
+                            "Limited Quest drops"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
             "date": 20210406,
             "name": "AC & FUN Scratch Tickets: Lethal Designs",
             "url": "https://pso2.com/news/scratch-tickets/lethaldesigns",
@@ -33,6 +77,29 @@
                     "name": "AC Scratch Ticket: Lethal Designs",
                     "starts": "2021-04-07T07:00:00Z",
                     "ends": "2021-05-05T06:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "AC Scratch Ticket",
+                    "activityFull": [
+                        "AC Scratch Ticket"
+                    ],
+                    "rewards": [
+                        [
+                            "Scratch Ticket Prizes"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210413,
+            "name": "AC & FUN Scratch Tickets: Irregular April",
+            "url": "https://pso2.com/news/scratch-tickets/irregularapril",
+            "campaigns": [
+                {
+                    "name": "AC Scratch Ticket: Irregular April",
+                    "starts": "2021-04-14T07:00:00Z",
+                    "ends": "2021-05-12T06:00:00Z",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
                     "activityShort": "AC Scratch Ticket",
@@ -80,14 +147,90 @@
                             "Lillipan Slippers (x1)"
                         ]
                     ]
-                }
-            ]
-        },
-        {
-            "date": 20210419,
-            "name": "Arks Appreciation Event!",
-            "url": "https://pso2.com/news/announcements/arksappreciationevent0421",
-            "campaigns": [
+                },
+                {
+                    "name": "Log-in Rewards",
+                    "starts": "2021-04-21T08:00:00Z",
+                    "ends": "2021-05-12T06:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Visiphone",
+                    "activityShort": "Login",
+                    "activityFull": [
+                        "Login on 3 separate days",
+                        "Login on 5 separate days",
+                        "Login on 10 separate days"
+                    ],
+                    "rewards": [
+                        [
+                            "SG 50 Ticket (x1)"
+                        ],
+                        [
+                            "Carnation (x1)",
+                            "Rappy Suit Mini: Purple (x1)"
+                        ],
+                        [
+                            "283: Dance 41 (x1)",
+                            "Matoi Chain (x1)"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Super Boost Campaign!",
+                    "starts": "2021-04-21T20:00:00Z",
+                    "ends": "2021-05-12T06:00:00Z",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boosts",
+                    "activityFull": [
+                        "All Quests",
+                        "Additional for Bonus Quests"
+                    ],
+                    "rewards": [
+                        [
+                            "300% EXP Earned",
+                            "300% Rare Drop Rate"
+                        ],
+                        [
+                            "300% EXP Earned"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Complete Specified Quests",
+                    "starts": "2021-04-21T20:00:00Z",
+                    "ends": "2021-04-27T06:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Visiphone",
+                    "activityShort": "Complete Specified Quests",
+                    "activityFull": [
+                        "Complete any Urgent Quest 2 times",
+                        "Complete any Urgent Quest 4 times",
+                        "Complete any 3 Recommended Quests",
+                        "Complete The Face of the Abyss or T: The Face of the Abyss",
+                        "Complete Swirling Inferno on the ARKS Ship",
+                        "Complete Special Mission: Tokyo [Gold] twice"
+                    ],
+                    "rewards": [
+                        [
+                            "SG 50 Ticket (x1)"
+                        ],
+                        [
+                            "SG 100 Ticket (x1)"
+                        ],
+                        [
+                            "451: Elaborate Dance (x1)"
+                        ],
+                        [
+                            "376: Groovy (x1)"
+                        ],
+                        [
+                            "Rappy Slippers (x1)"
+                        ],
+                        [
+                            "Beanbag Lillipan (x1)"
+                        ]
+                    ]
+                },
                 {
                     "name": "Another One?",
                     "starts": "2021-04-28T10:30:00Z",
@@ -123,6 +266,94 @@
                         [
                             "* Skia Strain (x1)",
                             "591: EP Oracle Comms (x1)"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Go For a Triple!",
+                    "starts": "2021-05-05T20:00:00Z",
+                    "ends": "2021-05-12T06:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Visiphone",
+                    "activityShort": "Complete Specified Quests",
+                    "activityFull": [
+                        "Complete any Urgent Quest 2 times",
+                        "Complete any Urgent Quest 4 times",
+                        "Complete any 3 Recommended Quests",
+                        "Complete The Face of the Abyss or T: The Face of the Abyss",
+                        "Complete Swirling Inferno on the ARKS Ship",
+                        "Complete Special Mission: Tokyo [Gold] twice"
+                    ],
+                    "rewards": [
+                        [
+                            "SG 50 Ticket (x1)"
+                        ],
+                        [
+                            "SG 100 Ticket (x1)"
+                        ],
+                        [
+                            "182: Singer (x1)"
+                        ],
+                        [
+                            "477: Rainbow Drop Acquired! (x1)"
+                        ],
+                        [
+                            "Wide Metal Wings (x1)"
+                        ],
+                        [
+                            "* Heretic Morte (x1)",
+                            "310: Hagith Femt (x1)"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Complete Recommended Quests!",
+                    "starts": "2021-04-21T20:00:00Z",
+                    "ends": "2021-05-12T06:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Visiphone",
+                    "activityShort": "Complete Recommended Quests",
+                    "activityFull": [
+                        "Complete any 3 Recommended Quests",
+                        "Complete any 5 Recommended Quests",
+                        "Complete any 10 Recommended Quests"
+                    ],
+                    "rewards": [
+                        [
+                            "Tokyo Bonus Key: Gold (x5)",
+                            "Tokyo Bonus Key: Rainbow (x1)"
+                        ],
+                        [
+                            "Tokyo Bonus Key: Gold (x5)",
+                            "Tokyo Bonus Key: Rainbow (x2)"
+                        ],
+                        [
+                            "Triboost +150% (x5)",
+                            "Tokyo Bonus Key: Rainbow (x3)"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210421,
+            "name": "Survey: Select Outfits and Parts will be remade in PSO2:NGS!",
+            "url": "https://pso2.com/news/announcements/outfitsurvey",
+            "campaigns": [
+                {
+                    "name": "Survey: Select Outfits and Parts will be remade in PSO2:NGS!",
+                    "nameShort": "NGS Outfit Survey",
+                    "starts": "2021-04-22T00:00:00Z",
+                    "ends": "2021-05-12T06:00:00Z",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Survey",
+                    "activityFull": [
+                        "Survey"
+                    ],
+                    "rewards": [
+                        [
+                            "None"
                         ]
                     ]
                 }
@@ -242,7 +473,7 @@
         },
         {
             "date": 20210427,
-            "name": " AC & FUN Scratch Tickets: Lethal Designs II",
+            "name": "AC & FUN Scratch Tickets: Lethal Designs II",
             "url": "https://pso2.com/news/scratch-tickets/lethaldesigns2",
             "campaigns": [
                 {
@@ -310,6 +541,52 @@
                         ],
                         [
                             "Tokyo Bonus Key: Gold"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210412,
+            "name": "Fresh Finds Shop: Recommended Items (4/13)",
+            "url": "https://pso2.com/news/announcements/freshfindsshop0413",
+            "campaigns": [
+                {
+                    "name": "Recommended Items",
+                    "starts": "2021-04-14T05:00:00Z",
+                    "ends": "2021-05-12T05:59:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Fresh Finds Shop",
+                    "activityFull": [
+                        "Fresh Finds Shop"
+                    ],
+                    "rewards": [
+                        [
+                            "Fresh Finds Items"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210504,
+            "name": "AC & FUN Scratch Tickets: Sega Legacy II",
+            "url": "https://pso2.com/news/scratch-tickets/segalegacyII",
+            "campaigns": [
+                {
+                    "name": "FUN Scratch Ticket: May 2021 Part 1",
+                    "starts": "2021-05-05T07:00:00Z",
+                    "ends": "2021-05-12T06:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "FUN Scratch Ticket",
+                    "activityFull": [
+                        "FUN Scratch Ticket"
+                    ],
+                    "rewards": [
+                        [
+                            "Scratch Ticket Prizes"
                         ]
                     ]
                 }
