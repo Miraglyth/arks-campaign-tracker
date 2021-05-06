@@ -17,26 +17,26 @@
 
 </head>
 
-<body class="bg-secondary" style="padding-top: 56px;">
+<body class="bg-secondary">
 
-    <header>
-        <nav class="navbar fixed-top bg-primary bg-gradient text-light">
+    <header class="sticky-top">
+        <nav class="navbar bg-primary bg-gradient text-light">
             <div class="container-xxl">
                 <a class="navbar-brand text-light disabled" href="#">PSO2 NGS Campaign Tracker WIP</a>
                 <a class="nav-link text-light" href="about.html">About</a>
             </div>
         </nav>
-    </header>
 
-    <div class="container-xxl">
-
-        <div class="bg-light p-2 mb-2">
+        <div class="container-xxl bg-light p-2 mb-2">
             <div class="nav nav-pills nav-fill col-sm-10 col-md-8 col-lg-6 m-auto gap-2" id="nav-pills-tab" role="tablist">
                 <button class="nav-link bg-gradient" id="nav-pills-ended-tab" data-bs-toggle="pill" data-bs-target="#nav-pills-ended" type="button" role="tab" aria-controls="nav-pills-ended" aria-selected="true" onclick="openTable('tbodyEnded')">Ended</button>
                 <button class="nav-link bg-gradient active" id="nav-pills-active-tab" data-bs-toggle="pill" data-bs-target="#nav-pills-active" type="button" role="tab" aria-controls="nav-pills-active" aria-selected="false" onclick="openTable('tbodyActive')">Active</button>
                 <button class="nav-link bg-gradient" id="nav-pills-upcoming-tab" data-bs-toggle="pill" data-bs-target="#nav-pills-upcoming" type="button" role="tab" aria-controls="nav-pills-upcoming" aria-selected="false" onclick="openTable('tbodyUpcoming')">Upcoming</button>
             </div>
         </div>
+    </header>
+
+    <div class="container-xxl p-0">
 
         <div>
             <table class="table table-bordered table-sm bg-light text-center align-middle" style="user-select: none;">
