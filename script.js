@@ -17,8 +17,24 @@ function initialise() {
 }
 
 function refreshAll() {
+    checkSettings();
     checkLatestCampaigns();
 };
+
+function checkSettings() {
+    // Load saved settings
+    let settings = JSON.parse(localStorage.getItem("settings"));
+
+    // Initialise saved settings if they don't exist
+    if (settings == null) {
+        console.log("No settings so initialising.");
+        settings = {};
+        settings.instantUpdate = true;
+        settings.hideDone = false;
+        localStorage.setItem("settings", JSON.stringify(settings));
+        console.log("Settings initialised.");
+    }
+}
 
 function checkLatestCampaigns() {
 
@@ -80,8 +96,9 @@ function getLatestCampaigns(latestUpdate) {
 function renewDisplay() {
     console.log("Renewing display.");
 
-    // Load localStorage
+    // Load saved campaigns and settings
     let announcements = JSON.parse(localStorage.getItem("campaigns")).announcements;
+    let settings = JSON.parse(localStorage.getItem("settings"));
 
     // Current time
     let dateNow = new Date(Date.now());
@@ -94,7 +111,10 @@ function renewDisplay() {
     // Assign campaigns to sorting arrays
     for (let annKey in announcements) {
         for (let camKey in announcements[annKey].campaigns) {
-            if (new Date(announcements[annKey].campaigns[camKey].ends) < dateNow) {
+            if (settings.hideDone == true && announcements[annKey].campaigns[camKey].done == true) {
+                // Do nothing! This hides campaigns if the setting to do so is enabled
+            }
+            else if (new Date(announcements[annKey].campaigns[camKey].ends) < dateNow) {
                 campaignsEnded.push({ "annKey": annKey, "camKey": camKey, "starts": announcements[annKey].campaigns[camKey].starts, "ends": announcements[annKey].campaigns[camKey].ends, "done": announcements[annKey].campaigns[camKey].done });
             }
             else if (new Date(announcements[annKey].campaigns[camKey].starts) < dateNow) {
@@ -138,7 +158,7 @@ function campaignParse(announcements, campaignList) {
         tableText += '<td class="text-nowrap d-none d-sm-table-cell">' + rewardParse(camSel.rewards, 3) + '</td>';
         tableText += '<td class="text-nowrap d-none d-xl-table-cell">' + dateParse(camSel.distribution, true) + '</td>';
         tableText += '<td class="d-none d-xxl-table-cell">' + camSel.delivery + '</td>';
-        tableText += '<td>' + '<input class="form-check-input" type="checkbox" onchange="clickDone(' + campaignList[listNr].annKey + ',' + campaignList[listNr].camKey + ',this.checked);" ' + (camSel.done == true ? 'checked' : '') + '></input>' + '</td>';
+        tableText += '<td>' + '<input class="form-check-input mg-big-box" type="checkbox" onchange="clickDone(' + campaignList[listNr].annKey + ',' + campaignList[listNr].camKey + ',this.checked);" ' + (camSel.done == true ? 'checked' : '') + '></input>' + '</td>';
         tableText += '</tr>';
 
         // Detail view
@@ -200,8 +220,9 @@ function rewardParse(rewardArray, listMax) {
 }
 
 function clickDone(annKey, camKey, checked) {
-    // Load localStorage
+    // Load campaigns and settings
     let campaigns = JSON.parse(localStorage.getItem("campaigns"));
+    let settings = JSON.parse(localStorage.getItem("settings"));
 
     // Change data
     campaigns.announcements[annKey].campaigns[camKey].done = checked;
@@ -209,8 +230,10 @@ function clickDone(annKey, camKey, checked) {
     // Save localStorage data
     localStorage.setItem("campaigns", JSON.stringify(campaigns));
 
-    // Renew display
-    renewDisplay();
+    // Renew display if the setting to do so is enabled
+    if (settings.instantUpdate == true) {
+        renewDisplay();
+    }
 }
 
 function openTable(tableName) {
@@ -225,4 +248,34 @@ function openTable(tableName) {
 
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(tableName).style.display = "table-row-group";
+}
+
+function changeSetting(event) {
+    let settingName = event.currentTarget.id;
+    let settingState = event.currentTarget.checked;
+    let callUpdate = false;
+    console.log("I clicked the change setting button! " + settingName + ' ' + settingState);
+
+    // Load saved settings
+    let settings = JSON.parse(localStorage.getItem("settings"));
+
+    // Update settings and initiate an update if appropriate
+    if (settingName == "switchInstantUpdate") {
+        settings.instantUpdate = settingState;
+        if (settingState == true) {
+            callUpdate = true;
+        }
+    }
+    else if (settingName == "switchHideDone") {
+        settings.hideDone = settingState;
+        callUpdate = true;
+    }
+
+    // Save new state of settings
+    localStorage.setItem("settings", JSON.stringify(settings));
+
+    // Call update if triggered
+    if (callUpdate == true) {
+        renewDisplay();
+    }
 }

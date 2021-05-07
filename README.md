@@ -5,8 +5,8 @@ Dummy repo to test out and sandbox github pages
 - For announcements and campaigns: nameShort is optional and not needed at all if name is already short
 
 ### To-do
+- Add settings (and script!) to About page
 - Limit detail view to one expanded row at a time
-- Top menu options: Instant update (enabled by default), hide done campaigns (disabled by default)
 - Include boosts in various views
 - A way of saying start/end of maintenance - I'm thinking a dot-line beneath the time with a tooltip like "Est. Maintenance"
 - Potential consolidation of duplicate rewards in the unexpanded row (would need quantities for each, could improve aesthetic if I do)

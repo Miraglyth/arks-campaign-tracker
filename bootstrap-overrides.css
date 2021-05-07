@@ -45,11 +45,11 @@ ul {
     transition: 0.1s ease-in-out;
 }
 
-input[type='checkbox'] {
+.mg-big-box {
     width: 2em;
     height: 2em;
 }
 
-input[type='checkbox']:checked {
+.mg-big-box:checked {
     background-color: rgb(17, 75, 211);
 }
