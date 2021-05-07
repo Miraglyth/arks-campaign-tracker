@@ -25,15 +25,23 @@ function checkSettings() {
     // Load saved settings
     let settings = JSON.parse(localStorage.getItem("settings"));
 
-    // Initialise saved settings if they don't exist
+    // Initialise settings if they don't exist
     if (settings == null) {
         console.log("No settings so initialising.");
+
         settings = {};
+
         settings.instantUpdate = true;
-        settings.hideDone = false;
+        settings.showDone = true;
+
         localStorage.setItem("settings", JSON.stringify(settings));
+
         console.log("Settings initialised.");
     }
+
+    // Apply settings to menu
+    document.getElementById("switchInstantUpdate").checked = settings.instantUpdate;
+    document.getElementById("switchShowDone").checked = settings.showDone;
 }
 
 function checkLatestCampaigns() {
@@ -111,8 +119,8 @@ function renewDisplay() {
     // Assign campaigns to sorting arrays
     for (let annKey in announcements) {
         for (let camKey in announcements[annKey].campaigns) {
-            if (settings.hideDone == true && announcements[annKey].campaigns[camKey].done == true) {
-                // Do nothing! This hides campaigns if the setting to do so is enabled
+            if (settings.showDone == false && announcements[annKey].campaigns[camKey].done == true) {
+                // Do nothing! This hides campaigns if the setting to show them is disabled
             }
             else if (new Date(announcements[annKey].campaigns[camKey].ends) < dateNow) {
                 campaignsEnded.push({ "annKey": annKey, "camKey": camKey, "starts": announcements[annKey].campaigns[camKey].starts, "ends": announcements[annKey].campaigns[camKey].ends, "done": announcements[annKey].campaigns[camKey].done });
@@ -266,8 +274,8 @@ function changeSetting(event) {
             callUpdate = true;
         }
     }
-    else if (settingName == "switchHideDone") {
-        settings.hideDone = settingState;
+    else if (settingName == "switchShowDone") {
+        settings.showDone = settingState;
         callUpdate = true;
     }
 
