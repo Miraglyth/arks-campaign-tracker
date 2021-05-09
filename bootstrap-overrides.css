@@ -45,6 +45,10 @@ ul {
     transition: 0.1s ease-in-out;
 }
 
+.mg-detail-row {
+    background: linear-gradient(90deg, rgb(230, 230, 231), rgb(248, 249, 250), rgb(248, 249, 250), rgb(230, 230, 231));
+}
+
 .mg-big-box {
     width: 2em;
     height: 2em;

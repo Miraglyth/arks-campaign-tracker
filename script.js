@@ -170,7 +170,7 @@ function campaignParse(announcements, campaignList) {
         tableText += '</tr>';
 
         // Detail view
-        tableText += '<tr class="collapse" id="' + detailName + listNr + '">';
+        tableText += '<tr class="mg-detail-row collapse" id="' + detailName + listNr + '">';
         tableText += '<td colspan="9">';
         tableText += '<div class="collapse" id="' + detailName + listNr + '">';
         tableText += '<div class="pt-1"><u>' + annSel.name + '</u></div>';
