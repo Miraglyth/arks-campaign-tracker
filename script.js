@@ -166,7 +166,7 @@ function campaignParse(announcements, campaignList, campaignListName) {
         tableText += '<td class="text-nowrap d-none d-sm-table-cell">' + rewardParse(camSel.rewards, 3) + '</td>';
         tableText += '<td class="text-nowrap d-none d-xl-table-cell">' + dateParse(camSel.distribution, true) + '</td>';
         tableText += '<td class="d-none d-xxl-table-cell">' + camSel.delivery + '</td>';
-        tableText += '<td>' + '<input class="form-check-input mg-big-box" type="checkbox" onchange="clickDone(' + campaignList[listNr].annKey + ',' + campaignList[listNr].camKey + ',this.checked);" ' + (camSel.done == true ? 'checked' : '') + '></input>' + '</td>';
+        tableText += '<td>' + '<input class="form-check-input mg-checkbox" type="checkbox" onchange="clickDone(' + campaignList[listNr].annKey + ',' + campaignList[listNr].camKey + ',this.checked);" ' + (camSel.done == true ? 'checked' : '') + '></input>' + '</td>';
         tableText += '</tr>';
 
         // Detail view
