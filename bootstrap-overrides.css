@@ -37,16 +37,23 @@ ul {
 }
 
 .collapsing {
-    transition: 0.1s !important;
+    transition: 0.25s !important;
 }
 
-.mg-simple-row:hover {
+.mg-simple-tr:hover {
     background-color: rgb(230, 230, 231);
-    transition: 0.1s ease-in-out;
 }
 
-.mg-detail-row {
+.mg-detail-tr {
     background: linear-gradient(90deg, rgb(230, 230, 231), rgb(248, 249, 250), rgb(248, 249, 250), rgb(230, 230, 231));
+}
+
+.mg-detail-td {
+    padding: 0rem !important;
+}
+
+.mg-detail-div {
+    padding: 0.25rem !important;
 }
 
 .mg-big-box {

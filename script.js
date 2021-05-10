@@ -140,20 +140,20 @@ function renewDisplay() {
     campaignsUpcoming.sort(function (a, b) { return (a.done ? 1 : 0) - (b.done ? 1 : 0) || Date.parse(a.starts) - Date.parse(b.starts); });
 
     // Convert sorted campaign arrays into table rows
-    document.getElementById("tbodyEnded").innerHTML = campaignParse(announcements, campaignsEnded);
-    document.getElementById("tbodyActive").innerHTML = campaignParse(announcements, campaignsActive);
-    document.getElementById("tbodyUpcoming").innerHTML = campaignParse(announcements, campaignsUpcoming);
+    document.getElementById("tbodyEnded").innerHTML = campaignParse(announcements, campaignsEnded, 'campaignsEnded');
+    document.getElementById("tbodyActive").innerHTML = campaignParse(announcements, campaignsActive, 'campaignsActive');
+    document.getElementById("tbodyUpcoming").innerHTML = campaignParse(announcements, campaignsUpcoming, 'campaignsUpcoming');
 
     console.log("Renewed display.");
 }
 
-function campaignParse(announcements, campaignList) {
-    let detailName = Object.keys({ campaignList })[0];
+function campaignParse(announcements, campaignList, campaignListName) {
+    let detailName = campaignListName;
     let tableText = '';
     for (var listNr = 0; listNr < campaignList.length; listNr++) {
         let annSel = announcements[campaignList[listNr].annKey];
         let camSel = announcements[campaignList[listNr].annKey].campaigns[campaignList[listNr].camKey];
-        tableText += '<tr class="mg-simple-row ' + (camSel.done == true ? "text-muted" : "") + '" data-bs-toggle="collapse" data-bs-target="#' + detailName + listNr + '" aria-expanded="false" aria-controls="' + detailName + listNr + '">';
+        tableText += '<tr class="mg-simple-tr ' + (camSel.done == true ? "text-muted" : "") + '" data-bs-toggle="collapse" data-bs-target="#' + detailName + listNr + 'tr, #' + detailName + listNr + 'div" aria-expanded="false" aria-controls="' + detailName + listNr + 'tr, ' + detailName + listNr + 'div">';
         tableText += '<td class="d-none d-lg-table-cell"><a href="' + annSel.url + '">' + (annSel.nameShort ?? annSel.name) + '</a></td>';
 
         // Campaign - Include URL from Announcement below Large
@@ -170,9 +170,10 @@ function campaignParse(announcements, campaignList) {
         tableText += '</tr>';
 
         // Detail view
-        tableText += '<tr class="mg-detail-row collapse" id="' + detailName + listNr + '">';
-        tableText += '<td colspan="9">';
-        tableText += '<div class="collapse" id="' + detailName + listNr + '">';
+        tableText += '<tr class="mg-detail-tr collapse" id="' + detailName + listNr + 'tr" data-bs-parent="#collapseParentDiv">';
+        tableText += '<td class="mg-detail-td" colspan="9">';
+        tableText += '<div class="collapse" id="' + detailName + listNr + 'div" data-bs-parent="#collapseParentTable">';
+        tableText += '<div class="mg-detail-div">';
         tableText += '<div class="pt-1"><u>' + annSel.name + '</u></div>';
         tableText += '<div class="pb-1">' + camSel.name + '</div>';
         tableText += '<div class="py-1 d-inline d-md-none"><b>Starts:</b> ' + dateParse(camSel.starts, false) + '<br><b>Ends:</b> ' + dateParse(camSel.ends, false) + '</div>';
@@ -182,6 +183,7 @@ function campaignParse(announcements, campaignList) {
             tableText += '<tr><td>' + camSel.activityFull[activity] + '</td><td class="text-nowrap">' + rewardParse(camSel.rewards[activity], 10) + '</td></tr>';
         }
         tableText += '</tbody></table></div>';
+        tableText += '</div>';
         tableText += '</div>';
         tableText += '</td>';
         tableText += '</tr>';
