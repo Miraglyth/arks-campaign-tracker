@@ -7,7 +7,6 @@ Dummy repo to test out and sandbox github pages
 ### To-do before beta
 - Add settings (and script!) to About page
 - Fix detail view expanding/collapsing when checking done with instant update off - Remove collapse action on columns with links and checkboxes
-- A way of saying start/end of maintenance - I'm thinking a dot-line beneath the time with a tooltip like "Est. Maintenance" - Tooltips are proving to be a pain
 
 ### To-do nice to have
 - Potential consolidation of duplicate rewards in the unexpanded row (would need quantities for each, could improve aesthetic if I do)

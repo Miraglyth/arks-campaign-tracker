@@ -144,6 +144,9 @@ function renewDisplay() {
     document.getElementById("tbodyActive").innerHTML = campaignParse(announcements, campaignsActive, 'campaignsActive');
     document.getElementById("tbodyUpcoming").innerHTML = campaignParse(announcements, campaignsUpcoming, 'campaignsUpcoming');
 
+    // Enable tooltips
+    enableTooltips();
+
     console.log("Renewed display.");
 }
 
@@ -153,6 +156,7 @@ function campaignParse(announcements, campaignList, campaignListName) {
     for (var listNr = 0; listNr < campaignList.length; listNr++) {
         let annSel = announcements[campaignList[listNr].annKey];
         let camSel = announcements[campaignList[listNr].annKey].campaigns[campaignList[listNr].camKey];
+
         tableText += '<tr class="mg-simple-tr ' + (camSel.done == true ? "text-muted" : "") + '" data-bs-toggle="collapse" data-bs-target="#' + detailName + listNr + 'tr, #' + detailName + listNr + 'div" aria-expanded="false" aria-controls="' + detailName + listNr + 'tr, ' + detailName + listNr + 'div">';
         tableText += '<td class="d-none d-lg-table-cell"><a href="' + annSel.url + '">' + (annSel.nameShort ?? annSel.name) + '</a></td>';
 
@@ -160,11 +164,11 @@ function campaignParse(announcements, campaignList, campaignListName) {
         tableText += '<td class="d-table-cell d-lg-none"><a href="' + annSel.url + '">' + (camSel.nameShort ?? camSel.name) + '</a></td>';
         tableText += '<td class="d-none d-lg-table-cell">' + (camSel.nameShort ?? camSel.name) + '</td>';
 
-        tableText += '<td class="text-nowrap d-none d-md-table-cell">' + dateParse(camSel.starts, true) + '</td>';
-        tableText += '<td class="text-nowrap">' + dateParse(camSel.ends, true) + '</td>';
+        tableText += '<td class="text-nowrap d-none d-md-table-cell">' + dateParse(camSel.starts, camSel.startsNote, true) + '</td>';
+        tableText += '<td class="text-nowrap">' + dateParse(camSel.ends, camSel.endsNote, true) + '</td>';
         tableText += '<td>' + camSel.activityShort + '</td>';
         tableText += '<td class="text-nowrap d-none d-sm-table-cell">' + rewardParse(camSel.rewards, 3) + '</td>';
-        tableText += '<td class="text-nowrap d-none d-xl-table-cell">' + dateParse(camSel.distribution, true) + '</td>';
+        tableText += '<td class="text-nowrap d-none d-xl-table-cell">' + dateParse(camSel.distribution, camSel.distributionNote, true) + '</td>';
         tableText += '<td class="d-none d-xxl-table-cell">' + camSel.delivery + '</td>';
         tableText += '<td>' + '<input class="form-check-input mg-checkbox" type="checkbox" onchange="clickDone(' + campaignList[listNr].annKey + ',' + campaignList[listNr].camKey + ',this.checked);" ' + (camSel.done == true ? 'checked' : '') + '></input>' + '</td>';
         tableText += '</tr>';
@@ -176,7 +180,7 @@ function campaignParse(announcements, campaignList, campaignListName) {
         tableText += '<div class="mg-detail-div">';
         tableText += '<div class="pt-1"><u>' + annSel.name + '</u></div>';
         tableText += '<div class="pb-1">' + camSel.name + '</div>';
-        tableText += '<div class="py-1 d-inline d-md-none"><b>Starts:</b> ' + dateParse(camSel.starts, false) + '<br><b>Ends:</b> ' + dateParse(camSel.ends, false) + '</div>';
+        tableText += '<div class="py-1 d-inline d-md-none"><b>Starts:</b> ' + dateParse(camSel.starts, camSel.startsNote, false) + '<br><b>Ends:</b> ' + dateParse(camSel.ends, camSel.endsNote, false) + '</div>';
         tableText += '<div class="py-1"><table class="table table-bordered table-hover table-sm align-middle m-auto w-auto">';
         tableText += '<thead class="bg-dark bg-gradient text-white"><tr><th>Requirement</th><th>Rewards</th></tr></thead><tbody>';
         for (activity = 0; activity < camSel.activityFull.length; activity++) {
@@ -191,18 +195,26 @@ function campaignParse(announcements, campaignList, campaignListName) {
     return tableText;
 }
 
-function dateParse(string, lineBreak) {
-    parsedDate = new Date(string);
+function dateParse(dateTime, tooltipNote, lineBreak) {
+    parsedDate = new Date(dateTime);
     let conditionalLineBreak = (lineBreak == true ? '<br>' : ' ');
 
+    let returnText = '';
+
     if (parsedDate == "Invalid Date") {
-        return string;
+        returnText = dateTime;
     }
     else {
         let localDate = parsedDate.toLocaleString({}, { year: 'numeric', month: 'short', day: '2-digit' });
         let localTime = parsedDate.toLocaleString({}, { hour: 'numeric', minute: 'numeric', timeZoneName: 'short' });
-        return localDate + conditionalLineBreak + localTime;
+        returnText = localDate + conditionalLineBreak + localTime;
     }
+
+    if (tooltipNote != undefined) {
+        returnText = '<span class="mg-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="' + tooltipNote + '">' + returnText + '</span>';
+    }
+
+    return returnText;
 }
 
 function rewardParse(rewardArray, listMax) {
@@ -227,6 +239,13 @@ function rewardParse(rewardArray, listMax) {
     }
 
     return returnText;
+}
+
+function enableTooltips() {
+    let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    });
 }
 
 function clickDone(annKey, camKey, checked) {

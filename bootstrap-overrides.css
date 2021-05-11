@@ -45,6 +45,20 @@ th, td {
     transition: 0.25s !important;
 }
 
+.mg-top-1 {
+    z-index: 2030;
+}
+
+.mg-top-2 {
+    top: 56px;
+    z-index: 2020;
+}
+
+.mg-top-3 {
+    top: 112px;
+    z-index: 2010;
+}
+
 .mg-simple-tr:hover {
     background-color: rgb(230, 230, 231);
 }
@@ -61,6 +75,14 @@ th, td {
     padding: 0.25rem !important;
 }
 
+.mg-tooltip {
+    border-bottom: 1px dotted rgb(96, 96, 96);
+}
+
+.tooltip {
+    z-index: 2040;
+}
+
 .mg-checkbox {
     width: 2em;
     height: 2em;
@@ -68,18 +90,4 @@ th, td {
 
 .mg-checkbox:checked {
     background-color: rgb(17, 75, 211);
-}
-
-.mg-top-1 {
-    z-index: 2030;
-}
-
-.mg-top-2 {
-    top: 56px;
-    z-index: 2020;
-}
-
-.mg-top-3 {
-    top: 112px;
-    z-index: 2010;
 }
