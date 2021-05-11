@@ -2,7 +2,8 @@
 Dummy repo to test out and sandbox github pages
 
 ## Style notes
-- For announcements and campaigns: nameShort is optional and not needed at all if name is already short
+- For announcements and campaigns: nameShort is optional and should be omitted if name is already short
+- For all times: startsNote, endsNote and distributionNote are optional and should only be used to describe possible deviation such as maintenances
 
 ### To-do before beta
 - Add settings (and script!) to About page

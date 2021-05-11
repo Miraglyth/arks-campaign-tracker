@@ -1,3 +1,8 @@
+body {
+    background: url(./images/testbg-sm.jpg) center fixed;
+    background-size: cover;
+}
+
 .text-muted {
     opacity: 0.5;
 }
