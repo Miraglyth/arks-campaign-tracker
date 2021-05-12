@@ -140,9 +140,9 @@ function renewDisplay() {
     campaignsUpcoming.sort(function (a, b) { return (a.done ? 1 : 0) - (b.done ? 1 : 0) || Date.parse(a.starts) - Date.parse(b.starts); });
 
     // Convert sorted campaign arrays into table rows
-    document.getElementById("tbodyEnded").innerHTML = campaignParse(announcements, campaignsEnded, 'campaignsEnded');
-    document.getElementById("tbodyActive").innerHTML = campaignParse(announcements, campaignsActive, 'campaignsActive');
-    document.getElementById("tbodyUpcoming").innerHTML = campaignParse(announcements, campaignsUpcoming, 'campaignsUpcoming');
+    document.getElementById("tbodyEnded").innerHTML = campaignParse(announcements, campaignsEnded, 'campaignsEnded', 20);
+    document.getElementById("tbodyActive").innerHTML = campaignParse(announcements, campaignsActive, 'campaignsActive', 100);
+    document.getElementById("tbodyUpcoming").innerHTML = campaignParse(announcements, campaignsUpcoming, 'campaignsUpcoming', 20);
 
     // Enable tooltips
     enableTooltips();
@@ -150,10 +150,13 @@ function renewDisplay() {
     console.log("Renewed display.");
 }
 
-function campaignParse(announcements, campaignList, campaignListName) {
+function campaignParse(announcements, campaignList, campaignListName, listSize) {
     let detailName = campaignListName;
     let tableText = '';
-    for (var listNr = 0; listNr < campaignList.length; listNr++) {
+
+    let rowCount = Math.min(campaignList.length, listSize);
+
+    for (var listNr = 0; listNr < rowCount; listNr++) {
         let annSel = announcements[campaignList[listNr].annKey];
         let camSel = announcements[campaignList[listNr].annKey].campaigns[campaignList[listNr].camKey];
 
