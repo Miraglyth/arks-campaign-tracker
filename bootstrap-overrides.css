@@ -41,10 +41,6 @@ ul {
     padding-left: 0px;
 }
 
-.mg-top-2.bg-light {
-    background: none !important;
-}
-
 th, td {
     border: 1px solid rgb(226, 226, 230);
     background-clip: padding-box;
@@ -61,10 +57,12 @@ th, td {
 .mg-top-2 {
     top: 56px;
     z-index: 2020;
+    background: url(./images/testbg-sm.jpg) center fixed;
+    background-size: cover;
 }
 
 .mg-top-3 {
-    top: 112px;
+    top: 113px;
     z-index: 2010;
 }
 
