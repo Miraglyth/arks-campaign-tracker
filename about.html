@@ -20,35 +20,49 @@
 <body class="bg-secondary" style="padding-top: 56px;">
 
     <header>
-        <nav class="navbar fixed-top bg-primary bg-gradient text-light">
+        <nav class="navbar fixed-top bg-primary bg-gradient text-white">
             <div class="container-xxl">
-                <a class="navbar-brand text-light" href="index.html">PSO2 NGS Campaign Tracker WIP</a>
-                <a class="nav-link text-light disabled" href="#">About</a>
+                <a class="navbar-brand text-light" href="index.html" target="_blank">PSO2 NGS Campaign Tracker WIP</a>
             </div>
         </nav>
     </header>
 
-    <div class="container-lg text-light col-12 col-lg-6">
+    <div class="container-lg text-light col-12 col-lg-6 pt-2">
         <h3>About</h3>
     </div>
 
     <div class="container-lg bg-light col-12 col-lg-6">
-        <h4>About</h4>
-        <p>This is an about page. What do you want from it?</p>
-        <p>Oh okay. This is an all-in-one tracker of campaigns in the Global server for Phantasy Star Online 2: New Genesis. It aims to consolidate all campaigns announced on the game's website, Twitter, YouTube, any other sources or simply not announced at all, and present them in a clear listing of campaigns that have ended, are presently active, and have yet to start.</p>
-        <p>It also allows users to view expanded detail for each campaign and mark them off as "Done", to help make it easy to keep track of unfinished active campaigns.</p>
-        <h4>Data use</h4>
-        <p>This tracker does not store any data on a server or involve any user accounts. It loads a list of campaigns into your browser's storage, which is used and updated as necessary to remember campaigns and their completion status between visits.</p>
-        <p>All such data can be deleted by clicking the button below. <span class="text-danger">Warning!</span> This will reset all campaigns marked as completed!</p>
-        <div class="text-center"><button type="button" onclick="localStorage.clear();">Delete data!</button></div>
-        <h4>Acknowledgements</h4>
-        <p><a href="https://pso2.com/">Phantasy Star Online 2</a> and New Genesis are ©SEGA.</p>
-        <p>Tools and technologies used:</p>
-        <ul>
-            <li><a href="https://pages.github.com/">GitHub Pages</a> for hosting.</li>
-            <li><a href="https://getbootstrap.com/">Bootstrap</a> as a front-end framework.</li>
-            <li><a href="https://jquery.com/">jQuery</a> to assist data loading and extend Bootstrap.</li>
-        </ul>
+
+        <div class="py-2">
+            <h4>Wot dis?</h4>
+            <p>PSO2 NGS Campaign Tracker WIP (name pending!) is an all-in-one tracker of campaigns in the Global server for Phantasy Star Online 2: New Genesis. It consolidates all campaigns announced on <a href="https://ngs.pso2.com/cbt/players" target="_blank">the game's website</a>, <a href="https://twitter.com/play_pso2" target="_blank">Twitter</a>, <a href="https://www.youtube.com/channel/UCjt9J-GC4JMJxmk4oUdqb4g" target="_blank">YouTube</a>, any other sources or simply not announced at all, into a clear listing.</p>
+            <p>Campaigns are organised by their status and sorted into a logical order for each: Campaigns that have <b>Ended</b> are listed by which ended most recently, those that are <b>Active</b> by when they will end, and those which are <b>Upcoming</b> by when they will start.</p>
+            <p>Campaigns can be clicked to see a detail view, and marked off as "Done" to help keep track of what's outstanding.</p>
+        </div>
+
+        <div class="py-2">
+            <h4>How dis?</h4>
+            <p>(Name pending) stores no data on a server and uses no accounts. It saves campaign data and settings in your browser's storage which is used and updated as needed to track campaigns across visits.</p>
+            <p>All campaign data and settings can be deleted by clicking the button below.</p>
+            <div class="text-center"><button type="button" class="btn btn-danger bg-gradient" onclick="localStorage.clear();">Delete data!</button></div>
+        </div>
+
+        <div class="py-2">
+            <h4>Who dis?</h4>
+            <p>Miraglyth is a Phantasy Star fan predating Online who has <a href="https://youtu.be/gn-GLIVB3ow" target="_blank">beat Neifirst with Nei</a>, created the Nei revival code, and was a PSUPedia admin. He plays on Ship 3 and can be contacted on Discord (Miraglyth#0118) and found regularly irritating other users of <a href="https://forum.pso2.com/" target="_blank">the game's official forum</a>.</p>
+        </div>
+
+        <div class="py-2">
+            <h4>Acknowledgements</h4>
+            <p><a href="https://pso2.com/" target="_blank">Phantasy Star Online 2</a> and New Genesis are ©SEGA.</p>
+            <p>Tools and technologies used:</p>
+            <ul>
+                <li><a href="https://pages.github.com/" target="_blank">GitHub Pages</a> for hosting.</li>
+                <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> as a front-end framework.</li>
+                <li><a href="https://jquery.com/" target="_blank">jQuery</a> to assist data loading and extend Bootstrap.</li>
+            </ul>
+        </div>
+
     </div>
 
     <!-- jQuery -->

@@ -33,6 +33,7 @@ body {
 }
 
 .nav-link {
+    font-weight: bold;
     color: rgba(255, 255, 255, 0.5);
     background-color: rgb(21, 55, 117) !important;
     border: 1px solid rgb(226, 226, 230) !important;
@@ -56,7 +57,7 @@ a:hover {
     text-decoration: underline;
 }
 
-ul {
+ul.mg-reward-list {
     list-style-type: none;
     margin-bottom: 0px;
     padding-left: 0px;

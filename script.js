@@ -160,19 +160,21 @@ function campaignParse(announcements, campaignList, campaignListName, listSize) 
         let annSel = announcements[campaignList[listNr].annKey];
         let camSel = announcements[campaignList[listNr].annKey].campaigns[campaignList[listNr].camKey];
 
-        tableText += '<tr class="mg-simple-tr ' + (camSel.done == true ? "text-muted" : "") + '" data-bs-toggle="collapse" data-bs-target="#' + detailName + listNr + 'tr, #' + detailName + listNr + 'div" aria-expanded="false" aria-controls="' + detailName + listNr + 'tr, ' + detailName + listNr + 'div">';
-        tableText += '<td class="d-none d-lg-table-cell"><a href="' + annSel.url + '">' + (annSel.nameShort ?? annSel.name) + '</a></td>';
+        let toggleText = ' data-bs-toggle="collapse" data-bs-target="#' + detailName + listNr + 'tr, #' + detailName + listNr + 'div" aria-expanded="false" aria-controls="' + detailName + listNr + 'tr, ' + detailName + listNr + 'div"';
+
+        tableText += '<tr class="mg-simple-tr ' + (camSel.done == true ? "text-muted" : "") + '">';
+        tableText += '<td class="d-none d-lg-table-cell"><a href="' + annSel.url + '" target="_blank">' + (annSel.nameShort ?? annSel.name) + '</a></td>';
 
         // Campaign - Include URL from Announcement below Large
-        tableText += '<td class="d-table-cell d-lg-none"><a href="' + annSel.url + '">' + (camSel.nameShort ?? camSel.name) + '</a></td>';
-        tableText += '<td class="d-none d-lg-table-cell">' + (camSel.nameShort ?? camSel.name) + '</td>';
+        tableText += '<td class="d-table-cell d-lg-none"><a href="' + annSel.url + '" target="_blank">' + (camSel.nameShort ?? camSel.name) + '</a></td>';
+        tableText += '<td class="d-none d-lg-table-cell"' + toggleText + '>' + (camSel.nameShort ?? camSel.name) + '</td>';
 
-        tableText += '<td class="text-nowrap d-none d-md-table-cell">' + dateParse(camSel.starts, camSel.startsNote, true) + '</td>';
-        tableText += '<td class="text-nowrap">' + dateParse(camSel.ends, camSel.endsNote, true) + '</td>';
-        tableText += '<td>' + camSel.activityShort + '</td>';
-        tableText += '<td class="text-nowrap d-none d-sm-table-cell">' + rewardParse(camSel.rewards, 3) + '</td>';
-        tableText += '<td class="text-nowrap d-none d-xl-table-cell">' + dateParse(camSel.distribution, camSel.distributionNote, true) + '</td>';
-        tableText += '<td class="d-none d-xxl-table-cell">' + camSel.delivery + '</td>';
+        tableText += '<td class="text-nowrap d-none d-md-table-cell"' + toggleText + '>' + dateParse(camSel.starts, camSel.startsNote, true) + '</td>';
+        tableText += '<td class="text-nowrap"' + toggleText + '>' + dateParse(camSel.ends, camSel.endsNote, true) + '</td>';
+        tableText += '<td' + toggleText + '>' + camSel.activityShort + '</td>';
+        tableText += '<td class="text-nowrap d-none d-sm-table-cell"' + toggleText + '>' + rewardParse(camSel.rewards, 3) + '</td>';
+        tableText += '<td class="text-nowrap d-none d-xl-table-cell"' + toggleText + '>' + dateParse(camSel.distribution, camSel.distributionNote, true) + '</td>';
+        tableText += '<td class="d-none d-xxl-table-cell"' + toggleText + '>' + camSel.delivery + '</td>';
         tableText += '<td>' + '<input class="form-check-input mg-checkbox" type="checkbox" onchange="clickDone(' + campaignList[listNr].annKey + ',' + campaignList[listNr].camKey + ',this.checked);" ' + (camSel.done == true ? 'checked' : '') + '></input>' + '</td>';
         tableText += '</tr>';
 
@@ -228,7 +230,7 @@ function rewardParse(rewardArray, listMax) {
         returnText = flatArray[0];
     }
     else {
-        returnText += '<ul>';
+        returnText += '<ul class="mg-reward-list">';
         if (flatArray.length <= listMax) {
             flatArray.forEach(rewardItem => returnText += '<li>' + rewardItem + '</li>');
         }
