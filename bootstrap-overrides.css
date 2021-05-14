@@ -11,10 +11,6 @@ body {
     background-color: rgb(17, 75, 211) !important;
 }
 
-.bg-secondary {
-    background-color: rgb(10, 16, 38) !important;
-}
-
 .bg-dark {
     background-color: rgb(96, 96, 96) !important;
 }
@@ -62,7 +58,7 @@ th, td {
 }
 
 .mg-top-3 {
-    top: 113px;
+    top: 112px;    /* Needs 113px in Firefox but that looks worse in Chrome */
     z-index: 2010;
 }
 
