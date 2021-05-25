@@ -1,69 +1,6 @@
 {
     "announcements": [
         {
-            "date": 20210419,
-            "name": "This is a sample announcement not in the game!",
-            "nameShort": "Sample announcement",
-            "url": "https://miraglyth.github.io/ngs-campaign-tracker",
-            "campaigns": [
-                {
-                    "name": "This is a sample campaign not in the game!",
-                    "nameShort": "Sample Campaign A",
-                    "starts": "2020-02-08T01:00:00Z",
-                    "ends": "2020-02-09T07:59:00Z",
-                    "distribution": "2020-03-18T02:00:00Z",
-                    "delivery": "Visiphone",
-                    "activityShort": "Do stuff",
-                    "activityFull": [
-                        "Sample requirement"
-                    ],
-                    "rewards": [
-                        [
-                            "Shiny Thing A",
-                            "Shiny Thing B",
-                            "Shiny Thing C",
-                            "Shiny Sword",
-                            "Shiny Mag"
-                        ]
-                    ]
-                },
-                {
-                    "name": "This is a sample campaign not in the game!",
-                    "nameShort": "Sample Campaign B",
-                    "starts": "2020-03-18T02:00:00Z",
-                    "ends": "2021-05-15T01:00:00Z",
-                    "distribution": "None",
-                    "delivery": "Visiphone",
-                    "activityShort": "Do stuff",
-                    "activityFull": [
-                        "This is not real"
-                    ],
-                    "rewards": [
-                        [
-                            "None"
-                        ]
-                    ]
-                },
-                {
-                    "name": "This is a sample campaign not in the game!",
-                    "nameShort": "Sample Campaign C",
-                    "starts": "2021-05-17T02:00:00Z",
-                    "ends": "2021-06-30T23:59:00Z",
-                    "distribution": "None",
-                    "delivery": "Visiphone",
-                    "activityShort": "Do stuff",
-                    "activityFull": [
-                        "This is not real"
-                    ],
-                    "rewards": [
-                        [
-                            "None"
-                        ]
-                    ]
-                }
-            ]
-        },
-        {
             "date": 20210421,
             "name": "Global CBT",
             "url": "https://ngs.pso2.com/cbt/entry/about",
@@ -180,6 +117,99 @@
                     "rewards": [
                         [
                             "SG 100 Ticket"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210525,
+            "name": "Rocket Start Campaign",
+            "url": "https://www.youtube.com/watch?v=X4CPBbvWEGY",
+            "campaigns": [
+                {
+                    "name": "Story Clear Campaign",
+                    "starts": "TBC",
+                    "startsNote": "NGS Launch",
+                    "ends": "Unknown",
+                    "distribution": "Unknown",
+                    "delivery": "TBC",
+                    "activityShort": "Clear Story Quests",
+                    "activityFull": [
+                        "Complete the story in NGS to receive accessories!"
+                    ],
+                    "rewards": [
+                        [
+                            "Unknown accessories"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Level-Up Campaign",
+                    "starts": "TBC",
+                    "startsNote": "NGS Launch",
+                    "ends": "Unknown",
+                    "distribution": "Unknown",
+                    "delivery": "TBC",
+                    "activityShort": "Level Up",
+                    "activityFull": [
+                        "Reach a certain Class Level with any class"
+                    ],
+                    "rewards": [
+                        [
+                            "Unknown stamps"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Friend Request Campaign",
+                    "starts": "TBC",
+                    "startsNote": "NGS Launch",
+                    "ends": "Unknown",
+                    "distribution": "Unknown",
+                    "delivery": "TBC",
+                    "activityShort": "Register friends",
+                    "activityFull": [
+                        "Register other players as Friends"
+                    ],
+                    "rewards": [
+                        [
+                            "Unknown item"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Join an Alliance Campaign",
+                    "starts": "TBC",
+                    "startsNote": "NGS Launch",
+                    "ends": "Unknown",
+                    "distribution": "Unknown",
+                    "delivery": "TBC",
+                    "activityShort": "Join an Alliance",
+                    "activityFull": [
+                        "Being part of an Alliance that has more members above the specified requirement"
+                    ],
+                    "rewards": [
+                        [
+                            "Unknown item"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Launch Celebration Login Bonus",
+                    "nameShort": "Launch Login Bonus",
+                    "starts": "TBC",
+                    "startsNote": "NGS Launch",
+                    "ends": "Unknown",
+                    "distribution": "Unknown",
+                    "delivery": "TBC",
+                    "activityShort": "Login Bonus",
+                    "activityFull": [
+                        "Login"
+                    ],
+                    "rewards": [
+                        [
+                            "Unknown adventure items"
                         ]
                     ]
                 }
