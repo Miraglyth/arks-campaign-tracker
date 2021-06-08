@@ -129,7 +129,7 @@
             "campaigns": [
                 {
                     "name": "Story Clear Campaign",
-                    "starts": "TBC",
+                    "starts": "2021-06-09T08:00:00Z",
                     "startsNote": "NGS Launch",
                     "ends": "Unknown",
                     "distribution": "Unknown",
@@ -146,7 +146,7 @@
                 },
                 {
                     "name": "Level-Up Campaign",
-                    "starts": "TBC",
+                    "starts": "2021-06-09T08:00:00Z",
                     "startsNote": "NGS Launch",
                     "ends": "Unknown",
                     "distribution": "Unknown",
@@ -163,7 +163,7 @@
                 },
                 {
                     "name": "Friend Request Campaign",
-                    "starts": "TBC",
+                    "starts": "2021-06-09T08:00:00Z",
                     "startsNote": "NGS Launch",
                     "ends": "Unknown",
                     "distribution": "Unknown",
@@ -180,7 +180,7 @@
                 },
                 {
                     "name": "Join an Alliance Campaign",
-                    "starts": "TBC",
+                    "starts": "2021-06-09T08:00:00Z",
                     "startsNote": "NGS Launch",
                     "ends": "Unknown",
                     "distribution": "Unknown",
@@ -198,7 +198,7 @@
                 {
                     "name": "Launch Celebration Login Bonus",
                     "nameShort": "Launch Login Bonus",
-                    "starts": "TBC",
+                    "starts": "2021-06-09T08:00:00Z",
                     "startsNote": "NGS Launch",
                     "ends": "Unknown",
                     "distribution": "Unknown",
