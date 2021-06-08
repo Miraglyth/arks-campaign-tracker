@@ -172,7 +172,7 @@ function campaignParse(announcements, campaignList, campaignListName, listSize) 
         tableText += '<td class="text-nowrap d-none d-md-table-cell"' + toggleText + '>' + dateParse(camSel.starts, camSel.startsNote, true) + '</td>';
         tableText += '<td class="text-nowrap"' + toggleText + '>' + dateParse(camSel.ends, camSel.endsNote, true) + '</td>';
         tableText += '<td' + toggleText + '>' + camSel.activityShort + '</td>';
-        tableText += '<td class="text-nowrap d-none d-sm-table-cell"' + toggleText + '>' + rewardParse(camSel.rewards, 3) + '</td>';
+        tableText += '<td class="text-nowrap d-none d-sm-table-cell"' + toggleText + '>' + rewardParse(camSel.rewards, true, 3) + '</td>';
         tableText += '<td class="text-nowrap d-none d-xl-table-cell"' + toggleText + '>' + dateParse(camSel.distribution, camSel.distributionNote, true) + '</td>';
         tableText += '<td class="d-none d-xxl-table-cell"' + toggleText + '>' + camSel.delivery + '</td>';
         tableText += '<td>' + '<input class="form-check-input mg-checkbox" type="checkbox" onchange="clickDone(' + campaignList[listNr].annKey + ',' + campaignList[listNr].camKey + ',this.checked);" ' + (camSel.done == true ? 'checked' : '') + '></input>' + '</td>';
@@ -189,7 +189,7 @@ function campaignParse(announcements, campaignList, campaignListName, listSize) 
         tableText += '<div class="py-1"><table class="table table-bordered table-hover table-sm align-middle m-auto w-auto">';
         tableText += '<thead class="bg-dark bg-gradient text-white"><tr><th>Requirement</th><th>Rewards</th></tr></thead><tbody>';
         for (activity = 0; activity < camSel.activityFull.length; activity++) {
-            tableText += '<tr><td>' + camSel.activityFull[activity] + '</td><td class="text-nowrap">' + rewardParse(camSel.rewards[activity], 10) + '</td></tr>';
+            tableText += '<tr><td>' + camSel.activityFull[activity] + '</td><td class="text-nowrap">' + rewardParse(camSel.rewards[activity], false, 10) + '</td></tr>';
         }
         tableText += '</tbody></table></div>';
         tableText += '</div>';
@@ -222,19 +222,56 @@ function dateParse(dateTime, tooltipNote, lineBreak) {
     return returnText;
 }
 
-function rewardParse(rewardArray, listMax) {
-    let returnText = '';
-    let flatArray = rewardArray.flat();
-
-    returnText += '<ul class="mg-reward-list">';
-    if (flatArray.length <= listMax) {
-        flatArray.forEach(rewardItem => returnText += '<li>' + rewardItem + '</li>');
+function rewardParse(rewardArray, isSummary, listMax) {    
+    // Flatten for summary to combine all activities
+    let unifiedArray = [];
+    if (isSummary == true) {
+        unifiedArray = rewardArray.flat(1);
     }
     else {
-        for (rewardNr = 0; rewardNr < listMax - 1; rewardNr++) {
-            returnText += '<li>' + flatArray[rewardNr] + '</li>';
+        unifiedArray = rewardArray;
+    }
+
+    // Get distinct first-appearance-order of reward names
+    let distinctArray = [];
+    for (unifiedNr = 0; unifiedNr < unifiedArray.length; unifiedNr++) {
+        distinctArray.push(unifiedArray[unifiedNr][0]);
+    }
+    distinctArray = [...new Set(distinctArray)];
+
+    // Sum of reward quantities
+    let parsedArray = [];
+    for (distinctNr = 0; distinctNr < distinctArray.length; distinctNr++) {
+        let qtySum = 0;
+        for (unifiedNr = 0; unifiedNr < unifiedArray.length; unifiedNr++) {
+            if (distinctArray[distinctNr] == unifiedArray[unifiedNr][0]) {
+                qtySum += unifiedArray[unifiedNr][1];
+            }
         }
-        returnText += '<li>Other x' + (flatArray.length - listMax + 1) + '</li>';
+        parsedArray.push([distinctArray[distinctNr], (isNaN(qtySum) ? '?' : qtySum)]);
+    }
+
+    // Determine number of unified rewards to return directly
+    let returnSize = 0;
+    let otherQty = 0;
+    if (parsedArray.length <= listMax) {
+        returnSize = parsedArray.length;
+    }
+    else {
+        returnSize = listMax - 1;
+        for (parsedNr = listMax - 1; parsedNr < parsedArray.length; parsedNr++) {
+            otherQty += parsedArray[parsedNr][1];
+        }
+    }
+
+    // Set return text
+    let returnText = '';
+    returnText += '<ul class="mg-reward-list">';
+    for (returnNr = 0; returnNr < returnSize; returnNr++) {
+        returnText += '<li>' + parsedArray[returnNr][0] + ' <span class="text-muted">x' + parsedArray[returnNr][1] + '</span></li>';
+    }
+    if (otherQty > 0) {
+        returnText += '<li>Other <span class="text-muted">x' + (isNaN(otherQty) ? '?' : otherQty) + '</span></li>';
     }
     returnText += '</ul>';
 
