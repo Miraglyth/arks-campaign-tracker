@@ -226,22 +226,17 @@ function rewardParse(rewardArray, listMax) {
     let returnText = '';
     let flatArray = rewardArray.flat();
 
-    if (flatArray.length == 1) {
-        returnText = flatArray[0];
+    returnText += '<ul class="mg-reward-list">';
+    if (flatArray.length <= listMax) {
+        flatArray.forEach(rewardItem => returnText += '<li>' + rewardItem + '</li>');
     }
     else {
-        returnText += '<ul class="mg-reward-list">';
-        if (flatArray.length <= listMax) {
-            flatArray.forEach(rewardItem => returnText += '<li>' + rewardItem + '</li>');
+        for (rewardNr = 0; rewardNr < listMax - 1; rewardNr++) {
+            returnText += '<li>' + flatArray[rewardNr] + '</li>';
         }
-        else {
-            for (rewardNr = 0; rewardNr < listMax - 1; rewardNr++) {
-                returnText += '<li>' + flatArray[rewardNr] + '</li>';
-            }
-            returnText += '<li>Other x' + (flatArray.length - listMax + 1) + '</li>';
-        }
-        returnText += '</ul>';
+        returnText += '<li>Other x' + (flatArray.length - listMax + 1) + '</li>';
     }
+    returnText += '</ul>';
 
     return returnText;
 }
