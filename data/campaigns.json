@@ -164,11 +164,11 @@
                 {
                     "name": "Windows 10 and Xbox One Incentives!",
                     "nameShort": "Win10 & Xbox Incentives",
-                    "starts": "2021-06-09T08:00:00Z",
+                    "starts": "2021-06-09T16:00:00Z",
                     "startsNote": "NGS Launch",
                     "ends": "2021-09-01T07:59:00Z",
                     "distribution": "Immediate",
-                    "delivery": "Visiphone / System Menu",
+                    "delivery": "Visiphone / Menu",
                     "activityShort": "Log in with Xbox / Microsoft Store",
                     "activityFull": [
                         "Log in to PSO2 NEW GENESIS from Windows 10 or Xbox One during the campaign period"
@@ -203,7 +203,7 @@
             "campaigns": [
                 {
                     "name": "Story Clear Campaign",
-                    "starts": "2021-06-09T08:00:00Z",
+                    "starts": "2021-06-09T16:00:00Z",
                     "startsNote": "NGS Launch",
                     "ends": "2021-07-07T06:00:00Z",
                     "endsNote": "Maintenance",
@@ -231,7 +231,7 @@
                 },
                 {
                     "name": "Level-Up Campaign",
-                    "starts": "2021-06-09T08:00:00Z",
+                    "starts": "2021-06-09T16:00:00Z",
                     "startsNote": "NGS Launch",
                     "ends": "2021-07-07T06:00:00Z",
                     "endsNote": "Maintenance",
@@ -259,13 +259,13 @@
                 },
                 {
                     "name": "Friend Request Campaign",
-                    "starts": "2021-06-09T08:00:00Z",
+                    "starts": "2021-06-09T16:00:00Z",
                     "startsNote": "NGS Launch",
                     "ends": "2021-07-07T06:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Early August 2021",
-                    "delivery": "Visiphone / System Menu",
-                    "activityShort": "Register friends",
+                    "delivery": "Visiphone / Menu",
+                    "activityShort": "Register Friends",
                     "activityFull": [
                         "Players with at least 3 friends on their Friend List at the start of scheduled maintenance",
                         "Players with at least 7 friends on their Friend List at the start of scheduled maintenance"
@@ -287,12 +287,12 @@
                 },
                 {
                     "name": "Join an Alliance Campaign",
-                    "starts": "2021-06-09T08:00:00Z",
+                    "starts": "2021-06-09T16:00:00Z",
                     "startsNote": "NGS Launch",
                     "ends": "2021-07-07T06:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Early August 2021",
-                    "delivery": "Visiphone / System Menu",
+                    "delivery": "Visiphone / Menu",
                     "activityShort": "Join an Alliance",
                     "activityFull": [
                         "Join an Alliance with 4 or more members as of the start of maintenance",
@@ -316,7 +316,7 @@
                 {
                     "name": "Launch Celebration Login Bonus",
                     "nameShort": "Launch Login Bonus",
-                    "starts": "2021-06-09T08:00:00Z",
+                    "starts": "2021-06-09T16:00:00Z",
                     "startsNote": "NGS Launch",
                     "ends": "2021-07-07T06:00:00Z",
                     "endsNote": "Maintenance",
