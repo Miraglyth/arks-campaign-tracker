@@ -164,7 +164,7 @@
                 {
                     "name": "Windows 10 and Xbox One Incentives!",
                     "nameShort": "Win10 & Xbox Incentives",
-                    "starts": "2021-06-09T16:00:00Z",
+                    "starts": "2021-06-09T16:30:00Z",
                     "startsNote": "NGS Launch",
                     "ends": "2021-09-01T07:59:00Z",
                     "distribution": "Immediate",
@@ -203,7 +203,7 @@
             "campaigns": [
                 {
                     "name": "Story Clear Campaign",
-                    "starts": "2021-06-09T16:00:00Z",
+                    "starts": "2021-06-09T16:30:00Z",
                     "startsNote": "NGS Launch",
                     "ends": "2021-07-07T06:00:00Z",
                     "endsNote": "Maintenance",
@@ -231,7 +231,7 @@
                 },
                 {
                     "name": "Level-Up Campaign",
-                    "starts": "2021-06-09T16:00:00Z",
+                    "starts": "2021-06-09T16:30:00Z",
                     "startsNote": "NGS Launch",
                     "ends": "2021-07-07T06:00:00Z",
                     "endsNote": "Maintenance",
@@ -259,7 +259,7 @@
                 },
                 {
                     "name": "Friend Request Campaign",
-                    "starts": "2021-06-09T16:00:00Z",
+                    "starts": "2021-06-09T16:30:00Z",
                     "startsNote": "NGS Launch",
                     "ends": "2021-07-07T06:00:00Z",
                     "endsNote": "Maintenance",
@@ -287,7 +287,7 @@
                 },
                 {
                     "name": "Join an Alliance Campaign",
-                    "starts": "2021-06-09T16:00:00Z",
+                    "starts": "2021-06-09T16:30:00Z",
                     "startsNote": "NGS Launch",
                     "ends": "2021-07-07T06:00:00Z",
                     "endsNote": "Maintenance",
@@ -316,7 +316,7 @@
                 {
                     "name": "Launch Celebration Login Bonus",
                     "nameShort": "Launch Login Bonus",
-                    "starts": "2021-06-09T16:00:00Z",
+                    "starts": "2021-06-09T16:30:00Z",
                     "startsNote": "NGS Launch",
                     "ends": "2021-07-07T06:00:00Z",
                     "endsNote": "Maintenance",
