@@ -156,26 +156,75 @@
             ]
         },
         {
-            "date": 20210525,
+            "date": 20210608,
+            "name": "Windows 10 and Xbox One Incentives!",
+            "nameShort": "Win10 & Xbox Incentives",
+            "url": "https://ngs.pso2.com/news/events/Incentives0608",
+            "campaigns": [
+                {
+                    "name": "Windows 10 and Xbox One Incentives!",
+                    "nameShort": "Win10 & Xbox Incentives",
+                    "starts": "2021-06-09T08:00:00Z",
+                    "startsNote": "NGS Launch",
+                    "ends": "2021-09-01T07:59:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Visiphone / System Menu",
+                    "activityShort": "Log in with Xbox / Microsoft Store",
+                    "activityFull": [
+                        "Log in to PSO2 NEW GENESIS from Windows 10 or Xbox One during the campaign period"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "AIS Suit",
+                                1
+                            ],
+                            [
+                                "Rappy Schoolboy Head-Mount",
+                                1
+                            ],
+                            [
+                                "Rappy Schoolgirl Head-Mount",
+                                1
+                            ],
+                            [
+                                "N-Half Scape Doll",
+                                3
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210608,
             "name": "Rocket Start Campaign",
-            "url": "https://www.youtube.com/watch?v=X4CPBbvWEGY",
+            "url": "https://ngs.pso2.com/news/events/campaign20210608",
             "campaigns": [
                 {
                     "name": "Story Clear Campaign",
                     "starts": "2021-06-09T08:00:00Z",
                     "startsNote": "NGS Launch",
-                    "ends": "Unknown",
-                    "distribution": "Unknown",
-                    "delivery": "TBC",
+                    "ends": "2021-07-07T06:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
                     "activityShort": "Clear Story Quests",
                     "activityFull": [
-                        "Complete the story in NGS to receive accessories!"
+                        "Achieving the Main Task “A Triumphant Report”",
+                        "Achieving the Main Task “Going Back”"
                     ],
                     "rewards": [
                         [
                             [
-                                "Unknown accessories",
-                                "?"
+                                "N-Enhancement Success Rate +10%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Saturn Earrings",
+                                1
                             ]
                         ]
                     ]
@@ -184,18 +233,26 @@
                     "name": "Level-Up Campaign",
                     "starts": "2021-06-09T08:00:00Z",
                     "startsNote": "NGS Launch",
-                    "ends": "Unknown",
-                    "distribution": "Unknown",
-                    "delivery": "TBC",
+                    "ends": "2021-07-07T06:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
                     "activityShort": "Level Up",
                     "activityFull": [
-                        "Reach a certain Class Level with any class"
+                        "Achieve Class Level 10 with any Class",
+                        "Achieve Class Level 20 with any Class"
                     ],
                     "rewards": [
                         [
                             [
-                                "Unknown stamps",
-                                "?"
+                                "N-Augmentation Success Rate +5%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "STP: Sarisa - Hello",
+                                1
                             ]
                         ]
                     ]
@@ -204,18 +261,26 @@
                     "name": "Friend Request Campaign",
                     "starts": "2021-06-09T08:00:00Z",
                     "startsNote": "NGS Launch",
-                    "ends": "Unknown",
-                    "distribution": "Unknown",
-                    "delivery": "TBC",
+                    "ends": "2021-07-07T06:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Early August 2021",
+                    "delivery": "Visiphone / System Menu",
                     "activityShort": "Register friends",
                     "activityFull": [
-                        "Register other players as Friends"
+                        "Players with at least 3 friends on their Friend List at the start of scheduled maintenance",
+                        "Players with at least 7 friends on their Friend List at the start of scheduled maintenance"
                     ],
                     "rewards": [
                         [
                             [
-                                "Unknown item",
-                                "?"
+                                "N-Augmentation Success Rate +5%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
                             ]
                         ]
                     ]
@@ -224,18 +289,26 @@
                     "name": "Join an Alliance Campaign",
                     "starts": "2021-06-09T08:00:00Z",
                     "startsNote": "NGS Launch",
-                    "ends": "Unknown",
-                    "distribution": "Unknown",
-                    "delivery": "TBC",
+                    "ends": "2021-07-07T06:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Early August 2021",
+                    "delivery": "Visiphone / System Menu",
                     "activityShort": "Join an Alliance",
                     "activityFull": [
-                        "Being part of an Alliance that has more members above the specified requirement"
+                        "Join an Alliance with 4 or more members as of the start of maintenance",
+                        "Join an Alliance with 8 or more members as of the start of maintenance"
                     ],
                     "rewards": [
                         [
                             [
-                                "Unknown item",
-                                "?"
+                                "N-Enhancement Success Rate +10%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
                             ]
                         ]
                     ]
@@ -245,18 +318,110 @@
                     "nameShort": "Launch Login Bonus",
                     "starts": "2021-06-09T08:00:00Z",
                     "startsNote": "NGS Launch",
-                    "ends": "Unknown",
-                    "distribution": "Unknown",
-                    "delivery": "TBC",
+                    "ends": "2021-07-07T06:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
                     "activityShort": "Login Bonus",
                     "activityFull": [
-                        "Login"
+                        "Part 1 - Day 1",
+                        "Part 1 - Day 2",
+                        "Part 1 - Day 3",
+                        "Part 1 - Day 4",
+                        "Part 1 - Day 5",
+                        "Part 1 - Day 6",
+                        "Part 1 - Day 7",
+                        "Part 2 - Day 1",
+                        "Part 2 - Day 2",
+                        "Part 2 - Day 3",
+                        "Part 2 - Day 4",
+                        "Part 2 - Day 5",
+                        "Part 2 - Day 6",
+                        "Part 2 - Day 7"
                     ],
                     "rewards": [
                         [
                             [
-                                "Unknown adventure items",
-                                "?"
+                                "Salon Free Pass",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Half Scape Doll",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Enhancement Success Rate +10%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Augmentation Success Rate +5%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Enhancement Success Rate +10%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 30 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Salon Free Pass",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Half Scape Doll",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Augmentation Success Rate +5%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Enhancement Success Rate +10%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Augmentation Success Rate +5%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 30 Ticket",
+                                1
                             ]
                         ]
                     ]
