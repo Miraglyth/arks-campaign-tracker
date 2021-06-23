@@ -429,6 +429,40 @@
             ]
         },
         {
+            "date": 20210615,
+            "name": "PSO2 Day: Premium",
+            "url": "https://ngs.pso2.com/news/events/pso2daypremium0615",
+            "campaigns": [
+                {
+                    "name": "PSO2 Day: Premium",
+                    "starts": "2021-06-22T00:00:00Z",
+                    "ends": "2021-06-23T23:59:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in (Premium)",
+                    "activityFull": [
+                        "Log in with Premium active"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 22 Ticket",
+                                2
+                            ],
+                            [
+                                "EXP +5%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +20%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
             "date": 20210622,
             "name": "AC Purchase Campaign",
             "url": "https://ngs.pso2.com/news/events/accampaogn20210622",
