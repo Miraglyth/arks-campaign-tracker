@@ -427,6 +427,116 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20210622,
+            "name": "AC Purchase Campaign",
+            "url": "https://ngs.pso2.com/news/events/accampaogn20210622",
+            "campaigns": [
+                {
+                    "name": "AC Purchase Campaign",
+                    "starts": "2021-06-23T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-07-07T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Phrase",
+                    "activityFull": [
+                        "Purchase a total of 500 AC or more"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Color-Change Pass",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210622,
+            "name": "Sonic's Birthday 2021",
+            "url": "https://ngs.pso2.com/news/events/Birthday2021",
+            "campaigns": [
+                {
+                    "name": "Sonic's Birthday 2021",
+                    "starts": "2021-06-23T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-06-30T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Phrase",
+                    "activityFull": [
+                        "Type \"SONIC 30th\" with in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 30 Ticket",
+                                1
+                            ],
+                            [
+                                "Sonic Mask",
+                                1
+                            ],
+                            [
+                                "Tails Mask",
+                                1
+                            ],
+                            [
+                                "Knuckles Mask",
+                                1
+                            ],
+                            [
+                                "Amy Mask",
+                                1
+                            ],
+                            [
+                                "Chao Mask",
+                                1
+                            ],
+                            [
+                                "Eggman Mask",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210622,
+            "name": "My Battle Power Campaign",
+            "url": "https://ngs.pso2.com/news/events/battlepower20210622",
+            "campaigns": [
+                {
+                    "name": "My Battle Power Campaign",
+                    "starts": "2021-06-23T04:00:00Z",
+                    "ends": "2021-07-07T14:59:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Twitter Raffle",
+                    "activityFull": [
+                        "Follow <a href=\"https://twitter.com/play_pso2\">@play_pso2</a> and tweet #MyBattlePower with a screenshot of your BP<br>(Raffle: 10 winners)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 200 Ticket",
+                                1
+                            ],
+                            [
+                                "Salon Free Pass",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
