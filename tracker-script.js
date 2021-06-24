@@ -161,12 +161,14 @@ function campaignParse(announcements, campaignList, campaignListName, listSize) 
         let camSel = announcements[campaignList[listNr].annKey].campaigns[campaignList[listNr].camKey];
 
         let toggleText = ' data-bs-toggle="collapse" data-bs-target="#' + detailName + listNr + 'tr, #' + detailName + listNr + 'div" aria-expanded="false" aria-controls="' + detailName + listNr + 'tr, ' + detailName + listNr + 'div"';
+        let linkStart = (annSel.url ? '<a href="' + annSel.url + '" target="_blank">' : '');
+        let linkEnd = (annSel.url ? '</a>' : '');
 
         tableText += '<tr class="mg-simple-tr ' + (camSel.done == true ? "text-muted" : "") + '">';
-        tableText += '<td class="d-none d-lg-table-cell"><a href="' + annSel.url + '" target="_blank">' + (annSel.nameShort ?? annSel.name) + '</a></td>';
+        tableText += '<td class="d-none d-lg-table-cell">' + linkStart + (annSel.nameShort ?? annSel.name) + linkEnd + '</td>';
 
         // Campaign - Include URL from Announcement below Large
-        tableText += '<td class="d-table-cell d-lg-none"><a href="' + annSel.url + '" target="_blank">' + (camSel.nameShort ?? camSel.name) + '</a></td>';
+        tableText += '<td class="d-table-cell d-lg-none">' + linkStart + (camSel.nameShort ?? camSel.name) + linkEnd + '</td>';
         tableText += '<td class="d-none d-lg-table-cell"' + toggleText + '>' + (camSel.nameShort ?? camSel.name) + '</td>';
 
         tableText += '<td class="text-nowrap d-none d-md-table-cell"' + toggleText + '>' + dateParse(camSel.starts, camSel.startsNote, true) + '</td>';
@@ -185,7 +187,7 @@ function campaignParse(announcements, campaignList, campaignListName, listSize) 
         tableText += '<div class="mg-detail-div">';
         tableText += '<div class="pt-1"><u>' + annSel.name + '</u></div>';
         if (annSel.name != camSel.name) {
-            tableText += '<div class="pb-1">' + camSel.name + '</div>';
+            tableText += '<div class="pb-1">' + camSel.name + '</div>';    // When this isn't shown some padding is missing too
         }
         tableText += '<div class="py-1 d-inline d-md-none"><b>Starts:</b> ' + dateParse(camSel.starts, camSel.startsNote, false) + '<br><b>Ends:</b> ' + dateParse(camSel.ends, camSel.endsNote, false) + '</div>';
         tableText += '<div class="py-1"><table class="table table-bordered table-hover table-sm align-middle m-auto w-auto">';
