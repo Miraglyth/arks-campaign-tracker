@@ -184,7 +184,9 @@ function campaignParse(announcements, campaignList, campaignListName, listSize) 
         tableText += '<div class="collapse" id="' + detailName + listNr + 'div" data-bs-parent="#collapseParentTable">';
         tableText += '<div class="mg-detail-div">';
         tableText += '<div class="pt-1"><u>' + annSel.name + '</u></div>';
-        tableText += '<div class="pb-1">' + camSel.name + '</div>';
+        if (annSel.name != camSel.name) {
+            tableText += '<div class="pb-1">' + camSel.name + '</div>';
+        }
         tableText += '<div class="py-1 d-inline d-md-none"><b>Starts:</b> ' + dateParse(camSel.starts, camSel.startsNote, false) + '<br><b>Ends:</b> ' + dateParse(camSel.ends, camSel.endsNote, false) + '</div>';
         tableText += '<div class="py-1"><table class="table table-bordered table-hover table-sm align-middle m-auto w-auto">';
         tableText += '<thead class="bg-dark bg-gradient text-white"><tr><th>Requirement</th><th>Rewards</th></tr></thead><tbody>';
@@ -222,7 +224,7 @@ function dateParse(dateTime, tooltipNote, lineBreak) {
     return returnText;
 }
 
-function rewardParse(rewardArray, isSummary, listMax) {    
+function rewardParse(rewardArray, isSummary, listMax) {
     // Flatten for summary to combine all activities
     let unifiedArray = [];
     if (isSummary == true) {
