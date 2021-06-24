@@ -161,8 +161,8 @@ function campaignParse(announcements, campaignList, campaignListName, listSize) 
         let camSel = announcements[campaignList[listNr].annKey].campaigns[campaignList[listNr].camKey];
 
         let toggleText = ' data-bs-toggle="collapse" data-bs-target="#' + detailName + listNr + 'tr, #' + detailName + listNr + 'div" aria-expanded="false" aria-controls="' + detailName + listNr + 'tr, ' + detailName + listNr + 'div"';
-        let linkStart = (annSel.url ? '<a href="' + annSel.url + '" target="_blank">' : '');
-        let linkEnd = (annSel.url ? '</a>' : '');
+        let linkStart = (annSel.url ? '<a href="' + annSel.url + '" target="_blank">' : '<span class="mg-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="No announcement">');
+        let linkEnd = (annSel.url ? '</a>' : '</span>');
 
         tableText += '<tr class="mg-simple-tr ' + (camSel.done == true ? "text-muted" : "") + '">';
         tableText += '<td class="d-none d-lg-table-cell">' + linkStart + (annSel.nameShort ?? annSel.name) + linkEnd + '</td>';
