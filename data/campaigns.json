@@ -571,6 +571,62 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20210623,
+            "name": "Confront Gigantix",
+            "url": "",
+            "campaigns": [
+                {
+                    "name": "Confront Gigantix",
+                    "starts": "2021-06-23T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-07-07T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Defeat Gigantix",
+                    "activityFull": [
+                        "Defeat 1 Gigantix",
+                        "Defeat 2 Gigantix",
+                        "Defeat 3 Gigantix",
+                        "Defeat 4 Gigantix",
+                        "Defeat 5 Gigantix"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
