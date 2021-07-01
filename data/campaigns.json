@@ -168,7 +168,7 @@
                     "startsNote": "NGS Launch",
                     "ends": "2021-09-01T07:59:00Z",
                     "distribution": "Immediate",
-                    "delivery": "Visiphone / Menu",
+                    "delivery": "Menu",
                     "activityShort": "Log in with Xbox / Microsoft Store",
                     "activityFull": [
                         "Log in to PSO2 NEW GENESIS from Windows 10 or Xbox One during the campaign period"
@@ -264,7 +264,7 @@
                     "ends": "2021-07-07T02:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Early August",
-                    "delivery": "Visiphone / Menu",
+                    "delivery": "Menu",
                     "activityShort": "Register Friends",
                     "activityFull": [
                         "Players with at least 3 friends on their Friend List at the start of scheduled maintenance",
@@ -292,7 +292,7 @@
                     "ends": "2021-07-07T02:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Early August",
-                    "delivery": "Visiphone / Menu",
+                    "delivery": "Menu",
                     "activityShort": "Join an Alliance",
                     "activityFull": [
                         "Join an Alliance with 4 or more members as of the start of maintenance",
@@ -620,6 +620,298 @@
                         [
                             [
                                 "SG 10 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210706,
+            "name": "PSO2 9th Anniversary Event",
+            "nameShort": "PSO2 9th Anniversary",
+            "campaigns": [
+                {
+                    "name": "PSO2 9th Anniversary City",
+                    "starts": "2021-07-07T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-08-04T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Event Lobby",
+                    "activityFull": [
+                        "None"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "None",
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Limited-Time Daily and Weekly Tasks",
+                    "nameShort": "Daily & Weekly Tasks",
+                    "starts": "2021-07-07T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-07-21T08:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Unknown",
+                    "delivery": "Unknown",
+                    "activityShort": "Daily & Weekly Tasks",
+                    "activityFull": [
+                        "Unknown"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Unknown",
+                                "?"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Phenomenologist Xiandy Tasks",
+                    "nameShort": "Xiandy Tasks",
+                    "starts": "2021-07-07T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-08-04T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Unknown"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Unknown",
+                                "?"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Phenomenologist Xiandy Exchange",
+                    "nameShort": "Xiandy Exchange",
+                    "starts": "2021-07-07T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-08-04T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Item Exchange",
+                    "activityFull": [
+                        "5000 S.Points",
+                        "5000 S.Points",
+                        "1000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "500 S.Points",
+                        "300 S.Points",
+                        "300 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "300 S.Points",
+                        "100 S.Points"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "STP: Moony & Sunny - Heart (Limit 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Twinkling Ribbon (Limit 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "20 Star Gems (Limit 5)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Glissen Sword (Limit 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Glissen Wire (Limit 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Glissen Saber (Limit 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Glissen Knuckles (Limit 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Glissen Launcher (Limit 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Glissen Machine Guns (Limit 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Glissen Talis (Limit 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Glissen Wand (Limit 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Chunk (Limit 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Quartz (Limit 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Lightning Exploit I (Limit 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Might III (Limit 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Precision III (Limit 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Technique III (Limit 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Alpha Reactor (Limit 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Grinder (Limit 50)",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Ceremo Rappy",
+                    "starts": "2021-07-07T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-08-04T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Event Enemy",
+                    "activityFull": [
+                        "None"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "None",
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Limited-Time Daily and Weekly Tasks (Second Half)",
+                    "nameShort": "Daily & Weekly Tasks 2",
+                    "starts": "2021-07-21T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-08-04T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Daily & Weekly Tasks",
+                    "activityFull": [
+                        "Unknown"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Unknown",
+                                "?"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Phenomenologist Xiandy Exchange (Second Half)",
+                    "nameShort": "Xiandy Exchange 2",
+                    "starts": "2021-07-21T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-08-04T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Item Exchange",
+                    "activityFull": [
+                        "5000 S.Points",
+                        "1500 S.Points"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Stellar Raiment (Limit 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "20 Star Gems (Limit 5)",
                                 1
                             ]
                         ]
