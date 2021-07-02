@@ -628,6 +628,40 @@
             ]
         },
         {
+            "date": 20210629,
+            "name": "PSO2 Day",
+            "url": "https://ngs.pso2.com/news/events/PSO2day20210701",
+            "campaigns": [
+                {
+                    "name": "PSO2 Day",
+                    "starts": "2021-07-02T00:00:00Z",
+                    "ends": "2021-07-03T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in",
+                    "activityFull": [
+                        "Log in"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 22 Ticket",
+                                2
+                            ],
+                            [
+                                "EXP +5%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +20%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
             "date": 20210701,
             "name": "PSO2:NGS x INTEL Collaboration Campaign",
             "nameShort": "Intel Collaboration",
