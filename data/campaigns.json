@@ -628,6 +628,35 @@
             ]
         },
         {
+            "date": 20210701,
+            "name": "PSO2:NGS × INTEL Collaboration Campaign",
+            "nameShort": "Intel Collaboration",
+            "url": "https://ngs.pso2.com/news/events/campaign20210701",
+            "campaigns": [
+                {
+                    "name": "PSO2:NGS × INTEL Collaboration Campaign",
+                    "nameShort": "Intel Collaboration",
+                    "starts": "2021-07-01T04:00:00Z",
+                    "ends": "2022-02-01T07:00:00Z",
+                    "endsNote": "Last Intel Redemption Period",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Intel purchase",
+                    "activityFull": [
+                        "Purchase a qualifying Intel processor or processor-based device"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "746: Intel",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
             "date": 20210706,
             "name": "PSO2 9th Anniversary Event",
             "nameShort": "PSO2 9th Anniversary",
