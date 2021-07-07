@@ -584,7 +584,7 @@
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
-                    "activityShort": "Defeat Gigantix",
+                    "activityShort": "Limited-Time Tasks",
                     "activityFull": [
                         "Defeat 1 Gigantix",
                         "Defeat 2 Gigantix",
@@ -958,19 +958,39 @@
             "url": "https://ngs.pso2.com/events/9th-anniversary",
             "campaigns": [
                 {
-                    "name": "Web Link Panel Events",
-                    "nameShort": "Web Link Panel",
+                    "name": "Web Link Panels",
                     "starts": "2021-07-07T08:00:00Z",
                     "startsNote": "Maintenance",
                     "ends": "2021-08-04T02:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Unknown",
-                    "delivery": "Unknown",
-                    "activityShort": "Unknown",
+                    "delivery": "Menu",
+                    "activityShort": "<a href=\"https://pso2.jp/players/event/9th_anniversary_g/webevent/\">Web Link Panels</a>",
                     "activityFull": [
-                        "Unknown"
+                        "1,500,000 Total Points",
+                        "Unknown Total Points",
+                        "Unknown Total Points",
+                        "Unknown Total Points"
                     ],
                     "rewards": [
+                        [
+                            [
+                                "N-Meseta Earned +50%",
+                                "?"
+                            ]
+                        ],
+                        [
+                            [
+                                "Unknown",
+                                "?"
+                            ]
+                        ],
+                        [
+                            [
+                                "Unknown",
+                                "?"
+                            ]
+                        ],
                         [
                             [
                                 "Unknown",
