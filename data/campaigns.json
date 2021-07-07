@@ -551,8 +551,8 @@
                     "name": "My Battle Power Campaign",
                     "starts": "2021-06-23T04:00:00Z",
                     "ends": "2021-07-07T14:59:00Z",
-                    "distribution": "Immediate",
-                    "delivery": "Menu",
+                    "distribution": "Unknown",
+                    "delivery": "Unknown",
                     "activityShort": "Twitter Raffle",
                     "activityFull": [
                         "Follow <a href=\"https://twitter.com/play_pso2\">@play_pso2</a> and tweet #MyBattlePower with a screenshot of your BP<br>(Raffle: 10 winners)"
@@ -692,9 +692,336 @@
         },
         {
             "date": 20210706,
+            "name": "Group Chat Campaign",
+            "url": "https://ngs.pso2.com/news/events/campaign20210707",
+            "campaigns": [
+                {
+                    "name": "Group Chat Campaign",
+                    "starts": "2021-07-07T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-08-04T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Use Group Chat",
+                    "activityFull": [
+                        "Say something in the Group Chat 3 times",
+                        "Say something in the Group Chat 5 times"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 30 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210706,
+            "name": "9-Year Anniversary Login Bonus",
+            "nameShort": "9th Anniversary Login",
+            "url": "https://ngs.pso2.com/news/events/anniversaryloginbonus2021",
+            "campaigns": [
+                {
+                    "name": "Login Bonus #1",
+                    "starts": "2021-07-07T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-07-21T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Login Bonuses",
+                    "activityFull": [
+                        "1 Day",
+                        "2 Days",
+                        "3 Days",
+                        "4 Days",
+                        "5 Days",
+                        "6 Days",
+                        "7 Days"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Salon Free Pass",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Enhancement Success Rate +10%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Half Scape Doll",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Augmentation Success Rate +5%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 30 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Login Bonus #2",
+                    "starts": "2021-07-21T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-08-04T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Login Bonuses",
+                    "activityFull": [
+                        "1 Day",
+                        "2 Days",
+                        "3 Days",
+                        "4 Days",
+                        "5 Days",
+                        "6 Days",
+                        "7 Days"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Salon Free Pass",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Enhancement Success Rate +10%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Half Scape Doll",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Augmentation Success Rate +5%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 30 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210706,
+            "name": "Screenshot Submission Campaign",
+            "nameShort": "Screenshot Campaign",
+            "url": "https://ngs.pso2.com/news/events/anniversaryScreenshotCampaign2021",
+            "campaigns": [
+                {
+                    "name": "Screenshot Submission Campaign",
+                    "nameShort": "Screenshot Campaign",
+                    "starts": "2021-07-07T03:00:00Z",
+                    "ends": "2021-08-04T02:00:00Z",
+                    "distribution": "Unknown",
+                    "delivery": "Unknown",
+                    "activityShort": "Twitter Raffle",
+                    "activityFull": [
+                        "Follow <a href=\"https://twitter.com/play_pso2\">@play_pso2</a> and tweet #PSO2NGS_SScampaign with a screenshot based on the theme \"A New Universe\"<br>(Raffle: 20 winners)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 200 Ticket",
+                                4
+                            ]
+                        ],
+                        [
+                            [
+                                "Salon Free Pass",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Color-Change Pass",
+                                3
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210706,
+            "name": "Item Design Contest",
+            "url": "https://ngs.pso2.com/news/events/anniversaryItemContest2021",
+            "campaigns": [
+                {
+                    "name": "Item Design Contest",
+                    "starts": "2021-07-07T03:00:00Z",
+                    "ends": "2021-08-04T02:00:00Z",
+                    "distribution": "Unknown",
+                    "delivery": "Unknown",
+                    "activityShort": "Design Contest",
+                    "activityFull": [
+                        "Submit an outfit or accessory design image via the <a href=\"https://pso2.com/support#contact-us\">Support Form</a><br>(Contest: 20 winners)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Designed item",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210706,
+            "name": "Stamp-Drawing Contest",
+            "url": "https://ngs.pso2.com/news/events/anniversaryStampContest2021",
+            "campaigns": [
+                {
+                    "name": "Stamp-Drawing Contest",
+                    "starts": "2021-07-07T03:00:00Z",
+                    "ends": "2021-08-04T02:00:00Z",
+                    "distribution": "Unknown",
+                    "delivery": "Menu",
+                    "activityShort": "Design Contest",
+                    "activityFull": [
+                        "Submit an outfit or accessory design image via the <a href=\"https://pso2.com/support#contact-us\">Support Form</a><br>(Contest: 20 winners)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 200 Ticket",
+                                2
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210706,
             "name": "PSO2 9th Anniversary Event",
             "nameShort": "PSO2 9th Anniversary",
+            "url": "https://ngs.pso2.com/events/9th-anniversary",
             "campaigns": [
+                {
+                    "name": "Web Link Panel Events",
+                    "nameShort": "Web Link Panel",
+                    "starts": "2021-07-07T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-08-04T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Unknown",
+                    "delivery": "Unknown",
+                    "activityShort": "Unknown",
+                    "activityFull": [
+                        "Unknown"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Unknown",
+                                "?"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Story Quest Clear Campaign",
+                    "nameShort": "Story Quest Campaign",
+                    "starts": "2021-07-21T02:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-08-04T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Unknown",
+                    "delivery": "Unknown",
+                    "activityShort": "Unknown",
+                    "activityFull": [
+                        "Unknown"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Unknown",
+                                "?"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "ARKS Investigative Report",
+                    "starts": "2021-07-21T02:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-08-04T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Unknown",
+                    "delivery": "Unknown",
+                    "activityShort": "Unknown",
+                    "activityFull": [
+                        "Unknown"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Unknown",
+                                "?"
+                            ]
+                        ]
+                    ]
+                },
                 {
                     "name": "PSO2 9th Anniversary City",
                     "starts": "2021-07-07T08:00:00Z",
@@ -718,7 +1045,7 @@
                 },
                 {
                     "name": "Limited-Time Daily and Weekly Tasks",
-                    "nameShort": "Daily & Weekly Tasks",
+                    "nameShort": "Daily & Weekly Tasks #1",
                     "starts": "2021-07-07T08:00:00Z",
                     "startsNote": "Maintenance",
                     "ends": "2021-07-21T08:00:00Z",
@@ -762,7 +1089,7 @@
                 },
                 {
                     "name": "Phenomenologist Xiandy Exchange",
-                    "nameShort": "Xiandy Exchange",
+                    "nameShort": "Xiandy Exchange #1",
                     "starts": "2021-07-07T08:00:00Z",
                     "startsNote": "Maintenance",
                     "ends": "2021-08-04T02:00:00Z",
@@ -931,7 +1258,7 @@
                 },
                 {
                     "name": "Limited-Time Daily and Weekly Tasks (Second Half)",
-                    "nameShort": "Daily & Weekly Tasks 2",
+                    "nameShort": "Daily & Weekly Tasks #2",
                     "starts": "2021-07-21T08:00:00Z",
                     "startsNote": "Maintenance",
                     "ends": "2021-08-04T02:00:00Z",
@@ -953,7 +1280,7 @@
                 },
                 {
                     "name": "Phenomenologist Xiandy Exchange (Second Half)",
-                    "nameShort": "Xiandy Exchange 2",
+                    "nameShort": "Xiandy Exchange #2",
                     "starts": "2021-07-21T08:00:00Z",
                     "startsNote": "Maintenance",
                     "ends": "2021-08-04T02:00:00Z",

@@ -4,6 +4,8 @@
 - For all times: startsNote, endsNote and distributionNote are optional and should only be used to describe possible deviation such as maintenances
 
 # Potential improvements
+- Scratch sets with a visibility toggle option
+- Secondary sort for Upcoming campaigns by end time
 - Potentially-automated shrinking of long reward names in summary row
 - Include boosts in various views
 - Consider reworking dateParse due to overzealous interpretation by Chrome (e.g. "Early August 2021" parsing the 2021 and consequently the August too)
