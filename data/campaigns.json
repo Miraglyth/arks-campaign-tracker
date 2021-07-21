@@ -967,33 +967,65 @@
                     "delivery": "Menu",
                     "activityShort": "<a href=\"https://pso2.jp/players/event/9th_anniversary_g/webevent/\">Web Link Panels</a>",
                     "activityFull": [
-                        "1,500,000 Total Points",
-                        "Unknown Total Points",
-                        "Unknown Total Points",
-                        "Unknown Total Points"
+                        "[Week 1] 1,500,000 Total Points",
+                        "[Week 1] 2,800,000 Total Points",
+                        "[Week 1] 3,500,000 Total Points",
+                        "[Week 1] Excess Total Points",
+                        "[Week 2] 30,000,000 Total Points",
+                        "[Week 2] 60,000,000 Total Points",
+                        "[Week 2] 150,000,000 Total Points",
+                        "[Week 2] Excess Total Points"
                     ],
                     "rewards": [
                         [
                             [
                                 "N-Meseta Earned +50%",
+                                "Boost"
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Half Scape Doll",
+                                3
+                            ],
+                            [
+                                "Salon Free Pass",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "STP: Rico - Look",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Augmentation Success Rate +10%",
                                 "?"
                             ]
                         ],
                         [
                             [
-                                "Unknown",
-                                "?"
+                                "Rare Drop Rate +25%",
+                                "Boost"
                             ]
                         ],
                         [
                             [
-                                "Unknown",
-                                "?"
+                                "N-Enhancement Success Rate +30%",
+                                5
                             ]
                         ],
                         [
                             [
-                                "Unknown",
+                                "Photon Quartz",
+                                50
+                            ]
+                        ],
+                        [
+                            [
+                                "Increased Rare Drop Rate from Panel 5",
                                 "?"
                             ]
                         ]
@@ -1070,17 +1102,38 @@
                     "startsNote": "Maintenance",
                     "ends": "2021-07-21T08:00:00Z",
                     "endsNote": "Maintenance",
-                    "distribution": "Unknown",
-                    "delivery": "Unknown",
+                    "distribution": "Immediate",
+                    "delivery": "Automatic",
                     "activityShort": "Daily & Weekly Tasks",
                     "activityFull": [
-                        "Unknown"
+                        "[Daily] Defeat 30 seasonal enemies",
+                        "[Daily] Defeat 1 seasonal Veteran enemies",
+                        "[Weekly] Defeat 5 Ceremo Rappy",
+                        "[Weekly] Defeat 1 seasonal Petta Vera"
                     ],
                     "rewards": [
                         [
                             [
-                                "Unknown",
-                                "?"
+                                "Seasonal Points",
+                                400
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                600
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                7000
                             ]
                         ]
                     ]
@@ -1093,16 +1146,16 @@
                     "ends": "2021-08-04T02:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
-                    "delivery": "Inventory",
+                    "delivery": "Automatic",
                     "activityShort": "Limited-Time Tasks",
                     "activityFull": [
-                        "Unknown"
+                        "Defeat 30 seasonal enemies"
                     ],
                     "rewards": [
                         [
                             [
-                                "Unknown",
-                                "?"
+                                "Seasonal Points",
+                                500
                             ]
                         ]
                     ]
