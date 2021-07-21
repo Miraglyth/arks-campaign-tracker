@@ -12,7 +12,7 @@
                     "startsNote": "Start of CBT",
                     "ends": "2021-05-17T02:00:00Z",
                     "endsNote": "End of CBT",
-                    "distribution": "2021-07-07T11:00:00Z",
+                    "distribution": "2021-07-21T11:00:00Z",
                     "distributionNote": "Maintenance",
                     "delivery": "TBC",
                     "activityShort": "Suppress Nogleths",
@@ -39,7 +39,7 @@
                     "startsNote": "Start of CBT",
                     "ends": "2021-05-17T02:00:00Z",
                     "endsNote": "End of CBT",
-                    "distribution": "2021-07-07T11:00:00Z",
+                    "distribution": "2021-07-21T11:00:00Z",
                     "distributionNote": "Maintenance",
                     "delivery": "TBC",
                     "activityShort": "Reach level 10",
@@ -66,7 +66,7 @@
                     "startsNote": "Start of CBT",
                     "ends": "2021-05-17T02:00:00Z",
                     "endsNote": "End of CBT",
-                    "distribution": "2021-07-07T11:00:00Z",
+                    "distribution": "2021-07-21T11:00:00Z",
                     "distributionNote": "Maintenance",
                     "delivery": "TBC",
                     "activityShort": "Use Personal Shop",
@@ -89,7 +89,7 @@
                     "startsNote": "Start of CBT",
                     "ends": "2021-05-17T02:00:00Z",
                     "endsNote": "End of CBT",
-                    "distribution": "2021-07-07T11:00:00Z",
+                    "distribution": "2021-07-21T11:00:00Z",
                     "distributionNote": "Maintenance",
                     "delivery": "TBC",
                     "activityShort": "Reach 1,050 Battle Power",
@@ -112,7 +112,7 @@
                     "startsNote": "Start of CBT",
                     "ends": "2021-05-17T02:00:00Z",
                     "endsNote": "End of CBT",
-                    "distribution": "2021-07-07T11:00:00Z",
+                    "distribution": "2021-07-21T11:00:00Z",
                     "distributionNote": "Maintenance",
                     "delivery": "TBC",
                     "activityShort": "Use Material Storage",
@@ -137,7 +137,7 @@
                     "nameShort": "Complete Survey",
                     "starts": "2021-05-16T01:00:00Z",
                     "ends": "2021-05-23T06:59:00Z",
-                    "distribution": "2021-07-07T11:00:00Z",
+                    "distribution": "2021-07-21T11:00:00Z",
                     "distributionNote": "Maintenance",
                     "delivery": "TBC",
                     "activityShort": "Complete CBT Survey",
@@ -1100,7 +1100,7 @@
                     "nameShort": "Daily & Weekly Tasks #1",
                     "starts": "2021-07-07T08:00:00Z",
                     "startsNote": "Maintenance",
-                    "ends": "2021-07-21T08:00:00Z",
+                    "ends": "2021-07-21T02:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
                     "delivery": "Automatic",
@@ -1375,6 +1375,34 @@
                         [
                             [
                                 "20 Star Gems (Limit 5)",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210718,
+            "name": "Complete the Survey and Receive 40 SG!",
+            "nameShort": "Paid Services Survey",
+            "url": "https://ngs.pso2.com/news/announcements/announcement59981",
+            "campaigns": [
+                {
+                    "name": "Complete the Survey and Receive 40 SG!",
+                    "nameShort": "Paid Services Survey",
+                    "starts": "2021-07-19T02:00:00Z",
+                    "ends": "2021-07-26T02:00:00Z",
+                    "distribution": "Mid August",
+                    "delivery": "Menu",
+                    "activityShort": "Complete Survey",
+                    "activityFull": [
+                        "Complete a <a href=\"https://pso2.com/news/orkasurvey?surveyId=XA68827912\">Player Survey</a>"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 40 Ticket",
                                 1
                             ]
                         ]
