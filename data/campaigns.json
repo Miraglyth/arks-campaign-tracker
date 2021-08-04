@@ -1821,8 +1821,10 @@
                     ],
                     "rewards": [
                         [
-                            "N-Color-Change Pass",
-                            1
+                            [
+                                "N-Color-Change Pass",
+                                1
+                            ]
                         ]
                     ]
                 },
@@ -1837,12 +1839,14 @@
                     "delivery": "Menu",
                     "activityShort": "Join an Alliance",
                     "activityFull": [
-                        "Join an Alliance with 4 or more members as of the start of maintenance"
+                        "Join an Alliance with 4 or more members"
                     ],
                     "rewards": [
                         [
-                            "SG 50 Ticket",
-                            1
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ]
                         ]
                     ]
                 },
