@@ -13,7 +13,7 @@
                     "ends": "2021-05-17T02:00:00Z",
                     "endsNote": "End of CBT",
                     "distribution": "2021-07-21T11:00:00Z",
-                    "distributionNote": "Maintenance",
+                    "distributionNote": "04 Aug for some",
                     "delivery": "TBC",
                     "activityShort": "Suppress Nogleths",
                     "activityFull": [
@@ -40,7 +40,7 @@
                     "ends": "2021-05-17T02:00:00Z",
                     "endsNote": "End of CBT",
                     "distribution": "2021-07-21T11:00:00Z",
-                    "distributionNote": "Maintenance",
+                    "distributionNote": "04 Aug for some",
                     "delivery": "TBC",
                     "activityShort": "Reach level 10",
                     "activityFull": [
@@ -67,7 +67,7 @@
                     "ends": "2021-05-17T02:00:00Z",
                     "endsNote": "End of CBT",
                     "distribution": "2021-07-21T11:00:00Z",
-                    "distributionNote": "Maintenance",
+                    "distributionNote": "04 Aug for some",
                     "delivery": "TBC",
                     "activityShort": "Use Personal Shop",
                     "activityFull": [
@@ -90,7 +90,7 @@
                     "ends": "2021-05-17T02:00:00Z",
                     "endsNote": "End of CBT",
                     "distribution": "2021-07-21T11:00:00Z",
-                    "distributionNote": "Maintenance",
+                    "distributionNote": "04 Aug for some",
                     "delivery": "TBC",
                     "activityShort": "Reach 1,050 Battle Power",
                     "activityFull": [
@@ -113,7 +113,7 @@
                     "ends": "2021-05-17T02:00:00Z",
                     "endsNote": "End of CBT",
                     "distribution": "2021-07-21T11:00:00Z",
-                    "distributionNote": "Maintenance",
+                    "distributionNote": "04 Aug for some",
                     "delivery": "TBC",
                     "activityShort": "Use Material Storage",
                     "activityFull": [
@@ -138,7 +138,7 @@
                     "starts": "2021-05-16T01:00:00Z",
                     "ends": "2021-05-23T06:59:00Z",
                     "distribution": "2021-07-21T11:00:00Z",
-                    "distributionNote": "Maintenance",
+                    "distributionNote": "04 Aug for some",
                     "delivery": "TBC",
                     "activityShort": "Complete CBT Survey",
                     "activityFull": [
@@ -263,7 +263,7 @@
                     "startsNote": "NGS Launch",
                     "ends": "2021-07-07T02:00:00Z",
                     "endsNote": "Maintenance",
-                    "distribution": "Early August",
+                    "distribution": "2021-08-04T08:00:00Z",
                     "delivery": "Menu",
                     "activityShort": "Register Friends",
                     "activityFull": [
@@ -291,7 +291,8 @@
                     "startsNote": "NGS Launch",
                     "ends": "2021-07-07T02:00:00Z",
                     "endsNote": "Maintenance",
-                    "distribution": "Early August",
+                    "distribution": "2021-08-04T08:00:00Z",
+                    "distributionNote": "Not received by all?",
                     "delivery": "Menu",
                     "activityShort": "Join an Alliance",
                     "activityFull": [
@@ -967,20 +968,28 @@
                     "delivery": "Menu",
                     "activityShort": "<a href=\"https://pso2.jp/players/event/9th_anniversary_g/webevent/\">Web Link Panels</a>",
                     "activityFull": [
-                        "[Week 1] 1,500,000 Total Points",
-                        "[Week 1] 2,800,000 Total Points",
-                        "[Week 1] 3,500,000 Total Points",
-                        "[Week 1] Excess Total Points",
-                        "[Week 2] 30,000,000 Total Points",
-                        "[Week 2] 60,000,000 Total Points",
-                        "[Week 2] 150,000,000 Total Points",
-                        "[Week 2] Excess Total Points"
+                        "[Week 1] [01] 1,500,000 Total Points",
+                        "[Week 1] [02] 2,800,000 Total Points",
+                        "[Week 1] [03] 3,500,000 Total Points",
+                        "[Week 1] [04] Excess Total Points",
+                        "[Week 2] [05] 30,000,000 Total Points",
+                        "[Week 2] [06] 60,000,000 Total Points",
+                        "[Week 2] [07] 150,000,000 Total Points",
+                        "[Week 2] [08] Excess Total Points",
+                        "[Week 3] [09] 500,000 Total Points",
+                        "[Week 3] [10] 700,000 Total Points",
+                        "[Week 3] [11] 1,300,000 Total Points",
+                        "[Week 3] [12] Excess Total Points",
+                        "[Week 4] [13] 6,000,000 Total Points",
+                        "[Week 4] [14] 10,000,000 Total Points",
+                        "[Week 4] [15] 22,000,000 Total Points",
+                        "[Week 4] [16] Excess Total Points"
                     ],
                     "rewards": [
                         [
                             [
                                 "N-Meseta Earned +50%",
-                                "Boost"
+                                "Boost (Reward Period 1)"
                             ]
                         ],
                         [
@@ -1002,13 +1011,13 @@
                         [
                             [
                                 "N-Augmentation Success Rate +10%",
-                                "?"
+                                2
                             ]
                         ],
                         [
                             [
                                 "Rare Drop Rate +25%",
-                                "Boost"
+                                "Boost (Reward Period 1)"
                             ]
                         ],
                         [
@@ -1026,7 +1035,55 @@
                         [
                             [
                                 "Increased Rare Drop Rate from Panel 5",
-                                "?"
+                                "Boost (Reward Period 1)"
+                            ]
+                        ],
+                        [
+                            [
+                                "Enhancement Success Rate +25%",
+                                "Boost (Reward Period 2)"
+                            ]
+                        ],
+                        [
+                            [
+                                "EXP Earned +10%",
+                                "Boost (Reward Period 1)"
+                            ]
+                        ],
+                        [
+                            [
+                                "Twinkling Hairband",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Increased Enhancement Success Rate from Panel 9",
+                                "Boost (Reward Period 2)"
+                            ]
+                        ],
+                        [
+                            [
+                                "Limit Breaking Costs Half-Off",
+                                "Boost (Reward Period 2)"
+                            ]
+                        ],
+                        [
+                            [
+                                "Potential Unlocking Costs Half-off",
+                                "Boost (Reward Period 2)"
+                            ]
+                        ],
+                        [
+                            [
+                                "Augmentation Success Rate +5%",
+                                "Boost (Reward Period 2)"
+                            ]
+                        ],
+                        [
+                            [
+                                "SG",
+                                200
                             ]
                         ]
                     ]
@@ -1036,19 +1093,170 @@
                     "nameShort": "Story Quest Campaign",
                     "starts": "2021-07-21T02:00:00Z",
                     "startsNote": "Maintenance",
-                    "ends": "2021-08-04T02:00:00Z",
+                    "ends": "2021-09-01T02:00:00Z",
                     "endsNote": "Maintenance",
-                    "distribution": "Unknown",
-                    "delivery": "Unknown",
-                    "activityShort": "Unknown",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Story Quests",
                     "activityFull": [
-                        "Unknown"
+                        "Clear \"The Final Farewell\" in Episode 1 Chapter 10",
+                        "Clear \"The Reason for My Birth\" in Episode 2 Chapter 5",
+                        "Clear \"Plotting the Ultimate Defense\" in Episode 3 Chapter 4",
+                        "Clear \"Avatar of Annihilation\" in Episode 4 Chapter 8",
+                        "Clear \"The Legendary Savior\" in Episode 5 Chapter 6",
+                        "Clear \"The Future You Weave\" in Episode 6 Chapter 6"
                     ],
                     "rewards": [
                         [
                             [
-                                "Unknown",
-                                "?"
+                                "* Apoptosis",
+                                1
+                            ],
+                            [
+                                "* Mea Pulchra",
+                                1
+                            ],
+                            [
+                                "183: Eat",
+                                1
+                            ],
+                            [
+                                "Quna Head-Mount",
+                                1
+                            ],
+                            [
+                                "Haddred Head-Mount",
+                                1
+                            ],
+                            [
+                                "Re: SG C Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Energy Husers",
+                                1
+                            ],
+                            [
+                                "* Skuld",
+                                1
+                            ],
+                            [
+                                "215: Survey",
+                                1
+                            ],
+                            [
+                                "Klariskrays the Second Head-Mount",
+                                1
+                            ],
+                            [
+                                "Luther Head-Mount",
+                                1
+                            ],
+                            [
+                                "Re: SG C Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Atolm",
+                                1
+                            ],
+                            [
+                                "* Krotov M238",
+                                1
+                            ],
+                            [
+                                "332: Photo Op",
+                                1
+                            ],
+                            [
+                                "[Persona] Head-Mount",
+                                1
+                            ],
+                            [
+                                "Matoi Head-Mount",
+                                1
+                            ],
+                            [
+                                "Re: SG C Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Siegmund",
+                                1
+                            ],
+                            [
+                                "* Valiant",
+                                1
+                            ],
+                            [
+                                "489: Stirring Up The Bath",
+                                1
+                            ],
+                            [
+                                "Aratron Head-Mount",
+                                1
+                            ],
+                            [
+                                "Mother Head-Mount",
+                                1
+                            ],
+                            [
+                                "Re: SG C Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Solaris",
+                                1
+                            ],
+                            [
+                                "* Val Gantte",
+                                1
+                            ],
+                            [
+                                "374: Shoji Screen",
+                                1
+                            ],
+                            [
+                                "Fairy Xiera Head-Mount",
+                                1
+                            ],
+                            [
+                                "Margareta Head-Mount",
+                                1
+                            ],
+                            [
+                                "Re: SG C Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Zodiac Sign",
+                                1
+                            ],
+                            [
+                                "* Rose Ornament",
+                                1
+                            ],
+                            [
+                                "517: Final Performance",
+                                1
+                            ],
+                            [
+                                "Shiva Head-Mount",
+                                1
+                            ],
+                            [
+                                "Re: SG C Ticket",
+                                1
                             ]
                         ]
                     ]
@@ -1059,17 +1267,17 @@
                     "startsNote": "Maintenance",
                     "ends": "2021-08-04T02:00:00Z",
                     "endsNote": "Maintenance",
-                    "distribution": "Unknown",
-                    "delivery": "Unknown",
-                    "activityShort": "Unknown",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Web Report",
                     "activityFull": [
-                        "Unknown"
+                        "None"
                     ],
                     "rewards": [
                         [
                             [
-                                "Unknown",
-                                "?"
+                                "None",
+                                0
                             ]
                         ]
                     ]
@@ -1403,6 +1611,364 @@
                         [
                             [
                                 "SG 40 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210720,
+            "name": "PSO2 Day: Premium",
+            "url": "https://ngs.pso2.com/news/events/announcement61826",
+            "campaigns": [
+                {
+                    "name": "PSO2 Day: Premium",
+                    "starts": "2021-07-22T00:00:00Z",
+                    "ends": "2021-07-23T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in (Premium)",
+                    "activityFull": [
+                        "Log in with Premium active"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 22 Ticket",
+                                2
+                            ],
+                            [
+                                "EXP +5%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +20%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210727,
+            "name": "PSO2 Day",
+            "url": "https://ngs.pso2.com/news/events/PSO2day20210801",
+            "campaigns": [
+                {
+                    "name": "PSO2 Day",
+                    "starts": "2021-08-02T00:00:00Z",
+                    "ends": "2021-08-03T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in",
+                    "activityFull": [
+                        "Log in"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 22 Ticket",
+                                2
+                            ],
+                            [
+                                "EXP +5%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +20%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210803,
+            "name": "Play AC Scratch Tickets!",
+            "nameShort": "Play AC Scratch",
+            "url": "https://ngs.pso2.com/news/events/announcement59946",
+            "campaigns": [
+                {
+                    "name": "Play AC Scratch Tickets!",
+                    "nameShort": "Play AC Scratch",
+                    "starts": "2021-08-04T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-01T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Late September",
+                    "delivery": "Menu",
+                    "activityShort": "AC Scratch Bonus",
+                    "activityFull": [
+                        "Play an AC Scratch 1 or more times"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Grinder",
+                                10
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210803,
+            "name": "Summertime ARKS Support Campaign",
+            "nameShort": "Summertime ARKS Support",
+            "url": "https://ngs.pso2.com/news/events/announcement59109",
+            "campaigns": [
+                {
+                    "name": "ARKS Training Program",
+                    "starts": "2021-08-04T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-01T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Enhance a weapon to +40 or beyond",
+                        "Unlock a Lv. 1 weapon potential",
+                        "Unlock a Lv. 2 weapon potential",
+                        "Unlock a Lv. 3 weapon potential",
+                        "Add 4 Augments to a weapon/armor",
+                        "Craft a Multi-weapon",
+                        "Produce 10 Region Mag boosts",
+                        "Defeat 300 FORMERS",
+                        "Defeat 300 DOLLS",
+                        "Defeat 20 bosses"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 30 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Melra Dualble",
+                                10
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Melra Dualble",
+                                10
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Melra Dualble",
+                                10
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Melra Dualble",
+                                10
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Novice ARKS Support Giveaway Campaign (Login)",
+                    "nameShort": "Novice ARKS Support (Login)",
+                    "starts": "2021-08-04T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-01T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Login Bonus",
+                    "activityFull": [
+                        "Log in"
+                    ],
+                    "rewards": [
+                        [
+                            "N-Color-Change Pass",
+                            1
+                        ]
+                    ]
+                },
+                {
+                    "name": "Novice ARKS Support Giveaway Campaign (Alliance)",
+                    "nameShort": "Novice ARKS Support (Alliance)",
+                    "starts": "2021-08-04T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-01T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Unknown",
+                    "delivery": "Menu",
+                    "activityShort": "Join an Alliance",
+                    "activityFull": [
+                        "Join an Alliance with 4 or more members as of the start of maintenance"
+                    ],
+                    "rewards": [
+                        [
+                            "SG 50 Ticket",
+                            1
+                        ]
+                    ]
+                },
+                {
+                    "name": "Introducing Braver Class: Login Bonus",
+                    "nameShort": "Braver Login Bonus",
+                    "starts": "2021-08-04T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-08-18T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Login Bonus",
+                    "activityFull": [
+                        "Day 1",
+                        "Day 2",
+                        "Day 3",
+                        "Day 4",
+                        "Day 5",
+                        "Day 6",
+                        "Day 7"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Salon Free Pass",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Half Scape Doll",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Augmentation Success Rate +5%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Enhancement Success Rate +10%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 30 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Introducing Defense Quests: Login Bonus",
+                    "nameShort": "Defense Quests Login Bonus",
+                    "starts": "2021-08-18T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-01T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Login Bonus",
+                    "activityFull": [
+                        "Day 1",
+                        "Day 2",
+                        "Day 3",
+                        "Day 4",
+                        "Day 5",
+                        "Day 6",
+                        "Day 7"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Salon Free Pass",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Half Scape Doll",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Augmentation Success Rate +5%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Enhancement Success Rate +10%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 30 Ticket",
                                 1
                             ]
                         ]

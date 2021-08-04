@@ -140,9 +140,9 @@ function renewDisplay() {
     campaignsUpcoming.sort(function (a, b) { return (a.done ? 1 : 0) - (b.done ? 1 : 0) || Date.parse(a.starts) - Date.parse(b.starts); });
 
     // Convert sorted campaign arrays into table rows
-    document.getElementById("tbodyEnded").innerHTML = campaignParse(announcements, campaignsEnded, 'campaignsEnded', 20);
+    document.getElementById("tbodyEnded").innerHTML = campaignParse(announcements, campaignsEnded, 'campaignsEnded', 100);
     document.getElementById("tbodyActive").innerHTML = campaignParse(announcements, campaignsActive, 'campaignsActive', 100);
-    document.getElementById("tbodyUpcoming").innerHTML = campaignParse(announcements, campaignsUpcoming, 'campaignsUpcoming', 20);
+    document.getElementById("tbodyUpcoming").innerHTML = campaignParse(announcements, campaignsUpcoming, 'campaignsUpcoming', 100);
 
     // Enable tooltips
     enableTooltips();

@@ -37,7 +37,7 @@ body {
     color: rgba(255, 255, 255, 0.5);
     background-color: rgb(21, 55, 117) !important;
     border: 1px solid rgb(226, 226, 230) !important;
-    transition: 0.25ms;
+    transition: 0.25s;
 }
 
 .nav-link:hover {
