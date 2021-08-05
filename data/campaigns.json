@@ -1732,6 +1732,8 @@
                     "delivery": "Inventory",
                     "activityShort": "Limited-Time Tasks",
                     "activityFull": [
+                        "Reach Level 10 with any class",
+                        "Reach level 20 with any class",
                         "Enhance a weapon to +40 or beyond",
                         "Unlock a Lv. 1 weapon potential",
                         "Unlock a Lv. 2 weapon potential",
@@ -1744,6 +1746,18 @@
                         "Defeat 20 bosses"
                     ],
                     "rewards": [
+                        [
+                            [
+                                "N-Enhancement Success Rate +10%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Augmentation Success Rate +5%",
+                                1
+                            ]
+                        ],
                         [
                             [
                                 "SG 20 Ticket",
