@@ -1311,7 +1311,7 @@
                     "ends": "2021-07-21T02:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
-                    "delivery": "Automatic",
+                    "delivery": "Inventory",
                     "activityShort": "Daily & Weekly Tasks",
                     "activityFull": [
                         "[Daily] Defeat 30 seasonal enemies",
@@ -1354,7 +1354,7 @@
                     "ends": "2021-08-04T02:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
-                    "delivery": "Automatic",
+                    "delivery": "Inventory",
                     "activityShort": "Limited-Time Tasks",
                     "activityFull": [
                         "Defeat 30 seasonal enemies"
@@ -2207,7 +2207,7 @@
                     ]
                 },
                 {
-                    "name": "Treat'Chao'-Self!",
+                    "name": "Treat'Chao-Self!",
                     "starts": "2021-09-01T08:00:00Z",
                     "startsNote": "Maintenance",
                     "ends": "2021-09-29T02:00:00Z",
@@ -2367,6 +2367,297 @@
                             [
                                 "N-Augmentation Success Rate +5%",
                                 1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210901,
+            "name": "Autumn Event",
+            "campaigns": [
+                {
+                    "name": "Limited-Time Tasks",
+                    "starts": "2021-09-01T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-29T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Talk to Xiandy",
+                        "Discover 10 Mischief Symbol",
+                        "Defeat 10 symbol ALTERS",
+                        "Defeat 1 symbol Veteran enemy",
+                        "Defeat 1 symbol Nex Vera"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "None",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                1000
+                            ],
+                            [
+                                "EXP",
+                                100
+                            ],
+                            [
+                                "Seasonal Points",
+                                500
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                1000
+                            ],
+                            [
+                                "EXP",
+                                100
+                            ],
+                            [
+                                "Seasonal Points",
+                                500
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                1000
+                            ],
+                            [
+                                "EXP",
+                                100
+                            ],
+                            [
+                                "Seasonal Points",
+                                500
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                1000
+                            ],
+                            [
+                                "EXP",
+                                100
+                            ],
+                            [
+                                "Seasonal Points",
+                                500
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Daily & Weekly Tasks",
+                    "starts": "2021-09-01T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-29T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Daily & Weekly Tasks",
+                    "activityFull": [
+                        "[Daily] Defeat 30 symbol enemies",
+                        "[Daily] Defeat 1 symbol Veteran enemy",
+                        "[Weekly] Defeat 5 Moongaze Rappy",
+                        "[Weekly] Defeat 1 symbol Nex Vera"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                400
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                600
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                2000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Phenomenologist Xiandy Exchange",
+                    "nameShort": "Xiandy Exchange #1",
+                    "starts": "2021-09-01T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-29T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Item Exchange",
+                    "activityFull": [
+                        "5000 S.Points",
+                        "5000 S.Points",
+                        "1000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "500 S.Points",
+                        "300 S.Points",
+                        "300 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "300 S.Points",
+                        "100 S.Points"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "STP: Rappy & Moony - Moon-Gazing (Limit 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Bunni Hood (Limit 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "20 Star Gems (Limit 5)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Frostel Wire (Limit 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Frostel Saber (Limit 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Frostel Katana (Limit 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Frostel Launcher (Limit 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Frostel Machine Guns (Limit 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Frostel Rod (Limit 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Frostel Wand (Limit 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trinite (Limit 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Quartz (Limit 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Ice Exploit I (Limit 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Might III (Limit 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Precision III (Limit 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Technique III (Limit 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Alpha Reactor (Limit 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Grinder (Limit 50)",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Moongaze Rappy",
+                    "starts": "2021-09-01T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-29T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Event Enemy",
+                    "activityFull": [
+                        "None"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "None",
+                                0
                             ]
                         ]
                     ]
