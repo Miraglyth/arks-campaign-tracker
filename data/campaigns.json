@@ -2059,6 +2059,279 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20210831,
+            "name": "Sonic Collaboration Event!",
+            "nameShort": "Sonic Collaboration",
+            "url": "https://ngs.pso2.com/news/events/soniccollabevent0901",
+            "campaigns": [
+                {
+                    "name": "Get Your Tweet On!",
+                    "starts": "2021-09-01T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-29T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Late October",
+                    "delivery": "Menu",
+                    "activityShort": "Community retweet milestone",
+                    "activityFull": [
+                        "Total retweets of campaign Tweet #NGSxSonicCollab reaches 30,000",
+                        "Twitter Raffle (5 winners in Global)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Mag Form: Tails Doll",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Sonic Blu-ray & DVD set",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Color the PSO2:NGS World!",
+                    "starts": "2021-09-01T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-29T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Login Bonus",
+                    "activityFull": [
+                        "Day 1",
+                        "Day 2",
+                        "Day 3",
+                        "Day 4",
+                        "Day 5",
+                        "Day 6",
+                        "Day 7"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "STP: Sonic - Good",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "STP: Dr. Eggman - Perfect!",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Salon Free Pass",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "STP: Amy - Hello",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 30 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Sonic Earrings",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Sonic Shoes",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Try out a Premium Set!",
+                    "starts": "2021-09-01T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-29T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "TBC",
+                    "delivery": "Menu",
+                    "activityShort": "Use a Premium Set",
+                    "activityFull": [
+                        "Use a Premium Set (30 Days, 60 Days, or 90 Days)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "761: Sonic/Tails 3",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Help from your friends!",
+                    "starts": "2021-09-01T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-15T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Play with Friends",
+                    "activityFull": [
+                        "Have 3+ users in your Friends List",
+                        "Complete any Urgent Quest in full party of Friends"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Enhancement Success Rate +10%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "STP: Tails - OK!",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Treat'Chao'-Self!",
+                    "starts": "2021-09-01T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-29T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Mid November",
+                    "delivery": "Menu",
+                    "activityShort": "Spend AC",
+                    "activityFull": [
+                        "Spend a total of 2,000+ AC",
+                        "Spend a total of 5,000+ AC",
+                        "Spend a total of 10,000+ AC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Tails' Tails",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "MTN: Glide - Tails",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "MTN: Dash - Sonic",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "It's Party Time!",
+                    "starts": "2021-09-08T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-22T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Form a Party",
+                    "activityFull": [
+                        "Complete any Urgent Quest in a party of 2+ players",
+                        "Speak in Party Chat 1 time"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Augmentation Success Rate +5%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "STP: Sonic & Amy - Congrats",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Join an Alliance!",
+                    "starts": "2021-09-15T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-29T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "TBC",
+                    "delivery": "Menu",
+                    "activityShort": "Play with Alliance",
+                    "activityFull": [
+                        "Be in an Alliance by the end of the campaign",
+                        "Complete any Urgent Quest in full party of Alliance members"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Enhancement Success Rate +20%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "STP: Sonic & Tails - Joy",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210831,
+            "name": "PSO2 Day",
+            "url": "https://ngs.pso2.com/news/events/PSO2day20210901",
+            "campaigns": [
+                {
+                    "name": "PSO2 Day",
+                    "starts": "2021-09-02T00:00:00Z",
+                    "ends": "2021-09-03T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in",
+                    "activityFull": [
+                        "Log in"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 22 Ticket",
+                                2
+                            ],
+                            [
+                                "EXP +5%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +20%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
