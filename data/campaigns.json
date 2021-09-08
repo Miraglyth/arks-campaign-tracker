@@ -2332,6 +2332,46 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20210902,
+            "name": "Great Deals in the AC Shop!",
+            "nameShort": "AC Shop Deals",
+            "url": "https://ngs.pso2.com/news/events/campaign56485",
+            "campaigns": [
+                {
+                    "name": "AC Shop Deals",
+                    "starts": "2021-09-01T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-29T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "AC Shop Deals",
+                    "activityFull": [
+                        "Premium Set (30 Days) + Bonus",
+                        "Premium Set (90 Days) + Bonus"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Augmentation Success Rate +5%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "STP: Emilia - Praise",
+                                1
+                            ],
+                            [
+                                "N-Augmentation Success Rate +5%",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
