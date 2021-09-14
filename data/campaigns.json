@@ -2188,8 +2188,8 @@
                     "delivery": "Inventory",
                     "activityShort": "Play with Friends",
                     "activityFull": [
-                        "Have 3+ users in your Friends List",
-                        "Complete any Urgent Quest in full party of Friends"
+                        "Add 3 Friends (existing friends count)",
+                        "Clear an Urgent Quest with a friend (in a party)"
                     ],
                     "rewards": [
                         [
@@ -2251,8 +2251,8 @@
                     "delivery": "Menu",
                     "activityShort": "Form a Party",
                     "activityFull": [
-                        "Complete any Urgent Quest in a party of 2+ players",
-                        "Speak in Party Chat 1 time"
+                        "Send a Party Chat message",
+                        "Clear an Urgent Quest with a party (2+ players)"
                     ],
                     "rewards": [
                         [
