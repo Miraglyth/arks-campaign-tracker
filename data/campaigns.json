@@ -2661,6 +2661,64 @@
                             ]
                         ]
                     ]
+                },
+                {
+                    "name": "Daily & Weekly Tasks (Second Half)",
+                    "nameShort": "Daily & Weekly Tasks #2",
+                    "starts": "2021-09-15T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-29T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Daily & Weekly Tasks",
+                    "activityFull": [
+                        "[Daily] Obtain 5 Monotite",
+                        "[Weekly] Defeat 15 seasonal enemies with Ice attacks"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                1000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Phenomenologist Xiandy Exchange (Second Half)",
+                    "nameShort": "Xiandy Exchange #2",
+                    "starts": "2021-09-15T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-29T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Item Exchange",
+                    "activityFull": [
+                        "5000 S.Points",
+                        "1500 S.Points"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Bunni Hairpin (Limit 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "20 Star Gems (Limit 5)",
+                                1
+                            ]
+                        ]
+                    ]
                 }
             ]
         }
