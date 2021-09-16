@@ -2674,9 +2674,16 @@
                     "activityShort": "Daily & Weekly Tasks",
                     "activityFull": [
                         "[Daily] Obtain 5 Monotite",
+                        "[Daily] Defeat 10 seasonal ALTERS in Vanford Laboratory",
                         "[Weekly] Defeat 15 seasonal enemies with Ice attacks"
                     ],
                     "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                1000
+                            ]
+                        ],
                         [
                             [
                                 "Seasonal Points",
@@ -2715,6 +2722,69 @@
                         [
                             [
                                 "20 Star Gems (Limit 5)",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Autumn Login Bonus",
+                    "starts": "2021-09-15T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-09-29T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Login Bonus",
+                    "activityFull": [
+                        "Day 1",
+                        "Day 2",
+                        "Day 3",
+                        "Day 4",
+                        "Day 5",
+                        "Day 6",
+                        "Day 7"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Salon Free Pass",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Half Scape Doll",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Augmentation Success Rate +5%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Enhancement Sucess Rate +10%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 30 Ticket",
                                 1
                             ]
                         ]
