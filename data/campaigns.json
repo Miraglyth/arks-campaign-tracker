@@ -2791,6 +2791,222 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20210928,
+            "name": "PSO2 Day",
+            "url": "https://ngs.pso2.com/news/events/PSO2day20211001",
+            "campaigns": [
+                {
+                    "name": "PSO2 Day",
+                    "starts": "2021-10-02T00:00:00Z",
+                    "ends": "2021-10-03T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in",
+                    "activityFull": [
+                        "Log in"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 22 Ticket",
+                                2
+                            ],
+                            [
+                                "EXP +5%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +20%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20210928,
+            "name": "9 Million ARKS Worldwide Celebration Campaign",
+            "nameShort": "9M ARKS Celebration",
+            "url": "https://ngs.pso2.com/news/events/announcement66042",
+            "campaigns": [
+                {
+                    "name": "9 Million AC Total Twitter Giveaway!",
+                    "nameShort": "Twitter AC Giveaway",
+                    "starts": "2021-09-29T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-10-13T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Unknown",
+                    "delivery": "Unknown",
+                    "activityShort": "Follow, tweet & DM",
+                    "activityFull": [
+                        "Follow <a href=\"https://twitter.com/play_pso2\">@play_pso2</a>, tweet #Congrats9MillionARKS and DM @play_pso2 your Player ID<br>(Raffle: 900 winners)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "AC",
+                                10000
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "9 Million ARKS Worldwide Celebration Giveaway Campaign",
+                    "nameShort": "Giveaway Campaign",
+                    "starts": "2021-09-29T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-10-13T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Type \"Congrats_9M_ARKS\" with in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 100 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "9 Million ARKS Worldwide Celebration Boost Event Part 1",
+                    "nameShort": "Boost Event Part 1",
+                    "starts": "2021-09-29T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-10-06T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Global boost"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Rare Drop Rate +50%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "9 Million ARKS Worldwide Celebration Boost Event Part 2",
+                    "nameShort": "Boost Event Part 2",
+                    "starts": "2021-10-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-10-13T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Global boost"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP Earned +20%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Valuable Items Available for Purchase!",
+                    "nameShort": "AC Shop Deals",
+                    "starts": "2021-09-29T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-10-13T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "AC Shop Deals",
+                    "activityFull": [
+                        "9 Million ARKS Premium Set [900 AC]",
+                        "9 Million ARKS Boost Set [900 AC]"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Premium Set (30 Days)",
+                                1
+                            ],
+                            [
+                                "Salon Free Pass",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Rare Drop Rate +50%",
+                                1
+                            ],
+                            [
+                                "N-EXP Earned +10%",
+                                1
+                            ],
+                            [
+                                "N-Scape Doll",
+                                1
+                            ],
+                            [
+                                "N-Enhancement Success Rate +10%",
+                                5
+                            ],
+                            [
+                                "N-Augmentation Success Rate +5%",
+                                5
+                            ],
+                            [
+                                "N-Grinder",
+                                50
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20211001,
+            "name": "ARKS Challenge Program Cancellation Apology",
+            "nameShort": "ARKS Challenge Cancellation",
+            "url": "https://ngs.pso2.com/news/announcements/announcement20210929_2",
+            "campaigns": [
+                {
+                    "name": "ARKS Challenge Program Cancellation Apology",
+                    "nameShort": "Cancellation Apology",
+                    "starts": "2021-10-01T09:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-10-31T07:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Cancellation Apology",
+                    "activityFull": [
+                        "Apology for cancellation of ARKS Challenge Program"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 100 Ticket",
+                                1
+                            ],
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
