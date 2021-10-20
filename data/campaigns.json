@@ -2921,6 +2921,28 @@
                     ]
                 },
                 {
+                    "name": "9 Million ARKS Worldwide Celebration Preannounced Urgent Quest Campaign",
+                    "nameShort": "Urgent Quest Schedule",
+                    "starts": "2021-10-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-10-13T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "UQ Schedule",
+                    "activityFull": [
+                        "Urgent Quest Schedule <a href=\"https://ngs.pso2.com/news/events/announcement68433\">Here</a>"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "-",
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                {
                     "name": "Valuable Items Available for Purchase!",
                     "nameShort": "AC Shop Deals",
                     "starts": "2021-09-29T08:00:00Z",
@@ -2984,7 +3006,7 @@
                 {
                     "name": "ARKS Challenge Program Cancellation Apology",
                     "nameShort": "Cancellation Apology",
-                    "starts": "2021-10-01T09:00:00Z",
+                    "starts": "2021-10-01T08:00:00Z",
                     "startsNote": "Maintenance",
                     "ends": "2021-10-31T07:00:00Z",
                     "distribution": "Immediate",
@@ -3002,6 +3024,256 @@
                             [
                                 "SG 50 Ticket",
                                 1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20211012,
+            "name": "Mission Pass Release Celebration Campaign",
+            "nameShort": "Mission Pass Celebration",
+            "url": "https://ngs.pso2.com/news/events/missionpassgold",
+            "campaigns": [
+                {
+                    "name": "Mission Pass Release Celebration Campaign",
+                    "nameShort": "Mission Pass Celebration",
+                    "starts": "2021-10-13T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-11-03T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Login Bonus",
+                    "activityFull": [
+                        "Log in"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Mission Pass Gold Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20211013,
+            "name": "Bouncer Celebration Campaign",
+            "nameShort": "Bouncer Celebration",
+            "url": "https://ngs.pso2.com/news/events/announcement62968",
+            "campaigns": [
+                {
+                    "name": "ARKS Support Giveaway Campaign (Login)",
+                    "nameShort": "ARKS Support Giveaway (Login)",
+                    "starts": "2021-10-13T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-11-10T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Login Bonus",
+                    "activityFull": [
+                        "Log in"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Salon Free Pass",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "ARKS Support Giveaway Campaign (Salon)",
+                    "nameShort": "ARKS Support Giveaway (Salon)",
+                    "starts": "2021-10-13T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-11-10T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Later Date",
+                    "delivery": "Menu",
+                    "activityShort": "SHORT",
+                    "activityFull": [
+                        "Use a Salon Free Pass, Salon Pass or Salon Pass S in the Salon"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "ARKS Training Program",
+                    "starts": "2021-10-13T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-11-10T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "TASK 1",
+                        "TASK 2",
+                        "TASK 3",
+                        "TASK 4",
+                        "TASK 5",
+                        "TASK 6",
+                        "TASK 7",
+                        "TASK 8"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "REWARD",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "REWARD",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "REWARD",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "REWARD",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "REWARD",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "REWARD",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "REWARD",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "REWARD",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "AC Purchase Campaign",
+                    "starts": "2021-10-13T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-11-10T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Reach Level 10 with any class",
+                        "Reach level 20 with any class",
+                        "Enhance a weapon to +40 or beyond",
+                        "Unlock a Lv. 1 weapon potential",
+                        "Unlock a Lv. 2 weapon potential",
+                        "Unlock a Lv. 3 weapon potential",
+                        "Add 4 Augments to a weapon/armor",
+                        "Craft a Multi-weapon",
+                        "Clear 3 Urgent Quests",
+                        "Defeat 300 ALTERS",
+                        "Defeat 300 DOLLS",
+                        "Defeat 30 bosses"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Enhancement Success Rate +10%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Augmentation Success Rate +5%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 30 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Meltech Dualble I",
+                                10
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Meltech Dualble I",
+                                10
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Meltech Dualble I",
+                                10
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Meltech Dualble I",
+                                10
                             ]
                         ]
                     ]
