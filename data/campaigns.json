@@ -3031,6 +3031,35 @@
             ]
         },
         {
+            "date": 20211005,
+            "name": "Class Skill Balance Adjustment",
+            "nameShort": "Skill Balance Adjustment",
+            "url": "https://ngs.pso2.com/news/announcements/announcement68396",
+            "campaigns": [
+                {
+                    "name": "Class Skill Balance Adjustment Distribution",
+                    "nameShort": "Skill Balance Adjustment",
+                    "starts": "2021-10-13T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-11-12T08:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Login Bonus",
+                    "activityFull": [
+                        "Log in to NGS (per character)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Reset All Skills",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
             "date": 20211012,
             "name": "Mission Pass Release Celebration Campaign",
             "nameShort": "Mission Pass Celebration",
@@ -3097,7 +3126,7 @@
                     "endsNote": "Maintenance",
                     "distribution": "Later Date",
                     "delivery": "Menu",
-                    "activityShort": "SHORT",
+                    "activityShort": "Use Salon Pass",
                     "activityFull": [
                         "Use a Salon Free Pass, Salon Pass or Salon Pass S in the Salon"
                     ],
@@ -3118,76 +3147,6 @@
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
-                    "activityShort": "Limited-Time Tasks",
-                    "activityFull": [
-                        "TASK 1",
-                        "TASK 2",
-                        "TASK 3",
-                        "TASK 4",
-                        "TASK 5",
-                        "TASK 6",
-                        "TASK 7",
-                        "TASK 8"
-                    ],
-                    "rewards": [
-                        [
-                            [
-                                "REWARD",
-                                1
-                            ]
-                        ],
-                        [
-                            [
-                                "REWARD",
-                                1
-                            ]
-                        ],
-                        [
-                            [
-                                "REWARD",
-                                1
-                            ]
-                        ],
-                        [
-                            [
-                                "REWARD",
-                                1
-                            ]
-                        ],
-                        [
-                            [
-                                "REWARD",
-                                1
-                            ]
-                        ],
-                        [
-                            [
-                                "REWARD",
-                                1
-                            ]
-                        ],
-                        [
-                            [
-                                "REWARD",
-                                1
-                            ]
-                        ],
-                        [
-                            [
-                                "REWARD",
-                                1
-                            ]
-                        ]
-                    ]
-                },
-                {
-                    "name": "AC Purchase Campaign",
-                    "starts": "2021-10-13T08:00:00Z",
-                    "startsNote": "Maintenance",
-                    "ends": "2021-11-10T02:00:00Z",
-                    "endsNote": "Maintenance",
-                    "distribution": "Immediate",
-                    "delivery": "Menu",
                     "activityShort": "Limited-Time Tasks",
                     "activityFull": [
                         "Reach Level 10 with any class",
@@ -3274,6 +3233,61 @@
                             [
                                 "C/Meltech Dualble I",
                                 10
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "AC Purchase Campaign",
+                    "starts": "2021-10-13T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-11-10T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "AC Purchase",
+                    "activityFull": [
+                        "Purchase a total of 500 AC or more"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Color-Change Pass",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20211019,
+            "name": "PSO2 Day: Premium",
+            "url": "https://ngs.pso2.com/news/events/pso2daypremium1019",
+            "campaigns": [
+                {
+                    "name": "PSO2 Day: Premium",
+                    "starts": "2021-10-22T00:00:00Z",
+                    "ends": "2021-10-23T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in (Premium)",
+                    "activityFull": [
+                        "Log in with Premium active"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 22 Ticket",
+                                2
+                            ],
+                            [
+                                "EXP +5%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +20%",
+                                "Boost"
                             ]
                         ]
                     ]
