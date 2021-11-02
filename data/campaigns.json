@@ -3070,7 +3070,7 @@
                     "nameShort": "Mission Pass Celebration",
                     "starts": "2021-10-13T08:00:00Z",
                     "startsNote": "Maintenance",
-                    "ends": "2021-11-03T02:00:00Z",
+                    "ends": "2021-11-03T01:59:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
                     "delivery": "Menu",
@@ -3338,9 +3338,9 @@
                     "activityShort": "<a href=\"https://pso2.jp/players/event/halloweenfiesta_g/webevent/\">Web Link Panels</a>",
                     "activityFull": [
                         "[Week 1] [01] 400,000 Total Points",
-                        "[Week 1] [02] ? Total Points",
-                        "[Week 1] [03] ? Total Points",
-                        "[Week 1] [04] Excess Total Points",
+                        "[Week 1] [02] 800,000 Total Points",
+                        "[Week 1] [03] 1,200,000 Total Points",
+                        "[Week 1] [04] Every 15,000 Excess Total Points",
                         "[Week 2] [05] ? Total Points",
                         "[Week 2] [06] ? Total Points",
                         "[Week 2] [07] ? Total Points",
@@ -3363,20 +3363,20 @@
                         ],
                         [
                             [
-                                "Unknown",
-                                "?"
+                                "Photon Quartz",
+                                100
                             ]
                         ],
                         [
                             [
-                                "Unknown",
-                                "?"
+                                "STP: TAMES - Come Here",
+                                1
                             ]
                         ],
                         [
                             [
-                                "Unknown",
-                                "?"
+                                "Gold Primm Sword",
+                                "1-50"
                             ]
                         ],
                         [
@@ -3970,6 +3970,137 @@
                             [
                                 "20 Star Gems (Limit 5)",
                                 1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20211026,
+            "name": "October 27 Premium Set Purchase Campaign",
+            "nameShort": "Buy Premium Campaign",
+            "url": "https://ngs.pso2.com/news/events/announcement63015",
+            "campaigns": [
+                {
+                    "name": "October 27 Premium Set Purchase Campaign",
+                    "nameShort": "Buy Premium Campaign",
+                    "starts": "2021-10-27T08:00:00Z",
+                    "ends": "2021-11-24T02:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Buy Premium",
+                    "activityFull": [
+                        "Premium Set (30 Days)",
+                        "Premium Set (90 Days)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Augmentation Success Rate +5%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Rappy Sneakers",
+                                1
+                            ],
+                            [
+                                "N-Augmentation Success Rate +5%",
+                                1
+                            ],
+                            [
+                                "N-Enhancement Success Rate +10%",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20211026,
+            "name": "ARKS Challenge Program",
+            "url": "https://ngs.pso2.com/news/events/announcement71664",
+            "campaigns": [
+                {
+                    "name": "ARKS Challenge Program",
+                    "starts": "2021-10-27T08:00:00Z",
+                    "ends": "2021-11-10T02:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Defeat 200 ALTERS",
+                        "Defeat 200 DOLLS",
+                        "Defeat 5 Enhanced Enemies",
+                        "Defeat 5 Dread Enemies",
+                        "Complete 3 Urgent Quests"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20211029,
+            "name": "PSO2 Day",
+            "url": "https://ngs.pso2.com/news/events/PSO2day20211101",
+            "campaigns": [
+                {
+                    "name": "PSO2 Day",
+                    "starts": "2021-11-02T00:00:00Z",
+                    "ends": "2021-11-04T00:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in",
+                    "activityFull": [
+                        "Log in"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 22 Ticket",
+                                2
+                            ],
+                            [
+                                "EXP +5%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +20%",
+                                "Boost"
                             ]
                         ]
                     ]
