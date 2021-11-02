@@ -506,7 +506,7 @@
                     "delivery": "Menu",
                     "activityShort": "Chat Keyword",
                     "activityFull": [
-                        "Type \"SONIC 30th\" with in-game chat"
+                        "Say \"SONIC 30th\" in the in-game chat"
                     ],
                     "rewards": [
                         [
@@ -2043,7 +2043,7 @@
                     "delivery": "Menu",
                     "activityShort": "Chat Keyword",
                     "activityFull": [
-                        "Say “ZUTOMAYO” in the in-game chat"
+                        "Say \"ZUTOMAYO\" in the in-game chat"
                     ],
                     "rewards": [
                         [
@@ -2865,7 +2865,7 @@
                     "delivery": "Menu",
                     "activityShort": "Chat Keyword",
                     "activityFull": [
-                        "Type \"Congrats_9M_ARKS\" with in-game chat"
+                        "Say \"Congrats_9M_ARKS\" in the in-game chat"
                     ],
                     "rewards": [
                         [
@@ -3638,7 +3638,7 @@
                     "startsNote": "Maintenance",
                     "ends": "2021-11-10T02:00:00Z",
                     "endsNote": "Maintenance",
-                    "distribution": "TBC",
+                    "distribution": "Immediate",
                     "delivery": "Menu",
                     "activityShort": "Play with Alliance",
                     "activityFull": [
@@ -3976,6 +3976,36 @@
                         [
                             [
                                 "20 Star Gems (Limit 5)",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20211026,
+            "name": "Halloween Celebration Keyword Gift",
+            "nameShort": "Halloween Celebration",
+            "url": "https://twitter.com/play_pso2/status/1453209921672130565",
+            "campaigns": [
+                {
+                    "name": "Halloween Celebration Keyword Gift",
+                    "nameShort": "Halloween Celebration",
+                    "starts": "2021-10-27T04:00:00Z",
+                    "startsNote": "Tweet post time",
+                    "ends": "Unknown",
+                    "endsNote": "Not announced anywhere!",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"Trick_or_Treat\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "141: Trick or Treat!",
                                 1
                             ]
                         ]

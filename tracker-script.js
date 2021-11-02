@@ -135,9 +135,9 @@ function renewDisplay() {
     }
 
     // Sort the sorting arrays
-    campaignsEnded.sort(function (a, b) { return (a.done ? 1 : 0) - (b.done ? 1 : 0) || Date.parse(b.ends) - Date.parse(a.ends) || Date.parse(b.starts) - Date.parse(a.starts); });
-    campaignsActive.sort(function (a, b) { return (a.done ? 1 : 0) - (b.done ? 1 : 0) || Date.parse(a.ends) - Date.parse(b.ends) || Date.parse(a.starts) - Date.parse(b.starts); });
-    campaignsUpcoming.sort(function (a, b) { return (a.done ? 1 : 0) - (b.done ? 1 : 0) || Date.parse(a.starts) - Date.parse(b.starts); });
+    campaignsEnded.sort(function (a, b) { return (a.done ? 1 : 0) - (b.done ? 1 : 0) || sortParse(b.ends) - sortParse(a.ends) || sortParse(b.starts) - sortParse(a.starts); });
+    campaignsActive.sort(function (a, b) { return (a.done ? 1 : 0) - (b.done ? 1 : 0) || sortParse(a.ends) - sortParse(b.ends) || sortParse(a.starts) - sortParse(b.starts); });
+    campaignsUpcoming.sort(function (a, b) { return (a.done ? 1 : 0) - (b.done ? 1 : 0) || sortParse(a.starts) - sortParse(b.starts); });
 
     // Convert sorted campaign arrays into table rows
     document.getElementById("tbodyEnded").innerHTML = campaignParse(announcements, campaignsEnded, 'campaignsEnded', 100);
@@ -280,6 +280,18 @@ function rewardParse(rewardArray, isSummary, listMax) {
     returnText += '</ul>';
 
     return returnText;
+}
+
+function sortParse(dateTime) {
+    // Convert dateTime to a number
+    let parsedDate = Date.parse(dateTime);
+
+    // If dateTime is not a dateTime, use end-of-time as a number
+    if (isNaN(parsedDate)) {
+        parsedDate = Date.parse("9999-12-31T23:59:59Z");
+    }
+
+    return parsedDate;
 }
 
 function enableTooltips() {
