@@ -4143,6 +4143,35 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20211101,
+            "name": "ZUTOMAYO x NGS Collaboration Emote Release!",
+            "nameShort": "ZUTOMAYO Collaboration",
+            "url": "https://ngs.pso2.com/news/events/announcement71932",
+            "campaigns": [
+                {
+                    "name": "ZUTOMAYO x NGS Collaboration Emote Release!",
+                    "nameShort": "ZUTOMAYO Collaboration",
+                    "starts": "2021-11-02T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-11-30T14:59:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"NOBORDER\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "775: No Border",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
