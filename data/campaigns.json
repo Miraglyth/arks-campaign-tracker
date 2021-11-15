@@ -2839,8 +2839,8 @@
                     "startsNote": "Maintenance",
                     "ends": "2021-10-13T02:00:00Z",
                     "endsNote": "Maintenance",
-                    "distribution": "Unknown",
-                    "delivery": "Unknown",
+                    "distribution": "2021-11-10T08:00:00Z",
+                    "delivery": "Menu",
                     "activityShort": "Follow, tweet & DM",
                     "activityFull": [
                         "Follow <a href=\"https://twitter.com/play_pso2\">@play_pso2</a>, tweet #Congrats9MillionARKS and DM @play_pso2 your Player ID<br>(Raffle: 900 winners)"
@@ -3341,13 +3341,13 @@
                         "[Week 1] [02] 800,000 Total Points",
                         "[Week 1] [03] 1,200,000 Total Points",
                         "[Week 1] [04] Every 15,000 Excess Total Points",
-                        "[Week 2] [05] ? Total Points",
-                        "[Week 2] [06] ? Total Points",
-                        "[Week 2] [07] ? Total Points",
-                        "[Week 2] [08] Excess Total Points",
-                        "[Week 3] [09] ? Total Points",
-                        "[Week 3] [10] ? Total Points",
-                        "[Week 3] [11] ? Total Points",
+                        "[Week 2] [05] 700,000 Total Points",
+                        "[Week 2] [06] 2,000,000 Total Points",
+                        "[Week 2] [07] 5,000,000 Total Points",
+                        "[Week 2] [08] Every 40,000 Excess Total Points",
+                        "[Week 3] [09] 1,200,000 Total Points",
+                        "[Week 3] [10] 4,500,000 Total Points",
+                        "[Week 3] [11] 8,500,000 Total Points",
                         "[Week 3] [12] Excess Total Points",
                         "[Week 4] [13] ? Total Points",
                         "[Week 4] [14] ? Total Points",
@@ -3376,49 +3376,49 @@
                         [
                             [
                                 "Gold Primm Sword",
-                                "1-50"
+                                50
                             ]
                         ],
                         [
                             [
-                                "Unknown",
-                                "?"
+                                "Rare Drop Rate +25%",
+                                "Boost (Reward Period 2)"
                             ]
                         ],
                         [
                             [
-                                "Unknown",
-                                "?"
+                                "N-Enhancement Success Rate +30%",
+                                5
                             ]
                         ],
                         [
                             [
-                                "Unknown",
-                                "?"
+                                "Special Scratch Ticket",
+                                3
                             ]
                         ],
                         [
                             [
-                                "Unknown",
-                                "?"
+                                "Increase Rare Drop Rate from [05] to +50%",
+                                "Boost (Reward Period 2)"
                             ]
                         ],
                         [
                             [
-                                "Unknown",
-                                "?"
+                                "Enhancement Success Rate +25%",
+                                "Boost (Reward Period 1)"
                             ]
                         ],
                         [
                             [
-                                "Unknown",
-                                "?"
+                                "EXP Earned +10%",
+                                "Boost (Reward Period 2)"
                             ]
                         ],
                         [
                             [
-                                "Unknown",
-                                "?"
+                                "Rappy-o'-Lantern",
+                                1
                             ]
                         ],
                         [
@@ -4167,6 +4167,58 @@
                             [
                                 "775: No Border",
                                 1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20211010,
+            "name": "November 10 Update Details",
+            "nameShort": "November 10 Update",
+            "url": "https://ngs.pso2.com/news/announcements/announcement73966",
+            "campaigns": [
+                {
+                    "name": "Class Skill balance adjustment item",
+                    "nameShort": "Skill Balance Adjustment",
+                    "starts": "2021-11-10T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-12-10T08:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Login Bonus",
+                    "activityFull": [
+                        "Log in to NGS (per character)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Reset All Skills",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Apology for Setwear and Basewear color bug",
+                    "nameShort": "Apology for Color Bug",
+                    "starts": "2021-11-10T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-12-10T08:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Login Bonus",
+                    "activityFull": [
+                        "Log in to NGS"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Color-Change Pass",
+                                3
                             ]
                         ]
                     ]
