@@ -3592,8 +3592,10 @@
                     "activityShort": "Limited-Time Tasks",
                     "activityFull": [
                         "Talk to Xiandy",
-                        "Discover 10 Mischief Symbol",
-                        "More - Unknown"
+                        "Obtain 5 Autumn Vampkins",
+                        "Produce an R Mag Boost (Personal)",
+                        "Defeat 50 seasonal enemies in Resol Forest",
+                        "Discover 10 Mischief Symbol"
                     ],
                     "rewards": [
                         [
@@ -3613,7 +3615,35 @@
                             ],
                             [
                                 "Seasonal Points",
-                                500
+                                250
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                1000
+                            ],
+                            [
+                                "EXP",
+                                100
+                            ],
+                            [
+                                "Seasonal Points",
+                                250
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                1000
+                            ],
+                            [
+                                "EXP",
+                                100
+                            ],
+                            [
+                                "Seasonal Points",
+                                1000
                             ]
                         ],
                         [
@@ -3964,18 +3994,67 @@
                     "activityShort": "Item Exchange",
                     "activityFull": [
                         "5000 S.Points",
-                        "1500 S.Points"
+                        "1500 S.Points",
+                        "1500 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "900 S.Points",
+                        "500 S.Points"
                     ],
                     "rewards": [
                         [
                             [
-                                "Unknown (Limit 2)",
+                                "Mushroom Earrings (Max 2)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "20 Star Gems (Limit 5)",
+                                "20 Star Gems (Max 5)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Special Scratch Ticket (Max 4)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Alts Soul II (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Daityl Soul II (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Pettas Soul II (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Nex Soul II (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Alpha Reactor (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Grinder",
                                 1
                             ]
                         ]
@@ -4219,6 +4298,160 @@
                             [
                                 "N-Color-Change Pass",
                                 3
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20211124,
+            "name": "Get Ready for Retem! Campaign",
+            "nameShort": "Get Ready for Retem",
+            "campaigns": [
+                {
+                    "name": "Get Enhancement Materials Campaign",
+                    "nameShort": "Get Enhancement Materials",
+                    "starts": "2021-11-24T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "Unknown",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Unknown",
+                        "Unknown",
+                        "Unknown",
+                        "Unknown",
+                        "Unknown"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Trinite",
+                                "?"
+                            ]
+                        ],
+                        [
+                            [
+                                "Dualomite",
+                                "?"
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 50 Ticket",
+                                "?"
+                            ]
+                        ],
+                        [
+                            [
+                                "Monotite",
+                                "?"
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Grinder",
+                                "?"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Retem Pre-Release Mission Campaign",
+                    "nameShort": "Retem Pre-Release Mission",
+                    "starts": "2021-11-24T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "Unknown",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Unknown",
+                        "Unknown",
+                        "Unknown"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Retem Pre-Release Login Bonus",
+                    "nameShort": "Retem Pre-Release Login",
+                    "starts": "2021-11-24T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "Unknown",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Login Bonus",
+                    "activityFull": [
+                        "Day 1 (Predicted)",
+                        "Day 2 (Predicted)",
+                        "Day 3 (Predicted)",
+                        "Day 4 (Predicted)",
+                        "Day 5 (Predicted)",
+                        "Day 6 (Predicted)",
+                        "Day 7 (Predicted)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Salon Free Pass",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Half Scape Doll",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Augmentation Success Rate +5%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Enhancement Sucess Rate +10%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 30 Ticket",
+                                1
                             ]
                         ]
                     ]
