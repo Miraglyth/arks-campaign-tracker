@@ -4457,6 +4457,69 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20211016,
+            "name": "November 17 Update Details",
+            "nameShort": "November 17 Update",
+            "url": "https://ngs.pso2.com/news/updates/announcement70013",
+            "campaigns": [
+                {
+                    "name": "Attack on Titan Lobby",
+                    "starts": "2021-11-17T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-12-14T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Event Lobby",
+                    "activityFull": [
+                        "None"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "None",
+                                0
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20211116,
+            "name": "PSO2 Day: Premium",
+            "url": "https://ngs.pso2.com/news/events/pso2daypremium1116",
+            "campaigns": [
+                {
+                    "name": "PSO2 Day: Premium",
+                    "starts": "2021-11-22T00:00:00Z",
+                    "ends": "2021-11-23T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in (Premium)",
+                    "activityFull": [
+                        "Log in with Premium active"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 22 Ticket",
+                                2
+                            ],
+                            [
+                                "EXP +5%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +20%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
