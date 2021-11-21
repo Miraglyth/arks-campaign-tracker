@@ -4520,6 +4520,36 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20211118,
+            "name": "NGS Prologue Emote Gift",
+            "nameShort": "NGS Prologue Emote",
+            "url": "https://twitter.com/play_pso2/status/1461204230119772162",
+            "campaigns": [
+                {
+                    "name": "NGS Prologue Emote Gift",
+                    "nameShort": "NGS Prologue Emote",
+                    "starts": "2021-11-18T05:26:00Z",
+                    "startsNote": "Tweet post time",
+                    "ends": "2022-01-01T08:00:00Z",
+                    "endsNote": "End of 31 Dec in PST",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"NGS Pose\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "774: NGS Pose",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
