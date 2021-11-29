@@ -4,6 +4,7 @@
 - For all times: startsNote, endsNote and distributionNote are optional and should only be used to describe possible deviation such as maintenances
 
 # Potential improvements
+- A space for simple notes below the requirement/rewards table in the detail row
 - Scratch sets with a visibility toggle option
 - Secondary sort for Upcoming campaigns by end time
 - Potentially-automated shrinking of long reward names in summary row
