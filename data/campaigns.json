@@ -4073,8 +4073,8 @@
                     "nameShort": "Halloween Celebration",
                     "starts": "2021-10-27T04:00:00Z",
                     "startsNote": "Tweet post time",
-                    "ends": "Unknown",
-                    "endsNote": "Not announced anywhere!",
+                    "ends": "2021-11-24T02:00:00Z",
+                    "endsNote": "Best guess; not announced anywhere!",
                     "distribution": "Immediate",
                     "delivery": "Menu",
                     "activityShort": "Chat Keyword",
@@ -4634,6 +4634,40 @@
                             [
                                 "N-Meseta",
                                 50000
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20211130,
+            "name": "PSO2 Day",
+            "url": "https://ngs.pso2.com/news/events/PSO2day20211201",
+            "campaigns": [
+                {
+                    "name": "PSO2 Day",
+                    "starts": "2021-12-02T00:00:00Z",
+                    "ends": "2021-12-03T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in",
+                    "activityFull": [
+                        "Log in"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 22 Ticket",
+                                2
+                            ],
+                            [
+                                "EXP +5%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +20%",
+                                "Boost"
                             ]
                         ]
                     ]
