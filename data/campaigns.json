@@ -4733,6 +4733,556 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20211214,
+            "name": "AC Purchase Campaign",
+            "url": "https://ngs.pso2.com/news/events/announcement74032",
+            "campaigns": [
+                {
+                    "name": "AC Purchase Campaign",
+                    "starts": "2021-12-15T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-01-12T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "AC Purchase",
+                    "activityFull": [
+                        "Purchase a total of 500 AC or more"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Color-Change Pass",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20211221,
+            "name": "PSO2 Day: Premium",
+            "url": "https://ngs.pso2.com/news/events/pso2daypremium1214",
+            "campaigns": [
+                {
+                    "name": "Boost Event",
+                    "starts": "2021-12-22T00:00:00Z",
+                    "ends": "2021-12-24T00:00:00Z",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Have an active Premium Set"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP +10%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +25%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Limited-Time Tasks",
+                    "starts": "2021-12-22T00:00:00Z",
+                    "ends": "2021-12-24T00:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Unknown"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "???",
+                                0
+                            ],
+                            [
+                                "???",
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Premium Set Gift",
+                    "starts": "2021-12-22T00:00:00Z",
+                    "ends": "2021-12-24T00:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in (Premium)",
+                    "activityFull": [
+                        "Have an active Premium Set"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ],
+                            [
+                                "Special Scratch Ticket",
+                                2
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20211214,
+            "name": "Retem Release Celebration Campaign",
+            "nameShort": "Retem Release Celebration",
+            "url": "https://ngs-retem.pso2.com/events/retem/",
+            "campaigns": [
+                {
+                    "name": "Retem Release Celebration Login Bonus",
+                    "nameShort": "Retem Release Login Bonus",
+                    "starts": "2021-12-15T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-12-28T15:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Login Bonus",
+                    "activityFull": [
+                        "Day 1",
+                        "Day 2",
+                        "Day 3",
+                        "Day 4",
+                        "Day 5",
+                        "Day 6",
+                        "Day 7"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Chunk",
+                                10
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Special Scratch Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Quartz",
+                                30
+                            ]
+                        ],
+                        [
+                            [
+                                "Special Scratch Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "New Year Login Bonus",
+                    "starts": "2021-12-28T15:00:00Z",
+                    "ends": "2022-01-12T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Login Bonus",
+                    "activityFull": [
+                        "Day 1",
+                        "Day 2",
+                        "Day 3",
+                        "Day 4",
+                        "Day 5",
+                        "Day 6",
+                        "Day 7"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Special Scratch Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Special Scratch Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Let's go to Retem! Campaign",
+                    "nameShort": "Let's go to Retem!",
+                    "starts": "2021-12-15T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-01-12T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Reach level 10 in any class",
+                        "Reach level 20 in any class",
+                        "Enhance a weapon/armor to +10 or greater",
+                        "Enhance a weapon/armor to +20 or greater",
+                        "Unlock a weapon's potential to level 1",
+                        "Add Augments to a weapon/armor",
+                        "Complete \"Mt. Magnus DOLLS\"",
+                        "Complete \"The Trio Goes to Battle\"",
+                        "Complete \"Rescuing Dozer\"",
+                        "Complete any of Leah May's Tasks",
+                        "Defeat 100 ALTERS",
+                        "Defeat 100 DOLLS",
+                        "Defeat 10 enhanced enemies",
+                        "Defeat 10 boss enemies (mid-boss or higher)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Special Scratch Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Special Scratch Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 30 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                5
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Alts Soul III",
+                                10
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Dolz Soul III",
+                                10
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Purple",
+                                5
+                            ]
+                        ],
+                        [
+                            [
+                                "Special Scratch Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Story Completion Campaign",
+                    "nameShort": "Story Completion",
+                    "starts": "2021-12-15T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-01-12T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Complete \"The Cornerstone of Retem's Revival\"",
+                        "Complete the Main Task \"A Happy Ending\""
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Augmentation Success Rate +10%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Luminous Reindeer Horn",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Join an Alliance Campaign",
+                    "nameShort": "Join an Alliance",
+                    "starts": "2021-12-15T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-01-12T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Speak once in Alliance chat",
+                        "Complete any Urgent Quest in a party with 1 or more Alliance members"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Salon Free Pass",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Year-end ARKS Support Campaign",
+                    "nameShort": "Year-end Support",
+                    "starts": "2022-01-29T08:00:00Z",
+                    "ends": "2022-01-12T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Complete 1 Urgent Quest",
+                        "Complete 5 Urgent Quests",
+                        "Complete 10 Urgent Quests",
+                        "Defeat 100 ALTERS",
+                        "Defeat 500 ALTERS",
+                        "Defeat 1,000 ALTERS",
+                        "Defeat 100 DOLLS",
+                        "Defeat 500 DOLLS",
+                        "Defeat 1,000 DOLLS",
+                        "Defeat 10 boss enemies",
+                        "Defeat 25 boss enemies",
+                        "Defeat 50 boss enemies"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Photon Chunk",
+                                10
+                            ],
+                            [
+                                "Special Scratch Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 30 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Melra Dualble III",
+                                10
+                            ]
+                        ],
+                        [
+                            [
+                                "Trinite",
+                                10
+                            ],
+                            [
+                                "Special Scratch Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 30 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Alts Secreta III",
+                                10
+                            ]
+                        ],
+                        [
+                            [
+                                "Tetracite",
+                                10
+                            ],
+                            [
+                                "Special Scratch Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 30 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Ratech Dualble III",
+                                10
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Scale",
+                                10
+                            ],
+                            [
+                                "Special Scratch Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 30 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Meltech Dualble III",
+                                10
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Enhancement Support Campaign",
+                    "nameShort": "Enhancement Support",
+                    "starts": "2021-12-22T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-01-05T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Global boost"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Add Augment: Success +3%",
+                                "Boost"
+                            ]
+                        ],
+                        [
+                            [
+                                "Item Enhancement: Great Success +20%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
