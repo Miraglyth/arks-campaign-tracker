@@ -5195,7 +5195,7 @@
                 {
                     "name": "Year-end ARKS Support Campaign",
                     "nameShort": "Year-end Support",
-                    "starts": "2022-01-29T08:00:00Z",
+                    "starts": "2021-12-29T08:00:00Z",
                     "ends": "2022-01-12T02:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
@@ -5324,9 +5324,7 @@
                             [
                                 "Add Augment: Success +3%",
                                 "Boost"
-                            ]
-                        ],
-                        [
+                            ],
                             [
                                 "Item Enhancement: Great Success +20%",
                                 "Boost"
