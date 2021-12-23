@@ -4798,17 +4798,69 @@
                     "delivery": "Inventory",
                     "activityShort": "Limited-Time Tasks",
                     "activityFull": [
-                        "Unknown"
+                        "Clear 2 trials",
+                        "Destroy 22 Item Container: Green",
+                        "Destroy 2 Item Container: Gold",
+                        "Obtain 22 Minerals",
+                        "Defeat 22 FORMERS",
+                        "Defeat 22 ALTERS",
+                        "Defeat 22 DOLLS",
+                        "Defeat 2 Dread Enemies",
+                        "Defeat 2 bosses"
                     ],
                     "rewards": [
                         [
                             [
-                                "???",
-                                0
-                            ],
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
                             [
-                                "???",
-                                0
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                2
                             ]
                         ]
                     ]
@@ -5278,6 +5330,110 @@
                             [
                                 "Item Enhancement: Great Success +20%",
                                 "Boost"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20211221,
+            "name": "December 22 Update Details",
+            "nameShort": "December 22 Update",
+            "url": "https://ngs.pso2.com/news/updates/announcement79297",
+            "campaigns": [
+                {
+                    "name": "Limited-Time Tasks",
+                    "starts": "2021-12-22T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2021-12-31T15:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Talk to Xiandy",
+                        "Locate 10 Mischief Symbols"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Bestial Fangs",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Bestial Fangs",
+                                1
+                            ],
+                            [
+                                "Limited-Time Title: [Christmas '21] Symbol Mania",
+                                1
+                            ],
+                            [
+                                "Limited-Time Title Name: Christmas",
+                                1
+                            ],
+                            [
+                                "SG 5 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20211221,
+            "name": "World Trial: Stellar Grace Recovery Operation",
+            "nameShort": "World Trial: Stellar Grace",
+            "url": "https://ngs.pso2.com/news/announcements/announcement75606",
+            "campaigns": [
+                {
+                    "name": "World Trials",
+                    "starts": "2021-12-22T15:00:00Z",
+                    "ends": "2021-12-27T15:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "World Trials",
+                    "activityFull": [
+                        "[Each] Collect 30 Stellar Graces",
+                        "[Total] Collect 10 Stellar Graces",
+                        "[Total] Collect 50 Stellar Graces"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Various items",
+                                "?"
+                            ]
+                        ],
+                        [
+                            [
+                                "Title: Stellar Grace Recovery Specialist I",
+                                1
+                            ],
+                            [
+                                "Title Name: Stellar Grace",
+                                1
+                            ],
+                            [
+                                "SG 5 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Title: Stellar Grace Recovery Specialist II",
+                                1
+                            ],
+                            [
+                                "Title Name: Collector",
+                                1
+                            ],
+                            [
+                                "SG 5 Ticket",
+                                1
                             ]
                         ]
                     ]
