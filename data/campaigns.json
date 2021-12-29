@@ -5437,6 +5437,36 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20211223,
+            "name": "Christmas Celebration Keyword Gift",
+            "nameShort": "Christmas Celebration",
+            "url": "https://twitter.com/play_pso2/status/1474213319213035528",
+            "campaigns": [
+                {
+                    "name": "Celebrate Christmas with a keyword gift!",
+                    "nameShort": "Christmas Celebration",
+                    "starts": "2021-12-24T03:00:00Z",
+                    "startsNote": "Tweet post time",
+                    "ends": "2022-01-12T02:00:00Z",
+                    "endsNote": "Best guess; not announced anywhere!",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"Merry_Christmas\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "159: Snowball Fight",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
