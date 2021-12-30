@@ -5195,7 +5195,7 @@
                 {
                     "name": "Year-end ARKS Support Campaign",
                     "nameShort": "Year-end Support",
-                    "starts": "2021-12-29T08:00:00Z",
+                    "starts": "2021-12-29T02:00:00Z",
                     "ends": "2022-01-12T02:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
@@ -5462,6 +5462,134 @@
                             [
                                 "159: Snowball Fight",
                                 1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20211228,
+            "name": "PSO2 Day",
+            "url": "https://ngs.pso2.com/news/events/PSO2day20220101",
+            "campaigns": [
+                {
+                    "name": "Boost Event",
+                    "starts": "2022-01-02T00:00:00Z",
+                    "ends": "2022-01-03T12:00:00Z",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Boosts"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP +10%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +25%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Limited-Time Tasks",
+                    "starts": "2022-01-02T00:00:00Z",
+                    "ends": "2022-01-03T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Clear 2 trials",
+                        "Destroy 22 Item Container: Green",
+                        "Destroy 2 Item Container: Gold",
+                        "Obtain 22 Minerals",
+                        "Defeat 22 FORMERS",
+                        "Defeat 22 ALTERS",
+                        "Defeat 22 DOLLS",
+                        "Defeat 2 Dread Enemies",
+                        "Defeat 2 bosses"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                2
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Login Gift",
+                    "starts": "2022-01-02T00:00:00Z",
+                    "ends": "2022-01-03T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in",
+                    "activityFull": [
+                        "Log in"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ],
+                            [
+                                "Special Scratch Ticket",
+                                2
                             ]
                         ]
                     ]
