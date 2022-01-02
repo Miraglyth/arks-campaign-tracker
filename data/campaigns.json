@@ -5470,6 +5470,52 @@
         },
         {
             "date": 20211228,
+            "name": "January Update",
+            "url": "https://ngs.pso2.com/news/updates/announcement79218",
+            "campaigns": [
+                {
+                    "name": "Limited-Time Tasks",
+                    "starts": "2022-01-01T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-01-04T15:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Talk to Xiandy",
+                        "Locate 10 Mischief Symbols"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Tiger Uni Horn",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tiger Uni Horn",
+                                1
+                            ],
+                            [
+                                "Limited-Time Title: [New Year '22] Symbol Mania",
+                                1
+                            ],
+                            [
+                                "Limited-Time Title Name: Christmas",
+                                1
+                            ],
+                            [
+                                "SG 5 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20211228,
             "name": "PSO2 Day",
             "url": "https://ngs.pso2.com/news/events/PSO2day20220101",
             "campaigns": [
@@ -5590,6 +5636,66 @@
                             [
                                 "Special Scratch Ticket",
                                 2
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220101,
+            "name": "Great Deals in the AC Shop!",
+            "nameShort": "AC Shop Deals",
+            "url": "https://ngs.pso2.com/news/events/announcement72428",
+            "campaigns": [
+                {
+                    "name": "AC Shop Deals",
+                    "starts": "2022-01-01T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-01-12T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "AC Shop Deals",
+                    "activityFull": [
+                        "Boost Set 2022 [2400 AC]",
+                        "Handy Set 2022 [1500 AC]"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Rare Drop Rate +50%",
+                                9
+                            ],
+                            [
+                                "N-EXP Earned +10%",
+                                9
+                            ],
+                            [
+                                "N-Enhancement Success Rate +20%",
+                                5
+                            ],
+                            [
+                                "N-Augmentation Success Rate +10%",
+                                5
+                            ],
+                            [
+                                "N-Grinder",
+                                50
+                            ]
+                        ],
+                        [
+                            [
+                                "Premium Set (30 Days)",
+                                1
+                            ],
+                            [
+                                "N-Inventory +10",
+                                1
+                            ],
+                            [
+                                "STP: Lutina - Praise",
+                                1
                             ]
                         ]
                     ]
