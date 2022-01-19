@@ -2248,11 +2248,11 @@
                     "ends": "2021-09-22T02:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
-                    "delivery": "Menu",
-                    "activityShort": "Form a Party",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
                     "activityFull": [
                         "Send a Party Chat message",
-                        "Clear an Urgent Quest with a party (2+ players)"
+                        "Clear any Urgent Quest with a party (2+ players)"
                     ],
                     "rewards": [
                         [
@@ -3697,10 +3697,10 @@
                     "ends": "2021-11-24T02:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
-                    "delivery": "Menu",
-                    "activityShort": "Form a Party",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
                     "activityFull": [
-                        "Speak once in the party chat",
+                        "Send a Party Chat message",
                         "Clear any Urgent Quest with a party (2+ players)"
                     ],
                     "rewards": [
@@ -5696,6 +5696,666 @@
                             [
                                 "STP: Lutina - Praise",
                                 1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220111,
+            "name": "Winter Seasonal Event",
+            "nameShort": "Winter Event",
+            "url": "https://ngs.pso2.com/news/updates/announcement80357#A",
+            "campaigns": [
+                {
+                    "name": "Phenomenologist Xiandy Tasks",
+                    "nameShort": "Xiandy Tasks",
+                    "starts": "2022-01-12T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-02-09T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Talk to Xiandy",
+                        "Obtain 5 Winter Cozylion",
+                        "Raise 400 Region Mag points",
+                        "Defeat 50 seasonal enemies",
+                        "Defeat a seasonal Dread Enemy",
+                        "Locate 10 Mischief Symbols"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Tiger Dual Horns",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                250
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                250
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                1000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                1000
+                            ]
+                        ],
+                        [
+                            [
+                                "Tiger Dual Horns",
+                                1
+                            ],
+                            [
+                                "Seasonal Points",
+                                250
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Phenomenologist Xiandy Exchange",
+                    "nameShort": "Xiandy Exchange #1",
+                    "starts": "2022-01-12T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-02-09T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Item Exchange",
+                    "activityFull": [
+                        "5000 S.Points",
+                        "5000 S.Points",
+                        "5000 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "50 S.Points",
+                        "50 S.Points",
+                        "50 S.Points",
+                        "400 S.Points",
+                        "500 S.Points",
+                        "300 S.Points",
+                        "300 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "300 S.Points",
+                        "600 S.Points",
+                        "100 S.Points",
+                        "2500 S.Points"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Mag Form/Winter Minimo (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "STP: Rappy - Snowfriends (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tiger Cape (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "20 Star Gems (Max 5)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Special Scratch Ticket (Max 4)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tempesta Sword+25 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tempesta Spear+25 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tempesta Knuckles+25 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tempesta Katana+25 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tempesta Blade+25 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tempesta Rifle+25 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tempesta Launcher+25 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tempesta Bow+25 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tempesta Rod+25 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tempesta Talis+25 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tempesta Boots+25 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Monotite (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Dualomite (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trinite (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tetracite (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Chunk (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Quartz (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Wind Exploit I (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Might III (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Precision III (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Technique III (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Melra Dualble III (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Meltech Dualble III (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Ratech Dualble III (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Daityl Soul II (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Pettas Soul II (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Nex Soul II (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Alpha Reactor (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Alpha Reactor (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Grinder (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Augmenation Success Rate +10% (Max 4)",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Phenomenologist Xiandy Exchange (Second Half)",
+                    "nameShort": "Xiandy Exchange #2",
+                    "starts": "2022-01-26T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-02-09T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Item Exchange",
+                    "activityFull": [
+                        "TBC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "TBC",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Seasonal Points Accumulation",
+                    "starts": "2022-01-26T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-02-09T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Earn Seasonal Points",
+                    "activityFull": [
+                        "Earn 300,000 Seasonal Points"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Limited-Time Title: [Winter '22] Point Collector",
+                                1
+                            ],
+                            [
+                                "Limited-Time Title Name: Hibernating",
+                                1
+                            ],
+                            [
+                                "SG 5 Ticket",
+                                1
+                            ],
+                            [
+                                "* Tempesta Almati",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220111,
+            "name": "Team Play Campaign",
+            "url": "https://ngs.pso2.com/news/events/announcement77859",
+            "campaigns": [
+                {
+                    "name": "Team Play Campaign",
+                    "starts": "2022-01-12T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-01-26T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Send a Party Chat message",
+                        "Clear any Urgent Quest with a party (2+ players)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                5
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Purple",
+                                5
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220111,
+            "name": "1/12 Use AC, Get Items! campaign",
+            "nameShort": "Use AC Campaign",
+            "url": "https://ngs.pso2.com/news/events/announcement78095",
+            "campaigns": [
+                {
+                    "name": "1/12 Use AC, Get Items! campaign",
+                    "nameShort": "Use AC Campaign",
+                    "starts": "2022-01-12T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-01-26T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Use AC",
+                    "activityFull": [
+                        "Spend a total of 500+ AC",
+                        "Spend a total of 1,000+ AC",
+                        "Spend a total of 3,000+ AC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "PSO 20th Anniversary Logo",
+                                1
+                            ],
+                            [
+                                "Sodam Battle",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "AIS Suit: Snow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "734: Enthusiastic Spectator",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220114,
+            "name": "VGA! x NGS Episode",
+            "url": "https://twitter.com/play_pso2/status/1481809554820186115",
+            "campaigns": [
+                {
+                    "name": "VGA! x NGS Episode",
+                    "starts": "2022-01-14T02:00:00Z",
+                    "ends": "2022-01-28T08:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"FromDavid\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Rappy-Shaped Fritters",
+                                1
+                            ],
+                            [
+                                "Rappy Kite",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220118,
+            "name": "PSO2 Day: Premium",
+            "url": "https://ngs.pso2.com/news/events/pso2daypremium20220122",
+            "campaigns": [
+                {
+                    "name": "Boost Event",
+                    "starts": "2022-01-22T00:00:00Z",
+                    "ends": "2022-01-23T12:00:00Z",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Have an active Premium Set"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP +10%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +25%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Limited-Time Tasks",
+                    "starts": "2022-01-22T00:00:00Z",
+                    "ends": "2022-01-23T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Clear 2 trials",
+                        "Destroy 22 Item Container: Green",
+                        "Destroy 2 Item Container: Gold",
+                        "Obtain 22 Minerals",
+                        "Defeat 22 FORMERS",
+                        "Defeat 22 ALTERS",
+                        "Defeat 22 DOLLS",
+                        "Defeat 2 Dread Enemies",
+                        "Defeat 2 bosses"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                2
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Premium Set Gift",
+                    "starts": "2022-01-22T00:00:00Z",
+                    "ends": "2022-01-23T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in (Premium)",
+                    "activityFull": [
+                        "Have an active Premium Set"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ],
+                            [
+                                "Special Scratch Ticket",
+                                2
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220118,
+            "name": "World Trial: Stellar Grace Recovery Operation",
+            "nameShort": "World Trial: Stellar Grace",
+            "url": "https://ngs.pso2.com/news/events/announcement81730",
+            "campaigns": [
+                {
+                    "name": "World Trial: Stellar Grace Recovery Operation",
+                    "nameShort": "World Trial: Stellar Grace",
+                    "starts": "2022-01-19T15:00:00Z",
+                    "ends": "2022-01-24T15:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "World Trials",
+                    "activityFull": [
+                        "[Each] Collect 30 Stellar Graces"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Various items",
+                                "?"
                             ]
                         ]
                     ]
