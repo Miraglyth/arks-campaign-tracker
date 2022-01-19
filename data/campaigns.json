@@ -553,7 +553,7 @@
                     "starts": "2021-06-23T04:00:00Z",
                     "ends": "2021-07-07T14:59:00Z",
                     "distribution": "Unknown",
-                    "delivery": "Unknown",
+                    "delivery": "Menu",
                     "activityShort": "Twitter Raffle",
                     "activityFull": [
                         "Follow <a href=\"https://twitter.com/play_pso2\">@play_pso2</a> and tweet #MyBattlePower with a screenshot of your BP<br>(Raffle: 10 winners)"
@@ -872,7 +872,7 @@
                     "starts": "2021-07-07T03:00:00Z",
                     "ends": "2021-08-04T02:00:00Z",
                     "distribution": "Unknown",
-                    "delivery": "Unknown",
+                    "delivery": "Menu",
                     "activityShort": "Twitter Raffle",
                     "activityFull": [
                         "Follow <a href=\"https://twitter.com/play_pso2\">@play_pso2</a> and tweet #PSO2NGS_SScampaign with a screenshot based on the theme \"A New Universe\"<br>(Raffle: 20 winners)"
@@ -3724,7 +3724,7 @@
                     "starts": "2021-10-27T08:00:00Z",
                     "ends": "2021-11-24T02:00:00Z",
                     "distribution": "Unknown",
-                    "delivery": "Unknown",
+                    "delivery": "Menu",
                     "activityShort": "Twitter Raffle",
                     "activityFull": [
                         "Follow <a href=\"https://twitter.com/play_pso2\">@play_pso2</a> and tweet #PSO2NGS_SScampaign with a screenshot based on the theme \"Halloween\"<br>(Raffle: 20 winners)"
@@ -5331,6 +5331,36 @@
                             ]
                         ]
                     ]
+                },
+                {
+                    "name": "Screenshot Submission Campaign",
+                    "nameShort": "Screenshot Contest",
+                    "starts": "2021-12-22T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-01-26T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Unknown",
+                    "delivery": "Menu",
+                    "activityShort": "Twitter Raffle",
+                    "activityFull": [
+                        "Follow <a href=\"https://twitter.com/play_pso2\">@play_pso2</a> and tweet #NGS_ScreenshotCampaign with a screenshot<br>(Raffle: 40 winners)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 200 Ticket",
+                                2
+                            ],
+                            [
+                                "Salon Free Pass",
+                                1
+                            ],
+                            [
+                                "N-Color-Change Pass",
+                                3
+                            ]
+                        ]
+                    ]
                 }
             ]
         },
@@ -6086,6 +6116,41 @@
                             ],
                             [
                                 "* Tempesta Almati",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Seasonal Stellar Grace Recovery",
+                    "nameShort": "Seasonal Stellar Grace",
+                    "starts": "2022-01-19T15:00:00Z",
+                    "ends": "2022-01-24T15:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Collect 1 Stellar Grace",
+                        "Collect 10 Stellar Grace"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                1000
+                            ],
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                6000
+                            ],
+                            [
+                                "SG 50 Ticket",
                                 1
                             ]
                         ]
