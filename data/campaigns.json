@@ -6673,6 +6673,34 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20211026,
+            "name": "Complete the Survey and Receive 40 SG!",
+            "nameShort": "Player Survey",
+            "url": "https://pso2.com/players/news/i_survey_01262022/",
+            "campaigns": [
+                {
+                    "name": "Complete the Survey and Receive 40 SG!",
+                    "nameShort": "Player Survey",
+                    "starts": "2022-01-27T06:00:00Z",
+                    "ends": "2022-02-09T09:00:00Z",
+                    "distribution": "Mid March",
+                    "delivery": "Menu",
+                    "activityShort": "Complete Survey",
+                    "activityFull": [
+                        "Complete a <a href=\"https://enq.sega.jp/orca/XA98912729\">Player Survey</a>"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 40 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
