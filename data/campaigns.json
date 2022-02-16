@@ -7432,8 +7432,8 @@
             "campaigns": [
                 {
                     "name": "Boost Event",
-                    "starts": "2022-02-02T00:00:00Z",
-                    "ends": "2022-02-05T12:00:00Z",
+                    "starts": "2022-02-22T00:00:00Z",
+                    "ends": "2022-02-25T12:00:00Z",
                     "distribution": "-",
                     "delivery": "-",
                     "activityShort": "Boost",
@@ -7455,8 +7455,8 @@
                 },
                 {
                     "name": "Limited-Time Tasks",
-                    "starts": "2022-02-02T00:00:00Z",
-                    "ends": "2022-02-05T12:00:00Z",
+                    "starts": "2022-02-22T00:00:00Z",
+                    "ends": "2022-02-25T12:00:00Z",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
                     "activityShort": "Limited-Time Tasks",
@@ -7530,8 +7530,8 @@
                 },
                 {
                     "name": "Login Gift",
-                    "starts": "2022-02-02T00:00:00Z",
-                    "ends": "2022-02-05T12:00:00Z",
+                    "starts": "2022-02-22T00:00:00Z",
+                    "ends": "2022-02-25T12:00:00Z",
                     "distribution": "Immediate",
                     "delivery": "Menu",
                     "activityShort": "Log in",
