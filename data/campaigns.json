@@ -7560,6 +7560,90 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20220216,
+            "name": "Vanford Laboratory Ruins Rank 3",
+            "nameShort": "Vanford Lab Rank 3",
+            "campaigns": [
+                {
+                    "name": "Boosts",
+                    "starts": "2022-02-16T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-02-23T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Boosts"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP +10%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Limited-Time Tasks",
+                    "starts": "2022-02-16T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-02-23T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Defeat a Daityl Sword in Vanford Lab Rank 3",
+                        "Defeat 3 boss enemies in Vanford Lab Rank 3",
+                        "Defeat 100 enemies in Vanford Lab Rank 3"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Meseta",
+                                50000
+                            ],
+                            [
+                                "EXP",
+                                50000
+                            ]
+                        ],
+                        [
+                            [
+                                "Strugment B",
+                                3
+                            ],
+                            [
+                                "N-Meseta",
+                                50000
+                            ],
+                            [
+                                "EXP",
+                                50000
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Lab Note",
+                                10
+                            ],
+                            [
+                                "N-Meseta",
+                                50000
+                            ],
+                            [
+                                "EXP",
+                                50000
+                            ]
+                        ]
+                    ]
+
+                }
+            ]
         }
     ]
 }

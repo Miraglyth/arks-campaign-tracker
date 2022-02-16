@@ -71,7 +71,8 @@ function getLatestCampaigns(latestUpdate) {
         if (savedData != null) {
             for (let annKeyN in newData.announcements) {
                 let annKeyS = savedData.announcements.findIndex(x =>
-                    x.date === newData.announcements[annKeyN].date && x.name === newData.announcements[annKeyN].name
+                    x.date === newData.announcements[annKeyN].date &&
+                    x.name === newData.announcements[annKeyN].name
                 );
                 if (annKeyS != -1) {
                     for (let camKeyN in newData.announcements[annKeyN].campaigns) {
