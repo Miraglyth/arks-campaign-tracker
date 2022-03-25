@@ -7963,6 +7963,346 @@
         },
         {
             "date": 20220309,
+            "name": "Spring Event",
+            "campaigns": [
+                {
+                    "name": "Breath of the Blossoms",
+                    "starts": "2022-03-09T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-04-06T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-time Tasks",
+                    "activityFull": [
+                        "Talk to Xitre",
+                        "I: Defeat 30 seasonal enemies",
+                        "II: Obtain 10 Spring Ballooni and Exchange for Balloonimix",
+                        "III: Defeat 3 seasonal Enhanced Enemies",
+                        "IV: Defeat 1 seasonal Dread Enemy and Talk to Xitre",
+                        "V: Clear Flurry of Flowers Clean Up Op and Talk to Xitre"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "-",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                250
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                250
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                1000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                1000
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Spring '22",
+                                5
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Mysterious Holographs",
+                    "starts": "2022-03-09T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-04-06T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-time Tasks",
+                    "activityFull": [
+                        "Discover 2 Mischief Symbols each in Central, North, West and South Aelio",
+                        "Discover 2 Mischief Symbols each in Central, North, West and South Retem"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                20000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                20000
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "The Supply Unit's Efforts",
+                    "nameShort": "Supply Efforts #1",
+                    "starts": "2022-03-09T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-04-06T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-time Tasks",
+                    "activityFull": [
+                        "1-I: Defeat 100 seasonal DOLLS",
+                        "1-II: Defeat 100 seasonal ALTERS",
+                        "1-III: Feed 500 Region Mag points",
+                        "1-IV: Defeat 3 seasonal bosses",
+                        "2-I: Defeat 200 seasonal DOLLS",
+                        "2-II: Defeat 200 seasonal ALTERS",
+                        "2-III: Feed 1000 Region Mag points",
+                        "2-IV: Defeat 5 seasonal bosses",
+                        "3-I: Defeat 300 seasonal DOLLS",
+                        "3-II: Defeat 300 seasonal ALTERS",
+                        "3-III: Feed 1500 Region Mag points",
+                        "3-IV: Defeat 8 seasonal bosses"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                2000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                2000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                2000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                2000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                3000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                3000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                3000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                3000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ],
+                            [
+                                "Spring '22 SP Scratch Ticket",
+                                5
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "The Supply Unit's Efforts (Second Half)",
+                    "nameShort": "Supply Efforts #2",
+                    "starts": "2022-03-23T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-04-06T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-time Tasks",
+                    "activityFull": [
+                        "4-I: Defeat 100 seasonal FORMERS",
+                        "4-II: Defeat 3 seasonal rare enemies",
+                        "4-III: Defeat 5 seasonal Enhanced Enemies",
+                        "4-IV: Defeat 3 seasonal Dread Enemies",
+                        "5-I: Defeat 200 seasonal FORMERS",
+                        "5-II: Defeat 5 seasonal rare enemies",
+                        "5-III: Defeat 10 seasonal Enhanced Enemies",
+                        "5-IV: Defeat 5 seasonal Dread Enemies",
+                        "6-I: Defeat 300 seasonal FORMERS",
+                        "6-II: Defeat 8 seasonal rare enemies",
+                        "6-III: Defeat 15 seasonal Enhanced Enemies",
+                        "6-IV: Defeat 8 seasonal Dread Enemies"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                2000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                2000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                2000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                2000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                3000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                3000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                3000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                3000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ],
+                            [
+                                "Spring '22 SP Scratch Ticket",
+                                5
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Supply Support Xitre Exchange",
+                    "nameShort": "Xitre Exchange #1",
+                    "starts": "2022-03-09T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-04-06T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Item Exchange",
+                    "activityFull": [
+                        "Seasonal Point Exchange"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Items",
+                                "-"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Supply Support Xitre Exchange (Second Half)",
+                    "nameShort": "Xitre Exchange #2",
+                    "starts": "2022-03-23T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-04-06T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Item Exchange",
+                    "activityFull": [
+                        "Seasonal Point Exchange"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Items",
+                                "-"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220309,
             "name": "Spring Fiesta",
             "url": "https://pso2.com/players/news/i_eventcampaign_20220309_1/",
             "campaigns": [
@@ -8196,6 +8536,324 @@
                             [
                                 "747: Crouch 3",
                                 1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220316,
+            "name": "PSO2 Day: Premium",
+            "url": "https://pso2.com/players/news/i_pso2day_p/",
+            "campaigns": [
+                {
+                    "name": "Boost Event",
+                    "starts": "2022-03-22T00:00:00Z",
+                    "ends": "2022-03-24T00:00:00Z",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Have an active Premium Set"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP +10%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +25%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Limited-Time Tasks",
+                    "starts": "2022-03-22T00:00:00Z",
+                    "ends": "2022-03-24T00:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Clear 2 trials",
+                        "Destroy 22 Item Container: Green",
+                        "Destroy 2 Item Container: Gold",
+                        "Obtain 22 Minerals",
+                        "Defeat 22 FORMERS",
+                        "Defeat 22 ALTERS",
+                        "Defeat 22 DOLLS",
+                        "Defeat 2 Dread Enemies",
+                        "Defeat 2 bosses"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                2
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Premium Set Gift",
+                    "starts": "2022-03-22T00:00:00Z",
+                    "ends": "2022-03-24T00:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in (Premium)",
+                    "activityFull": [
+                        "Have an active Premium Set"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ],
+                            [
+                                "Special Scratch Ticket",
+                                2
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220320,
+            "name": "VGA! x NGS Episode",
+            "url": "https://www.youtube.com/watch?v=M9KPbWn1VAQ",
+            "campaigns": [
+                {
+                    "name": "Spring Shenanigans",
+                    "starts": "2022-03-20T04:30:00Z",
+                    "ends": "2022-04-03T07:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"2nd_anniv\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Ragol Memory",
+                                7
+                            ],
+                            [
+                                "Rappy-Shaped Fritters",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220323,
+            "name": "PSO2 Global 2nd Anniversary Campaign",
+            "nameShort": "Global 2nd Anniversary",
+            "url": "https://pso2.com/players/news/i_GL_2nd_Anniversary/",
+            "campaigns": [
+                {
+                    "name": "Retweet Campaign",
+                    "starts": "2022-03-23T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-04-06T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Menu",
+                    "delivery": "Mid-April",
+                    "activityShort": "Retweet Campaign",
+                    "activityFull": [
+                        "2,222 retweets",
+                        "4,000 retweets",
+                        "Every 2,000 excess retweets"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "165: Ready Stance 1",
+                                1
+                            ],
+                            [
+                                "Rappy-Shaped Fritters",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "294: On Standby 2",
+                                1
+                            ],
+                            [
+                                "Rappy-Shaped Fritters",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 20 Ticket (Max 10)",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Keyword Giveaway",
+                    "starts": "2022-03-24T03:00:00Z",
+                    "ends": "2022-04-06T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Menu",
+                    "delivery": "Immediate",
+                    "activityShort": "Chat Keywords",
+                    "activityFull": [
+                        "<a href=\"https://twitter.com/play_pso2/status/1506829823250866180\">Link</a> Say \"PSO2_2nd_Anniversary\" in the in-game chat",
+                        "(Keyword 2 to be revealed on 26 March.)",
+                        "(Keyword 3 to be revealed on 28 March.)",
+                        "(Keyword 4 to be revealed on 30 March.)",
+                        "(Keyword 5 to be revealed on 01 April.)",
+                        "(Keyword 6 to be revealed on 03 April.)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "C/Might III",
+                                2
+                            ],
+                            [
+                                "C/Precision III",
+                                2
+                            ],
+                            [
+                                "C/Technique III",
+                                2
+                            ],
+                            [
+                                "C/Deftness III",
+                                2
+                            ]
+                        ],
+                        [
+                            [
+                                "Unknown",
+                                "?"
+                            ]
+                        ],
+                        [
+                            [
+                                "Unknown",
+                                "?"
+                            ]
+                        ],
+                        [
+                            [
+                                "Unknown",
+                                "?"
+                            ]
+                        ],
+                        [
+                            [
+                                "Unknown",
+                                "?"
+                            ]
+                        ],
+                        [
+                            [
+                                "Unknown",
+                                "?"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Boost Event #1",
+                    "starts": "2022-03-23T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-03-30T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Global Boost"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP Earned +20%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Boost Event #2",
+                    "starts": "2022-03-30T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-04-06T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Global Boost"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Rare Drop Rate +20%",
+                                "Boost"
                             ]
                         ]
                     ]
