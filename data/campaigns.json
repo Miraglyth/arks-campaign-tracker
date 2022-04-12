@@ -8867,6 +8867,562 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20220405,
+            "name": "PSO2 10th Anniversary Online Cosplay & Crafting Contest",
+            "nameShort": "Cosplay & Crafting Contest",
+            "url": "https://pso2.com/players/news/cosplaycraft2022/",
+            "campaigns": [
+                {
+                    "name": "Cosplay & Crafting Contest",
+                    "starts": "2022-05-04T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-07-25T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Unknown",
+                    "delivery": "Menu",
+                    "activityShort": "Contests",
+                    "activityFull": [
+                        "Grand Award",
+                        "Excellence Award"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Premium Set (30 Days)",
+                                12
+                            ],
+                            [
+                                "SG",
+                                1000
+                            ]
+                        ],
+                        [
+                            [
+                                "Premium Set (30 Days)",
+                                6
+                            ],
+                            [
+                                "SG",
+                                500
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220406,
+            "name": "PSO2 10th Anniversary Project",
+            "nameShort": "10th Anniversary",
+            "url": "https://pso2.com/players/event/pso2_10anniversary/",
+            "campaigns": [
+                {
+                    "name": "ARKS EXPO 2022",
+                    "starts": "2022-07-16T15:00:00Z",
+                    "ends": "2022-07-17T15:00:00Z",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Offline Event",
+                    "activityFull": [
+                        "Unknown"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Unknown",
+                                "?"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "PSO2 10th Anniversary Illustration Contest",
+                    "nameShort": "Illustration Contest",
+                    "starts": "2022-05-11T00:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-06-15T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Unknown",
+                    "delivery": "Unknown",
+                    "activityShort": "Illustration Contest",
+                    "activityFull": [
+                        "Full details unpublished"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Unknown",
+                                "?"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220406,
+            "name": "Screenshot Submission Campaign",
+            "nameShort": "Screenshot Raffle",
+            "url": "https://pso2.com/players/news/i_screenshot_20220406/",
+            "campaigns": [
+                {
+                    "name": "Screenshot Submission Campaign",
+                    "nameShort": "Screenshot Raffle",
+                    "starts": "2022-04-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-04-20T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Unknown",
+                    "delivery": "Menu",
+                    "activityShort": "Twitter Raffle",
+                    "activityFull": [
+                        "Follow <a href=\"https://twitter.com/play_pso2\">@play_pso2</a> and tweet #NGS_ScreenshotCampaign with a screenshot<br>(Raffle: 40 winners)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 200 Ticket",
+                                5
+                            ],
+                            [
+                                "N-Color-Change Pass",
+                                3
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220406,
+            "name": "PSO2 10th Anniversary Item Design Contest",
+            "nameShort": "Item Design Contest",
+            "url": "https://pso2.com/players/news/itemdesign2022/",
+            "campaigns": [
+                {
+                    "name": "PSO2 10th Anniversary Item Design Contest",
+                    "nameShort": "Item Design Contest",
+                    "starts": "2022-04-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-05-11T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Unknown",
+                    "delivery": "Menu",
+                    "activityShort": "Item Design Contest",
+                    "activityFull": [
+                        "Outfit Category or<br>Accessory Category<br>(20 winners overall)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "The design",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220406,
+            "name": "4/6 Use AC, Get Items! campaign",
+            "nameShort": "Use AC Campaign",
+            "url": "https://pso2.com/players/news/i_use_ac/",
+            "campaigns": [
+                {
+                    "name": "4/6 Use AC, Get Items! campaign",
+                    "nameShort": "Use AC Campaign",
+                    "starts": "2022-04-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-04-27T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Use AC",
+                    "activityFull": [
+                        "Spend a total of 500+ AC",
+                        "Spend a total of 5,000+ AC",
+                        "Spend a total of 10,000+ AC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Color-Change Pass",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Color-Change Pass",
+                                1
+                            ],
+                            [
+                                "Puffy Rappy",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Color-Change Pass",
+                                1
+                            ],
+                            [
+                                "Puffy Emperappy",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220406,
+            "name": "4/6 Great bargains in the SG Shop!",
+            "nameShort": "SG Shop Deals",
+            "url": "https://pso2.com/players/news/i_itemsale/",
+            "campaigns": [
+                {
+                    "name": "4/6 Great bargains in the SG Shop!",
+                    "nameShort": "SG Shop Deals",
+                    "starts": "2022-04-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-04-20T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "SG Shop Deals",
+                    "activityFull": [
+                        "Photo Session S Set [160 SG]",
+                        "Photo Session M Set [400 SG]",
+                        "Photo Session L Set [800 SG]"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Salon S Pass",
+                                2
+                            ]
+                        ],
+                        [
+                            [
+                                "Salon S Pass",
+                                5
+                            ],
+                            [
+                                "N-Color Change Pass",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Salon S Pass",
+                                10
+                            ],
+                            [
+                                "N-Color Change Pass",
+                                2
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220406,
+            "name": "Undocumented Limited-Time Tasks",
+            "nameShort": "Undocumented Tasks",
+            "campaigns": [
+                {
+                    "name": "Fight through Retem Support Missions",
+                    "nameShort": "Undocumented Retem Tasks",
+                    "starts": "2022-04-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-04-27T02:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Reach Lv.10 with a class of your choice",
+                        "Reach Lv.20 with a class of your choice",
+                        "Reach Lv.30 with a class of your choice",
+                        "Reach Lv.40 with a class of your choice",
+                        "Clear \"The Desert City\"",
+                        "Clear \"The Cornerstone of Retem's Revival\"",
+                        "Clear \"DOLLS in the Canyon\"",
+                        "Clear \"A Flicker of Resistance\"",
+                        "Clear \"The Battle of Rwh Maqead\"",
+                        "Defeat 300 enemies in Retem",
+                        "Defeat 20 bosses in Retem",
+                        "Defeat 300 enemies in Retem Alnothe (Rank 3+)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Monomite",
+                                40
+                            ],
+                            [
+                                "Dualomite",
+                                40
+                            ],
+                            [
+                                "Trinite",
+                                40
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Chunk",
+                                40
+                            ],
+                            [
+                                "Tetracite",
+                                40
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Scale",
+                                10
+                            ],
+                            [
+                                "N-EX-Cube",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Sakura Wristlet",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "EXP",
+                                50000
+                            ],
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "EXP",
+                                50000
+                            ],
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "EXP",
+                                50000
+                            ],
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "EXP",
+                                100000
+                            ],
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "EXP",
+                                100000
+                            ],
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                100000
+                            ],
+                            [
+                                "EXP",
+                                50000
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                100000
+                            ],
+                            [
+                                "EXP",
+                                50000
+                            ]
+                        ],
+                        [
+                            [
+                                "Arms Refiner",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Undocumented Limited-Time Tasks",
+                    "nameShort": "Undocumented Tasks",
+                    "starts": "2022-04-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-06-08T02:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Destroy 30 Item Containers: Red in Retem",
+                        "Achieve Battle Power 1,800 or greater",
+                        "Achieve Battle Power 1,900 or greater",
+                        "Enhance a 5★ weapon or armor to +50 or greater",
+                        "Enhance a Kukuhroziat weapon to +40 or greater",
+                        "Enhance a Greaga weapon to +40 or greater",
+                        "Enhance a Cinquem weapon to +40 or greater"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Meseta",
+                                50000
+                            ],
+                            [
+                                "EXP",
+                                50000
+                            ],
+                            [
+                                "Kvaris Expedition Prep Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                50000
+                            ],
+                            [
+                                "EXP",
+                                50000
+                            ],
+                            [
+                                "Kvaris Expedition Prep Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                50000
+                            ],
+                            [
+                                "EXP",
+                                50000
+                            ],
+                            [
+                                "Kvaris Expedition Prep Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                50000
+                            ],
+                            [
+                                "EXP",
+                                50000
+                            ],
+                            [
+                                "Kvaris Expedition Prep Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                50000
+                            ],
+                            [
+                                "EXP",
+                                50000
+                            ],
+                            [
+                                "Kvaris Expedition Prep Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                50000
+                            ],
+                            [
+                                "EXP",
+                                50000
+                            ],
+                            [
+                                "Kvaris Expedition Prep Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                50000
+                            ],
+                            [
+                                "EXP",
+                                50000
+                            ],
+                            [
+                                "Kvaris Expedition Prep Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220406,
+            "name": "NGS Headline+ 4/6/2022",
+            "nameShort": "NGS Headline+",
+            "url": "https://www.youtube.com/watch?v=twIUiZZ8gg8",
+            "campaigns": [
+                {
+                    "name": "Keyword Giveaway",
+                    "starts": "2022-04-06T08:00:00Z",
+                    "ends": "2022-04-19T17:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"Nuggie_Time\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Rappy-Shaped Fritters",
+                                2
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
