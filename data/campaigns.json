@@ -9951,15 +9951,27 @@
                     "endsNote": "Maintenance",
                     "distribution": "-",
                     "delivery": "-",
-                    "activityShort": "Global Boost",
+                    "activityShort": "Global Boosts",
                     "activityFull": [
-                        "TBC"
+                        "Boosts"
                     ],
                     "rewards": [
                         [
                             [
-                                "TBC",
-                                "?"
+                                "Item Enhancement: Great Success +40%",
+                                "Boost"
+                            ],
+                            [
+                                "Limit Break: Required Meseta Halved",
+                                "Boost"
+                            ],
+                            [
+                                "Add Augments: Success +5%",
+                                "Boost"
+                            ],
+                            [
+                                "Unlock Potential: Required Meseta Halved",
+                                "Boost"
                             ]
                         ]
                     ]
@@ -10097,8 +10109,8 @@
         {
             "date": 20220427,
             "name": "Gold Week Level Up Campaign",
-            "nameShort": "Undocumented Boosts",
-            "url": "https://pso2.com/players/schedule/",
+            "nameShort": "Gold Week Level Up",
+            "url": "https://pso2.com/players/news/i_goldweek_20220427/",
             "campaigns": [
                 {
                     "name": "Boost Event",
@@ -10108,15 +10120,22 @@
                     "endsNote": "Maintenance",
                     "distribution": "-",
                     "delivery": "-",
-                    "activityShort": "Global Boost",
+                    "activityShort": "Global Boosts",
                     "activityFull": [
-                        "TBC"
+                        "Battledia: Yellow Aelio Troopers",
+                        "Battledia: Yellow Retem Troopers"
                     ],
                     "rewards": [
                         [
                             [
-                                "TBC",
-                                "?"
+                                "EXP Earned +50%",
+                                "Boost"
+                            ]
+                        ],
+                        [
+                            [
+                                "EXP Earned +50%",
+                                "Boost"
                             ]
                         ]
                     ]
