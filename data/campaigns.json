@@ -5547,7 +5547,7 @@
         {
             "date": 20211228,
             "name": "PSO2 Day",
-            "url": "https://ngs.pso2.com/news/events/PSO2day20220101",
+            "url": "https://pso2.com/players/news/pso2day/",
             "campaigns": [
                 {
                     "name": "Boost Event",
@@ -6703,7 +6703,7 @@
             ]
         },
         {
-            "date": 20211228,
+            "date": 20220128,
             "name": "Ultra PSO2 Day",
             "url": "https://pso2.com/players/news/pso2day/",
             "campaigns": [
@@ -7776,7 +7776,7 @@
             ]
         },
         {
-            "date": 20210225,
+            "date": 20220225,
             "name": "PSO2 Day",
             "url": "https://pso2.com/players/news/i_pso2day/",
             "campaigns": [
@@ -8295,6 +8295,84 @@
                             [
                                 "Seasonal Items",
                                 "-"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Seasonal Titles",
+                    "starts": "2022-03-09T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-04-06T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Earn Seasonal Points",
+                    "activityFull": [
+                        "Obtain 300,000 Seasonal Points",
+                        "Locate 16 Mischief Symbols",
+                        "Clear Drill: Flurry of Flowers 1 time",
+                        "Recover 10 Stellar Grace"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Title: [Spring '22] Point Collector",
+                                1
+                            ],
+                            [
+                                "Title Name \"Sprout\"",
+                                1
+                            ],
+                            [
+                                "SG 5 Ticket",
+                                1
+                            ],
+                            [
+                                "* Lumiere Almati",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Title: [Spring '22] Symbol Mania",
+                                1
+                            ],
+                            [
+                                "Title Name \"Spring\"",
+                                1
+                            ],
+                            [
+                                "SG 5 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Title: [Spring '22] Diligently Training",
+                                1
+                            ],
+                            [
+                                "Title Name \"Blossom Shower\"",
+                                1
+                            ],
+                            [
+                                "SG 5 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Title: [Spring '22] Grace Collector",
+                                1
+                            ],
+                            [
+                                "Title Name \"Flower\"",
+                                1
+                            ],
+                            [
+                                "SG 5 Ticket",
+                                1
                             ]
                         ]
                     ]
@@ -8869,7 +8947,7 @@
             ]
         },
         {
-            "date": 20210330,
+            "date": 20220330,
             "name": "PSO2 Day",
             "url": "https://pso2.com/players/news/258/",
             "campaigns": [
@@ -9712,7 +9790,7 @@
             ]
         },
         {
-            "date": 20210427,
+            "date": 20220427,
             "name": "PSO2 Day",
             "url": "https://pso2.com/players/news/i_pso2day/",
             "campaigns": [
@@ -9741,8 +9819,8 @@
                 },
                 {
                     "name": "Limited-Time Tasks",
-                    "starts": "2022-04-02T00:00:00Z",
-                    "ends": "2022-04-03T12:00:00Z",
+                    "starts": "2022-05-02T00:00:00Z",
+                    "ends": "2022-05-03T12:00:00Z",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
                     "activityShort": "Limited-Time Tasks",
@@ -9816,8 +9894,8 @@
                 },
                 {
                     "name": "Login Gift",
-                    "starts": "2022-04-02T00:00:00Z",
-                    "ends": "2022-04-03T12:00:00Z",
+                    "starts": "2022-05-02T00:00:00Z",
+                    "ends": "2022-05-03T12:00:00Z",
                     "distribution": "Immediate",
                     "delivery": "Menu",
                     "activityShort": "Log in",
@@ -10586,9 +10664,58 @@
                     "delivery": "Inventory",
                     "activityShort": "Limited-Time Tasks",
                     "activityFull": [
-                        "TBC"
+                        "1-I: Defeat 100 seasonal FORMERS",
+                        "1-II: Defeat 3 seasonal rare enemies",
+                        "1-III: Defeat 1 Captan",
+                        "1-IV: Defeat 1 seasonal Dread Enemies",
+                        "2-I: Defeat 200 seasonal FORMERS",
+                        "2-II: Defeat 5 seasonal rare enemies",
+                        "2-III: Feed 2 Captans",
+                        "2-IV Onwards: TBC"
                     ],
                     "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                3000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                3000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                3000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                3000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ]
+                        ],
                         [
                             [
                                 "TBC",
@@ -10713,7 +10840,7 @@
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
-                    "activityShort": "Item Exchange",
+                    "activityShort": "Earn Seasonal Points",
                     "activityFull": [
                         "Obtain 300,000 Seasonal Points",
                         "Locate 16 Mischief Symbols",
@@ -11000,6 +11127,134 @@
                     "activityShort": "Log in (Premium)",
                     "activityFull": [
                         "Have an active Premium Set"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ],
+                            [
+                                "Special Scratch Ticket",
+                                2
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220525,
+            "name": "PSO2 Day",
+            "url": "https://pso2.com/players/news/i_pso2day/",
+            "campaigns": [
+                {
+                    "name": "Boost Event",
+                    "starts": "2022-06-02T00:00:00Z",
+                    "ends": "2022-06-03T12:00:00Z",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Boosts"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP +10%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +25%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Limited-Time Tasks",
+                    "starts": "2022-06-02T00:00:00Z",
+                    "ends": "2022-06-03T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Clear 2 trials",
+                        "Destroy 22 Item Container: Green",
+                        "Destroy 2 Item Container: Gold",
+                        "Obtain 22 Minerals",
+                        "Defeat 22 FORMERS",
+                        "Defeat 22 ALTERS",
+                        "Defeat 22 DOLLS",
+                        "Defeat 2 Dread Enemies",
+                        "Defeat 2 bosses"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                2
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Login Gift",
+                    "starts": "2022-06-02T00:00:00Z",
+                    "ends": "2022-06-03T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in",
+                    "activityFull": [
+                        "Log in"
                     ],
                     "rewards": [
                         [
