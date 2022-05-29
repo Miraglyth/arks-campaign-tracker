@@ -10844,7 +10844,7 @@
                     "activityFull": [
                         "Obtain 300,000 Seasonal Points",
                         "Locate 16 Mischief Symbols",
-                        "Clear Dazzling Chaos 1 time",
+                        "Clear Drill: Dazzling Chaos 1 time",
                         "Recover 10 Stellar Grace",
                         "Obtain 10 Randomite"
                     ],
@@ -11265,6 +11265,38 @@
                             [
                                 "Special Scratch Ticket",
                                 2
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220527,
+            "name": "Seasonal Quest Boost",
+            "url": "https://twitter.com/play_pso2/status/1530398483064160257",
+            "campaigns": [
+                {
+                    "name": "Seasonal Quest Boost",
+                    "starts": "2022-05-25T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-06-08T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Drill: Dazzling Chaos Boosts"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Rare Drop Rate +25%",
+                                "Boost"
+                            ],
+                            [
+                                "Seasonal Points +50%",
+                                "Boost"
                             ]
                         ]
                     ]
