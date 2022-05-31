@@ -10535,8 +10535,7 @@
                         "I: Obtain 1 Alpha Reactor",
                         "II: Obtain 15 N-Grinders",
                         "III: Obtain 5 Monotite, Dualomite and Trinite",
-                        "IV: Defeat a Captan",
-                        "V: TBC"
+                        "IV: Defeat a Captan"
                     ],
                     "rewards": [
                         [
@@ -10600,20 +10599,6 @@
                                 "Seasonal Points",
                                 10000
                             ]
-                        ],
-                        [
-                            [
-                                "N-Meseta",
-                                1000
-                            ],
-                            [
-                                "EXP",
-                                100
-                            ],
-                            [
-                                "Seasonal Points",
-                                "?"
-                            ]
                         ]
                     ]
                 },
@@ -10671,7 +10656,11 @@
                         "2-I: Defeat 200 seasonal FORMERS",
                         "2-II: Defeat 5 seasonal rare enemies",
                         "2-III: Feed 2 Captans",
-                        "2-IV Onwards: TBC"
+                        "2-IV: Defeat 3 seasonal Dread Enemies",
+                        "3-I: Defeat 300 seasonal FORMERS",
+                        "3-II: Defeat 8 seasonal rare enemies",
+                        "3-III: Defeat 3 Captans",
+                        "3-IV: TBC"
                     ],
                     "rewards": [
                         [
@@ -10714,6 +10703,30 @@
                             [
                                 "Seasonal Points",
                                 5000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                10000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                10000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                10000
                             ]
                         ],
                         [
