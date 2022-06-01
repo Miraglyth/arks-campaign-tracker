@@ -10460,9 +10460,39 @@
                         "Clear Dazzling Chaos 1 time",
                         "Clear Dazzling Chaos 10 times",
                         "Earn 250,000 Seasonal Points",
-                        "Earn 500,000 Seasonal Points"
+                        "Earn 500,000 Seasonal Points",
+                        "Achieve Battle Power 2,000 or greater",
+                        "Achieve Battle Power 2,100 or greater"
                     ],
                     "rewards": [
+                        [
+                            [
+                                "N-Meseta",
+                                50000
+                            ],
+                            [
+                                "EXP",
+                                50000
+                            ],
+                            [
+                                "Kvaris Expedition Prep Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                50000
+                            ],
+                            [
+                                "EXP",
+                                50000
+                            ],
+                            [
+                                "Kvaris Expedition Prep Ticket",
+                                1
+                            ]
+                        ],
                         [
                             [
                                 "N-Meseta",
