@@ -11345,6 +11345,62 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20220531,
+            "name": "10th Anniversary Mosaic screenshot submissions open!",
+            "nameShort": "10th Anniv Mosaic",
+            "url": "https://pso2.com/players/news/399/",
+            "campaigns": [
+                {
+                    "name": "10th Anniversary Mosaic screenshot submissions open!",
+                    "nameShort": "10th Anniv Mosaic",
+                    "starts": "2022-05-31T13:00:00Z",
+                    "ends": "2022-07-01T06:59:00Z",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "-",
+                    "activityFull": [
+                        "Submit screenshots <a href=\"https://twitter.com/intent/tweet?hashtags=10thAnnivART_PSO2NGS\"on Twitter</a> to help make a mosaic"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "-",
+                                0
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220601,
+            "name": "6/1 Join the Seasonal World Trial Stellar Grace Recovery Operation!",
+            "nameShort": "1st Anniv Stellar Grace",
+            "url": "https://pso2.com/players/news/i_eventcampaign_20220601/",
+            "campaigns": [
+                {
+                    "name": "Stellar Grace Recovery Operation",
+                    "nameShort": "Seasonal Stellar Grace",
+                    "starts": "2022-06-01T15:00:00Z",
+                    "ends": "2022-06-06T15:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "World Trials",
+                    "activityFull": [
+                        "[Each] Collect 30 Stellar Graces"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Various items",
+                                "?"
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
