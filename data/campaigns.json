@@ -9995,13 +9995,13 @@
                     "delivery": "Inventory",
                     "activityShort": "Limited-Time Tasks",
                     "activityFull": [
-                        "Destroy 30 Item Containers: Red in Retem",
-                        "Achieve Battle Power 1,800 or greater",
-                        "Achieve Battle Power 1,900 or greater",
-                        "Enhance a 5★ weapon or armor to +50 or greater",
+                        "Enhance three 5★ weapon or armor to +50 or greater",
                         "Enhance a Kukuhroziat weapon to +40 or greater",
                         "Enhance a Greaga weapon to +40 or greater",
-                        "Enhance a Cinquem weapon to +40 or greater"
+                        "Enhance a Cinquem weapon to +40 or greater",
+                        "Destroy 65 Item Containers: Red in Retem",
+                        "Achieve Battle Power 1,800 or greater",
+                        "Achieve Battle Power 1,900 or greater"
                     ],
                     "rewards": [
                         [
