@@ -11450,6 +11450,50 @@
         },
         {
             "date": 20220601,
+            "name": "Undocumented Stellar Grace Tasks",
+            "nameShort": "Stellar Grace Tasks",
+            "campaigns": [
+                {
+                    "name": "Undocumented Stellar Grace Tasks",
+                    "nameShort": "Stellar Grace Tasks",
+                    "starts": "2022-06-01T15:00:00Z",
+                    "startsNote": "First World Trial start",
+                    "ends": "2022-06-06T15:00:00Z",
+                    "endsNote": "Last World Trial end",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Recover 1 Stellar Grace",
+                        "Recover 10 Stellar Grace"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                1000
+                            ],
+                            [
+                                "SG 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                6000
+                            ],
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220601,
             "name": "NGS Headline+ 6/1/2022",
             "nameShort": "NGS Headline+",
             "url": "https://www.youtube.com/watch?v=iJ6pgjp8qmw",
