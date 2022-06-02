@@ -11375,6 +11375,52 @@
             ]
         },
         {
+            "date": 20220531,
+            "name": "NGS 1st Anniversary Special Gift",
+            "nameShort": "1st Anniv Gift",
+            "url": "https://twitter.com/play_pso2/status/1531848041208102913",
+            "campaigns": [
+                {
+                    "name": "NGS 1st Anniversary Special Gift",
+                    "nameShort": "1st Anniv Gift",
+                    "starts": "2022-06-01T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-06-08T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in",
+                    "activityFull": [
+                        "Log in"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Arms Refiner",
+                                1
+                            ],
+                            [
+                                "N-Augmentation Success Rate +20%",
+                                1
+                            ],
+                            [
+                                "STP: Aina & Garoa - Thank you!",
+                                1
+                            ],
+                            [
+                                "STP: Fuwan - Thank you!",
+                                1
+                            ],
+                            [
+                                "STP: Otarica - Thank you!",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
             "date": 20220601,
             "name": "6/1 Join the Seasonal World Trial Stellar Grace Recovery Operation!",
             "nameShort": "1st Anniv Stellar Grace",
@@ -11396,6 +11442,33 @@
                             [
                                 "Various items",
                                 "?"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220601,
+            "name": "NGS Headline+ 6/1/2022",
+            "nameShort": "NGS Headline+",
+            "url": "https://www.youtube.com/watch?v=iJ6pgjp8qmw",
+            "campaigns": [
+                {
+                    "name": "Keyword Giveaway",
+                    "starts": "2022-06-01T22:00:00Z",
+                    "ends": "2022-06-15T07:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"Phinger_Phood\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Rappy-Shaped Fritters",
+                                2
                             ]
                         ]
                     ]
