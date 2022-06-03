@@ -10690,7 +10690,7 @@
                         "3-I: Defeat 300 seasonal FORMERS",
                         "3-II: Defeat 8 seasonal rare enemies",
                         "3-III: Defeat 3 Captans",
-                        "3-IV: TBC"
+                        "3-IV: Defeat 5 seasonal Dread Enemies"
                     ],
                     "rewards": [
                         [
@@ -10761,8 +10761,8 @@
                         ],
                         [
                             [
-                                "TBC",
-                                "?"
+                                "Seasonal Points",
+                                10000
                             ]
                         ]
                     ]
@@ -10778,13 +10778,90 @@
                     "delivery": "Inventory",
                     "activityShort": "Limited-Time Tasks",
                     "activityFull": [
-                        "TBC"
+                        "4-I: Defeat 100 seasonal DOLLS",
+                        "4-II: Defeat 3 seasonal Enhanced Enemies",
+                        "4-III: Defeat 3 seasonal bosses",
+                        "4-IV: Defeat 3 seasonal Megalotix",
+                        "5-I: Defeat 200 seasonal DOLLS",
+                        "5-II: Defeat 5 seasonal Enhanced Enemies",
+                        "5-III: Defeat 5 seasonal bosses",
+                        "5-IV: Defeat 5 seasonal Megalotix",
+                        "6-I: Defeat 300 seasonal DOLLS",
+                        "6-II: Defeat 8 seasonal Enhanced Enemies",
+                        "6-III: Defeat 8 seasonal bosses",
+                        "6-IV: Defeat 8 seasonal Megalotix"
                     ],
                     "rewards": [
                         [
                             [
-                                "TBC",
-                                "?"
+                                "Seasonal Points",
+                                3000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                3000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                3000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                3000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                10000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                10000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                10000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                10000
                             ]
                         ]
                     ]
