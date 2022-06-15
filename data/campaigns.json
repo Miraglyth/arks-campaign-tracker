@@ -7912,7 +7912,7 @@
                     "name": "Rappy Design Contest",
                     "starts": "2022-03-02T08:00:00Z",
                     "ends": "2022-04-06T02:00:00Z",
-                    "distribution": "Unknown",
+                    "distribution": "2022-06-08T08:00:00Z",
                     "delivery": "Menu",
                     "activityShort": "Design Contest",
                     "activityFull": [
@@ -7973,7 +7973,7 @@
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
-                    "activityShort": "Limited-time Tasks",
+                    "activityShort": "Limited-Time Tasks",
                     "activityFull": [
                         "Talk to Xitre",
                         "I: Defeat 30 seasonal enemies",
@@ -8029,7 +8029,7 @@
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
-                    "activityShort": "Limited-time Tasks",
+                    "activityShort": "Limited-Time Tasks",
                     "activityFull": [
                         "Discover 2 Mischief Symbols each in Central, North, West and South Aelio",
                         "Discover 2 Mischief Symbols each in Central, North, West and South Retem"
@@ -8058,7 +8058,7 @@
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
-                    "activityShort": "Limited-time Tasks",
+                    "activityShort": "Limited-Time Tasks",
                     "activityFull": [
                         "1-I: Defeat 100 seasonal DOLLS",
                         "1-II: Defeat 100 seasonal ALTERS",
@@ -11054,7 +11054,6 @@
             "url": "https://pso2.com/players/news/illustration2022/",
             "campaigns": [
                 {
-                    
                     "name": "PSO2 10th Anniversary Illustration Contest",
                     "nameShort": "Illustration Contest",
                     "starts": "2022-05-11T00:00:00Z",
@@ -11590,6 +11589,514 @@
                             [
                                 "Rappy-Shaped Fritters",
                                 2
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220608,
+            "name": "It's game on! Get ready for new NGS Campaigns!",
+            "nameShort": "Kvaris Campaigns",
+            "url": "https://pso2.com/players/news/Welcome20220608/",
+            "campaigns": [
+                {
+                    "name": "Story Completion Campaign",
+                    "nameShort": "Story Completion",
+                    "starts": "2022-06-08T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-07-06T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Complete \"Advice from Rossa\"",
+                        "Complete \"Central City Residents\"",
+                        "Complete \"Anomalies\"",
+                        "Complete \"A Flicker of Resistance\"",
+                        "Complete \"A Happy Ending\"",
+                        "Complete \"To the Kvaris Region\"",
+                        "Complete 5 Leah May tasks",
+                        "Enhance a weapon to +40 or beyond",
+                        "Enhance an armor to +40 or beyond",
+                        "Unlock a Lv. 3 weapon Potential",
+                        "Affix 4 augments to weapons/armor",
+                        "Defeat 500 enemies in the Aelio region",
+                        "Defeat 500 enemies in the Retem region",
+                        "Defeat 500 enemies in the Kvaris region",
+                        "Explore 6 Aelio Trainia",
+                        "Explore 11 Aelio Trainia",
+                        "Explore 3 Retem Trainia",
+                        "Explore 7 Retem Trainia",
+                        "Clear West Aelio Dash (Stage 1)",
+                        "Clear West Retem Dash (Stage 1)",
+                        "Clear Central Kvaris Dash (Stage 1)",
+                        "Clear West Aelio Dash (Stage 1) with a score of 12,000+",
+                        "Clear West Retem Dash (Stage 1) with a score of 10,000+",
+                        "Clear Central Kvaris Dash (Stage 1) with a score of 13,000+"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-Meseta",
+                                10000
+                            ],
+                            [
+                                "EXP",
+                                10000
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                10000
+                            ],
+                            [
+                                "EXP",
+                                30000
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                10000
+                            ],
+                            [
+                                "EXP",
+                                300000
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                10000
+                            ],
+                            [
+                                "EXP",
+                                300000
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                10000
+                            ],
+                            [
+                                "EXP",
+                                300000
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                10000
+                            ],
+                            [
+                                "EXP",
+                                300000
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                50000
+                            ],
+                            [
+                                "Silver Primm Sword +20",
+                                1
+                            ],
+                            [
+                                "Silver Primm Armor +20",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                50000
+                            ],
+                            [
+                                "Photon Chunk",
+                                40
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                50000
+                            ],
+                            [
+                                "Photon Quartz",
+                                40
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                50000
+                            ],
+                            [
+                                "N-Enhancement Success Rate +10%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                50000
+                            ],
+                            [
+                                "N-EX-Cube",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "EXP",
+                                100000
+                            ]
+                        ],
+                        [
+                            [
+                                "EXP",
+                                200000
+                            ]
+                        ],
+                        [
+                            [
+                                "EXP",
+                                300000
+                            ]
+                        ],
+                        [
+                            [
+                                "Star Gems",
+                                10
+                            ]
+                        ],
+                        [
+                            [
+                                "Arms Refiner",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Star Gems",
+                                10
+                            ]
+                        ],
+                        [
+                            [
+                                "Arms Refiner",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "EXP",
+                                50000
+                            ],
+                            [
+                                "Monotite",
+                                40
+                            ],
+                            [
+                                "Dualomite",
+                                40
+                            ]
+                        ],
+                        [
+                            [
+                                "EXP",
+                                100000
+                            ],
+                            [
+                                "Trinite",
+                                40
+                            ],
+                            [
+                                "Tetracite",
+                                40
+                            ]
+                        ],
+                        [
+                            [
+                                "EXP",
+                                200000
+                            ],
+                            [
+                                "Pentalite",
+                                20
+                            ]
+                        ],
+                        [
+                            [
+                                "Star Gems",
+                                10
+                            ]
+                        ],
+                        [
+                            [
+                                "Star Gems",
+                                10
+                            ]
+                        ],
+                        [
+                            [
+                                "Star Gems",
+                                10
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220608,
+            "name": "AC Purchase Campaign",
+            "url": "https://pso2.com/players/news/i_buy_ac/",
+            "campaigns": [
+                {
+                    "name": "AC Purchase Campaign",
+                    "starts": "2022-06-08T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-22T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "AC Purchase",
+                    "activityFull": [
+                        "Purchase a total of 500 AC or more",
+                        "Purchase a total of 4,000 AC or more",
+                        "Purchase a total of 8,000 AC or more",
+                        "Purchase a total of 12,000 AC or more"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-EX EXP Earned +25%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-EX Rare Drop Rate +25%",
+                                1
+                            ],
+                            [
+                                "Rappy Ring",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-EX EXP Earned +50%",
+                                1
+                            ],
+                            [
+                                "Rappy Pendant",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-EX EXP Earned +50%",
+                                1
+                            ],
+                            [
+                                "Rappy Ring",
+                                1
+                            ],
+                            [
+                                "Rappy Pendant",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220608,
+            "name": "6/8 Great bargains in the SG Shop!",
+            "nameShort": "SG Shop Deals",
+            "url": "https://pso2.com/players/news/i_itemsale/",
+            "campaigns": [
+                {
+                    "name": "6/8 Great bargains in the SG Shop!",
+                    "nameShort": "SG Shop Deals",
+                    "starts": "2022-06-08T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-22T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "SG Shop Deals",
+                    "activityFull": [
+                        "Kvaris Support S Set [625 SG]",
+                        "Kvaris Support M Set (+bonus) [1250 SG]",
+                        "Kvaris Support L Set (+bonus) [2500 SG]"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-EXP Earned [24h] +50%",
+                                3
+                            ]
+                        ],
+                        [
+                            [
+                                "N-EXP Earned [24h] +50%",
+                                6
+                            ],
+                            [
+                                "N-Enhancement Success Rate +20%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-EXP Earned [24h] +50%",
+                                12
+                            ],
+                            [
+                                "N-Enhancement Success Rate +20%",
+                                1
+                            ],
+                            [
+                                "N-Augmentation Success Rate +10%",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220608,
+            "name": "NGS comes to AX 2022!",
+            "nameShort": "AX 2022",
+            "url": "https://pso2.com/players/news/animeexpo_2022/",
+            "campaigns": [
+                {
+                    "name": "NGS comes to AX 2022!",
+                    "nameShort": "AX 2022",
+                    "starts": "2022-07-01T17:00:00Z",
+                    "startsNote": "Start of Day 1",
+                    "ends": "2022-07-04T22:00:00Z",
+                    "endsNote": "End of Day 4",
+                    "distribution": "Physical & Item Code",
+                    "delivery": "Merchandise & Menu",
+                    "activityShort": "Expo Stall",
+                    "activityFull": [
+                        "Purchase PSO2:NGS AX2022 set (T-shirt + badges) for $44.95",
+                        "Attendee bonus (While supplies last)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "PSO2:NGS AX2022 T-Shirt",
+                                "Physical Merch"
+                            ],
+                            [
+                                "PSO2:NGS AX2022 Steel badges",
+                                "Physical Merch"
+                            ],
+                            [
+                                "Expo 2022 T-Shirt T1 [Ou]",
+                                2
+                            ],
+                            [
+                                "Expo 2022 T-Shirt T2 [Ou]",
+                                2
+                            ],
+                            [
+                                "MTN: Idle - PSO2 10th Anniversary",
+                                1
+                            ],
+                            [
+                                "Mag Form/Rappy (Halpha)",
+                                1
+                            ],
+                            [
+                                "Expo 2022 Sticker NA",
+                                2
+                            ],
+                            [
+                                "PSO2 10th Anniversary Logo",
+                                2
+                            ]
+                        ],
+                        [
+                            [
+                                "Expo 2022 T-Shirt T1 [Ou]",
+                                2
+                            ],
+                            [
+                                "Expo 2022 T-Shirt T2 [Ou]",
+                                2
+                            ],
+                            [
+                                "MTN: Idle - PSO2 10th Anniversary",
+                                1
+                            ],
+                            [
+                                "Mag Form/Rappy (Halpha)",
+                                1
+                            ],
+                            [
+                                "Expo 2022 Sticker NA",
+                                2
+                            ],
+                            [
+                                "PSO2 10th Anniversary Logo",
+                                2
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220608,
+            "name": "Venture to Kvaris! Twitter Follow & Retweet Campaign",
+            "nameShort": "Twitter Campaign",
+            "url": "https://twitter.com/play_pso2/status/1534707038525149184",
+            "campaigns": [
+                {
+                    "name": "Venture to Kvaris! Twitter Follow & Retweet Campaign",
+                    "nameShort": "Twitter Campaign",
+                    "starts": "2022-06-09T01:20:00Z",
+                    "startsNote": "Tweet post time",
+                    "ends": "2022-06-22T03:00:00Z",
+                    "distribution": "Unknown",
+                    "delivery": "Menu",
+                    "activityShort": "Twitter Campaign",
+                    "activityFull": [
+                        "Follow <a href=\"https://twitter.com/play_pso2\">@play_pso2</a> and retweet the campaign tweet<br>(Raffle: 10 winners)",
+                        "Global reward for 10,000 cross-service retweets",
+                        "Global reward for 20,000 cross-service retweets"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 1,000 Ticket",
+                                2
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 100 Ticket",
+                                1
                             ]
                         ]
                     ]
