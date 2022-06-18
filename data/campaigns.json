@@ -11618,24 +11618,24 @@
                         "Complete \"A Flicker of Resistance\"",
                         "Complete \"A Happy Ending\"",
                         "Complete \"To the Kvaris Region\"",
-                        "Complete 5 Leah May tasks",
                         "Enhance a weapon to +40 or beyond",
                         "Enhance an armor to +40 or beyond",
                         "Unlock a Lv. 3 weapon Potential",
                         "Affix 4 augments to weapons/armor",
+                        "Complete 5 Leah May tasks",
                         "Defeat 500 enemies in the Aelio region",
                         "Defeat 500 enemies in the Retem region",
                         "Defeat 500 enemies in the Kvaris region",
-                        "Explore 6 Aelio Trainia",
-                        "Explore 11 Aelio Trainia",
-                        "Explore 3 Retem Trainia",
-                        "Explore 7 Retem Trainia",
                         "Clear West Aelio Dash (Stage 1)",
                         "Clear West Retem Dash (Stage 1)",
                         "Clear Central Kvaris Dash (Stage 1)",
                         "Clear West Aelio Dash (Stage 1) with a score of 12,000+",
                         "Clear West Retem Dash (Stage 1) with a score of 10,000+",
-                        "Clear Central Kvaris Dash (Stage 1) with a score of 13,000+"
+                        "Clear Central Kvaris Dash (Stage 1) with a score of 13,000+",
+                        "Explore 6 Aelio Trainia",
+                        "Explore 11 Aelio Trainia",
+                        "Explore 3 Retem Trainia",
+                        "Explore 7 Retem Trainia"
                     ],
                     "rewards": [
                         [
@@ -11704,20 +11704,6 @@
                                 50000
                             ],
                             [
-                                "Silver Primm Sword +20",
-                                1
-                            ],
-                            [
-                                "Silver Primm Armor +20",
-                                1
-                            ]
-                        ],
-                        [
-                            [
-                                "N-Meseta",
-                                50000
-                            ],
-                            [
                                 "Photon Chunk",
                                 40
                             ]
@@ -11754,6 +11740,20 @@
                         ],
                         [
                             [
+                                "N-Meseta",
+                                50000
+                            ],
+                            [
+                                "Silver Primm Sword +20",
+                                1
+                            ],
+                            [
+                                "Silver Primm Armor +20",
+                                1
+                            ]
+                        ],
+                        [
+                            [
                                 "EXP",
                                 100000
                             ]
@@ -11768,30 +11768,6 @@
                             [
                                 "EXP",
                                 300000
-                            ]
-                        ],
-                        [
-                            [
-                                "Star Gems",
-                                10
-                            ]
-                        ],
-                        [
-                            [
-                                "Arms Refiner",
-                                1
-                            ]
-                        ],
-                        [
-                            [
-                                "Star Gems",
-                                10
-                            ]
-                        ],
-                        [
-                            [
-                                "Arms Refiner",
-                                1
                             ]
                         ],
                         [
@@ -11849,6 +11825,30 @@
                                 "Star Gems",
                                 10
                             ]
+                        ],
+                        [
+                            [
+                                "Star Gems",
+                                10
+                            ]
+                        ],
+                        [
+                            [
+                                "Arms Refiner",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Star Gems",
+                                10
+                            ]
+                        ],
+                        [
+                            [
+                                "Arms Refiner",
+                                1
+                            ]
                         ]
                     ]
                 }
@@ -11863,7 +11863,7 @@
                     "name": "AC Purchase Campaign",
                     "starts": "2022-06-08T08:00:00Z",
                     "startsNote": "Maintenance",
-                    "ends": "2022-08-22T02:00:00Z",
+                    "ends": "2022-06-22T02:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
@@ -11930,7 +11930,7 @@
                     "nameShort": "SG Shop Deals",
                     "starts": "2022-06-08T08:00:00Z",
                     "startsNote": "Maintenance",
-                    "ends": "2022-08-22T02:00:00Z",
+                    "ends": "2022-06-22T02:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
