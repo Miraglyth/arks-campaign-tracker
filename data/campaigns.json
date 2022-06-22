@@ -451,7 +451,7 @@
                                 2
                             ],
                             [
-                                "EXP +5%",
+                                "EXP Earned +5%",
                                 "Boost"
                             ],
                             [
@@ -650,7 +650,7 @@
                                 2
                             ],
                             [
-                                "EXP +5%",
+                                "EXP Earned +5%",
                                 "Boost"
                             ],
                             [
@@ -1640,7 +1640,7 @@
                                 2
                             ],
                             [
-                                "EXP +5%",
+                                "EXP Earned +5%",
                                 "Boost"
                             ],
                             [
@@ -1674,7 +1674,7 @@
                                 2
                             ],
                             [
-                                "EXP +5%",
+                                "EXP Earned +5%",
                                 "Boost"
                             ],
                             [
@@ -2016,7 +2016,7 @@
                                 2
                             ],
                             [
-                                "EXP +5%",
+                                "EXP Earned +5%",
                                 "Boost"
                             ],
                             [
@@ -2321,7 +2321,7 @@
                                 2
                             ],
                             [
-                                "EXP +5%",
+                                "EXP Earned +5%",
                                 "Boost"
                             ],
                             [
@@ -2814,7 +2814,7 @@
                                 2
                             ],
                             [
-                                "EXP +5%",
+                                "EXP Earned +5%",
                                 "Boost"
                             ],
                             [
@@ -3282,7 +3282,7 @@
                                 2
                             ],
                             [
-                                "EXP +5%",
+                                "EXP Earned +5%",
                                 "Boost"
                             ],
                             [
@@ -4211,7 +4211,7 @@
                                 2
                             ],
                             [
-                                "EXP +5%",
+                                "EXP Earned +5%",
                                 "Boost"
                             ],
                             [
@@ -4527,7 +4527,7 @@
                                 2
                             ],
                             [
-                                "EXP +5%",
+                                "EXP Earned +5%",
                                 "Boost"
                             ],
                             [
@@ -4662,7 +4662,7 @@
                                 2
                             ],
                             [
-                                "EXP +5%",
+                                "EXP Earned +5%",
                                 "Boost"
                             ],
                             [
@@ -4780,7 +4780,7 @@
                     "rewards": [
                         [
                             [
-                                "EXP +10%",
+                                "EXP Earned +10%",
                                 "Boost"
                             ],
                             [
@@ -5562,7 +5562,7 @@
                     "rewards": [
                         [
                             [
-                                "EXP +10%",
+                                "EXP Earned +10%",
                                 "Boost"
                             ],
                             [
@@ -6345,7 +6345,7 @@
                     "rewards": [
                         [
                             [
-                                "EXP +10%",
+                                "EXP Earned +10%",
                                 "Boost"
                             ],
                             [
@@ -6720,7 +6720,7 @@
                     "rewards": [
                         [
                             [
-                                "EXP +20%",
+                                "EXP Earned +20%",
                                 "Boost"
                             ],
                             [
@@ -7341,7 +7341,7 @@
                     "rewards": [
                         [
                             [
-                                "EXP +10%",
+                                "EXP Earned +10%",
                                 "Boost"
                             ]
                         ]
@@ -7450,7 +7450,7 @@
                     "rewards": [
                         [
                             [
-                                "EXP +20%",
+                                "EXP Earned +20%",
                                 "Boost"
                             ],
                             [
@@ -7588,7 +7588,7 @@
                     "rewards": [
                         [
                             [
-                                "EXP +10%",
+                                "EXP Earned +10%",
                                 "Boost"
                             ]
                         ]
@@ -7793,7 +7793,7 @@
                     "rewards": [
                         [
                             [
-                                "EXP +10%",
+                                "EXP Earned +10%",
                                 "Boost"
                             ],
                             [
@@ -8638,7 +8638,7 @@
                     "rewards": [
                         [
                             [
-                                "EXP +10%",
+                                "EXP Earned +10%",
                                 "Boost"
                             ],
                             [
@@ -8964,7 +8964,7 @@
                     "rewards": [
                         [
                             [
-                                "EXP +10%",
+                                "EXP Earned +10%",
                                 "Boost"
                             ],
                             [
@@ -9563,7 +9563,7 @@
                     "rewards": [
                         [
                             [
-                                "EXP +10%",
+                                "EXP Earned +10%",
                                 "Boost"
                             ],
                             [
@@ -9807,7 +9807,7 @@
                     "rewards": [
                         [
                             [
-                                "EXP +10%",
+                                "EXP Earned +10%",
                                 "Boost"
                             ],
                             [
@@ -11152,7 +11152,7 @@
                     "rewards": [
                         [
                             [
-                                "EXP +10%",
+                                "EXP Earned +10%",
                                 "Boost"
                             ],
                             [
@@ -11280,7 +11280,7 @@
                     "rewards": [
                         [
                             [
-                                "EXP +10%",
+                                "EXP Earned +10%",
                                 "Boost"
                             ],
                             [
@@ -12097,6 +12097,233 @@
                             [
                                 "SG 100 Ticket",
                                 1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220615,
+            "name": "Sonic's Birthday 2022",
+            "nameShort": "Sonic's Birthday",
+            "url": "https://pso2.com/players/news/i_sonic2022/",
+            "campaigns": [
+                {
+                    "name": "Keyword Giveaway",
+                    "starts": "2022-06-23T07:00:00Z",
+                    "ends": "2022-07-01T08:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"(Keyword TBC)\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Sonic Shoes",
+                                1
+                            ],
+                            [
+                                "Sonic Heroes",
+                                1
+                            ],
+                            [
+                                "It Doesn't Matter",
+                                1
+                            ],
+                            [
+                                "Special Scratch Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Releasing Sonic the Movie 2 teaser in-game!",
+                    "nameShort": "Sonic Movie 2 teaser",
+                    "starts": "2022-06-15T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-07-06T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Special Concert",
+                    "activityFull": [
+                        "Sonic the Movie 2 trailer broadcast in Central City"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "-",
+                                0
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220615,
+            "name": "Movie concerts: PSO2COMI Anime",
+            "nameShort": "PSO2COMI Concerts",
+            "url": "https://pso2.com/players/news/PSO2COMI_Anime_2022/",
+            "campaigns": [
+                {
+                    "name": "Movie concerts: PSO2COMI Anime",
+                    "nameShort": "PSO2COMI Concerts",
+                    "starts": "2022-06-16T03:00:00Z",
+                    "startsNote": "Start of first broadcast",
+                    "ends": "2022-06-20T03:00:00Z",
+                    "endsNote": "End of last broadcast",
+                    "distribution": "Immediate",
+                    "delivery": "Boosts",
+                    "activityShort": "Special Concert",
+                    "activityFull": [
+                        "<a href=\"https://www.youtube.com/watch?v=K2rVq5d271c\">PSO2COMI Anime Special Compilation</a> broadcasts in each city"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP Earned +10%",
+                                "Boost"
+                            ],
+                            [
+                                "N-Meseta Earned +10%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +10%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220615,
+            "name": "PSO2 Day: Premium",
+            "url": "https://pso2.com/players/news/i_pso2day_p/",
+            "campaigns": [
+                {
+                    "name": "Boost Event",
+                    "starts": "2022-06-22T00:00:00Z",
+                    "ends": "2022-06-24T00:00:00Z",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Have an active Premium Set"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP Earned +10%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +25%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Limited-Time Tasks",
+                    "starts": "2022-06-22T00:00:00Z",
+                    "ends": "2022-06-24T00:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Clear 2 trials",
+                        "Destroy 22 Item Container: Green",
+                        "Destroy 2 Item Container: Gold",
+                        "Obtain 22 Minerals",
+                        "Defeat 22 FORMERS",
+                        "Defeat 22 ALTERS",
+                        "Defeat 22 DOLLS",
+                        "Defeat 2 Dread Enemies",
+                        "Defeat 2 bosses"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Ael Yellow",
+                                2
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Premium Set Gift",
+                    "starts": "2022-06-22T00:00:00Z",
+                    "ends": "2022-06-24T00:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in (Premium)",
+                    "activityFull": [
+                        "Have an active Premium Set"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ],
+                            [
+                                "Special Scratch Ticket",
+                                2
                             ]
                         ]
                     ]
