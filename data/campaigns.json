@@ -12117,7 +12117,7 @@
                     "delivery": "Menu",
                     "activityShort": "Chat Keyword",
                     "activityFull": [
-                        "Say \"(Keyword TBC)\" in the in-game chat"
+                        "Say \"Sonic_turns_31\" in the in-game chat"
                     ],
                     "rewards": [
                         [
@@ -12324,6 +12324,36 @@
                             [
                                 "Special Scratch Ticket",
                                 2
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220622,
+            "name": "Pre-announced Urgent Quest schedule",
+            "nameShort": "Urgent Quest Schedule",
+            "url": "https://pso2.com/players/news/i_urgent_quests/",
+            "campaigns": [
+                {
+                    "name": "Pre-announced Urgent Quest and concert schedule",
+                    "nameShort": "UQ Schedule",
+                    "starts": "2022-06-22T10:00:00Z",
+                    "startsNote": "Start of first concert",
+                    "ends": "2022-06-28T07:00:00Z",
+                    "endsNote": "End of last UQ",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "UQ Schedule",
+                    "activityFull": [
+                        "Urgent Quest Schedule <a href=\"https://pso2.com/players/news/i_urgent_quests/\">Here</a>"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "-",
+                                0
                             ]
                         ]
                     ]
