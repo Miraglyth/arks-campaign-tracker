@@ -12,3 +12,4 @@
 - Consider reworking dateParse due to overzealous interpretation by Chrome (e.g. "Early August 2021" parsing the 2021 and consequently the August too)
 - Continued aesthetic improvement
 - External: Some form of campaign input mechanism that can spit out the JSON file
+- Feature idea: "Mark all Ended as Done"

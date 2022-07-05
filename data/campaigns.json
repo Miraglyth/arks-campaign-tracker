@@ -10266,25 +10266,25 @@
                         ],
                         [
                             [
-                                "Special Scratch Ticket",
+                                "Special Scratch Ticket (Max 5)",
                                 5
                             ]
                         ],
                         [
                             [
-                                "Arms Refiner",
+                                "Arms Refiner (Max 5)",
                                 4
                             ]
                         ],
                         [
                             [
-                                "Pentalite",
+                                "Pentalite (Max 5)",
                                 20
                             ]
                         ],
                         [
                             [
-                                "C/Fire Exploit I",
+                                "C/Fire Exploit I (Max 5)",
                                 20
                             ]
                         ],
@@ -12337,8 +12337,9 @@
             "campaigns": [
                 {
                     "name": "Limited-time login bonus",
-                    "starts": "2022-06-14T18:00:00Z",
-                    "ends": "2022-07-05T17:00:00Z",
+                    "starts": "2022-06-15T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-07-06T01:00:00Z",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
                     "activityShort": "Login Bonus",
@@ -12472,7 +12473,8 @@
                 {
                     "name": "Countdown login bonus",
                     "starts": "2022-06-28T18:00:00Z",
-                    "ends": "2022-07-12T17:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-07-13T01:00:00Z",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
                     "activityShort": "Login Bonus",
