@@ -12674,6 +12674,48 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20220704,
+            "name": "PSO2 10th Anniversary Special Gift",
+            "nameShort": "10th Anniv Gift",
+            "url": "https://twitter.com/play_pso2/status/1543973774177042434",
+            "campaigns": [
+                {
+                    "name": "PSO2 10th Anniversary Special Gift",
+                    "nameShort": "10th Anniv Gift",
+                    "starts": "2022-07-04T15:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-07-13T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in",
+                    "activityFull": [
+                        "Log in"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "PSO2 Manga Memory",
+                                3
+                            ],
+                            [
+                                "Special Scratch Ticket",
+                                10
+                            ],
+                            [
+                                "STP: Infectious Smiles",
+                                1
+                            ],
+                            [
+                                "STP: Ceremo Rappies - Celebrate!",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
