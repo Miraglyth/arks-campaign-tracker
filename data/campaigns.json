@@ -13320,6 +13320,199 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20220706,
+            "name": "Special item sets will be on sale in the AC and SG Shops starting 7/6/2022!",
+            "nameShort": "AC & SG Shop Deals",
+            "url": "https://pso2.com/players/news/i_itemsale/",
+            "campaigns": [
+                {
+                    "name": "Special item sets will be on sale in the AC and SG Shops starting 7/6/2022!",
+                    "nameShort": "AC & SG Shop Deals",
+                    "starts": "2022-07-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-03T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "AC & SG Shop Deals",
+                    "activityFull": [
+                        "(Sale) Premium Set (30 Days) [1,000 AC] (Max 1)",
+                        "10th Anniv. Premium Set (+ticket) [3,300AC] (Max 1)",
+                        "N-Inventory +10 [200 AC] (Max 1)",
+                        "10th Anniv. Special Set (+ticket) [1,250SG] (Max 1)",
+                        "(Bonus: MEL) 10th Anniv. Support Set [650SG] (Max 1)",
+                        "(Bonus: RNG) 10th Anniv. Support Set [650SG] (Max 1)",
+                        "(Bonus: TEC) 10th Anniv. Support Set [650SG] (Max 1)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Premium Set (30 Days)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Premium Set (90 Days)",
+                                1
+                            ],
+                            [
+                                "PSO2 10th Anniversary Exchange Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Inventory +10",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Material Storage Use (30 Days S)",
+                                1
+                            ],
+                            [
+                                "Extended Storage 1 Use (30 Days S)",
+                                1
+                            ],
+                            [
+                                "N-Rare Drop Rate [24h] +50%",
+                                1
+                            ],
+                            [
+                                "N-EXP Earned [24h] +50%",
+                                1
+                            ],
+                            [
+                                "PSO2 10th Anniversary Exchange Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Rare Drop Rate [24h] +50%",
+                                1
+                            ],
+                            [
+                                "N-EXP Earned [24h] +50%",
+                                1
+                            ],
+                            [
+                                "C/Gigas Might III S",
+                                1
+                            ],
+                            [
+                                "C/Mastery III S",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Rare Drop Rate [24h] +50%",
+                                1
+                            ],
+                            [
+                                "N-EXP Earned [24h] +50%",
+                                1
+                            ],
+                            [
+                                "C/Gigas Precision III S",
+                                1
+                            ],
+                            [
+                                "C/Mastery III S",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Rare Drop Rate [24h] +50%",
+                                1
+                            ],
+                            [
+                                "N-EXP Earned [24h] +50%",
+                                1
+                            ],
+                            [
+                                "C/Gigas Technique III S",
+                                1
+                            ],
+                            [
+                                "C/Mastery III S",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220706,
+            "name": "AC Purchase Campaign",
+            "url": "https://pso2.com/players/news/i_buy_ac/",
+            "campaigns": [
+                {
+                    "name": "AC Purchase Campaign",
+                    "starts": "2022-07-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-07-20T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "AC Purchase",
+                    "activityFull": [
+                        "Purchase a total of 500 AC or more",
+                        "Purchase a total of 4,000 AC or more",
+                        "Purchase a total of 8,000 AC or more",
+                        "Purchase a total of 12,000 AC or more"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-EX EXP Earned +25%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-EX Rare Drop Rate +25%",
+                                1
+                            ],
+                            [
+                                "Sunny Parasol",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-EX EXP Earned +50%",
+                                1
+                            ],
+                            [
+                                "Region Mag Earrings",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-EX EXP Earned +50%",
+                                1
+                            ],
+                            [
+                                "Sunny Parasol",
+                                1
+                            ],
+                            [
+                                "Region Mag Earrings",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
