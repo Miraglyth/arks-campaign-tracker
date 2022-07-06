@@ -8307,7 +8307,7 @@
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
-                    "activityShort": "Earn Seasonal Points",
+                    "activityShort": "Title Tasks",
                     "activityFull": [
                         "Obtain 300,000 Seasonal Points",
                         "Locate 16 Mischief Symbols",
@@ -10960,7 +10960,7 @@
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
-                    "activityShort": "Earn Seasonal Points",
+                    "activityShort": "Title Tasks",
                     "activityFull": [
                         "Obtain 300,000 Seasonal Points",
                         "Locate 16 Mischief Symbols",
@@ -13508,6 +13508,419 @@
                             [
                                 "Region Mag Earrings",
                                 1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220706,
+            "name": "10th Anniv Event",
+            "campaigns": [
+                {
+                    "name": "I Love Rappy",
+                    "starts": "2022-07-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-03T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Talk to Peppy Rappy",
+                        "I: Encounter 3 Rappies",
+                        "II: TBC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "-",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Meseta",
+                                1000
+                            ],
+                            [
+                                "Seasonal Points",
+                                1000
+                            ],
+                            [
+                                "EXP",
+                                100
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Mysterious Holographs",
+                    "starts": "2022-07-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-03T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Locate 2 Mischief Symbols in Aelio",
+                        "Locate 2 Mischief Symbols in Retem",
+                        "Locate 2 Mischief Symbols in Kvaris"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                10000
+                            ],
+                            [
+                                "PSO2 Manga Memory",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                10000
+                            ],
+                            [
+                                "PSO2 Manga Memory",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                10000
+                            ],
+                            [
+                                "PSO2 Manga Memory",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Mysterious Holographs",
+                    "starts": "2022-07-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-03T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Locate 2 Mischief Symbols in Aelio",
+                        "Locate 2 Mischief Symbols in Retem",
+                        "Locate 2 Mischief Symbols in Kvaris"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                10000
+                            ],
+                            [
+                                "PSO2 Manga Memory",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                10000
+                            ],
+                            [
+                                "PSO2 Manga Memory",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                10000
+                            ],
+                            [
+                                "PSO2 Manga Memory",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Use Seasonal Points",
+                    "starts": "2022-07-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-03T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Use Seasonal Points",
+                        "TBC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                500
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Complete Daily Tasks",
+                    "starts": "2022-07-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-03T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "I: Complete 60 Daily Tasks",
+                        "II: Complete 120 Daily Tasks"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                10000
+                            ],
+                            [
+                                "EXP",
+                                30000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                20000
+                            ],
+                            [
+                                "EXP",
+                                50000
+                            ],
+                            [
+                                "PSO2 10th Anniversary Exchange Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Clear Field Races",
+                    "starts": "2022-07-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-03T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Clear South Aelio Dash (Stage 1)",
+                        "TBC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                10000
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Achieve Battle Power",
+                    "starts": "2022-07-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-03T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Achieve 1682+ Battle Power"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ],
+                            [
+                                "EXP",
+                                10000
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Login gift",
+                    "starts": "2022-07-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-03T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in",
+                    "activityFull": [
+                        "Log in (Daily)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "PSO2 10th SP Scratch Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Exchange Seasonal Points",
+                    "nameShort": "Seasonal Exchange #1",
+                    "starts": "2022-07-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-03T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Item Exchange",
+                    "activityFull": [
+                        "TBC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "TBC",
+                                "?"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Exchange Seasonal Points (Second Half)",
+                    "nameShort": "Seasonal Exchange #2",
+                    "starts": "2022-07-20T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-03T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Item Exchange",
+                    "activityFull": [
+                        "TBC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "TBC",
+                                "?"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Exchange Memories",
+                    "starts": "2022-07-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-03T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Item Exchange",
+                    "activityFull": [
+                        "TBC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "TBC",
+                                "?"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Seasonal Titles",
+                    "starts": "2022-07-06T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-03T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Title Tasks",
+                    "activityFull": [
+                        "Obtain 300,000 Seasonal Points",
+                        "Locate 8 Mischief Symbols",
+                        "Recover 10 Stellar Grace"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Title: [PSO2 10th Anniversary] Point Collector",
+                                1
+                            ],
+                            [
+                                "Title Name \"Thanks\"",
+                                1
+                            ],
+                            [
+                                "Star Gems",
+                                5
+                            ],
+                            [
+                                "* Evolorbit Almati",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Title: [PSO2 10th Anniversary] Symbol Mania",
+                                1
+                            ],
+                            [
+                                "Title Name \"PSO2\"",
+                                1
+                            ],
+                            [
+                                "Star Gems",
+                                5
+                            ]
+                        ],
+                        [
+                            [
+                                "Title: [PSO2 10th Anniversary] Grace Collector",
+                                1
+                            ],
+                            [
+                                "Title Name \"10th Anniversary\"",
+                                1
+                            ],
+                            [
+                                "Star Gems",
+                                5
                             ]
                         ]
                     ]
