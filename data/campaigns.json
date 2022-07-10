@@ -13808,13 +13808,377 @@
                     "delivery": "Inventory",
                     "activityShort": "Item Exchange",
                     "activityFull": [
-                        "TBC"
+                        "1000 S.Points",
+                        "5000 S.Points",
+                        "5000 S.Points",
+                        "15000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "50 S.Points",
+                        "50 S.Points",
+                        "50 S.Points",
+                        "100 S.Points",
+                        "500 S.Points",
+                        "300 S.Points",
+                        "300 S.Points",
+                        "1000 S.Points",
+                        "1500 S.Points",
+                        "2000 S.Points",
+                        "100 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "300 S.Points",
+                        "600 S.Points",
+                        "100 S.Points",
+                        "2500 S.Points"
                     ],
                     "rewards": [
                         [
                             [
-                                "TBC",
-                                "?"
+                                "PSO2 10th SP Scratch Ticket (Max 20)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Mag Form/Anniva Minimo (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Rappy Finger Puppet (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "MTN: Glide - Rappy/B (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "STP: Ceremo Emperappy - 10th Anniversary (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "STP: NGS Heroines - Congrats (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "STP: PSO2 Heroines - Congrats (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "20 Star Gems (Max 5)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Special Scratch Ticket (Max 4)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Evolorbit Sword+40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Evolorbit Wire+40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Evolorbit Spear+40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Evolorbit Daggers+40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Evolorbit Saber+40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Evolorbit Knuckles+40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Evolorbit Rifle+40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Evolorbit Launcher+40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Evolorbit Machine Guns+40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Evolorbit Rod+40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Evolorbit Talis+40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Evolorbit Wand+40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Evolorbit Katana+40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Evolorbit Bow+40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Evolorbit Boots+40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Evolorbit Blade+40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Monotite (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Dualomite (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trinite (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tetracite (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Pentalite (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Chunk (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Quartz (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Scale (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Blizzardium (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Low Temperature Damage Resistance +100% (Max 20)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Daytime Exploit I (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Might III (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Precision III (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Technique III (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Melra Dualble III (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Meltech Dualble III (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Ratech Dualble III (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Frostyl Soul II (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Crocys Soul II (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Ams Soul II (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Kvar Note A (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Kvar Note B (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Kvar Note C (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Kvar Note D (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Alpha Reactor (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Alpha Reactor (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Grinder (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Augmentation Success Rate +10% (Max 4)",
+                                1
                             ]
                         ]
                     ]
