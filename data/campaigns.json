@@ -14951,6 +14951,36 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20220721,
+            "name": "David Plays NGS!",
+            "url": "https://www.youtube.com/watch?v=8bobJkEoMcc",
+            "campaigns": [
+                {
+                    "name": "David Plays NGS!",
+                    "starts": "2022-07-21T03:50:00Z",
+                    "ends": "Unknown",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"Back_again\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ],
+                            [
+                                "Ragol Memory",
+                                7
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
