@@ -12953,10 +12953,8 @@
                 {
                     "name": "Seasonal World Trial: Stellar Grace Recovery Operation",
                     "nameShort": "World Trial: Stellar Grace",
-                    "starts": "2022-07-27T08:00:00Z",
-                    "startsNote": "Maintenance",
-                    "ends": "2022-08-02T23:00:00Z",
-                    "endsNote": "Maintenance",
+                    "starts": "2022-07-27T15:00:00Z",
+                    "ends": "2022-08-01T15:00:00Z",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
                     "activityShort": "World Trials",
