@@ -14112,7 +14112,7 @@
                     "nameShort": "Seasonal Exchange #1",
                     "starts": "2022-07-06T08:00:00Z",
                     "startsNote": "Maintenance",
-                    "ends": "2022-08-10T02:00:00Z",
+                    "ends": "2022-08-17T02:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
@@ -14498,7 +14498,7 @@
                     "nameShort": "Seasonal Exchange #2",
                     "starts": "2022-07-20T08:00:00Z",
                     "startsNote": "Maintenance",
-                    "ends": "2022-08-10T02:00:00Z",
+                    "ends": "2022-08-17T02:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
@@ -14673,7 +14673,7 @@
                     "name": "Exchange Memories",
                     "starts": "2022-07-06T08:00:00Z",
                     "startsNote": "Maintenance",
-                    "ends": "2022-08-02T23:00:00Z",
+                    "ends": "2022-08-17T23:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
@@ -15663,7 +15663,7 @@
             ]
         },
         {
-            "date": 20220721,
+            "date": 20220804,
             "name": "David Plays NGS! 8/3 Update!",
             "nameShort": "David Plays 8/3",
             "url": "https://www.youtube.com/watch?v=P5NBxa5mz6Q",
@@ -15688,6 +15688,369 @@
                             [
                                 "Ragol Memory",
                                 7
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220803,
+            "name": "Your Pet Loves You Campaign",
+            "nameShort": "Your Pet Loves You",
+            "url": "https://pso2.com/players/news/i_campaign_20220803_2/",
+            "campaigns": [
+                {
+                    "name": "Your Pet Loves You Campaign",
+                    "nameShort": "Your Pet Loves You",
+                    "starts": "2022-08-02T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-31T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Mid October",
+                    "delivery": "Menu",
+                    "activityShort": "PSO2 Pet Titles",
+                    "activityFull": [
+                        "Wanda Master: Level 80+ Wanda",
+                        "Trim Master: Level 80+ Trim",
+                        "Sally Master: Level 80+ Sally",
+                        "Marron Master: Level 80+ Marron",
+                        "Melon Master: Level 80+ Melon",
+                        "Viola Master: Level 80+ Viola",
+                        "Rappy Master: Level 80+ Rappy",
+                        "Synchro Master: Level 80+ Synchro",
+                        "Jinga Master: Level 80+ Jinga",
+                        "Aero Master: Level 80+ Aero",
+                        "Popple Master: Level 80+ Popple",
+                        "Redran Master: Level 80+ Redran",
+                        "Herbie Master: Level 80+ Herbie",
+                        "Vulcan Master: Level 80+ Vulcan"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Mag Form/Wanda",
+                                1
+                            ],
+                            [
+                                "Mag Form/Wanda S",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Mag Form/Trim",
+                                1
+                            ],
+                            [
+                                "Mag Form/Trim S",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Mag Form/Sally",
+                                1
+                            ],
+                            [
+                                "Mag Form/Sally S",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Mag Form/Marron",
+                                1
+                            ],
+                            [
+                                "Mag Form/Marron S",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Mag Form/Melon",
+                                1
+                            ],
+                            [
+                                "Mag Form/Melon S",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Mag Form/Viola",
+                                1
+                            ],
+                            [
+                                "Mag Form/Viola S",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Mag Form/Rappy",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Mag Form/Synchro",
+                                1
+                            ],
+                            [
+                                "Mag Form/Synchro S",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Mag Form/Jinga",
+                                1
+                            ],
+                            [
+                                "Mag Form/Jinga S",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Mag Form/Aero",
+                                1
+                            ],
+                            [
+                                "Mag Form/Aero S",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Mag Form/Popple",
+                                1
+                            ],
+                            [
+                                "Mag Form/Popple S",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Mag Form/Redran",
+                                1
+                            ],
+                            [
+                                "Mag Form/Redran S",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Mag Form/Herbie",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Mag Form/Vulcan",
+                                1
+                            ],
+                            [
+                                "Mag Form/Vulcan S",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220803,
+            "name": "Buy AC, Get SG Back Campaign",
+            "nameShort": "Buy AC Get SG",
+            "url": "https://pso2.com/players/news/i_buy_ac/",
+            "campaigns": [
+                {
+                    "name": "Buy AC, Get SG Back Campaign",
+                    "nameShort": "Buy AC Get SG",
+                    "starts": "2022-08-03T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-17T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Late September",
+                    "delivery": "Menu",
+                    "activityShort": "Buy AC",
+                    "activityFull": [
+                        "Purchase a total of 10,000+ AC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 100 Ticket",
+                                5
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220803,
+            "name": "PSO2 10th Anniversary Campaign: Continued",
+            "nameShort": "10th Anniv Continued",
+            "url": "https://pso2.com/players/news/i_campaign_20220803_1/",
+            "campaigns": [
+                {
+                    "name": "Casino Coin Pass Giveaway Campaign",
+                    "nameShort": "CC Pass Giveaway",
+                    "starts": "2022-08-02T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-31T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Late September",
+                    "delivery": "Menu",
+                    "activityShort": "Log in (PSO2 Block)",
+                    "activityFull": [
+                        "Log in to a PSO2 block"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Casino Coin Pass",
+                                50
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "PSO2 10th Anniversary Campaign: Continued",
+                    "nameShort": "10th Anniv Continued",
+                    "starts": "2022-08-02T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-31T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Late September",
+                    "delivery": "Menu",
+                    "activityShort": "Special Tasks",
+                    "activityFull": [
+                        "1: Complete any 5 PSO2 Quests",
+                        "2: Earn a total of 10,000+ Casino Coins",
+                        "3: Enter any Personal Quarters",
+                        "Complete all of 1-3"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "PSO2 10th SP Scratch Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "PSO2 10th SP Scratch Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "PSO2 10th SP Scratch Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "PSO2 10th SP Select Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Get more Star Gems from the Prize Exchange Counter in the Casino!",
+                    "nameShort": "More Casino SG",
+                    "starts": "2022-08-02T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-08-31T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Casino",
+                    "activityShort": "Prize Boost",
+                    "activityFull": [
+                        "1,000 CC (Max 1 per week)",
+                        "1,700 CC (Max 6 per week)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "40 Star Gems",
+                                4
+                            ]
+                        ],
+                        [
+                            [
+                                "20 Star Gems",
+                                24
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220810,
+            "name": "Pre-announced Urgent Quests with campaign boosts!",
+            "nameShort": "Urgent Quest Schedule",
+            "url": "https://pso2.com/players/news/i_urgent_quests/",
+            "campaigns": [
+                {
+                    "name": "Pre-announced Urgent Quests with campaign boosts!",
+                    "nameShort": "Urgent Quest Schedule",
+                    "starts": "2022-08-10T10:00:00Z",
+                    "startsNote": "Start of first UQ",
+                    "ends": "2022-08-23T07:00:00Z",
+                    "endsNote": "End of last UQ",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Urgent Quest Schedule",
+                    "activityFull": [
+                        "Urgent Quest Schedule <a href=\"https://pso2.com/players/news/i_urgent_quests/\">Here</a>"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "-",
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Campaign Boost",
+                    "starts": "2022-08-10T10:00:00Z",
+                    "ends": "2022-08-24T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Boosted Urgent Quests:<br>Mining Rig Defense: Aelio<br>Mining Rig Defense: Retem"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP Earned +100%",
+                                "Boost"
+                            ],
+                            [
+                                "Enemy HP -50%",
+                                "Boost"
+                            ],
+                            [
+                                "Extra drop: Blizzardium",
+                                "Boost"
+                            ],
+                            [
+                                "Extra drop: Icicle Orb",
+                                "Boost"
                             ]
                         ]
                     ]
