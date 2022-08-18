@@ -16586,6 +16586,38 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20220818,
+            "name": "David Plays NGS! 8/17 Update!",
+            "nameShort": "David Plays 8/17",
+            "url": "https://www.youtube.com/watch?v=4pUs7Qj3-Pc",
+            "campaigns": [
+                {
+                    "name": "David Plays NGS! 8/17 Update!",
+                    "nameShort": "David Plays 8/17",
+                    "starts": "2022-08-17T03:00:00Z",
+                    "ends": "2022-09-01T01:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"rumble_time\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ],
+                            [
+                                "Ragol Memory",
+                                7
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
