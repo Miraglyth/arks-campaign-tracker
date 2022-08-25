@@ -13308,8 +13308,8 @@
         },
         {
             "date": 20220629,
-            "name": "Limited-time streaming: PSO2 Episode Oracle anime",
-            "nameShort": "Limited Anime Stream",
+            "name": "Limited-time streaming: PSO2 Anime",
+            "nameShort": "Limited Anime Streams",
             "url": "https://pso2.com/players/news/Anime_2022/",
             "campaigns": [
                 {
@@ -13324,6 +13324,27 @@
                     "activityShort": "Anime",
                     "activityFull": [
                         "PSO2 Episode Oracle anime <a href=\"https://www.youtube.com/playlist?list=PL-jZ6CopsJHauM5uvjb_A4ueIRKxCSJNx\">on YouTube</a>"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "-",
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "YouTube Playlist: PSO2 The Animation",
+                    "nameShort": "The Animation (YouTube)",
+                    "starts": "2022-08-24T03:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-10-23T03:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "YouTube",
+                    "activityShort": "Anime",
+                    "activityFull": [
+                        "PSO2 The Animation anime <a href=\"https://www.youtube.com/playlist?list=PL-jZ6CopsJHZzo69ceAn1OvxfhCYNQk2P\">on YouTube</a>"
                     ],
                     "rewards": [
                         [
@@ -16613,6 +16634,95 @@
                             [
                                 "Ragol Memory",
                                 7
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220824,
+            "name": "Hololive Collab Beginner's Boost Campaign",
+            "nameShort": "Hololive Collab",
+            "url": "https://pso2.com/players/news/collaboration_20220824/",
+            "campaigns": [
+                {
+                    "name": "Login gifts",
+                    "starts": "2022-08-24T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-09-21T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in",
+                    "activityFull": [
+                        "Log in (1 day)",
+                        "Log in (5 days)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "HOLOSTARS Sticker",
+                                1
+                            ],
+                            [
+                                "hololive Sticker",
+                                1
+                            ],
+                            [
+                                "Shirakami Fubuki Sticker",
+                                1
+                            ],
+                            [
+                                "Ninomae Ina'nis Sticker",
+                                1
+                            ],
+                            [
+                                "Kageyama Shien Sticker",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "HOLOSTARS Sticker",
+                                1
+                            ],
+                            [
+                                "hololive Sticker",
+                                1
+                            ],
+                            [
+                                "Shirakami Fubuki Sticker",
+                                1
+                            ],
+                            [
+                                "Ninomae Ina'nis Sticker",
+                                1
+                            ],
+                            [
+                                "Kageyama Shien Sticker",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Start Dash Boost",
+                    "starts": "2022-08-24T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-09-21T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boosts",
+                    "activityFull": [
+                        "Boosts"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP Earned +20%",
+                                "Boost"
                             ]
                         ]
                     ]
