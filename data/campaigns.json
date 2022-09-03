@@ -16728,6 +16728,590 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20220831,
+            "name": "PSO2 Day",
+            "url": "https://pso2.com/players/news/i_pso2day/",
+            "campaigns": [
+                {
+                    "name": "Boost Event",
+                    "starts": "2022-09-02T00:00:00Z",
+                    "ends": "2022-09-03T12:00:00Z",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Boosts"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP Earned +20%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +50%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Limited-Time Tasks",
+                    "starts": "2022-09-02T00:00:00Z",
+                    "ends": "2022-09-03T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Clear 2 trials",
+                        "Destroy 22 Item Container: Green",
+                        "Destroy 2 Item Container: Gold",
+                        "Obtain 22 Minerals",
+                        "Defeat 22 FORMERS",
+                        "Defeat 22 ALTERS",
+                        "Defeat 22 DOLLS",
+                        "Defeat 2 Dread Enemies",
+                        "Defeat 2 bosses"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                2
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Login Gift",
+                    "starts": "2022-09-02T00:00:00Z",
+                    "ends": "2022-09-03T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in",
+                    "activityFull": [
+                        "Log in"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ],
+                            [
+                                "Special Scratch Ticket",
+                                2
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220903,
+            "name": "ARKS Cash Super Sale (Summer)",
+            "nameShort": "AC Sale",
+            "url": "https://pso2.com/players/news/acsale_20220831/",
+            "campaigns": [
+                {
+                    "name": "ARKS Cash Super Sale (Summer)",
+                    "nameShort": "AC Sale",
+                    "starts": "2022-08-31T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-09-14T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "AC Amount",
+                    "activityShort": "AC Sale",
+                    "activityFull": [
+                        "AC Sale (Per Store)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "2,200 AC",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220831,
+            "name": "PSO2 NGS Global PS4 ver. Release Celebration Campaign",
+            "nameShort": "PS4 Release Celebration",
+            "url": "https://pso2.com/players/news/PS4_20220831/",
+            "campaigns": [
+                {
+                    "name": "Get 5 a day! Special Scratch Ticket",
+                    "nameShort": "Daily Login Scratch Tickets",
+                    "starts": "2022-08-31T07:00:00Z",
+                    "ends": "2022-09-06T07:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Log in (5 per day)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Special Scratch Ticket",
+                                30
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Enhance the Codeck Series Booster",
+                    "nameShort": "Codeck Boosts",
+                    "starts": "2022-09-07T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-10-05T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Item Lab Boosts",
+                    "activityFull": [
+                        "Raise Codeck weapons"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Enhancement Success Rate +80%",
+                                "Boost"
+                            ],
+                            [
+                                "Augmentation Success Rate +10%",
+                                "Boost"
+                            ],
+                            [
+                                "Enhancement Cost -50%",
+                                "Boost"
+                            ],
+                            [
+                                "Unlock Potentials Cost -50%",
+                                "Boost"
+                            ],
+                            [
+                                "Multi-weapon Conversion Cost -50%",
+                                "Boost"
+                            ],
+                            [
+                                "Limit Break Cost -50%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Battledia: Yellow Support Campaign",
+                    "nameShort": "Battledia Yellow Boosts",
+                    "starts": "2022-09-14T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-09-28T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Battledia Yellow Boosts",
+                    "activityFull": [
+                        "Log in",
+                        "Battledia: Yellow Boosts"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                15
+                            ]
+                        ],
+                        [
+                            [
+                                "EXP Earned +50%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Take on Dread Enemies Campaign",
+                    "nameShort": "Dread Enemy Tasks",
+                    "starts": "2022-09-21T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-10-05T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Veteran Daityl Sword",
+                        "Veteran Nex Aelio",
+                        "Veteran Dustyl Hammer",
+                        "Veteran Renus Retem",
+                        "Veteran Frostyl Sword",
+                        "Veteran Malachroid",
+                        "Veteran Zo Marmoth",
+                        "Veteran Relyn"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Limited-time Login Bonus",
+                    "starts": "2022-09-28T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-10-19T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Login Bonus",
+                    "activityFull": [
+                        "Day 1",
+                        "Day 2",
+                        "Day 3",
+                        "Day 4",
+                        "Day 5",
+                        "Day 6",
+                        "Day 7",
+                        "Day 8",
+                        "Day 9",
+                        "Day 10",
+                        "Day 11",
+                        "Day 12",
+                        "Day 13",
+                        "Day 14"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Seasonal World Trial: Stellar Grace Recovery Operation",
+                    "nameShort": "World Trial: Stellar Grace",
+                    "starts": "2022-09-28T15:00:00Z",
+                    "ends": "2022-10-03T15:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "World Trials",
+                    "activityFull": [
+                        "[Each] Collect 30 Stellar Graces"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Various items",
+                                "?"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220831,
+            "name": "10th Anniversary Project: ARKS EXPO 2022 event content available online!",
+            "nameShort": "ARKS Expo 2022 Online",
+            "url": "https://pso2.com/players/news/ARKS_EXPO_2022_Web/",
+            "campaigns": [
+                {
+                    "name": "10th Anniversary Project: ARKS EXPO 2022 event content available online!",
+                    "nameShort": "ARKS Expo 2022 Online",
+                    "starts": "2022-08-31T09:00:00Z",
+                    "ends": "2023-03-31T14:59:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Find the chat keyword in the <a href=\"https://my.matterport.com/show/?m=1ZcqxR7NS9s\">ARKS Expo 2022 Showcase Site</a>"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Expo 2022 T-Shirt T1 [Ou]",
+                                2
+                            ],
+                            [
+                                "Expo 2022 T-Shirt T2 [Ou]",
+                                2
+                            ],
+                            [
+                                "MTN: Idle - PSO2 10th Anniversary",
+                                1
+                            ],
+                            [
+                                "Mag Form/Rappy (Halpha)",
+                                1
+                            ],
+                            [
+                                "Expo 2022 Sticker NA",
+                                2
+                            ],
+                            [
+                                "PSO2 10th Anniversary Logo",
+                                2
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220831,
+            "name": "Twitter Follow & Retweet Campaign",
+            "nameShort": "Twitter Campaign",
+            "url": "https://twitter.com/play_pso2/status/1565052539233599489",
+            "campaigns": [
+                {
+                    "name": "Twitter Follow & Retweet Campaign",
+                    "nameShort": "Twitter Campaign",
+                    "starts": "2022-08-31T19:02:00Z",
+                    "startsNote": "Tweet post time",
+                    "ends": "2022-09-14T03:00:00Z",
+                    "distribution": "Unknown",
+                    "delivery": "Menu",
+                    "activityShort": "Twitter Campaign",
+                    "activityFull": [
+                        "Follow <a href=\"https://twitter.com/play_pso2\">@play_pso2</a> and retweet the campaign tweet<br>(Raffle: 5 winners)",
+                        "Global reward for 2,000 retweets",
+                        "Global reward for 3,500 retweets"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 1,000 Ticket",
+                                2
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 100 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220831,
+            "name": "NGS Headline+ 8/31/2022",
+            "nameShort": "NGS Headline+",
+            "url": "https://www.youtube.com/watch?v=9oGJ0b9ZtCM",
+            "campaigns": [
+                {
+                    "name": "Keyword Giveaway",
+                    "starts": "2022-08-31T22:00:00Z",
+                    "ends": "2022-09-14T07:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"Glide_Into_The_Deynger_Zone\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Rappy-Shaped Fritters",
+                                2
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
