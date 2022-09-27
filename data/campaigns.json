@@ -18562,6 +18562,38 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20220922,
+            "name": "David Plays NGS! 9/21 Update!",
+            "nameShort": "David Plays 9/21",
+            "url": "https://www.youtube.com/watch?v=8r_lSYJF95o",
+            "campaigns": [
+                {
+                    "name": "David Plays NGS! 9/21 Update!",
+                    "nameShort": "David Plays 9/21",
+                    "starts": "2022-09-22T03:00:00Z",
+                    "ends": "2022-10-06T01:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"strike_them_down\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ],
+                            [
+                                "Ragol Memory",
+                                7
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
