@@ -18348,8 +18348,8 @@
                 },
                 {
                     "name": "Stellar Grace Recovery",
-                    "starts": "2022-09-28T08:00:00Z",
-                    "startsNote": "Maintenance",
+                    "starts": "2022-09-28T15:00:00Z",
+                    "startsNote": "Start of first world trial",
                     "ends": "2022-10-03T15:00:00Z",
                     "endsNote": "End of last world trial",
                     "distribution": "Immediate",
@@ -18398,6 +18398,35 @@
                             [
                                 "Seasonal Points",
                                 7000
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Seasonal Titles #2",
+                    "starts": "2022-09-28T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-10-05T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Title Tasks",
+                    "activityFull": [
+                        "Recover 10 Stellar Graces"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Title: [Moon-Gazing '22] Grace Collector",
+                                1
+                            ],
+                            [
+                                "Title Name \"Full Moon\"",
+                                1
+                            ],
+                            [
+                                "5 Star Gems",
+                                1
                             ]
                         ]
                     ]
