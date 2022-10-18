@@ -19036,6 +19036,60 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20221005,
+            "name": "Boost Campaign",
+            "campaigns": [
+                {
+                    "name": "Boost Campaign (Aelio & Retem)",
+                    "nameShort": "Boost Campaign Ael & Ret",
+                    "starts": "2022-10-05T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-10-26T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Boosts (All Aelio & Retem Combat Sectors)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP Earned +100%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Boost Campaign (Kvaris Rank 3)",
+                    "nameShort": "Boost Campaign Kvar R3",
+                    "starts": "2022-10-12T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-10-19T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Boosts (Kvaris Rank 3 Combat Sectors)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP Earned +10%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +20%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
