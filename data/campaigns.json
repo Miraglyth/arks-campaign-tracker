@@ -19143,6 +19143,38 @@
             ]
         },
         {
+            "date": 20221020,
+            "name": "David Plays NGS! 10/19 Update!",
+            "nameShort": "David Plays 10/19",
+            "url": "https://www.youtube.com/watch?v=5UnKl3PgSKc",
+            "campaigns": [
+                {
+                    "name": "David Plays NGS! 10/19 Update!",
+                    "nameShort": "David Plays 10/19",
+                    "starts": "2022-10-20T03:10:00Z",
+                    "ends": "2022-11-03T01:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"just_treats\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ],
+                            [
+                                "Ragol Memory",
+                                7
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
             "date": 20221021,
             "name": "PSO2 Day: Premium",
             "url": "https://pso2.com/players/news/i_pso2day_p/",
@@ -19264,38 +19296,6 @@
                             [
                                 "Special Scratch Ticket",
                                 2
-                            ]
-                        ]
-                    ]
-                }
-            ]
-        },
-        {
-            "date": 20221020,
-            "name": "David Plays NGS! 10/19 Update!",
-            "nameShort": "David Plays 10/19",
-            "url": "https://www.youtube.com/watch?v=5UnKl3PgSKc",
-            "campaigns": [
-                {
-                    "name": "David Plays NGS! 10/19 Update!",
-                    "nameShort": "David Plays 10/19",
-                    "starts": "2022-10-20T03:10:00Z",
-                    "ends": "2022-11-03T01:00:00Z",
-                    "distribution": "Immediate",
-                    "delivery": "Menu",
-                    "activityShort": "Chat Keyword",
-                    "activityFull": [
-                        "Say \"just_treats\" in the in-game chat"
-                    ],
-                    "rewards": [
-                        [
-                            [
-                                "SG 50 Ticket",
-                                1
-                            ],
-                            [
-                                "Ragol Memory",
-                                7
                             ]
                         ]
                     ]
@@ -19835,13 +19835,69 @@
                     "delivery": "Inventory",
                     "activityShort": "Limited-Time Tasks",
                     "activityFull": [
-                        "TBC"
+                        "Defeat 1000 enemies in Aelio",
+                        "Defeat 1000 enemies in Retem",
+                        "Defeat 1000 enemies in Kvaris",
+                        "Complete \"Kvaris Independent Partisan Squad\"",
+                        "Clear 10 Trainia Advance Bunker Type 1 Quests"
                     ],
                     "rewards": [
                         [
                             [
-                                "TBC",
-                                "?"
+                                "EXP",
+                                200000
+                            ],
+                            [
+                                "Stia Expedition Prep Ticket",
+                                1
+                            ],
+                            [
+                                "C/Mastery II S",
+                                3
+                            ]
+                        ],[
+                            [
+                                "EXP",
+                                250000
+                            ],
+                            [
+                                "Stia Expedition Prep Ticket",
+                                1
+                            ],
+                            [
+                                "C/Dread Keeper II S",
+                                3
+                            ]
+                        ],[
+                            [
+                                "EXP",
+                                300000
+                            ],
+                            [
+                                "Stia Expedition Prep Ticket",
+                                1
+                            ],
+                            [
+                                "N-6★ Potential Unlock Substitute/Lv.4",
+                                1
+                            ]
+                        ],[
+                            [
+                                "Stia Expedition Prep Ticket",
+                                1
+                            ],
+                            [
+                                "N-6★ Limit Break Substitute/Limit 60",
+                                1
+                            ]
+                        ],[
+                            [
+                                "Stia Expedition Prep Ticket",
+                                1
+                            ],
+                            [
+                                "N-6★ Limit Break Substitute/Limit 50",
+                                1
                             ]
                         ]
                     ]
@@ -19982,6 +20038,166 @@
                             [
                                 "SG 50 Ticket",
                                 1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20221026,
+            "name": "Pre-announced Urgent Quest schedule",
+            "nameShort": "Urgent Quest Schedule",
+            "url": "https://pso2.com/players/news/i_emergency_20221026/",
+            "campaigns": [
+                {
+                    "name": "Pre-announced Urgent Quest schedule",
+                    "nameShort": "Urgent Quest Schedule",
+                    "starts": "2022-10-26T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-11-01T07:00:00Z",
+                    "endsNote": "End of last UQ",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "UQ Schedule",
+                    "activityFull": [
+                        "Urgent Quest Schedule <a href=\"https://pso2.com/players/news/i_emergency_20221026/\">Here</a>"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "-",
+                                0
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20221102,
+            "name": "David Plays NGS! 11/2 Update!",
+            "nameShort": "David Plays 11/02",
+            "url": "https://www.youtube.com/watch?v=q_R4Z08YvrM",
+            "campaigns": [
+                {
+                    "name": "David Plays NGS! 11/2 Update!",
+                    "nameShort": "David Plays 11/02",
+                    "starts": "2022-11-03T02:45:00Z",
+                    "startsNote": "Keyword reveal",
+                    "ends": "2022-11-17T01:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"let_it_fall\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ],
+                            [
+                                "Ragol Memory",
+                                7
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20221102,
+            "name": "11/2 Use AC, Get Items! Special Campaign",
+            "nameShort": "Use AC Campaign",
+            "url": "https://pso2.com/players/news/i_use_ac/",
+            "campaigns": [
+                {
+                    "name": "11/2 Use AC, Get Items! Special Campaign",
+                    "nameShort": "Use AC Campaign",
+                    "starts": "2022-11-02T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-11-09T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityFull": [
+                        "Spend a total of 100+ AC",
+                        "Spend a total of 500+ AC",
+                        "Spend a total of 1,000+ AC",
+                        "Spend a total of 2,000+ AC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "STP: R Mag - Thrilled",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "R Mag Helm",
+                                2
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Rappy Suit/B [Fu]",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "MTN: Idle - Rappy Plush",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20220707,
+            "name": "Sonic Frontiers Release Celebration Keyword Giveaway",
+            "nameShort": "Sonic Frontiers Keyword",
+            "url": "https://twitter.com/play_pso2/status/1590133187220770817",
+            "campaigns": [
+                {
+                    "name": "Sonic Frontiers Release Celebration Keyword Giveaway",
+                    "nameShort": "Sonic Frontiers Keyword",
+                    "starts": "2022-11-09T23:00:00Z",
+                    "ends": "2023-01-11T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"Sonic_Frontiers_on_sale_now\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Floating Sonic",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Floating Tails",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Floating Knuckles",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Special Scratch Ticket",
+                                5
                             ]
                         ]
                     ]
