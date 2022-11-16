@@ -21187,6 +21187,442 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20221109,
+            "name": "Pre-announced Urgent Quest schedule",
+            "nameShort": "Urgent Quest Schedule",
+            "url": "https://pso2.com/players/news/i_emergency_20221109/",
+            "campaigns": [
+                {
+                    "name": "Pre-announced Urgent Quest schedule",
+                    "nameShort": "Urgent Quest Schedule",
+                    "starts": "2022-11-09T10:00:00Z",
+                    "startsNote": "Start of first UQ",
+                    "ends": "2022-11-15T07:00:00Z",
+                    "endsNote": "End of last UQ",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "UQ Schedule",
+                    "activityFull": [
+                        "Urgent Quest Schedule <a href=\"https://pso2.com/players/news/i_emergency_20221109/\">Here</a>"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "-",
+                                0
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20221116,
+            "name": "PSO2 Day: Premium",
+            "url": "https://pso2.com/players/news/i_pso2day_p/",
+            "campaigns": [
+                {
+                    "name": "Boost Event",
+                    "starts": "2022-11-22T00:00:00Z",
+                    "ends": "2022-11-24T00:00:00Z",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Have an active Premium Set"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP Earned +20%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +50%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Limited-Time Tasks",
+                    "starts": "2022-11-22T00:00:00Z",
+                    "ends": "2022-11-24T00:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Clear 2 trials",
+                        "Destroy 22 Item Container: Green",
+                        "Destroy 2 Item Container: Gold",
+                        "Obtain 22 Minerals",
+                        "Defeat 22 FORMERS",
+                        "Defeat 22 ALTERS",
+                        "Defeat 22 DOLLS",
+                        "Defeat 2 Dread Enemies",
+                        "Defeat 2 bosses"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                2
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Premium Set Gift",
+                    "starts": "2022-11-22T00:00:00Z",
+                    "ends": "2022-11-24T00:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in (Premium)",
+                    "activityFull": [
+                        "Have an active Premium Set"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ],
+                            [
+                                "Special Scratch Ticket",
+                                2
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20221116,
+            "name": "AC Purchase Campaign",
+            "url": "https://pso2.com/players/news/i_acbuy_20221116/",
+            "campaigns": [
+                {
+                    "name": "AC Purchase Campaign",
+                    "starts": "2022-11-16T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-11-23T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "AC Purchase",
+                    "activityFull": [
+                        "Purchase a total of 500 AC or more",
+                        "Purchase a total of 4,000 AC or more",
+                        "Purchase a total of 8,000 AC or more",
+                        "Purchase a total of 12,000 AC or more"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "N-EX EXP Earned +25%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-EX Rare Drop Rate +25%",
+                                1
+                            ],
+                            [
+                                "Solid Visor",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-EX EXP Earned +50%",
+                                1
+                            ],
+                            [
+                                "Shoulder Patt",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-EX EXP Earned +50%",
+                                1
+                            ],
+                            [
+                                "Solid Visor",
+                                1
+                            ],
+                            [
+                                "Shoulder Patt",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20221116,
+            "name": "10 Million ARKS Worldwide Celebration Campaign",
+            "nameShort": "10M ARKS Celebration",
+            "url": "https://pso2.com/players/news/i_tenmillion/",
+            "campaigns": [
+                {
+                    "name": "10 Million ARKS Worldwide Celebration Limited-time Task (Part 1)",
+                    "nameShort": "10M Limited-time Task #1",
+                    "starts": "2022-11-16T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-12-07T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "TBC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "10 Million ARKS Worldwide Celebration Limited-time Task (Part 2)",
+                    "nameShort": "10M Limited-time Task #2",
+                    "starts": "2022-11-23T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-12-07T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "TBC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "10 Million ARKS Worldwide Celebration Limited-time Task (Part 3)",
+                    "nameShort": "10M Limited-time Task #3",
+                    "starts": "2022-11-30T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-12-07T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "TBC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Limited-time Login Bonus",
+                    "nameShort": "Login Bonus",
+                    "starts": "2022-11-16T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-12-07T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Login Bonus",
+                    "activityFull": [
+                        "TBC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "10 Million ARKS Worldwide Celebration: Boost Event Part 1",
+                    "nameShort": "10M Boost #1",
+                    "starts": "2022-11-16T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-11-23T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boosts",
+                    "activityFull": [
+                        "Most Sectors and Quests",
+                        "Low-Rank Ael & Ret Combat Sectors"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP Earned +50%",
+                                "Boost"
+                            ]
+                        ],
+                        [
+                            [
+                                "EXP Earned +100%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "10 Million ARKS Worldwide Celebration: Boost Event Part 2",
+                    "nameShort": "10M Boost #1",
+                    "starts": "2022-11-23T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-11-30T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boosts",
+                    "activityFull": [
+                        "Most Sectors and Quests",
+                        "Low-Rank Ael & Ret Combat Sectors"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Rare Drop Rate +50%",
+                                "Boost"
+                            ],
+                            [
+                                "Seasonal Points Acquired Rate +50%",
+                                "Boost"
+                            ]
+                        ],
+                        [
+                            [
+                                "EXP Earned +100%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "10 Million ARKS Worldwide Celebration: Boost Event Part 3",
+                    "nameShort": "10M Boost #3",
+                    "starts": "2022-11-30T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-12-07T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boosts",
+                    "activityFull": [
+                        "Most Sectors and Quests",
+                        "Low-Rank Ael & Ret Combat Sectors"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Drop Item Preset Skill Rate +150%",
+                                "Boost"
+                            ],
+                            [
+                                "Seasonal Points Acquired Rate +50%",
+                                "Boost"
+                            ]
+                        ],
+                        [
+                            [
+                                "EXP Earned +100%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Pre-announced Urgent Quests with campaign boosts!",
+                    "nameShort": "Urgent Quest Schedule",
+                    "starts": "2022-11-30T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-12-07T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Urgent Quest Schedule",
+                    "activityFull": [
+                        "TBC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
