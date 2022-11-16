@@ -17800,121 +17800,121 @@
                         ],
                         [
                             [
-                                "Codeck Sword (Max 2)",
+                                "Codeck Sword +40 (Max 2)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Codeck Wire (Max 2)",
+                                "Codeck Wire +40 (Max 2)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Codeck Spear (Max 2)",
+                                "Codeck Spear +40 (Max 2)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Codeck Daggers (Max 2)",
+                                "Codeck Daggers +40 (Max 2)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Codeck Saber (Max 2)",
+                                "Codeck Saber +40 (Max 2)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Codeck Knuckles (Max 2)",
+                                "Codeck Knuckles +40 (Max 2)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Codeck Rifle (Max 2)",
+                                "Codeck Rifle +40 (Max 2)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Codeck Launcher (Max 2)",
+                                "Codeck Launcher +40 (Max 2)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Codeck Machine Guns (Max 2)",
+                                "Codeck Machine Guns +40 (Max 2)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Codeck Rod (Max 2)",
+                                "Codeck Rod +40 (Max 2)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Codeck Talis (Max 2)",
+                                "Codeck Talis +40 (Max 2)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Codeck Wand (Max 2)",
+                                "Codeck Wand +40 (Max 2)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Codeck Katana (Max 2)",
+                                "Codeck Katana +40 (Max 2)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Codeck Bow (Max 2)",
+                                "Codeck Bow +40 (Max 2)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Codeck Boots (Max 2)",
+                                "Codeck Boots +40 (Max 2)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Codeck Blade (Max 2)",
+                                "Codeck Blade +40 (Max 2)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Codeck Harmonizer (Max 2)",
+                                "Codeck Harmonizer +40 (Max 2)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Qual De Armor (Max 3)",
+                                "Qual De Armor +40 (Max 3)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Vios Armor (Max 3)",
+                                "Vios Armor +40 (Max 3)",
                                 1
                             ]
                         ],
                         [
                             [
-                                "Sestato Armor (Max 3)",
+                                "Sestato Armor +40 (Max 3)",
                                 1
                             ]
                         ],
@@ -19913,13 +19913,69 @@
                     "delivery": "Inventory",
                     "activityShort": "Limited-Time Tasks",
                     "activityFull": [
-                        "TBC"
+                        "Reach level 60 in any class",
+                        "Reach 2,924 BP",
+                        "Clear 10 Trainia Advance Bunker Type 2 Quests",
+                        "Clear Trainia Advance Bunker Type 2 Quests (Rank 7)",
+                        "Generate an Add-on Skill"
                     ],
                     "rewards": [
                         [
                             [
-                                "TBC",
-                                "?"
+                                "Stia Expedition Prep Ticket",
+                                1
+                            ],
+                            [
+                                "N-6★ Limit Break Substitute/Limit 50",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Stia Expedition Prep Ticket",
+                                1
+                            ],
+                            [
+                                "C/Might III S",
+                                3
+                            ],
+                            [
+                                "C/Precision III S",
+                                3
+                            ],
+                            [
+                                "C/Technique III S",
+                                3
+                            ]
+                        ],
+                        [
+                            [
+                                "Stia Expedition Prep Ticket",
+                                1
+                            ],
+                            [
+                                "N-6★ Limit Break Substitute/Limit 50",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Stia Expedition Prep Ticket",
+                                1
+                            ],
+                            [
+                                "N-6★ Limit Break Substitute/Limit 50",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Stia Expedition Prep Ticket",
+                                1
+                            ],
+                            [
+                                "N-6★ Limit Break Substitute/Limit 50",
+                                1
                             ]
                         ]
                     ]
@@ -20076,31 +20132,926 @@
         },
         {
             "date": 20221102,
-            "name": "David Plays NGS! 11/2 Update!",
-            "nameShort": "David Plays 11/02",
-            "url": "https://www.youtube.com/watch?v=q_R4Z08YvrM",
+            "name": "Autumn '22 Event",
+            "nameShort": "Autumn Event",
+            "url": "https://pso2.com/players/update/2022-10/#update01",
             "campaigns": [
                 {
-                    "name": "David Plays NGS! 11/2 Update!",
-                    "nameShort": "David Plays 11/02",
-                    "starts": "2022-11-03T02:45:00Z",
-                    "startsNote": "Keyword reveal",
-                    "ends": "2022-11-17T01:00:00Z",
+                    "name": "Crisp Autumn Night Weapon Dev",
+                    "nameShort": "Autumn Night Dev",
+                    "starts": "2022-11-02T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-12-07T02:00:00Z",
+                    "endsNote": "Maintenance",
                     "distribution": "Immediate",
-                    "delivery": "Menu",
-                    "activityShort": "Chat Keyword",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
                     "activityFull": [
-                        "Say \"let_it_fall\" in the in-game chat"
+                        "Talk to Xiemi",
+                        "I: Give 10 Greenillcite to Xiemi",
+                        "II: Give 10 Autumnearlis to Xiemi",
+                        "III: Give 2 Autumnlatis to Xiemi"
                     ],
                     "rewards": [
                         [
                             [
-                                "SG 50 Ticket",
+                                "Seasonal Points",
+                                2000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                2500
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                10000
+                            ],
+                            [
+                                "* Digita Launcher",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "The Supply Unit's Efforts",
+                    "nameShort": "Supply Efforts",
+                    "starts": "2022-11-02T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-12-07T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "I: Defeat 300 seasonal enemies",
+                        "II: Defeat 8 seasonal rare enemies",
+                        "III: Defeat 8 seasonal Enhanced Enemies",
+                        "IV: Defeat 5 seasonal Dread enemies"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                3000
+                            ],
+                            [
+                                "EXP",
+                                5000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                6000
+                            ],
+                            [
+                                "EXP",
+                                10000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                9000
+                            ],
+                            [
+                                "EXP",
+                                15000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                12000
+                            ],
+                            [
+                                "EXP",
+                                20000
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Complete Daily Tasks",
+                    "starts": "2022-11-02T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-12-07T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "I: Complete 60 Daily Tasks",
+                        "II: Complete 120 Daily Tasks"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                10000
+                            ],
+                            [
+                                "EXP",
+                                30000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                20000
+                            ],
+                            [
+                                "EXP",
+                                60000
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Clear the Limited-Time Quests I",
+                    "starts": "2022-11-02T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-11-16T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Clear Crisp Autumn Aelio Defense 5 times"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ],
+                            [
+                                "EXP",
+                                10000
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Use Seasonal Points I",
+                    "starts": "2022-11-02T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-12-07T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Use Seasonal Points"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                2000
+                            ],
+                            [
+                                "EXP",
+                                5000
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Exchange Seasonal Points",
+                    "nameShort": "S.Point Exchange #1",
+                    "starts": "2022-11-02T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-12-14T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Item Exchange",
+                    "activityFull": [
+                        "1000 S.Points",
+                        "5000 S.Points",
+                        "5000 S.Points",
+                        "5000 S.Points",
+                        "15000 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "8000 S.Points",
+                        "10000 S.Points",
+                        "15000 S.Points",
+                        "50 S.Points",
+                        "50 S.Points",
+                        "50 S.Points",
+                        "100 S.Points",
+                        "500 S.Points",
+                        "300 S.Points",
+                        "300 S.Points",
+                        "500 S.Points",
+                        "1500 S.Points",
+                        "2000 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "1000 S.Points",
+                        "300 S.Points",
+                        "2500 S.Points",
+                        "500 S.Points"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Autumn '22 SP Scratch Ticket (Max 20)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Autumn '22 SP Scratch Ticket (Max 20)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Mag Form/Maplon Minimo (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Head-Mounted Ryuker Device (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "MTN: Dash - Sledding/B (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "20 Star Gems (Max 5)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Special Scratch Ticket (Max 4)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Crystia Sword +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Crystia Wire +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Crystia Spear +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Crystia Daggers +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Crystia Saber +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Crystia Knuckles +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Crystia Katana +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Crystia Blade +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Crystia Rifle +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Crystia Launcher +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Crystia Machine Guns +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Crystia Bow +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Crystia Rod +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Crystia Talis +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Crystia Wand +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Crystia Boots +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Crystia Harmonizer +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Qual De Armor +40 (Max 3)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Vios Armor +40 (Max 3)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Sestato Armor +40 (Max 3)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Monotite (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Dualomite (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trinite (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tetracite (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Pentalite (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Chunk (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Quartz (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Scale (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Blizzardium (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Low Temperature Damage Resistance +100%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Might III (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Precision III (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Technique III (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Triplble (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Dust Soul III (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Ragras Soul III (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Renus Soul III (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Alpha Reactor (Max 200)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Augmentation Success Rate +10% (Max 4)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Grinder",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Exchange Seasonal Materials",
+                    "nameShort": "S.Material Exchange #1",
+                    "starts": "2022-11-02T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-12-14T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Item Exchange",
+                    "activityFull": [
+                        "45 Greenillcite or 3 Bluefullcite",
+                        "45 Greenillcite or 3 Bluefullcite",
+                        "45 Greenillcite or 3 Bluefullcite",
+                        "45 Greenillcite or 3 Bluefullcite",
+                        "45 Greenillcite or 3 Bluefullcite",
+                        "45 Greenillcite or 3 Bluefullcite",
+                        "45 Greenillcite or 3 Bluefullcite",
+                        "45 Greenillcite or 3 Bluefullcite",
+                        "45 Greenillcite or 3 Bluefullcite",
+                        "45 Greenillcite or 3 Bluefullcite",
+                        "45 Greenillcite or 3 Bluefullcite",
+                        "45 Greenillcite or 3 Bluefullcite",
+                        "45 Greenillcite or 3 Bluefullcite",
+                        "45 Greenillcite or 3 Bluefullcite",
+                        "45 Greenillcite or 3 Bluefullcite",
+                        "45 Greenillcite or 3 Bluefullcite",
+                        "45 Greenillcite or 3 Bluefullcite",
+                        "3 Autumnlatis",
+                        "3 Autumnlatis",
+                        "3 Autumnlatis",
+                        "5 Autumnearlis",
+                        "5 Autumnearlis",
+                        "5 Autumnearlis",
+                        "5 Autumnearlis",
+                        "5 Autumnearlis",
+                        "5 Autumnearlis",
+                        "5 Autumnearlis",
+                        "5 Autumnearlis",
+                        "5 Autumnearlis",
+                        "5 Autumnearlis",
+                        "5 Autumnearlis",
+                        "5 Autumnearlis",
+                        "5 Autumnearlis",
+                        "10 -cite or 10 Autumn crystal"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "* Relik Endoif CV (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Relik Helpores CV (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Relik Ultimaritter CV (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Relik Skollhati CV (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Relik Sturm and Drang CV (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Relik Punishment CV (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Relik Dependence CV (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Relik Despertar CV (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Relik Dark Rebellion CV (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Relik Tartarus CV (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Relik Obsidian CV (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Relik Benedict CV (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Relik Battle Verge CV (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Relik Expeditios CV (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Relik Barbatos CV (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Relik Lexell CV (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "* Relik Nox Bateira CV (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Might IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Precision IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Technique IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Aglai Soul H (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Euphroy Soul H (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Thali Soul H (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Aglai Soul P (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Euphroy Soul P (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Thali Soul P (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Aglai Soul X (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Euphroy Soul X (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Thali Soul X (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Gigas Aglai (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Gigas Euphroy (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Gigas Thali (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Triplble (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Grinder",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Seasonal Titles (All)",
+                    "nameShort": "Seasonal Titles",
+                    "starts": "2022-11-02T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-12-07T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Title Tasks",
+                    "activityFull": [
+                        "Obtain 300,000 Seasonal Points"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Title: [Autumn '22] Point Collector",
                                 1
                             ],
                             [
-                                "Ragol Memory",
-                                7
+                                "Title Name \"Autumn Leaf Viewing\"",
+                                1
+                            ],
+                            [
+                                "5 Star Gems",
+                                1
+                            ],
+                            [
+                                "* Crystia Almati",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Seasonal Titles (First Half)",
+                    "nameShort": "Seasonal Titles #1",
+                    "starts": "2022-11-02T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-11-16T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Title Tasks",
+                    "activityFull": [
+                        "Clear Drill: Crisp Autumn Aelio Defense 1 time"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Title: [Autumn '22] Diligently Training I",
+                                1
+                            ],
+                            [
+                                "Title Name \"First Autumn Leaf\"",
+                                1
+                            ],
+                            [
+                                "5 Star Gems",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Enhance the Crystia Series Booster",
+                    "nameShort": "Crystia Boosts",
+                    "starts": "2022-11-02T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-12-07T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Item Lab Boosts",
+                    "activityFull": [
+                        "Raise Crystia weapons"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Enhancement Success Rate +80%",
+                                "Boost"
+                            ],
+                            [
+                                "Augmentation Success Rate +10%",
+                                "Boost"
+                            ],
+                            [
+                                "Enhancement Cost -50%",
+                                "Boost"
+                            ],
+                            [
+                                "Unlock Potentials Cost -50%",
+                                "Boost"
+                            ],
+                            [
+                                "Multi-weapon Conversion Cost -50%",
+                                "Boost"
+                            ],
+                            [
+                                "Limit Break Cost -50%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Suppress Dread Enemies",
+                    "starts": "2022-11-09T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-12-07T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Defeat 3 seasonal Dread Enemies"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                10000
+                            ],
+                            [
+                                "EXP",
+                                10000
                             ]
                         ]
                     ]
@@ -20158,7 +21109,40 @@
             ]
         },
         {
-            "date": 20220707,
+            "date": 20221102,
+            "name": "David Plays NGS! 11/2 Update!",
+            "nameShort": "David Plays 11/02",
+            "url": "https://www.youtube.com/watch?v=q_R4Z08YvrM",
+            "campaigns": [
+                {
+                    "name": "David Plays NGS! 11/2 Update!",
+                    "nameShort": "David Plays 11/02",
+                    "starts": "2022-11-03T02:45:00Z",
+                    "startsNote": "Keyword reveal",
+                    "ends": "2022-11-17T01:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"let_it_fall\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ],
+                            [
+                                "Ragol Memory",
+                                7
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20221109,
             "name": "Sonic Frontiers Release Celebration Keyword Giveaway",
             "nameShort": "Sonic Frontiers Keyword",
             "url": "https://twitter.com/play_pso2/status/1590133187220770817",
