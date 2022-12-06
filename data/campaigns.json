@@ -21284,6 +21284,31 @@
                             ]
                         ]
                     ]
+                },
+                {
+                    "name": "Clear Urgent Quests",
+                    "starts": "2022-11-30T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-12-06T23:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Clear 3 Urgent Quests"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ],
+                            [
+                                "EXP",
+                                10000
+                            ]
+                        ]
+                    ]
                 }
             ]
         },
@@ -21658,11 +21683,11 @@
                     "delivery": "Inventory",
                     "activityShort": "Limited-Time Tasks",
                     "activityFull": [
-                        "Increase Region Mag energy by 1000",
                         "Defeat 1000 enemies in Aelio",
                         "Reach 1000 BP",
                         "Buy from a Personal Shop",
-                        "Obtain 1000 Gathering Materials"
+                        "Obtain 1000 Gathering Materials",
+                        "Increase Region Mag energy by 1000"
                     ],
                     "rewards": [
                         [
@@ -21708,13 +21733,41 @@
                     "delivery": "Inventory",
                     "activityShort": "Limited-Time Tasks",
                     "activityFull": [
-                        "TBC"
+                        "Defeat 1000 enemies in Retem",
+                        "Defeat 1000 enemies in Kvaris",
+                        "Defeat 1000 DOLLS",
+                        "Defeat 1000 ALTERS",
+                        "Defeat 1000 FORMERS"
                     ],
                     "rewards": [
                         [
                             [
-                                "TBC",
-                                0
+                                "50 Star Gems",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "100 Star Gems",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "50 Star Gems",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "50 Star Gems",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "50 Star Gems",
+                                1
                             ]
                         ]
                     ]
@@ -21730,13 +21783,20 @@
                     "delivery": "Inventory",
                     "activityShort": "Limited-Time Tasks",
                     "activityFull": [
-                        "TBC"
+                        "Use 1000 Seasonal Points",
+                        "Clear a Field Race (Dash) and (Board)<br>with a score of 1,000 or higher"
                     ],
                     "rewards": [
                         [
                             [
-                                "TBC",
-                                0
+                                "50 Star Gems",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "100 Star Gems",
+                                1
                             ]
                         ]
                     ]
