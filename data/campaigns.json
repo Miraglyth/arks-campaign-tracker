@@ -22662,7 +22662,7 @@
                     "nameShort": "Popona Movie Concerts",
                     "starts": "2022-12-15T03:00:00Z",
                     "startsNote": "Start of first concert",
-                    "ends": "2022-12-19T03:10:00Z",
+                    "ends": "2022-12-19T03:09:00Z",
                     "endsNote": "End of last concert",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
@@ -22788,7 +22788,7 @@
             ]
         },
         {
-            "date": 20220810,
+            "date": 20221214,
             "name": "Stia Region Release Celebration Login Bonus",
             "nameShort": "Undocumented Login Bonus",
             "campaigns": [
@@ -22852,6 +22852,63 @@
                             [
                                 "N-Augmentation Success Rate +20%",
                                 1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20221214,
+            "name": "Undocumented EXP Boost",
+            "campaigns": [
+                {
+                    "name": "Undocumented EXP Boost",
+                    "starts": "2022-12-14T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "Unknown",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Global Boosts",
+                    "activityFull": [
+                        "[Aelio & Retem] All Ranks but highest in combat sectors<br>[Kvaris] Rank 1 in combat sectors"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP Earned +100%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20221214,
+            "name": "Undocumented Christmas Boost",
+            "campaigns": [
+                {
+                    "name": "Undocumented Christmas Boost",
+                    "starts": "2022-12-14T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2022-12-28T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Global Boosts",
+                    "activityFull": [
+                        "Global Boosts"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP Earned +20%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +25%",
+                                "Boost"
                             ]
                         ]
                     ]
