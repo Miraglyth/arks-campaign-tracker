@@ -24081,6 +24081,133 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20230101,
+            "name": "Undocumented Seasonal Event",
+            "nameShort": "New Year '23",
+            "campaigns": [
+                {
+                    "name": "A Minor Environmental Change",
+                    "nameShort": "Environmental Change",
+                    "starts": "2023-01-01T08:00:00Z",
+                    "ends": "2023-01-11T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Talk to Xiandy",
+                        "I: Defeat 30 seasonal enemies",
+                        "II: TBC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                2000
+                            ],
+                            [
+                                "EXP",
+                                10000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                2000
+                            ],
+                            [
+                                "EXP",
+                                20000
+                            ]
+                        ],
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Defeat Boss Enemies",
+                    "starts": "2023-01-01T08:00:00Z",
+                    "ends": "2023-01-11T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Defeat 3 seasonal boss enemies"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ],
+                            [
+                                "EXP",
+                                20000
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Use Seasonal Points",
+                    "starts": "2023-01-01T08:00:00Z",
+                    "ends": "2023-01-11T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Use Seasonal Points"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                3000
+                            ],
+                            [
+                                "EXP",
+                                10000
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Seasonal Titles",
+                    "nameShort": "Seasonal Titles",
+                    "starts": "2023-01-01T08:00:00Z",
+                    "ends": "2023-01-11T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Title Tasks",
+                    "activityFull": [
+                        "Earn 100,000 Seasonal Points"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Title: [New Year '23] Point Collector",
+                                1
+                            ],
+                            [
+                                "Title Name \"Osechi\"",
+                                1
+                            ],
+                            [
+                                "5 Star Gems",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
