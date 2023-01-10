@@ -23797,7 +23797,7 @@
                 },
                 {
                     "name": "Ring out the old, ring in the new Boost event Part 1",
-                    "nameShort": "Boot Event #1",
+                    "nameShort": "Boost Event #1",
                     "starts": "2022-12-28T08:00:00Z",
                     "startsNote": "Maintenance",
                     "ends": "2023-01-04T07:59:59Z",
@@ -23879,7 +23879,7 @@
                     "delivery": "-",
                     "activityShort": "UQ Schedule",
                     "activityFull": [
-                        "Urgent Quest Schedule TBC"
+                        "Urgent Quest Schedule <a href=\"https://pso2.com/players/news/i_emergency_20230104/\">Here</a>"
                     ],
                     "rewards": [
                         [
@@ -23955,7 +23955,7 @@
             ]
         },
         {
-            "date": 20221130,
+            "date": 20221228,
             "name": "PSO2 Day",
             "url": "https://pso2.com/players/news/i_pso2day/",
             "campaigns": [
@@ -24099,7 +24099,7 @@
                     "activityFull": [
                         "Talk to Xiandy",
                         "I: Defeat 30 seasonal enemies",
-                        "II: TBC"
+                        "II: Defeat 10 seasonal rare enemies"
                     ],
                     "rewards": [
                         [
@@ -24124,8 +24124,12 @@
                         ],
                         [
                             [
-                                "TBC",
-                                0
+                                "Seasonal Points",
+                                10000
+                            ],
+                            [
+                                "EXP",
+                                30000
                             ]
                         ]
                     ]
@@ -24174,6 +24178,252 @@
                             [
                                 "EXP",
                                 10000
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    
+                    "name": "Exchange Seasonal Points",
+                    "nameShort": "S.Point Exchange",
+                    "starts": "2022-01-01T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2023-01-18T01:59:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Item Exchange",
+                    "activityFull": [
+                        "500 S.Points",
+                        "500 S.Points",
+                        "5000 S.Points",
+                        "15000 S.Points",
+                        "500 S.Points",
+                        "2000 S.Points",
+                        "1000 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "20 Star Gems (Max 5)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Special Scratch Ticket (Max 5)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Illusionary Heart (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "MTN: Glide - Defensive/B (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Arms Refiner (Max 20)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Infernium (Max 200)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Blizzardium (Max 150)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Monotite (Max 999)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Dualomite (Max 999)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trinite (Max 999)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tetracite (Max 999)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Pentalite (Max 999)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Hexakite (Max 999)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Chunk (Max 999)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Quartz (Max 999)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Scale (Max 999)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Sword +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Wire +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Spear +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Daggers +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Saber +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Knuckles +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Rifle +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Launcher +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Machine Guns +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Rod +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Talis +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Wand +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Katana +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Bow +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Boots +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Blade +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Harmonizer +40 (Max 1)",
+                                1
                             ]
                         ]
                     ]
