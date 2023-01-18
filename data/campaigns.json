@@ -24458,6 +24458,287 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20230111,
+            "name": "1/11 Use AC, Get Items! Special Campaign",
+            "nameShort": "Use AC Campaign",
+            "url": "https://pso2.com/players/news/i_use_ac/",
+            "campaigns": [
+                {
+                    "name": "1/11 Use AC, Get Items! Special Campaign",
+                    "nameShort": "Use AC Campaign",
+                    "starts": "2023-01-11T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2023-01-18T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Use AC",
+                    "activityFull": [
+                        "Spend a total of 100+ AC",
+                        "Spend a total of 500+ AC",
+                        "Spend a total of 1,000+ AC",
+                        "Spend a total of 2,000+ AC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "STP: Ran - Tea Time",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Striped Uniform T1 [Ou]",
+                                2
+                            ],
+                            [
+                                "Striped Uniform T2 [Ou]",
+                                2
+                            ]
+                        ],
+                        [
+                            [
+                                "820: PR Pose 7",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Roll Cake",
+                                3
+                            ],
+                            [
+                                "821: Eat Roll Cake",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20230101,
+            "name": "Undocumented Seasonal Event",
+            "nameShort": "Winter '23",
+            "campaigns": [
+                {
+                    "name": "Research Collaborator Substitute",
+                    "nameShort": "Research Collaborator",
+                    "starts": "2023-01-11T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2023-01-25T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Talk to Xiemi",
+                        "I: Defeat 30 seasonal enemies",
+                        "II: Obtain 10 Monotite, Dualomite and Trinite"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                2000
+                            ],
+                            [
+                                "EXP",
+                                10000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                2000
+                            ],
+                            [
+                                "EXP",
+                                20000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ],
+                            [
+                                "EXP",
+                                30000
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Clear Urgent Quests",
+                    "starts": "2023-01-11T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2023-01-25T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Clear 3 Urgent Quests"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ],
+                            [
+                                "EXP",
+                                20000
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Use Seasonal Points",
+                    "starts": "2023-01-11T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2023-01-25T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Use Seasonal Points"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                3000
+                            ],
+                            [
+                                "EXP",
+                                10000
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Participate in Field Races",
+                    "nameShort": "Join Field Races",
+                    "starts": "2023-01-11T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2023-01-25T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "I: Participate in North Aelio Board (Stage 1)",
+                        "II: Participate in North Retem Board (Stage 1)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ],
+                            [
+                                "EXP",
+                                20000
+                            ]
+                        ],
+                        [
+                            [
+                                "Seasonal Points",
+                                5000
+                            ],
+                            [
+                                "EXP",
+                                20000
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    
+                    "name": "Exchange Seasonal Points",
+                    "nameShort": "S.Point Exchange",
+                    "starts": "2023-01-11T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2023-02-01T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Item Exchange",
+                    "activityFull": [
+                        "TBC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    
+                    "name": "Exchange Minerals",
+                    "nameShort": "Item Exchange",
+                    "starts": "2023-01-11T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2023-02-01T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Item Exchange",
+                    "activityFull": [
+                        "TBC"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "TBC",
+                                0
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Seasonal Titles",
+                    "nameShort": "Seasonal Titles",
+                    "starts": "2023-01-11T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2023-01-25T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Title Tasks",
+                    "activityFull": [
+                        "Earn 100,000 Seasonal Points"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Title: [Winter '23] Point Collector",
+                                1
+                            ],
+                            [
+                                "Title Name \"First Snow\"",
+                                1
+                            ],
+                            [
+                                "5 Star Gems",
+                                1
+                            ],
+                            [
+                                "* Tenebrous Almati",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
