@@ -19635,13 +19635,12 @@
             "url": "https://pso2.com/players/event/sympathy2023/",
             "campaigns": [
                 {
-                    "name": "Orchestral Concert Sympathy 2023",
-                    "nameShort": "Sympathy 2023",
+                    "name": "Sympathy 2023 Streaming ticket",
+                    "nameShort": "Live stream",
                     "starts": "2022-10-26T06:00:00Z",
-                    "ends": "2023-01-29T11:00:00Z",
-                    "endsNote": "Estimated purchase deadline",
-                    "distribution": "Immediate",
-                    "delivery": "Menu",
+                    "ends": "2023-01-22T15:00:00Z",
+                    "distribution": "2023-01-25T03:00:00Z",
+                    "delivery": "Emailed Item Code",
                     "activityShort": "Orchestral concert stream",
                     "activityFull": [
                         "Live streaming ticket [4,500 yen]"
@@ -19650,6 +19649,51 @@
                         [
                             [
                                 "Live stream of evening performance",
+                                1
+                            ],
+                            [
+                                "Archive of evening performance",
+                                1
+                            ],
+                            [
+                                "STP: Sympathy 2023",
+                                1
+                            ],
+                            [
+                                "PS 35th Anniversary Logo",
+                                2
+                            ],
+                            [
+                                "876: Play Violin",
+                                1
+                            ],
+                            [
+                                "Mag Form/Myau",
+                                1
+                            ],
+                            [
+                                "Phantasy Star Medley for Sympathy 2013",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Archive viewing",
+                    "nameShort": "Archive",
+                    "starts": "2023-01-22T15:00:00Z",
+                    "ends": "2023-01-29T12:00:00Z",
+                    "endsNote": "Purchase deadline",
+                    "distribution": "2023-02-01T03:00:00Z",
+                    "delivery": "Emailed Item Code",
+                    "activityShort": "Orchestral concert stream",
+                    "activityFull": [
+                        "Archive viewing ticket [4,500 yen]"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Archive of evening performance",
                                 1
                             ],
                             [
