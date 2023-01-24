@@ -24671,13 +24671,237 @@
                     "delivery": "Inventory",
                     "activityShort": "Item Exchange",
                     "activityFull": [
-                        "TBC"
+                        "500 S.Points",
+                        "500 S.Points",
+                        "5000 S.Points",
+                        "15000 S.Points",
+                        "2000 S.Points",
+                        "2000 S.Points",
+                        "2000 S.Points",
+                        "2000 S.Points",
+                        "5000 S.Points",
+                        "5000 S.Points",
+                        "5000 S.Points",
+                        "2000 S.Points",
+                        "2000 S.Points",
+                        "2000 S.Points",
+                        "10000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "8000 S.Points",
+                        "500 S.Points"
                     ],
                     "rewards": [
                         [
                             [
-                                "TBC",
-                                0
+                                "20 Star Gems (Max 5)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Special Scratch Ticket (Max 5)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Snow Crystal Tiara (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "MTN: Dash - Skate/C (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Might IV (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Precision IV (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Technique IV (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Deftness IV (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Gigas Might IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Gigas Precision IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Gigas Technique IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Eradi Soul IV (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Vardi Soul IV (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Triplble (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Mastery IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Sword +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Wire +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Spear +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Daggers +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Saber +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Knuckles +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Rifle +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Launcher +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Machine Guns +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Rod +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Talis +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Wand +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Katana +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Bow +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Boots +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Blade +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tenebrous Harmonizer +40 (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Grinder",
+                                1
                             ]
                         ]
                     ]
@@ -24694,13 +24918,83 @@
                     "delivery": "Inventory",
                     "activityShort": "Item Exchange",
                     "activityFull": [
-                        "TBC"
+                        "5 Hexakite",
+                        "5 Pentalite",
+                        "3 Hexakite",
+                        "3 Pentalite",
+                        "3 Tetracite",
+                        "2 Trinite",
+                        "2 Dualomite",
+                        "2 Monotite",
+                        "1 Trinite",
+                        "1 Dualomite",
+                        "1 Monotite"
                     ],
                     "rewards": [
                         [
                             [
-                                "TBC",
-                                0
+                                "Infernium (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Blizzardium (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Beta Reactor (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Gold Primm Sword +30 (Max 5)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Gold Primm Armor (Max 5)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Hexakite (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Pentalite (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tetracite (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Scale (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Quartz (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Chunk (Max 100)",
+                                1
                             ]
                         ]
                     ]
