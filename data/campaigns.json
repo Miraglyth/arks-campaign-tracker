@@ -9159,7 +9159,7 @@
                     "delivery": "-",
                     "activityShort": "Offline Event",
                     "activityFull": [
-                        "Offline exhibition  at Tokyo Big Sight - East Exhibition Hall"
+                        "Offline exhibition at Tokyo Big Sight - East Exhibition Hall"
                     ],
                     "rewards": [
                         [
@@ -25434,7 +25434,7 @@
                     "nameShort": "AC Shop Deals",
                     "starts": "2023-01-25T08:00:00Z",
                     "startsNote": "Maintenance",
-                    "ends": "2023-02-01T02:00:00Z",
+                    "ends": "2023-02-15T02:00:00Z",
                     "endsNote": "Maintenance",
                     "distribution": "Immediate",
                     "delivery": "Inventory",
@@ -25462,6 +25462,35 @@
                             [
                                 "N-Rare Drop Rate [15m] +100%",
                                 4
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20230125,
+            "name": "Get Big and Strong! Boost Campaign",
+            "nameShort": "Get Strong Boost",
+            "campaigns": [
+                {
+                    "name": "Get Big and Strong! Boost Campaign",
+                    "nameShort": "Get Strong Boost",
+                    "starts": "2023-01-25T00:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2023-02-15T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Global Boosts",
+                    "activityFull": [
+                        "[Aelio & Retem] All Ranks but highest in combat sectors<br>[Kvaris] Rank 1 in combat sectors"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP Earned +100%",
+                                "Boost"
                             ]
                         ]
                     ]
