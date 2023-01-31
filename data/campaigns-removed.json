@@ -1,0 +1,34 @@
+{
+    "announcements": [
+        {
+            "date": 20220629,
+            "name": "Limited-time streaming: PSO2 Anime",
+            "nameShort": "Limited Anime Streams",
+            "url": "https://pso2.com/players/news/Anime_2022/",
+            "campaigns": [
+                {
+                    "note": "Immediately below YouTube Playlist: PSO2 The Animation",
+                    "name": "YouTube Playlist: Phantasy Star Online 2 -ON STAGE- play",
+                    "nameShort": "PSO2 -ON STAGE-",
+                    "starts": "2022-07-04T03:00:00Z",
+                    "ends": "Unknown",
+                    "distribution": "Immediate",
+                    "delivery": "YouTube",
+                    "activityShort": "Anime",
+                    "activityFull": [
+                        "PSO2 -ON STAGE- play on YouTube"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "-",
+                                0
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}
+                
