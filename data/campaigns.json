@@ -15424,8 +15424,7 @@
             "url": "https://www.youtube.com/watch?v=8bobJkEoMcc",
             "campaigns": [
                 {
-                    "name": "David Plays NGS! 7/20 Update",
-                    "nameShort": "David Plays 7/20",
+                    "name": "Keyword Giveaway",
                     "starts": "2022-07-21T03:50:00Z",
                     "ends": "2022-08-02T23:00:00Z",
                     "endsNote": "Best guess; not announced anywhere!",
@@ -15669,8 +15668,7 @@
             "url": "https://www.youtube.com/watch?v=P5NBxa5mz6Q",
             "campaigns": [
                 {
-                    "name": "David Plays NGS! 8/3 Update!",
-                    "nameShort": "David Plays 8/3",
+                    "name": "Keyword Giveaway",
                     "starts": "2022-08-04T05:00:00Z",
                     "ends": "2022-08-18T17:00:00Z",
                     "distribution": "Immediate",
@@ -16594,8 +16592,7 @@
             "url": "https://www.youtube.com/watch?v=4pUs7Qj3-Pc",
             "campaigns": [
                 {
-                    "name": "David Plays NGS! 8/17 Update!",
-                    "nameShort": "David Plays 8/17",
+                    "name": "Keyword Giveaway",
                     "starts": "2022-08-17T03:00:00Z",
                     "ends": "2022-09-01T01:00:00Z",
                     "distribution": "Immediate",
@@ -18419,8 +18416,7 @@
             "url": "https://www.youtube.com/watch?v=mFnSdngOZVE",
             "campaigns": [
                 {
-                    "name": "David Plays NGS! 9/7 Update!",
-                    "nameShort": "David Plays 9/7",
+                    "name": "Keyword Giveaway",
                     "starts": "2022-09-08T03:00:00Z",
                     "ends": "2022-09-22T01:00:00Z",
                     "distribution": "Immediate",
@@ -18634,8 +18630,7 @@
             "url": "https://www.youtube.com/watch?v=8r_lSYJF95o",
             "campaigns": [
                 {
-                    "name": "David Plays NGS! 9/21 Update!",
-                    "nameShort": "David Plays 9/21",
+                    "name": "Keyword Giveaway",
                     "starts": "2022-09-22T03:00:00Z",
                     "ends": "2022-10-06T01:00:00Z",
                     "distribution": "Immediate",
@@ -19129,8 +19124,7 @@
             "url": "https://www.youtube.com/watch?v=5UnKl3PgSKc",
             "campaigns": [
                 {
-                    "name": "David Plays NGS! 10/19 Update!",
-                    "nameShort": "David Plays 10/19",
+                    "name": "Keyword Giveaway",
                     "starts": "2022-10-20T03:10:00Z",
                     "ends": "2022-11-03T01:00:00Z",
                     "distribution": "Immediate",
@@ -21410,8 +21404,7 @@
             "url": "https://www.youtube.com/watch?v=q_R4Z08YvrM",
             "campaigns": [
                 {
-                    "name": "David Plays NGS! 11/2 Update!",
-                    "nameShort": "David Plays 11/02",
+                    "name": "Keyword Giveaway",
                     "starts": "2022-11-03T02:45:00Z",
                     "startsNote": "Keyword reveal",
                     "ends": "2022-11-17T01:00:00Z",
@@ -22058,8 +22051,7 @@
             "url": "https://www.youtube.com/watch?v=vWqNFxjHJgw",
             "campaigns": [
                 {
-                    "name": "David Plays NGS! 11/16 Update!",
-                    "nameShort": "David Plays 11/16",
+                    "name": "Keyword Giveaway",
                     "starts": "2022-11-17T02:45:00Z",
                     "startsNote": "Keyword reveal",
                     "ends": "2022-12-01T01:00:00Z",
@@ -22665,8 +22657,7 @@
             "url": "https://www.youtube.com/watch?v=1V58ulbqzCU",
             "campaigns": [
                 {
-                    "name": "David Plays NGS! 12/7 Update!",
-                    "nameShort": "David Plays 12/7",
+                    "name": "Keyword Giveaway",
                     "starts": "2022-12-08T03:09:00Z",
                     "startsNote": "Keyword reveal",
                     "ends": "2022-12-22T01:00:00Z",
@@ -23706,8 +23697,7 @@
             "url": "https://www.youtube.com/watch?v=MnDLVv59PTg",
             "campaigns": [
                 {
-                    "name": "David Plays NGS! 12/21 Update!",
-                    "nameShort": "David Plays 12/21",
+                    "name": "Keyword Giveaway",
                     "starts": "2022-12-22T02:56:00Z",
                     "startsNote": "Keyword reveal",
                     "ends": "2023-01-05T01:00:00Z",
@@ -25066,8 +25056,7 @@
             "url": "https://www.youtube.com/watch?v=thpV2pEw4bM",
             "campaigns": [
                 {
-                    "name": "David Plays NGS! 1/11 Update!",
-                    "nameShort": "David Plays 1/11",
+                    "name": "Keyword Giveaway",
                     "starts": "2023-01-11T01:50:00Z",
                     "startsNote": "Keyword reveal",
                     "ends": "2023-01-26T01:00:00Z",
@@ -25491,6 +25480,443 @@
                             [
                                 "EXP Earned +100%",
                                 "Boost"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20230201,
+            "name": "NIJISANJI and NIJISANJI EN Collab Beginner's Boost Campaign",
+            "nameShort": "NIJISANJI Collab Boosts",
+            "url": "https://pso2.com/players/news/Nijisanji_campaign/",
+            "campaigns": [
+                {
+                    "name": "Login Bonus",
+                    "starts": "2023-02-01T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2023-03-01T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Login Bonus",
+                    "activityFull": [
+                        "Day 1",
+                        "Day 2",
+                        "Day 3",
+                        "Day 4",
+                        "Day 5",
+                        "Day 6",
+                        "Day 7"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Kaida Haru Sticker",
+                                2
+                            ]
+                        ],
+                        [
+                            [
+                                "Hakase Fuyuki Sticker",
+                                2
+                            ]
+                        ],
+                        [
+                            [
+                                "Hoshikawa Sara Sticker",
+                                2
+                            ]
+                        ],
+                        [
+                            [
+                                "Shu Yamino Sticker",
+                                2
+                            ]
+                        ],
+                        [
+                            [
+                                "NIJISANJI Sticker",
+                                2
+                            ]
+                        ],
+                        [
+                            [
+                                "NIJISANJI EN Sticker",
+                                2
+                            ]
+                        ],
+                        [
+                            [
+                                "Special Scratch Ticket",
+                                5
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Start Dash Boost",
+                    "starts": "2023-02-01T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2023-03-01T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Global boost"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP Earned +20%",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20230201,
+            "name": "2/1 Special event: Ultra PSO2 Day! Triple Burst",
+            "nameShort": "Ultra PSO2 Day",
+            "url": "https://pso2.com/players/news/ultra_pso2day/",
+            "campaigns": [
+                {
+                    "name": "Boost Event",
+                    "starts": "2023-02-02T00:00:00Z",
+                    "ends": "2023-02-05T12:00:00Z",
+                    "distribution": "-",
+                    "delivery": "-",
+                    "activityShort": "Boost",
+                    "activityFull": [
+                        "Boosts"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "EXP Earned +50%",
+                                "Boost"
+                            ],
+                            [
+                                "Rare Drop Rate +50%",
+                                "Boost"
+                            ],
+                            [
+                                "Drop Item Preset Skill Rate ＋150％",
+                                "Boost"
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Limited-Time Tasks",
+                    "starts": "2023-02-02T00:00:00Z",
+                    "ends": "2023-02-05T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Clear 2 trials",
+                        "Destroy 22 Item Container: Green",
+                        "Destroy 2 Item Container: Gold",
+                        "Obtain 22 Minerals",
+                        "Defeat 22 FORMERS",
+                        "Defeat 22 ALTERS",
+                        "Defeat 22 DOLLS",
+                        "Defeat 2 Dread Enemies",
+                        "Defeat 2 bosses"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "B-Trigger/Common Yellow",
+                                2
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Login Gift",
+                    "starts": "2023-02-02T00:00:00Z",
+                    "ends": "2023-02-05T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Log in",
+                    "activityFull": [
+                        "Log in"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                2
+                            ],
+                            [
+                                "Special Scratch Ticket",
+                                4
+                            ],
+                            [
+                                "N-Enhancement Success Rate +100%",
+                                1
+                            ],
+                            [
+                                "N-Augmentation Success Rate +20%",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20230201,
+            "name": "Limited-time movie concerts: \"Little Humming\" and \"Toumeina Shinzouga Naiteita\"",
+            "nameShort": "NIJISANJI Movie Concerts",
+            "url": "https://pso2.com/players/news/Nijisanji_live/",
+            "campaigns": [
+                {
+                    "name": "Limited-time movie concerts: \"Little Humming\" and \"Toumeina Shinzouga Naiteita\"",
+                    "nameShort": "NIJISANJI Movie Concerts",
+                    "starts": "2023-02-08T20:00:00Z",
+                    "startsNote": "Start of first concert",
+                    "ends": "2023-02-20T02:05:00Z",
+                    "endsNote": "End of last concert",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Movie concerts",
+                    "activityFull": [
+                        "Watch the \"Little Humming\" movie concert",
+                        "Watch the \"Toumeina Shinzouga Naiteita\" movie concert"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Limited-Time Title: TBC",
+                                1
+                            ],
+                            [
+                                "Limited-Time Title Name: Hakase Fuyuki",
+                                1
+                            ],
+                            [
+                                "Little Humming",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Limited-Time Title: TBC",
+                                1
+                            ],
+                            [
+                                "Limited-Time Title Name: Kaida Haru",
+                                1
+                            ],
+                            [
+                                "Toumeina Shinzouga Naiteita",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20230201,
+            "name": "2/1 Ultra PSO2 Day! Triple Burst celebration! Great deals in the SG Shop!",
+            "nameShort": "Ultra PSO2 Day: SG Shop Deals",
+            "url": "https://pso2.com/players/news/i_ultrapso2day_itemsale/",
+            "campaigns": [
+                {
+                    "name": "2/1 Ultra PSO2 Day! Triple Burst celebration! Great deals in the SG Shop!",
+                    "nameShort": "Ultra PSO2 Day: SG Shop Deals",
+                    "starts": "2023-02-02T00:00:00Z",
+                    "ends": "2023-02-05T12:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "SG Shop Deals",
+                    "activityFull": [
+                        "Ultra Special Set(+Exchange Ticket) [1300 SG] (Max 1)",
+                        "Ultra Support Set: MEL (+bonus) [900 SG] (Max 1)",
+                        "Ultra Support Set: RNG (+bonus) [900 SG] (Max 1)",
+                        "Ultra Support Set: TEC (+bonus) [900 SG] (Max 1)"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Material Storage Use (30 Days S)",
+                                1
+                            ],
+                            [
+                                "Extended Storage 1 Use (30 Days S)",
+                                1
+                            ],
+                            [
+                                "N-Rare Drop Rate [24h] +100%",
+                                1
+                            ],
+                            [
+                                "Refined Form 10 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Rare Drop Rate [24h] +100%",
+                                1
+                            ],
+                            [
+                                "C/Frostyl Soul IV S",
+                                1
+                            ],
+                            [
+                                "C/Alts Secreta IV S",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Rare Drop Rate [24h] +100%",
+                                1
+                            ],
+                            [
+                                "C/Crocys Soul IV S",
+                                1
+                            ],
+                            [
+                                "C/Alts Secreta IV S",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Rare Drop Rate [24h] +100%",
+                                1
+                            ],
+                            [
+                                "C/Ams Soul IV S",
+                                1
+                            ],
+                            [
+                                "C/Alts Secreta IV S",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20230201,
+            "name": "NGS Headline+ 2/1/2023",
+            "nameShort": "NGS Headline+",
+            "url": "https://www.youtube.com/watch?v=9JJpTZqMsDI",
+            "campaigns": [
+                {
+                    "name": "Keyword Giveaway",
+                    "starts": "2023-02-01T21:55:00Z",
+                    "startsNote": "Keyword reveal",
+                    "ends": "2023-02-15T08:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"phried_not_phrozen\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Rappy-Shaped Fritters",
+                                2
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20230201,
+            "name": "David Plays NGS! 2/1 Update!",
+            "nameShort": "David Plays 2/1",
+            "url": "https://www.youtube.com/watch?v=6oM93ufV3es",
+            "campaigns": [
+                {
+                    "name": "Keyword Giveaway",
+                    "starts": "2023-02-01T03:12:00Z",
+                    "startsNote": "Keyword reveal",
+                    "ends": "2023-02-16T01:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"darkfalz_plz\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ],
+                            [
+                                "Ragol Memory",
+                                7
                             ]
                         ]
                     ]
