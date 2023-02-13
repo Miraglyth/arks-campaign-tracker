@@ -25736,27 +25736,13 @@
                     "delivery": "Inventory",
                     "activityShort": "Movie concerts",
                     "activityFull": [
-                        "Watch the \"Little Humming\" movie concert",
-                        "Watch the \"Toumeina Shinzouga Naiteita\" movie concert"
+                        "Watch the \"Toumeina Shinzouga Naiteita\" movie concert",
+                        "Watch the \"Little Humming\" movie concert"
                     ],
                     "rewards": [
                         [
                             [
-                                "Limited-Time Title: TBC",
-                                1
-                            ],
-                            [
-                                "Limited-Time Title Name: Hakase Fuyuki",
-                                1
-                            ],
-                            [
-                                "Little Humming",
-                                1
-                            ]
-                        ],
-                        [
-                            [
-                                "Limited-Time Title: TBC",
+                                "Limited-Time Title: Kaida Haru Concert Experience",
                                 1
                             ],
                             [
@@ -25765,6 +25751,20 @@
                             ],
                             [
                                 "Toumeina Shinzouga Naiteita",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Limited-Time Title: Hakase Fuyuki Concert Experience",
+                                1
+                            ],
+                            [
+                                "Limited-Time Title Name: Hakase Fuyuki",
+                                1
+                            ],
+                            [
+                                "Little Humming",
                                 1
                             ]
                         ]
