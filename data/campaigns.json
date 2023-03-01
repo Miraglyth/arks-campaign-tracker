@@ -25859,6 +25859,72 @@
         },
         {
             "date": 20230201,
+            "name": "New 24-person Limited-time Quests!",
+            "nameShort": "Limited-time Quests",
+            "url": "https://pso2.com/players/update/2023-02/#update04",
+            "campaigns": [
+                {
+                    "name": "Plateau Clean-Up Op",
+                    "starts": "2023-02-08T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2023-02-15T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Title",
+                    "activityFull": [
+                        "Clear \"Drill: Plateau Clean-Up Op\" 1 time"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Limited-Time Title: Drill: Plateau Clean-Up Op Challenger",
+                                1
+                            ],
+                            [
+                                "Limited-Time Title Name: Lunar New Year",
+                                1
+                            ],
+                            [
+                                "5 Star Gems",
+                                1
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Old Capital Clean-Up Op",
+                    "starts": "2023-02-15T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2023-02-22T02:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Title",
+                    "activityFull": [
+                        "Clear \"Drill: Old Capital Clean-Up Op\" 1 time"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Limited-Time Title: Drill: Old Capital Clean-Up Op Challenger",
+                                1
+                            ],
+                            [
+                                "Limited-Time Title Name: First Day of Spring",
+                                1
+                            ],
+                            [
+                                "5 Star Gems",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20230201,
             "name": "NGS Headline+ 2/1/2023",
             "nameShort": "NGS Headline+",
             "url": "https://www.youtube.com/watch?v=9JJpTZqMsDI",
@@ -25972,6 +26038,38 @@
                             [
                                 "Drop Item Preset Skill Rate +150%",
                                 "Boost"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20230215,
+            "name": "David Plays NGS! 2/15 Update!",
+            "nameShort": "David Plays 2/15",
+            "url": "https://www.youtube.com/watch?v=ZMr6AF84KF8",
+            "campaigns": [
+                {
+                    "name": "Keyword Giveaway",
+                    "starts": "2023-02-15T02:58:42Z",
+                    "startsNote": "Keyword reveal",
+                    "ends": "2023-03-02T01:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"mitsuyoshi_sanprise\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ],
+                            [
+                                "Burning Hearts",
+                                1
                             ]
                         ]
                     ]
