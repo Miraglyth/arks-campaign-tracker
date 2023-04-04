@@ -27671,13 +27671,370 @@
                     "delivery": "Inventory",
                     "activityShort": "Item Exchange",
                     "activityFull": [
-                        "TBC"
+                        "1000 S.Points",
+                        "5000 S.Points",
+                        "5000 S.Points",
+                        "15000 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "8000 S.Points",
+                        "10000 S.Points",
+                        "15000 S.Points",
+                        "50 S.Points",
+                        "50 S.Points",
+                        "50 S.Points",
+                        "100 S.Points",
+                        "500 S.Points",
+                        "500 S.Points",
+                        "300 S.Points",
+                        "300 S.Points",
+                        "1500 S.Points",
+                        "2000 S.Points",
+                        "2000 S.Points",
+                        "2000 S.Points",
+                        "2000 S.Points",
+                        "2000 S.Points",
+                        "10000 S.Points",
+                        "2000 S.Points",
+                        "5000 S.Points",
+                        "5000 S.Points",
+                        "5000 S.Points",
+                        "2000 S.Points",
+                        "2000 S.Points",
+                        "2000 S.Points",
+                        "5000 S.Points",
+                        "300 S.Points",
+                        "2500 S.Points",
+                        "500 S.Points"
                     ],
                     "rewards": [
                         [
                             [
-                                "TBC",
-                                "TBC"
+                                "Spring '23 SP Scratch Ticket (Max 20)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Spring '23 SP Scratch Ticket (Max 20)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Gradient Heart Glasses (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "MTN: Idle - Rappy Plush/B (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "20 Star Gems (Max 5)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Special Scratch Ticket (Max 4)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trunkul Sword +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trunkul Wire +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trunkul Spear +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trunkul Daggers +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trunkul Saber +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trunkul Knuckles +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trunkul Rifle +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trunkul Launcher +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trunkul Machine Guns +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trunkul Rod +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trunkul Talis +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trunkul Wand +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trunkul Katana +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trunkul Bow +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trunkul Boots +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trunkul Blades +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trunkul Harmonizer +40 (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Qual De Armor +40 (Max 3)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Vios Armor +40 (Max 3)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Eptize Armor: Vida +40 (Max 3)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Monotite (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Dualomite (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Trinite (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Tetracite (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Pentalite (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Hexakite (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Chunk (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Photon Quartz (Max 100)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Blizzardium (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Infernium (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Might IV (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Precision IV (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Technique IV (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Deftness IV (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Mastery IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Triplble (Max 40)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Gigas Might IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Gigas Precision IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Gigas Technique IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Freid Soul IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Doldor Soul IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Nils Soul IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Dread Keeper IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Alpha Reactor (Max 200)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Augmentation Success Rate +10% (Max 4)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Grinder",
+                                1
                             ]
                         ]
                     ]
@@ -27693,13 +28050,118 @@
                     "delivery": "Inventory",
                     "activityShort": "Item Exchange",
                     "activityFull": [
-                        "TBC"
+                        "10000 S.Points",
+                        "15000 S.Points",
+                        "5000 S.Points",
+                        "15000 S.Points",
+                        "1000 S.Points",
+                        "1500 S.Points",
+                        "3000 S.Points",
+                        "4000 S.Points",
+                        "25000 S.Points",
+                        "25000 S.Points",
+                        "25000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "10000 S.Points",
+                        "25000 S.Points",
+                        "900 S.Points"
                     ],
                     "rewards": [
                         [
                             [
-                                "TBC",
-                                "TBC"
+                                "Spring '23 SP Scratch Ticket (Max 20)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Spring '23 SP Scratch Ticket (Max 20)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Rappy Pouch (Max 2)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "MTN: Glide - R Mag Minimo/B (Max 1)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "20 Star Gems (Max 5)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Special Scratch Ticket (Max 4)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Blizzardium (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Infernium (Max 50)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Gigas Might IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Gigas Precision IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Gigas Technique IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Freid Soul IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Doldor Soul IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Nils Soul IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "C/Dread Keeper IV (Max 10)",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Alpha Reactor (Max 250)",
+                                1
                             ]
                         ]
                     ]
