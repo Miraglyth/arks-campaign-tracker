@@ -26364,6 +26364,42 @@
             ]
         },
         {
+            "date": 20230222,
+            "name": "Undocumented Limited-Time Tasks",
+            "nameShort": "Giant Mutants Tasks",
+            "campaigns": [
+                {
+                    "name": "Undocumented Limited-Time Tasks",
+                    "nameShort": "Giant Mutants Tasks",
+                    "starts": "2023-02-22T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2023-04-04T11:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Defeat 1 Garongo Geo",
+                        "Defeat 1 Waulon Geo"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Head-Mount Garongo Geo",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "Waulon Mask",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
             "date": 20230301,
             "name": "Get ready for the Slayer! Campaign",
             "nameShort": "Slayer Prep Campaign",
@@ -28054,6 +28090,40 @@
                             [
                                 "Additional drops",
                                 "Boost"
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20230329,
+            "name": "NGS Headline+ 3/29/2023",
+            "nameShort": "NGS Headline+",
+            "url": "https://www.youtube.com/watch?v=GPZvNMdUq2I",
+            "campaigns": [
+                {
+                    "name": "Keyword Giveaway",
+                    "starts": "2023-03-30T00:11:33Z",
+                    "startsNote": "Keyword reveal",
+                    "ends": "2023-04-14T07:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"gimmie_that_nuggie\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Rappy-Shaped Fritters",
+                                2
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
                             ]
                         ]
                     ]
