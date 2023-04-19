@@ -28902,6 +28902,137 @@
                     ]
                 }
             ]
+        },
+        {
+            "date": 20230412,
+            "name": "David Plays NGS! 4/12 Update!",
+            "nameShort": "David Plays 4/12",
+            "url": "https://www.youtube.com/watch?v=JjmUED7XY0c",
+            "campaigns": [
+                {
+                    "name": "Keyword Giveaway",
+                    "starts": "2023-04-13T03:08:21Z",
+                    "startsNote": "Keyword reveal",
+                    "ends": "2023-04-27T01:00:00Z",
+                    "distribution": "Immediate",
+                    "delivery": "Menu",
+                    "activityShort": "Chat Keyword",
+                    "activityFull": [
+                        "Say \"shootsword_chronicles\" in the in-game chat"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ],
+                            [
+                                "* Ex Schleile",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20230412,
+            "name": "Undocumented Slayer Tasks",
+            "nameShort": "Slayer Tasks",
+            "campaigns": [
+                {
+                    "name": "Undocumented Slayer Tasks",
+                    "nameShort": "Slayer Tasks",
+                    "starts": "2023-04-12T08:00:00Z",
+                    "startsNote": "Maintenance",
+                    "ends": "2023-05-10T03:00:00Z",
+                    "endsNote": "Maintenance",
+                    "distribution": "Immediate",
+                    "delivery": "Inventory",
+                    "activityShort": "Limited-Time Tasks",
+                    "activityFull": [
+                        "Make Slayer your Main Class",
+                        "Enhance a Gunblade",
+                        "Defeat 1000 enemies with a Gunblade",
+                        "Reach Slayer Level 60",
+                        "Complete all other tasks"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "Renaissa Gunblade +50",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-EXP Earned +25%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-SL-EX-Cube",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "N-Augmentation Success Rate +20%",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "879: Slayer Pose",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "date": 20230413,
+            "name": "Slayer Twitter Follow & Retweet Campaign",
+            "nameShort": "Twitter Campaign",
+            "url": "https://twitter.com/play_pso2/status/1601327934962221057",
+            "campaigns": [
+                {
+                    "name": "Slayer Twitter Follow & Retweet Campaign",
+                    "nameShort": "Twitter Campaign",
+                    "starts": "2023-04-13T17:31:00Z",
+                    "startsNote": "Tweet post time",
+                    "ends": "2023-04-24T07:59:00Z",
+                    "delivery": "Menu",
+                    "activityShort": "Twitter Campaign",
+                    "activityFull": [
+                        "Follow <a href=\"https://twitter.com/play_pso2\">@play_pso2</a> and retweet the campaign tweet<br>(Raffle: 5 winners)",
+                        "Global reward for 10,000 cross-service retweets",
+                        "Global reward for 20,000 cross-service retweets"
+                    ],
+                    "rewards": [
+                        [
+                            [
+                                "2,000 Star Gems",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 50 Ticket",
+                                1
+                            ]
+                        ],
+                        [
+                            [
+                                "SG 100 Ticket",
+                                1
+                            ]
+                        ]
+                    ]
+                }
+            ]
         }
     ]
 }
