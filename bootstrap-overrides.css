@@ -15,6 +15,10 @@ body {
     background-color: rgb(96, 96, 96) !important;
 }
 
+.bg-discontinued {
+    background-color: rgb(224, 31, 31) !important;
+}
+
 .btn-primary {
     background-color: rgb(21, 55, 117) !important;
     border-color: rgb(17, 75, 211) !important;
