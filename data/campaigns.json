@@ -30862,13 +30862,21 @@
                     "delivery": "Menu",
                     "activityShort": "Log in",
                     "activityFull": [
-                        "TBC"
+                        "Log in"
                     ],
                     "rewards": [
                         [
                             [
-                                "-",
-                                0
+                                "NGS 2nd SP Scratch Ticket",
+                                10
+                            ],
+                            [
+                                "Creative Space Special Edition",
+                                2
+                            ],
+                            [
+                                "N-Color-Change Pass",
+                                1
                             ]
                         ]
                     ]
